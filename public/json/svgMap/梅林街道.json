@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "梅林街道": {
+      "梅林街道": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "梅林街道": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "梅林街道": ""
+  },
+  "mapRoadImg": {
+    "梅林街道": "./images/svgMap/梅林街道.png"
+  },
+  "mapBgSize": {
+    "梅林街道": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "梅林街道": {
+      "梅林街道": {
+        "left": "69%",
+        "top": "52%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

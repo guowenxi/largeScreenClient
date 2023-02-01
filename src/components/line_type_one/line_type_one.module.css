@@ -1,0 +1,138 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.listBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemBox{
+    position: relative;
+    height: 100%;
+}
+.rect{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.05);
+}
+.name{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgba(255,255,255,0.8);
+}
+.selectedName{
+    color: #14E8F2;
+}
+.dataBox{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 15%;
+}
+.circleBox{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    /*border: #0D83D1 1px solid;*/
+    /*border-radius: 50%;*/
+    transform: translate(-50%, 50%);
+    left: 50%;
+    font-size: 1.5em;
+}
+.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.selectedCircle{
+    animation-name: circleMove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes circleMove {
+    0% {transform:rotate(0deg);}
+    50% {transform:rotate(180deg);}
+    100% {transform:rotate(360deg);}
+}
+.num{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.selectedNum{
+    color: #14E8F2;
+}
+.numTop{
+    bottom: calc(100% + 0.5em);
+}
+.numBottom{
+    top: calc(100% + 0.5em);
+}
+.lineBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.lineBox svg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.line{
+    stroke: #0D83D1;
+    stroke-width: 2;
+    fill: none;
+}
+.bottomLine{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 80%;
+    background-color: rgba(0,255,255,0.6);
+}
+.bottomRect{
+    position: absolute;
+    width: 4em;
+    height: 4px;
+    left: -4em;
+    top: calc(80% - 1px);
+    background-color: rgb(0,255,255);
+    border-radius: 2px;
+    animation-name: rectMove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rectMove {
+    0% {left:-4em;}
+    100% {left:100%;}
+}

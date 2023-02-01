@@ -1,0 +1,73 @@
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.itemBox{
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+}
+.contentBox{
+    position: relative;
+    display: flex;
+}
+.text{
+    position: relative;
+    text-align: center;
+}
+.textHide{
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    /*height: 1em;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.numSingle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.bar{
+    position: absolute;
+}
+.imgBarBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.barBgImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.barImg{
+    position: absolute;
+}
+.barNum{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    word-break: keep-all;
+}
+.imgItem{
+    position: relative;
+}
+.ring{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

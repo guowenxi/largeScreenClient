@@ -1,0 +1,21 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":{
+        "total":5114,
+        "list":[
+            {
+                "id": 1,
+                "title": "踩踏事件",
+                "eventTypeName": "非正常死亡",
+                "time": "2021-7-1 15:24:32",
+                "roadName": "安阳街道",
+                "source": "110报警",
+                "level": "一级",
+                "content": "江南夜总会发送踩踏事件",
+                "hasTurnTo": "是"
+            }
+        ]
+    }
+}

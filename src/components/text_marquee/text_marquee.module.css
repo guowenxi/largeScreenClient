@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    white-space: nowrap;
+}

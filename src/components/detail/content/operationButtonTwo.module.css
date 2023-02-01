@@ -1,0 +1,27 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.exportButton{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1F5EFF;
+    background: #1F5EFF;
+}
+
+
+
+
+

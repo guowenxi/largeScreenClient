@@ -1,0 +1,102 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "planName": "预案名称",
+    "planType": "预案类型",
+    "fileId": "111111",
+    "isReport": 1,
+    "rbacToken": "c7f90174fb66478abd35ad6b25be7787",
+    "process": {
+      "id": "5d63ffed979d11eba4d9040e3c94ce39",
+      "name": "启动预案",
+      "planTaskType": "6ea3352d980911eba4d9040e3c94ce39",
+      "planTaskDesc": "步骤描述1",
+      "emergencyPlanProcessTaskTeams": [],
+      "children": [
+        {
+          "id": "98cd3c2d979d11eba4d9040e3c94ce39",
+          "name": "成立处置小组",
+          "planTaskType": "8f17399a980911eba4d9040e3c94ce39",
+          "planTaskDesc": "步骤描述2",
+          "emergencyPlanProcessTaskTeams": [
+            "3333",
+            "4444"
+          ],
+          "children": [
+            {
+              "id": "1a6c29d8979e11eba4d9040e3c94ce39",
+              "name": "现场处置",
+              "planTaskType": "92adfb97980911eba4d9040e3c94ce39",
+              "planTaskDesc": "步骤描述3",
+              "emergencyPlanProcessTaskTeams": [
+                "5555",
+                "6666"
+              ],
+              "children": [
+                {
+                  "id": "99fa93f6979e11eba4d9040e3c94ce39",
+                  "name": "处置成功",
+                  "planTaskType": "9aad50bf980911eba4d9040e3c94ce39",
+                  "planTaskDesc": "步骤描述4",
+                  "emergencyPlanProcessTaskTeams": [],
+                  "children": []
+                },
+                {
+                  "id": "3",
+                  "name": "待定",
+                  "planTaskType": "3",
+                  "planTaskDesc": "步骤描述8",
+                  "emergencyPlanProcessTaskTeams": [],
+                  "children": []
+                },
+                {
+                  "id": "b1f372f2979e11eba4d9040e3c94ce39",
+                  "name": "请求市里支援",
+                  "planTaskType": "95b99de6980911eba4d9040e3c94ce39",
+                  "planTaskDesc": "步骤描述5",
+                  "emergencyPlanProcessTaskTeams": [],
+                  "children": [
+                    {
+                      "id": "bb493fd7979f11eba4d9040e3c94ce39",
+                      "name": "处置成功",
+                      "planTaskType": "9aad50bf980911eba4d9040e3c94ce39",
+                      "planTaskDesc": "步骤描述6",
+                      "emergencyPlanProcessTaskTeams": [],
+                      "children": []
+                    },
+                    {
+                      "id": "1",
+                      "name": "处置失败",
+                      "planTaskType": "1",
+                      "planTaskDesc": "步骤描述7",
+                      "emergencyPlanProcessTaskTeams": [],
+                      "children": []
+                    },
+                    {
+                      "id": "2",
+                      "name": "待定",
+                      "planTaskType": "2",
+                      "planTaskDesc": "步骤描述8",
+                      "emergencyPlanProcessTaskTeams": [],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bb493fd7979f11eba4d9040e3c94ce39",
+          "name": "处置成功",
+          "planTaskType": "9aad50bf980911eba4d9040e3c94ce39",
+          "planTaskDesc": "步骤描述6",
+          "emergencyPlanProcessTaskTeams": [],
+          "children": []
+        }
+      ]
+    }
+  }
+}

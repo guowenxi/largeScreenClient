@@ -1,0 +1,27 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [{
+    "warningLevel": 1,
+    "name": "永中街道"
+  },{
+    "warningLevel": 2,
+    "name": "蒲州街道"
+  },{
+    "warningLevel": 3,
+    "name": "海滨街道"
+  },{
+    "warningLevel": 4,
+    "name": "永兴街道"
+  },{
+    "warningLevel": 5,
+    "name": "永中街道"
+  },{
+    "warningLevel": 1,
+    "name": "状元街道"
+  },{
+    "warningLevel": 2,
+    "name": "瑶溪街道"
+  }]
+}

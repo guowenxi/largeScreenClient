@@ -1,0 +1,23 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "allNum": 888,
+        "overviewInfoVoList": [
+            {
+                "totalNum": 23
+            },
+            {
+                "totalNum": 12
+            },
+            {
+                "totalNum": 6
+            },
+            {
+                "totalNum": 3
+            }
+        ],
+        "roadName": "玲珑街道"
+    }
+}

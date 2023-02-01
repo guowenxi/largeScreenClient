@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 100%;
+    color: #eff0f1;
+    line-height: 1;
+}
+
+.itemBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+}
+
+.listItemIcon {
+    flex-shrink: 0;
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    margin-left: 1em;
+    background-color: #fe2711;
+}
+
+.onlyLine {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.name {
+    flex-shrink: 0;
+    width: 7em;
+}
+
+.content {
+    flex-direction: 0;
+    width: 12em;
+}

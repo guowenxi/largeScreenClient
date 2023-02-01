@@ -1,0 +1,177 @@
+.mainItem {
+    padding: 5%;
+}
+
+.mainItem .mainTitle {
+    line-height: 3.5vh;
+    font-weight: bold;
+}
+
+.mainItem .mainTitle:before {
+    content: '|';
+    margin-right: 0.45vh;
+    font-weight: bold;
+}
+
+.mainItem .mainContent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*line-height: 2.8vh;*/
+    line-height: 1.5em;
+}
+
+.mainItem .mainContent .contentItem {
+    width: 100%;
+}
+
+.mainItem .mainContent .contentItem p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.mainItem .mainContent .contentItem p:nth-child(1) {
+    width: 100%;
+    line-height: 1.5em;
+    color: #00a4ff;
+    font-size: 1em;
+}
+
+.mainItem .mainContent .contentItem p:nth-child(2) {
+    width: 100%;
+    line-height: 2em;
+    font-size: 1.25em;
+}
+
+.mainItem .mainContent .contentItem p .clickItem {
+    display: inline-block;
+    margin-right: 1em;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mainItem .mainContent .contentItemAll {
+    display: inline-block;
+    width: 100%;
+}
+
+.mainItem .mainContent .contentItemAll p {
+    width: 100% !important;
+    text-align: left !important;
+    margin-bottom: 0;
+}
+
+.mainItem .mainContent .contentItemHalf {
+    display: inline-table;
+    width: 50%;
+}
+
+.mainItem .mainContent .contentTableItem ul {
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.mainItem .mainContent .contentTableItem ul li {
+    float: left;
+    padding: 0 1%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    word-wrap: break-word;
+}
+
+.mainItem .mainContent .contentTableItem ul:nth-last-child(1) {
+    border-bottom: 1px solid #fff;
+}
+
+.mainItem .mainContent .contentTableItem .tableHeader {
+    margin: 0;
+    padding: 0;
+}
+
+.mainItem .mainContent .contentTableItem .tableContent {
+    margin: 0;
+    padding: 0;
+}
+
+.mainItem .mainContent .tableHeight {
+    width: 100%;
+}
+
+.mainItem .mainContent .tableHeight ul {
+    height: 3.6vh;
+}
+
+.mainItem .mainContent .tableHeight ul li {
+    height: 3.6vh;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.mainItem .mainContent .tableHeight2 ul {
+    height: 4.6vh;
+}
+
+.mainItem .mainContent .tableHeight2 ul li {
+    height: 4.6vh;
+    line-height: 1.85vh;
+}
+
+.mainItem .mainContent .contentTableItem {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth li:nth-child(1) {
+    width: 18%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth li:nth-child(2) {
+    width: 22%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth li:nth-child(3) {
+    width: 30%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth li:nth-child(4) {
+    width: 30%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(1) {
+    width: 11%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(2) {
+    width: 12%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(3) {
+    width: 12%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(4) {
+    width: 18%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(5) {
+    width: 17%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(6) {
+    width: 15%;
+}
+
+.mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(7) {
+    width: 15%;
+}
+
+.hidden{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}

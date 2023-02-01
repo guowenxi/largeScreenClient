@@ -1,0 +1,124 @@
+.container {
+    font-size: 1em;
+    color: #fff;
+}
+
+.top {
+    display: flex;
+    margin-left: 25em;
+    margin-bottom: 3em;
+}
+
+.snedButton {
+    width: 8em;
+    height: 2.58em;
+    border: 1px solid #0a4b99;
+    border-radius: 5px;
+
+    background-color: #083b7b;
+    cursor: pointer;
+}
+
+.paginationBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    height: 4em;
+}
+
+.detailCover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.detailBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 4em;
+    margin: auto;
+    width: 60%;
+    height: 40em;
+    background: url('./img/1.png') center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 3em;
+    width: 100%;
+    height: 2.5em;
+    margin-top: 1em;
+}
+
+.commonButton {
+    width: 15em;
+    height: 2.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirmButton {
+    border: 1px solid #0a4b99;
+    margin-left: 8em;
+    background-color: #0a3c7b;
+}
+
+.cancelButton {
+    border: 1px solid #0a4692;
+    background-color: transparent;
+}
+
+.subTitle {
+    margin: 1.5em 0 0.5em 2.6em;
+    font-size: 1.7em;
+}
+
+.selectionBox {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 15.5em);
+    padding: 0 4.5em;
+}
+
+.selcetionInnerBox {
+    width: 100%;
+    height: 100%;
+}
+
+.selectionItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.eventTitle {
+    width: 3.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+.eventContent {
+    min-height: 2em;
+    padding: 1em 2em;
+    border: 1px solid #1d519c;
+    background-color: #071940;
+}
+
+.noData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+}

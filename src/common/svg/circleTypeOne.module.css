@@ -1,0 +1,162 @@
+.linearGradient1stop1 {
+    stop-color: #2199F4;
+}
+
+.linearGradient1stop2 {
+    stop-color: #29A2F4;
+    stop-opacity: 0.9921;
+}
+
+.linearGradient1stop3 {
+    stop-color: #50CEF6;
+    stop-opacity: 0.9509;
+}
+
+.linearGradient1stop4 {
+    stop-color: #68E9F8;
+    stop-opacity: 0.9188;
+}
+
+.linearGradient1stop5 {
+    stop-color: #71F3F8;
+    stop-opacity: 0.9;
+}
+
+.linearGradient1stop6 {
+    stop-color: #C3FFFF;
+}
+
+.path1 {
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    fill: none;
+}
+
+.circleOne {
+    animation: circleOneMove 8s linear;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circleOneMove {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.linearGradient2stop1 {
+    stop-color: #0081F4;
+}
+
+.linearGradient2stop2 {
+    stop-color: #2197F6;
+}
+
+.linearGradient2stop3 {
+    stop-color: #76CDFB;
+}
+
+.linearGradient2stop4 {
+    stop-color: #C3FFFF;
+}
+
+.path2 {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 2, 9;
+}
+
+.circleTwo {
+    animation: circleTwoMove 10s linear;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circleTwoMove {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.linearGradient3stop1 {
+    stop-color: #14BDF4;
+}
+
+.linearGradient3stop2 {
+    stop-color: #26C4F5;
+    stop-opacity: 0.9585;
+}
+
+.linearGradient3stop3 {
+    stop-color: #50D4F8;
+    stop-opacity: 0.8526;
+}
+
+.linearGradient3stop4 {
+    stop-color: #73E1FA;
+    stop-opacity: 0.7405;
+}
+
+.linearGradient3stop5 {
+    stop-color: #90ECFC;
+    stop-opacity: 0.623;
+}
+
+.linearGradient3stop6 {
+    stop-color: #A7F4FD;
+    stop-opacity: 0.4984;
+}
+
+.linearGradient3stop7 {
+    stop-color: #B7FAFE;
+    stop-opacity: 0.3634;
+}
+
+.linearGradient3stop8 {
+    stop-color: #C0FEFF;
+    stop-opacity: 0.2102;
+}
+
+.linearGradient3stop9 {
+    stop-color: #C3FFFF;
+    stop-opacity: 0;
+}
+
+.path3 {
+    fill: none;
+    stroke-miterlimit: 10;
+}
+.linearGradient4stop1{
+    stop-color:#00E0F4;
+}
+.linearGradient4stop2{
+    stop-color:#21E5F6;
+}
+.linearGradient4stop3{
+    stop-color:#76F3FB;
+}
+.linearGradient4stop4{
+    stop-color:#C3FFFF;
+}
+.circleThree {
+    animation: circleThreeMove 15s linear;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circleThreeMove {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}

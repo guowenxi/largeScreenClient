@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="868" height="429" viewBox="0 0 868 429">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="路桥区"><g xmlns="http://www.w3.org/2000/svg" id="组_2" data-name="组 2">
+      <text id="桐屿街道" class="cls-3" x="122.125" y="88.209">桐屿街道</text>
+      <text id="路北街道" class="cls-3" x="187.125" y="119.209">路北街道</text>
+      <text id="路桥街道" class="cls-3" x="218.125" y="145.209">路桥街道</text>
+      <text id="路南街道" class="cls-3" x="278.125" y="175.209">路南街道</text>
+      <text id="蓬街镇" class="cls-3" x="392.125" y="196.209">蓬街镇</text>
+      <text id="横街镇" class="cls-3" x="342.125" y="224.209">横街镇</text>
+      <text id="新桥镇" class="cls-3" x="294.125" y="254.209">新桥镇</text>
+      <text id="峰江街道" class="cls-3" x="210.125" y="229.209">峰江街道</text>
+      <text id="螺洋街道" class="cls-3" x="134.125" y="179.209">螺洋街道</text>
+      <text id="金清镇" class="cls-3" x="516.125" y="260.209">金清镇</text>
+    </g>
+  </g>
+</svg>

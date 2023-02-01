@@ -1,0 +1,21 @@
+.tooltipBox{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.tooltipBoxOne{
+    background: url(./images/backgroudOne.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 0.5em 1em;
+    color: white;
+    line-height: 2em;
+}
+.tooltipBoxOne .row{
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tooltipBoxOne .row .num{
+    color: rgb(108,228,247);
+}

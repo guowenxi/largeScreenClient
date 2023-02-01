@@ -1,0 +1,124 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.headBox{
+    position: relative;
+    height: 1.7em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.5em;
+}
+.changeBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.5em;
+}
+.changeBox div{
+    margin-right: 2em;
+    cursor: pointer;
+    color: white;
+}
+.changeBox .selected{
+    cursor: default;
+    color: #1890ff;
+}
+.headBox img{
+    position: relative;
+    width: 1em;
+    height: 0.8em;
+    margin-right: 1em;
+}
+.row{
+    position: relative;
+    font-size: 0.86em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imgRow{
+    position: relative;
+    font-size: 0.86em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imgRow img{
+    height: 4em;
+    background: #fff;
+}
+.gridName,.feedback{
+    position: relative;
+    font-size: 0.86em;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+.teamLeader{
+    position: relative;
+    width: 60%;
+}
+.teamMember{
+    position: relative;
+    width: 40%;
+}
+.gridContent{
+    position: relative;
+    width: calc(100% - 5em);
+    height: 20.5em;
+}
+.feedbackContent{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 4em);
+}
+.feedbackOne{
+    border-bottom: 1px solid #1890ff;
+    margin-bottom: 0.25em;
+    padding-bottom: 0.25em;
+    font-size: 0.86em;
+}
+.feedbackOne .row{
+    font-size: 1em;
+}
+.title{
+    line-height: 2em;
+}
+.memberBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 4em);
+}
+.memberRow{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.5em;
+    /*border-bottom: 1px solid #1890ff;*/
+    font-size: 0.86em;
+    height: 2em;
+}
+.memberRow:last-child{
+    border: none;
+}
+.splitLine{
+    width: 100%;
+    height: 1px;
+    background-color: #1890ff;
+    margin: 0.25em 0;
+}

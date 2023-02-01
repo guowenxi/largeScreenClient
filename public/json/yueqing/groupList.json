@@ -1,0 +1,41 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data":{
+    "total": "4",
+    "data": [{
+      "area": "城东街道",
+      "name": "小组名称",
+      "level": "镇街级",
+      "dutyPoint": "xx路口",
+      "leader": "王某某",
+      "phone": "18358965478",
+      "num": "20"
+    },{
+      "area": "城东街道",
+      "name": "小组名称",
+      "level": "镇街级",
+      "dutyPoint": "xx路口",
+      "leader": "王某某",
+      "phone": "18358965478",
+      "num": "20"
+    },{
+      "area": "城东街道",
+      "name": "小组名称",
+      "level": "镇街级",
+      "dutyPoint": "xx路口",
+      "leader": "王某某",
+      "phone": "18358965478",
+      "num": "20"
+    },{
+      "area": "城东街道",
+      "name": "小组名称",
+      "level": "镇街级",
+      "dutyPoint": "xx路口",
+      "leader": "王某某",
+      "phone": "18358965478",
+      "num": "20"
+    }]
+  }
+}

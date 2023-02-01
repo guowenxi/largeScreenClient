@@ -1,0 +1,61 @@
+.ant-pagination-item a{
+    color: rgba(255,255,255,.65);
+}
+.ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis, .ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis{
+    color: rgba(255,255,255,.25);
+}
+.ant-pagination.mini .ant-pagination-next .ant-pagination-item-link, .ant-pagination.mini .ant-pagination-prev .ant-pagination-item-link{
+    color: rgb(255,255,255) !important;
+    font-size: 1em;
+}
+.ant-pagination-item-active{
+    background: none;
+}
+.ant-pagination-total-text{
+    color: rgba(255,255,255,.65);
+}
+
+/*主题一*/
+.ant-pagination.theme-one.mini .ant-pagination-prev{
+    opacity: 1 !important;
+}
+.ant-pagination.theme-one.mini .ant-pagination-prev, .ant-pagination.theme-one.mini .ant-pagination-next{
+    background: rgb(101,114,131);
+    margin-right: 0.1em;
+}
+.ant-pagination.theme-one.mini .ant-pagination-next .ant-pagination-item-link, .ant-pagination.theme-one.mini .ant-pagination-prev .ant-pagination-item-link{
+    color: black !important;
+}
+.ant-pagination.theme-one.mini .ant-pagination-item-active{
+    background: rgb(12,72,132);
+    border-color: rgba(0,0,0,0);
+    margin-right: 0.1em;
+}
+.ant-pagination.theme-one.mini .ant-pagination-item-active a{
+    color: white;
+}
+.ant-pagination.theme-one.mini .ant-pagination-item:not(.ant-pagination-item-active) {
+    background: rgb(101,114,131);
+    margin-right: 0.1em;
+}
+.ant-pagination.theme-one.mini .ant-pagination-item:not(.ant-pagination-item-active) a{
+    color:black
+}
+.ant-pagination-simple .ant-pagination-simple-pager input{
+    background: none;
+}
+.ant-pagination.mini .ant-pagination-simple-pager{
+    color: #fff;
+    opacity: 1 !important;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    display: none;
+}
+.ant-pagination.mini .ant-pagination-item,
+.ant-pagination.mini .ant-pagination-prev,
+.ant-pagination.mini .ant-pagination-next{
+    height: 1.5em;
+    line-height: 1.5em;
+    min-width: 1.5em;
+}

@@ -1,0 +1,35 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "createTime": null,
+        "idList": null,
+        "ids": [],
+        "legends": [],
+        "pageNo": null,
+        "pageSize": null,
+        "rbacToken": "",
+        "series": [
+            10,
+            11,
+            5,
+            13,
+            6,
+            8,
+            15
+        ],
+        "title": "",
+        "type": null,
+        "updateTime": null,
+        "xAxis": [
+            "企业信用",
+            "网络信用",
+            "服务信息",
+            "司法信息",
+            "网络舆情",
+            "企业荣誉",
+            "法人信用"
+        ]
+    }
+}

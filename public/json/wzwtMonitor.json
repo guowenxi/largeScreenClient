@@ -1,0 +1,16 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":[{
+        "id":"1","x":120.63900229848342,"y":28.01787647932053,"type":"type1","category":"category2","road":"温州大道交叉口","num":"500","monitorType":"手动","warningNum":"80","rectificationNum":"80","carNumber":"浙C08091","time":"13:19","img":"./images/jiankong.jpg"
+    },{
+        "id":"2","x":120.60638663686233,"y":28.0106667014885,"type":"type1","category":"category3","road":"温州大道交叉口","num":"500","monitorType":"手动","warningNum":"80","rectificationNum":"80","carNumber":"浙C08091","time":"13:19","img":"./images/jiankong.jpg"
+    },{
+        "id":"3","x":120.59231040395217,"y":27.998307082347875,"type":"type2","category":"category3","road":"温州大道交叉口","num":"500","monitorType":"手动","warningNum":"80","rectificationNum":"80","carNumber":"浙C08091","time":"13:19","img":"./images/jiankong.jpg"
+    },{
+        "id":"4","x":120.6760811559053,"y":27.981827590160375,"type":"type2","category":"category1","road":"温州大道交叉口","num":"500","monitorType":"手动","warningNum":"80","rectificationNum":"80","carNumber":"浙C08091","time":"13:19","img":"./images/jiankong.jpg"
+    },{
+        "id":"5","x":120.66372153676467,"y":27.998993727855687,"type":"type3","category":"category2","road":"温州大道交叉口","num":"500","monitorType":"手动","warningNum":"80","rectificationNum":"80","carNumber":"浙C08091","time":"13:19","img":"./images/jiankong.jpg"
+    }]
+  }

@@ -1,0 +1,55 @@
+.box,.clickBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItemBox{
+    position: relative;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    cursor: pointer;
+    line-height: 1.5em;
+}
+.name{
+    color: rgb(112, 151, 180);
+    margin: 0.5em 1.2em 0;
+}
+.selectedName{
+    color: rgb(32, 179, 255);
+    margin: 0.5em 1.2em 0;
+}
+.childBox{
+    position: absolute;
+    width: 12em;
+    transform: translate(-50%,0);
+    left: 50%;
+    bottom: 100%;
+    z-index: 1;
+}
+.childBoxEx{
+    height: 12.5em;
+}
+.childName{
+    position: relative;
+    width: 100%;
+    padding: 0 0.5em;
+    text-align: center;
+    line-height: 2.7em;
+    background: rgba(27,56,98,0.9);
+    color: #e5e7e9;
+    font-size: 0.875em;
+    margin: 2px 0;
+}
+.childName:hover{
+    color: white;
+    background: rgba(90,130,189,0.9);
+}

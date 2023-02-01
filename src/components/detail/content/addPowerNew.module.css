@@ -1,0 +1,149 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0.8em;
+    background: url('../images/planStepNewOne.svg') center no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+}
+
+.title {
+    font-size: 1.2em;
+    font-family: TRENDS;
+}
+
+.closeIcon {
+    width: 1.2em;
+    height: 1.2em;
+    background: url('../images/planStepNewTwo.png') center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+
+.blueColor {
+    color: #61d6e8;
+}
+
+
+.handleContentRow {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 2em;
+}
+
+.handleContentRow .handleContentRowPart {
+    margin-right: 1em;
+    color: white;
+}
+
+.handleTeamBox {
+    position: relative;
+    /*width: calc(50% - 0.5em);*/
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.handleTeamName {
+    position: relative;
+    width: 100%;
+    color: #4fcbff;
+}
+
+.editFootBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.editFootBox button {
+    margin-left: 1em;
+}
+
+.selectedListBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0.8em 0;
+}
+
+.selectedListTitle {
+    line-height: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.selectedItemBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5em;
+    border: 1px solid #0D83D1;
+    line-height: 1.8em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
+.deleteIcon {
+    color: red;
+    margin-left: 0.5em;
+}
+
+.groupChangeBox {
+    position: relative;
+    width: 15em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2em;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+
+.groupChangeBox .changeButton {
+    width: calc(50% - 0.5em);
+}
+
+.groupListBox {
+    position: relative;
+    width: 100%;
+    height: 12em;
+    overflow: hidden;
+}
+
+.groupListContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.checkBox {
+    margin-right: 0.5em;
+}
+
+.editContent {
+    position: relative;
+    width: 100%;
+    min-height: 6em !important;
+    margin: 2em 0;
+}

@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0.8em;
+    background: url('../images/planStepNewOne.svg') center no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+}
+
+.title {
+    font-size: 1.2em;
+    font-family: TRENDS;
+}
+
+.closeIcon {
+    width: 1.2em;
+    height: 1.2em;
+    background: url('../images/planStepNewTwo.png') center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.processBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10em;
+}
+
+.processNameBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.processName {
+    flex-shrink: 0;
+    width: 8em;
+    border: solid 1px #26a5ff;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.processChildren {
+    display: flex;
+    justify-content: center;
+}
+
+.activeProcessName {
+    border-color: #26a5ff;
+    background-color: #26a5ff;
+}
+
+.successText {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 4.8em;
+    width: 100%;
+    height: 2em;
+    font-size: 0.7em;
+}

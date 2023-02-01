@@ -1,0 +1,12 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "id": "1",
+    "x": 121.2335399,
+    "y":28.1995364,
+    "name": "陈十四娘娘庙",
+    "img": "./images/luao/芦岙民间信仰场所/视频监控效果图/监控视频1.png,./images/luao/芦岙民间信仰场所/视频监控效果图/监控视频2.png"
+  }]
+}

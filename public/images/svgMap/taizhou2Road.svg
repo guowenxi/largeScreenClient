@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="845" height="677" viewBox="0 0 845 677">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 27px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="组_2_拷贝" data-name="组 2 拷贝">
+      <g id="文字">
+        <text id="天台县" class="cls-3" transform="translate(320.477 125.009) scale(0.667)">天台县</text>
+        <text id="仙居县" class="cls-3" transform="translate(171.813 317.672) scale(0.667)">仙居县</text>
+        <text id="临海市" class="cls-3" transform="translate(458.474 271.006) scale(0.667)">临海市</text>
+        <text id="椒江区" class="cls-3" transform="translate(543.807 344.338) scale(0.667)">椒江区</text>
+        <text id="台州湾新区" class="cls-3" transform="translate(591.805 383.004) scale(0.667)">台州湾新区</text>
+        <text id="黄岩区" class="cls-3" transform="translate(385.143 389.67) scale(0.667)">黄岩区</text>
+        <text id="路桥区" class="cls-3" transform="translate(565.139 417.67) scale(0.667)">路桥区</text>
+        <text id="温岭市" class="cls-3" transform="translate(557.14 491.669) scale(0.667)">温岭市</text>
+        <text id="玉环市" class="cls-3" transform="translate(473.141 593.667) scale(0.667)">玉环市</text>
+        <text id="三门县" class="cls-3" transform="translate(582.472 188.341) scale(0.667)">三门县</text>
+      </g>
+    </g>
+  </g>
+</svg>

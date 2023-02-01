@@ -1,0 +1,38 @@
+.resetP {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2vh;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1;
+}
+
+.superBox {
+    margin-bottom: 3em;
+}
+
+.superTitle {
+    margin-bottom: 1em;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8em;
+    line-height: 1.5;
+}
+
+.content {
+    font-size: 1.3em;
+    text-indent: 2em;
+    line-height: 2;
+}
+
+.itemBox {
+    cursor: pointer;
+    color: rgb(3, 143, 210);
+}

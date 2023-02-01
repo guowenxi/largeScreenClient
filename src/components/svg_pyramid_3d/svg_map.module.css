@@ -1,0 +1,50 @@
+.box,.map{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.pyramid{
+    width: 100%;
+    flex:1;
+}
+.lengend{
+    padding:0;
+    margin:0;
+    width: 100%;
+    flex:1;
+    display: flex;
+    flex-flow:column nowrap;
+}
+.lengendItem{
+    flex:1;
+    display: flex;
+    flex-flow:row nowrap;
+}
+.lengendItemSpan{
+flex:1;
+}
+.title{
+    text-indent: 2vh;
+    position: relative;
+    display: table;
+}
+.titleRect{
+    content:"";
+    position: absolute;
+    left:0;
+    top:50%;
+    transform: translateY(-50%);
+    width:1.5vh;
+    height:1.5vh;
+}
+
+
+.linearGradient_1_s{
+    stop-color:rgb(255,255,0);
+stop-opacity:1
+}.linearGradient_1_e{
+    stop-color:rgb(255,0,0);
+    stop-opacity:1
+}

@@ -1,0 +1,78 @@
+.box{
+  /* position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white; */
+  /* position: relative; */
+}
+.map_box{
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.map_img{
+  width: 100%;
+  height: 100%;
+}
+.nameBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: MFLiHei, serif;
+    letter-spacing: 2px;
+}
+.nameBox img{
+  width: 3em;
+  height: 3.68em;
+}
+.nameBox .pointBox{
+  width: 12.82em;
+  min-height: 5.05em;
+  background-color: #0e1529;
+  border-radius: 4px;
+  border: solid 2px #306cc1;
+  opacity: 0.8;
+  font-family: "MicrosoftYaHei";
+  font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+  margin-left: -8.17em;
+  margin-top: -9.55em;
+  padding: 0.68em;
+  position: relative;
+  cursor: pointer;
+}
+.nameBox .pointBox >.name{
+  font-size: 1em;
+	color: #ffffff;
+}
+.nameBox .pointBox >.address{
+  font-size: 1em;
+	color: #ffffff;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.nameBox .pointBox >.subName{
+  font-size: 0.86em;
+  color: #ffffff;
+  width: 6em;
+  height: 1.64em;
+  text-align: center;
+  line-height: 1.64em;
+  background: linear-gradient(90deg,#0e1529 0%,#ffaa29 100%);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.num{
+    /* font-family: "TRENDS", serif; */
+}

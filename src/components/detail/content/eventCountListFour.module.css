@@ -1,0 +1,84 @@
+.box,.bgBorder{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    border-left: 1px solid #baf0ff;
+    border-top: 1px solid #baf0ff;
+}
+.table{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.table td{
+    border: 1px solid #baf0ff;
+    padding: 1em 0.5em;
+}
+.headBox{
+    height: 5em !important;
+}
+.head{
+    background: rgb(23,78,128);
+}
+.head td{
+    padding: 0.5em;
+}
+.dataRow{
+    cursor: pointer;
+}
+.index{
+    min-width: 5em;
+}
+.typeOne{
+    min-width: 12em;
+}
+.bgBorder{
+    border: 1px solid #baf0ff;
+    pointer-events: none;
+}
+.leftTop{
+    position: absolute;
+    width: 17em;
+    height: 5em;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #baf0ff;
+    border-bottom: 1px solid #baf0ff;
+}
+.leftTop .table{
+    height: 100%;
+}
+.rightTop{
+    position: absolute;
+    width: calc(100% - 17em);
+    height: 5em;
+    right: 0;
+    top: 0;
+    border-right: 1px solid #baf0ff;
+    border-bottom: 1px solid #baf0ff;
+}
+.leftBottom{
+    position: absolute;
+    width: 17em;
+    height: calc(100% - 5em);
+    left: 0;
+    bottom: 0;
+    border-right: 1px solid #baf0ff;
+    border-bottom: 1px solid #baf0ff;
+    pointer-events: none;
+}
+.rightBottom{
+    position: absolute;
+    width: calc(100% - 17em);
+    height: calc(100% - 5em);
+    right: 0;
+    bottom: 0;
+    border-right: 1px solid #baf0ff;
+    border-bottom: 1px solid #baf0ff;
+}
+.rightBottom .typeOne{
+    cursor: pointer;
+}

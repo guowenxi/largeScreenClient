@@ -1,0 +1,56 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [
+    {
+      "name": "便民服务中心",
+      "icon": 1,
+      "id": 2,
+      "children": [{
+        "id": "xxxxxx",
+        "name": "xxxx便民中心"
+      }]
+    },
+    {
+      "name": "山塘水库",
+      "icon": 2,
+      "id": 3
+    },
+    {
+      "name": "公墓",
+      "icon": 3,
+      "id": 4
+    },
+    {
+      "name": "公厕",
+      "icon": 4,
+      "id": 5
+    },
+    {
+      "name": "斗闸",
+      "icon": 5,
+      "id": 6
+    },
+    {
+      "name": "文体场所",
+      "icon": 6,
+      "id": 7
+    },
+    {
+      "name": "民间信仰场所",
+      "icon": 7,
+      "id": 8
+    },
+    {
+      "name": "医疗机构",
+      "icon": 8,
+      "id": 9
+    },
+    {
+      "name": "视频监控",
+      "icon": 9,
+      "id": 1
+    }
+  ]
+}

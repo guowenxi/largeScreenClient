@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "桥头胡街道": {
+      "桥头胡街道": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "桥头胡街道": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "桥头胡街道": ""
+  },
+  "mapRoadImg": {
+    "桥头胡街道": "./images/svgMap/桥头胡街道.png"
+  },
+  "mapBgSize": {
+    "桥头胡街道": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "桥头胡街道": {
+      "桥头胡街道": {
+        "left": "60%",
+        "top": "56.5%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

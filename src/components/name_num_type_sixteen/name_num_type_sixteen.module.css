@@ -1,0 +1,62 @@
+.box,.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.headBox{
+    position: absolute;
+    width: 100%;
+    height: 26%;
+    left: 0;
+    top: 0;
+}
+.centerBox{
+    position: absolute;
+    width: 46%;
+    height: 70%;
+    top: 30%;
+    left: 27%;
+}
+.contentBox{
+    position: absolute;
+    display: flex;
+}
+.contentBox{
+    position: absolute;
+    width: 100%;
+    height: 64%;
+    top: 31%;
+    left: 0;
+    display: flex;
+}
+.contentItem{
+    position: absolute;
+    width: 25%;
+    height: 30%;
+}
+.contentBox .contentItem:nth-child(1){
+    left: 1.5%;
+    top: 0;
+}
+.contentBox .contentItem:nth-child(2){
+    left: 1.5%;
+    top: 35%;
+}
+.contentBox .contentItem:nth-child(3){
+    left: 1.5%;
+    top: 71%;
+}
+.contentBox .contentItem:nth-child(4){
+    left: 75%;
+    top: 0;
+}
+.contentBox .contentItem:nth-child(5){
+    left: 75%;
+    top: 35%;
+}
+.contentBox .contentItem:nth-child(6){
+    left: 75%;
+    top: 71%;
+}

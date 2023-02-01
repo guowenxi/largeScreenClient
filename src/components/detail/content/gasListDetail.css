@@ -1,0 +1,60 @@
+.gasListDetailBox .ant-pagination {
+    height: 2em;
+    font-size: 1em;
+}
+
+.gasListDetailBox .ant-pagination-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 100%;
+    margin-right: 0.5em;
+}
+
+.gasListDetailBox .ant-pagination-prev .ant-pagination-item-link,
+.gasListDetailBox .ant-pagination-next .ant-pagination-item-link {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+}
+
+.gasListDetailBox .ant-pagination-prev:hover .ant-pagination-item-link,
+.gasListDetailBox .ant-pagination-next:hover .ant-pagination-item-link  {
+    color: #1890ff;
+    border-color: #1890ff;
+}
+
+.gasListDetailBox .ant-pagination-item-container .ant-pagination-item-ellipsis {
+    color: #fff;
+}
+
+.gasListDetailBox .ant-pagination-item {
+    background-color: transparent;
+}
+
+.gasListDetailBox .ant-pagination-item a {
+    color: #fff;
+}
+
+.gasListDetailBox .ant-pagination-total-text {
+    color: #fff;
+}
+
+.gasListDetailBox .ant-pagination-options-quick-jumper {
+    color: #fff;
+}
+
+.gasListDetailBox .ant-pagination-options-quick-jumper input {
+    color: #fff;
+    background-color: transparent;
+}
+
+.gasListDetailBox .ant-pagination-prev .ant-pagination-item-link,
+.gasListDetailBox .ant-pagination-next .ant-pagination-item-link {
+    font-size: 0.8em;
+}
+
+.gasListHistoryDetailScrollbars > div > div:nth-child(2) > div{
+    background-color: #0D83D1 !important;
+}

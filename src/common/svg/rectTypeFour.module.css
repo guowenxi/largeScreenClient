@@ -1,0 +1,27 @@
+.linearGradientStop1{
+    stop-color:#00A4FF;
+    stop-opacity:0.5;
+}
+
+.linearGradientStop2{
+    stop-color:#00A4FF
+}
+
+.linearGradientStop3{
+    stop-color:#00A4FF;
+    stop-opacity:0.5;
+}
+
+.path1{
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#FFFFFF;
+    fill-opacity:5.000000e-002;
+    stroke-miterlimit:10;
+}
+
+.path2{
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#1FC5FF;
+}

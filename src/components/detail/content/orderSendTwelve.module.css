@@ -1,0 +1,219 @@
+.box{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+}
+.head{
+  position: relative;
+  width: 21em;
+  height: 1.75em;
+  background: url("../images/orderSendThreeHead.png") no-repeat;
+  background-size: 100% 100%;
+  padding-left: 2.5em;
+  line-height: 1.75em;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+.contentOne{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: rgba(212,212,212,0.8);
+  padding: 0.5em 1em;
+}
+.row{
+  position: relative;
+  width: 100%;
+  height: 2.5em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+.title{
+  line-height: 2em;
+  margin-right: 1em;
+}
+.red{
+  color: #db281a;
+}
+.hide{
+  opacity: 0;
+}
+.input{
+  position: relative;
+  width: calc(100% - 11em);
+  height: 2em;
+  font-size: 1em;
+  background: none;
+  color: white;
+  border: 1px solid #09a3a9;
+  border-radius: 6px;
+}
+.datePicker,.select,.box .textArea{
+  position: relative;
+  width: calc(100% - 6.5em);
+  height: 2em;
+  border: 1px solid #09a3a9;
+  border-radius: 6px;
+  font-size: 1em;
+  border-radius: 0;
+  background: none;
+  color: #fff;
+}
+.fileBox{
+  cursor: default;
+  border: none;
+  height: 6em;
+}
+.addFile{
+  width: 7.5em;
+  height: 2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #07e6ed;
+  border: 1px solid #07e6ed;
+  float: left;
+}
+.addFile .ant-upload {
+  color: #fff !important;
+}
+.fileName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  margin: 0 0.5em;
+}
+.delete{
+  margin-left: 0.5em;
+  color: red;
+  font-size: 1em;
+  cursor: pointer;
+}
+.limitTime{
+  width: 6em;
+  margin-right: 0.5em;
+}
+.limitType{
+  width: calc(100% - 17.5em);
+  margin-right: 0.5em;
+}
+.icon{
+  position: relative;
+  width: 1.8em;
+  height: 1.8em;
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+.totalRow{
+  padding: 1em 1em 0;
+  line-height: 1;
+}
+.textArea{
+  height: 6em !important;
+  resize: none;
+}
+.contentTwo{
+  position: relative;
+  width: 100%;
+  height: calc(60% - 10em);
+  color: rgba(212,212,212,0.8);
+  padding: 0 0.5em 1em 1em;
+}
+.groupRow{
+  position: relative;
+  width: 100%;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupTitle{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.groupName{
+  position: relative;
+  width: 43%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 0.2em;
+}
+.groupNum{
+  position: relative;
+  width: 12%;
+}
+.groupLeader{
+  position: relative;
+  width: 15%;
+}
+.groupLeaderPhone{
+  position: relative;
+  width: 30%;
+}
+.buttonBox{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+  position: relative;
+  background: url("../images/buttonBgThree.png");
+  padding: 0.25em 1em;
+  background-size: 100% 100%;
+  cursor: pointer;
+  margin: 0.5em;
+}
+.buttonTwo{
+  position: relative;
+  background: url("../images/buttonBgTwo.png");
+  padding: 0.25em 1em;
+  background-size: 100% 100%;
+  cursor: pointer;
+  margin: 0.5em;
+}
+.buttonThree{
+  position: relative;
+  background: url("../images/buttonBgOne.png");
+  padding: 0.25em 1em;
+  background-size: 100% 100%;
+  cursor: pointer;
+  margin: 0.5em;
+}
+.checkbox{
+  color: white;
+  font-size: 1em;
+  margin-left: 0 !important;
+}
+.checkboxTwo{
+  line-height: 2em;
+}
+.depPeopleBox{
+  position: relative;
+  width: 100%;
+  padding-left: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.checkboxThree{
+  color: white;
+  font-size: 1em;
+  line-height: 2em;
+  margin-left: 0 !important;
+  height: 2em;
+}

@@ -1,0 +1,60 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: rgba(255,255,255,0.86);
+    padding-bottom: 3em;
+}
+.content{
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.content:last-child{
+    margin: 0;
+}
+.content,.content tr,.content td{
+    border: 0;
+}
+.trTitle,.trContent,.trContentOne,.trContentTwo{
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+.trTitle{
+    width: 11%;
+}
+.trContent{
+    width: 38%;
+}
+.trContentOne{
+    width: 50%;
+}
+.trContentTwo{
+    width: 28%;
+}
+.reasonBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.reasonItem{
+    color: rgba(247,148,31,0.86);
+}
+.buttonBox{
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.button{
+    margin-left: 1em;
+    font-size: 1em;
+    /*height: 3em;*/
+}

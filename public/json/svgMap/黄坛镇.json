@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "黄坛镇": {
+      "黄坛镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "黄坛镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "黄坛镇": ""
+  },
+  "mapRoadImg": {
+    "黄坛镇": "./images/svgMap/黄坛镇.png"
+  },
+  "mapBgSize": {
+    "黄坛镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "黄坛镇": {
+      "黄坛镇": {
+        "left": "59%",
+        "top": "44%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

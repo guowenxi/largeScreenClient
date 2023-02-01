@@ -1,0 +1,67 @@
+{
+  "roadPosition": {
+    "泽国镇": {
+      "五里泾村": {
+        "left": "29%",
+        "top": "91%"
+      },
+      "大池陈村": {
+        "left": "19.5%",
+        "top": "90%"
+      },
+      "八份村": {
+        "left": "21%",
+        "top": "79%"
+      },
+      "池里村": {
+        "left": "31%",
+        "top": "82%"
+      },
+      "牧屿村": {
+        "left": "41%",
+        "top": "85%"
+      },
+      "牧西村": {
+        "left": "34%",
+        "top": "75%"
+      },
+      "沈桥村": {
+        "left": "46.5%",
+        "top": "78%"
+      },
+      "上塔村": {
+        "left": "81.5%",
+        "top": "74%"
+      },
+      "黎明村": {
+        "left": "68.5%",
+        "top": "50%"
+      },
+      "华晟村": {
+        "left": "16.5%",
+        "top": "22%"
+      }
+    }
+  },
+  "areaPath": {
+  },
+  "areaBoxSize": {
+  },
+  "mapBgImg": {
+    "泽国镇": "./images/svgMap/zeguo.png"
+  },
+  "mapRoadImg": {
+  },
+  "mapBgSize": {
+    "泽国镇": {
+      "width": 764,
+      "height": 569
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+  },
+  "areaCode": {
+  }
+}

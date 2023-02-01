@@ -1,0 +1,51 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "list": [
+      {
+        "incidentTime": "2021-4-15 13:28:46",
+        "title": "发生踩踏事件发生踩踏事件发生踩踏事件发生踩踏事件发生踩踏事件发生踩踏事件",
+        "roadName": "安阳街道",
+        "incidentAddress": "xx路xx号",
+        "emergencyId": "1"
+      },
+      {
+        "incidentTime": "2021-4-15 13:28:46",
+        "title": "发生踩踏事件发生踩踏事件发生踩踏事件发生踩踏事件发生踩踏事件发生踩踏事件",
+        "roadName": "安阳街道",
+        "incidentAddress": "xx路xx号",
+        "emergencyId": "2"
+      },
+      {
+        "incidentTime": "2021-4-15 13:28:46",
+        "title": "发生踩踏事件",
+        "roadName": "安阳街道",
+        "incidentAddress": "xx路xx号",
+        "emergencyId": "3"
+      },
+      {
+        "incidentTime": "2021-4-15 13:28:46",
+        "title": "发生踩踏事件",
+        "roadName": "安阳街道",
+        "incidentAddress": "xx路xx号",
+        "emergencyId": "4"
+      },
+      {
+        "incidentTime": "2021-4-15 13:28:46",
+        "title": "发生踩踏事件",
+        "roadName": "安阳街道",
+        "incidentAddress": "xx路xx号",
+        "emergencyId": "5"
+      },
+      {
+        "incidentTime": "2021-4-15 13:28:46",
+        "title": "发生踩踏事件",
+        "roadName": "安阳街道",
+        "incidentAddress": "xx路xx号",
+        "emergencyId": "6"
+      }
+    ]
+  }
+}

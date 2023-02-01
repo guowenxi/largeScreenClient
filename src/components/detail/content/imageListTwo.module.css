@@ -1,0 +1,59 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.listBox{
+    position: relative;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.itemBox{
+    position: relative;
+    width: auto;
+    height: 100%;
+    margin-right: 2em;
+    padding-bottom: 0.8em;
+}
+.itemBox:last-child{
+    margin-right: 0;
+}
+.title{
+    position: relative;
+    height: 2em;
+    width: 100%;
+    line-height: 2em;
+    color: #20b3ff;
+    text-align: center;
+}
+.imgBox{
+    position: relative;
+    width: auto;
+    height: calc(100% - 2em);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    border: 1px solid #8db0c5;
+}
+.imgOneBox{
+    position: relative;
+    height: 100%;
+    margin-right: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgBox .imgOneBox:last-child{
+    margin-right: 0;
+}
+.img{
+    position: relative;
+    max-height: 100%;
+}

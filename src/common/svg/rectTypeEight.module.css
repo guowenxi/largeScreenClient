@@ -1,0 +1,7 @@
+.polyline {
+    opacity: 0.7;
+    fill: none;
+    stroke: #27B2FF;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}

@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0.8em;
+    background: url('../images/planStepNewOne.svg') center no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+}
+
+.title {
+    font-size: 1.2em;
+    font-family: TRENDS;
+}
+
+.closeIcon {
+    width: 1.2em;
+    height: 1.2em;
+    background: url('../images/planStepNewTwo.png') center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.content:last-child {
+    margin: 0;
+}
+
+.content,
+.content tr,
+.content td {
+    border: 0;
+}
+
+.trTitle,
+.trContent,
+.trContentOne,
+.trContentTwo {
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+
+.trTitle {
+    width: 11%;
+}
+
+.trContent {
+    width: 38%;
+}
+
+.trContentOne {
+    width: 50%;
+}
+
+.trContentTwo {
+    width: 28%;
+}
+
+.reasonBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reasonItem {
+    color: rgba(247, 148, 31, 0.86);
+}
+
+.buttonBox {
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    bottom: 0.8em;
+    right: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button {
+    width: 7em;
+    height: 2em;
+    border: solid 1px #26a5ff;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.rightButton {
+    margin-left: 1em;
+    background-color: #26a5ff;
+}

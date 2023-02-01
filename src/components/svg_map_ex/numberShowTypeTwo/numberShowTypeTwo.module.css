@@ -1,0 +1,22 @@
+.box{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.img{
+    width: 1em;
+    height: 1em;
+    margin: 0.5em;
+}
+.numOne{
+    color: #FFF238;
+}
+.numTwo{
+    color: #FF6F00;
+    margin-right: 0.5em;
+}

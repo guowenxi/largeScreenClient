@@ -1,0 +1,23 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "name": "待分配",
+            "num": 223
+        },
+        {
+            "name": "待签收",
+            "num": 223
+        },
+        {
+            "name": "处置中",
+            "num": 223
+        },
+        {
+            "name": "已逾期",
+            "num": 223
+        }
+    ]
+}

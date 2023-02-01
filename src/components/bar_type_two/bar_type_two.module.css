@@ -1,0 +1,63 @@
+.barBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: black;
+    /*display: grid;*/
+}
+/* .itemBox{
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+} */
+.itemBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.itemBar{
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+.hideItem{
+    opacity: 0;
+}
+
+.leftBox{
+    width:10%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.centerBox{
+    width:80%;
+    height:100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.rightBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.rightFontBox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.leftFontBox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}

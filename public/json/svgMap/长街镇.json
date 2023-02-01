@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "长街镇": {
+      "长街镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "长街镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "长街镇": ""
+  },
+  "mapRoadImg": {
+    "长街镇": "./images/svgMap/长街镇.png"
+  },
+  "mapBgSize": {
+    "长街镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "长街镇": {
+      "长街镇": {
+        "left": "56%",
+        "top": "51%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

@@ -1,0 +1,135 @@
+.box,.shade{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.mapBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /*position: relative;*/
+    /*width: 33%;*/
+    /*height: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    float: left;
+}
+.specialMode{
+    position: relative;
+    width: 50%;
+    float: left;
+}
+.selectBox{
+    position: absolute;
+    width: auto;
+    /*top: 1em;
+    right: 1em;*/
+    top: 0.25em;
+    /*right: 26em;*/
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0862745098039216);
+}
+.selectItem{
+    position: relative;
+    width: auto;
+    height: 100%;
+    float: left;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+.checkboxGroup{
+    position: absolute;
+    width: 20em;
+    right: 0;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+.checkbox{
+    position: relative;
+    width: 100%;
+    height: 1em;
+    line-height: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.windowBox{
+    opacity: 0;
+    z-index: -1;
+}
+.legend{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0862745098039216);
+}
+.borderTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.borderLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.borderRight{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.borderBottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.buttonBox{
+    position: absolute;
+    bottom: 1vh;
+    right: 1vh;
+}
+.mapModeButton{
+    position: relative;
+    float: right;
+}
+.mapTypeButton{
+    position: relative;
+    float: right;
+    margin-right: 1vh;
+}
+.yearSelect{
+    position: relative;
+    float: right;
+    margin-right: 1vh;
+    width: 9vh;
+}
+.Slider{
+    position: relative;
+    float: right;
+    margin-right: 4vh;
+    width: 20vw;
+    margin-top: 10px;
+}
+.searchBox{
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+    height: 4.8vh;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 1vh;
+}
+.searchBox .input{
+    width: 30vh;
+}
+.searchBox .button{
+    margin-left: 1vh;
+}

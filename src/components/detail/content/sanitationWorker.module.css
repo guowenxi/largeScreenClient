@@ -1,0 +1,100 @@
+.detailBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.detailBox table,.detailBox td,.detailBox tr{
+    border: none;
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+    color: #27bfd1;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headIcon{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+.detailBox table{
+    position: relative;
+    width: calc(100% - 1.8em);
+    margin-left: 1.8em;
+    margin-bottom: 1em;
+}
+.detailBox td{
+    color: #acbcd5;
+}
+.detailBox .title{
+    width: 6em;
+    color: #e1e3e7;
+}
+.detailBox .content{
+    width: calc(100% - 6em);
+    color: #e1e3e7;
+}
+.timeLine{
+    position: relative;
+    width: 100%;
+    height: calc(60% - 10em);
+}
+.timeLineBox{
+    position: relative;
+    width: 100%;
+}
+.timeLineItem{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+.timeLineItem:nth-child(2n){
+    flex-direction: row;
+}
+.timeLineItem:last-child{
+    margin-bottom: 0;
+}
+.centerPoint{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    /*border: 2px solid #27bfd1;*/
+    border-radius: 50%;
+    background-color: #27bfd1;
+}
+.timeLineContent{
+    position: relative;
+    width: calc(50% - 2em);
+}
+.alignLeft{
+    text-align: left;
+}
+.alignRight{
+    text-align: right;
+}
+.line{
+    position: absolute;
+    width: 2px;
+    height: calc(100% - 1em);
+    top: 0.5em;
+    left: calc(50% - 1px);
+    background-color: white;
+}
+.mapBox{
+    position: relative;
+    width: 100%;
+    height: 40%;
+}

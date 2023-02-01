@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "强蛟镇": {
+      "强蛟镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "强蛟镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "强蛟镇": ""
+  },
+  "mapRoadImg": {
+    "强蛟镇": "./images/svgMap/强蛟镇.png"
+  },
+  "mapBgSize": {
+    "强蛟镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "强蛟镇": {
+      "强蛟镇": {
+        "left": "45%",
+        "top": "40%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

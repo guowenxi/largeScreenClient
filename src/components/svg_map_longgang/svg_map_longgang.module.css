@@ -1,0 +1,45 @@
+.box,.map,.mapBG{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.mapBGTop{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.circleBox{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    /*pointer-events: none;*/
+}
+.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.part{
+    fill:#0E2142;
+    stroke:#003075;
+    cursor: pointer;
+}
+.noColorPart{
+    fill:rgba(0,0,0,0);
+    stroke:none;
+    cursor: pointer;
+}
+.selected{
+    fill:#003c84;
+    stroke:#003075;
+    cursor: pointer;
+}
+.allName{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 39%;
+    font-size: 2em;
+    color: white;
+}

@@ -1,0 +1,183 @@
+.detailEnterpriseEarlyWarningBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    ul {
+        padding: 0;
+    }
+    .closeBtn{
+        /*position: relative;*/
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        font-size: 1.5vh;
+        color: #fff;
+        float: right;
+    }
+    .header{
+        .detailBox {
+            list-style: none;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            li {
+                display: inline-block;
+                p:nth-child(1) {
+                    color: #0ff;
+                }
+                p:nth-child(2) {
+                    color: #fff;
+                }
+            }
+            li:nth-child(2) {
+                margin-left: 8%;
+                color: #40A9FF;
+                text-decoration: underline;
+            }
+            li:nth-child(3) {
+                margin-left: 5%;
+                color: #FF0000;
+                text-decoration: underline;
+            }
+            li:nth-child(4) {
+                margin-left: 5%;
+                color: #40A9FF;
+                text-decoration: underline;
+            }
+            .textTitle {
+                margin-bottom: 0.9vh;
+                line-height: 5.1vh;
+                font-size: 3.8vh;
+                font-weight: bold;
+            }
+        }
+    }
+    .main {
+        font-size: 1.2vh;
+        color: #fff;
+        .mainItem {
+            .mainTitle {
+                line-height: 3.5vh;
+                font-size: 1.5vh;
+                font-weight: bold;
+                margin: 0;
+            }
+            .mainTitle:before {
+                /*content: '|';
+                margin-right: 0.45vh;
+                font-weight: bold;*/
+            }
+        }
+        .mainContent {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: 2.8vh;
+            .contentItem {
+                width: 100%;
+                p {
+                    display: inline-block;
+                    margin-bottom: 0;
+                }
+                p:nth-child(1) {
+                    width: 20%;
+                    text-align: right;
+                }
+                p:nth-child(2) {
+                    width: 80%;
+                    word-wrap: break-word;
+                    vertical-align: top;
+                }
+            }
+            .contentTableItem {
+                width: 100%;
+                ul {
+                    list-style: none;
+                    text-align: center;
+                    border-right: 1px solid #fff;
+                    li {
+                        float: left;
+                        padding: 0 1%;
+                        border-top: 1px solid #fff;
+                        border-left: 1px solid #fff;
+                        word-wrap: break-word;
+                    }
+                }
+                ul:nth-last-child(1) {
+                    border-bottom: 1px solid #fff;
+                }
+                .tableHeader {
+                }
+                .tableContent {
+                }
+            }
+        }
+        .tableWidth{
+            li:nth-child(1) {
+                width: 15%;
+            }
+            li:nth-child(2) {
+                width: 15%;
+            }
+            li:nth-child(3) {
+                width: 15%;
+            }
+            li:nth-child(4) {
+                width: 20%;
+            }
+            li:nth-child(5) {
+                width: 35%;
+            }
+        }
+        .tableWidth2{
+            li:nth-child(1) {
+                width: 22%;
+            }
+            li:nth-child(2) {
+                width: 22%;
+            }
+            li:nth-child(3) {
+                width: 22%;
+            }
+            li:nth-child(4) {
+                width: 34%;
+            }
+        }
+        .tableWidth3{
+            li:nth-child(1) {
+                width: 30%;
+            }
+            li:nth-child(2) {
+                width: 40%;
+            }
+            li:nth-child(3) {
+                width: 30%;
+            }
+        }
+        .tableHeight {
+            width: 100%;
+            ul {
+                height: 3.6vh;
+                li {
+                    height: 3.6vh;
+                    line-height: 110%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    word-break: break-all;
+                }
+            }
+        }
+        .tableHeight2{
+            ul {
+                height: 4.6vh;
+                li {
+                    height: 4.6vh;
+                    line-height: 1.85vh;
+                }
+            }
+        }
+    }
+}

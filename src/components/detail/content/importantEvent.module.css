@@ -1,0 +1,190 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: white;
+    background: rgb(2,17,53);
+    box-shadow: 0 0 10px 0 rgba(255,255,255,.2);
+    padding: 1.8em;
+}
+.lightWhite{
+    color: rgba(255,255,255,0.6);
+}
+.bgImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.closeIcon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+.listRow{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listTd{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.listHead{
+    color: rgba(255,255,255,0.6);
+    line-height: 1.5em;
+}
+.listContent{
+    line-height: 2em;
+}
+.headBox{
+    position: relative;
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: 1em;
+}
+.headMessage{
+    position: absolute;
+    right: 3em;
+    width: calc(100% - 3em);
+    height: 2.5em;
+    background: rgba(44,145,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    top: -0.42em;
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.6);
+}
+.maxTitle{
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.menuBox{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    left: 0;
+    margin-bottom: 1em;
+}
+.menuButton{
+    position: relative;
+    width: auto;
+    padding: 0.5em 2em;
+    line-height: 1em;
+    float: left;
+    cursor: pointer;
+}
+.menuButton span{
+    position: relative;
+}
+.contentBox{
+    position: relative;
+    width: calc(100% - 3.6em);
+    height: calc(100% - 6em);
+}
+.table{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 1px solid rgba(44,145,255,0.5);
+    float: left;
+}
+.table td{
+    border: 1px solid rgba(44,145,255,0.5);
+    border-left: 0;
+    border-top: 0;
+    padding: 0.5em;
+    position: relative;
+}
+.table .tdTitle{
+    color: #29d2ff;
+    background: rgba(44,145,255,0.2);
+    text-align: center;
+    width: 4%;
+    border-right: 0;
+}
+.table .tdContent{
+    padding: 1em;
+}
+.table .contentTitle{
+    color: rgba(255,255,255,0.6);
+    height: 2em;
+    line-height: 2em;
+}
+.table .contentDetail{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 2em);
+}
+.timeLineBox{
+    position: absolute;
+    width: 60%;
+    height: 0.5em;
+    left: 20%;
+}
+.timeLine{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0,191,191);
+}
+.timeLineTwo{
+    left: 50%;
+}
+.timePointBox{
+    position: absolute;
+    width: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.timePoint{
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+}
+.pointStatus{
+    position: relative;
+    height: 1.5em;
+    color: rgb(0,191,191);
+    width: 100%;
+    text-align: center;
+}
+.pointTime{
+    position: relative;
+    height: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+.timeLineBox .timePointBox:nth-child(1){
+    left: 0;
+}
+.timeLineBox .timePointBox:nth-child(2){
+    left: 50%;
+    flex-flow: column-reverse;
+}
+.timeLineBox .timePointBox:nth-child(3){
+    left: 100%;
+}

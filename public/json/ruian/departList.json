@@ -1,0 +1,62 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [{
+    "id": "1",
+    "name": "交警玉海中队1",
+    "people": [{
+      "id": "21",
+      "name": "站所张志刚1",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    },{
+      "id": "22",
+      "name": "站所刘海波1",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    },{
+      "id": "23",
+      "name": "站所张志刚2",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    },{
+      "id": "24",
+      "name": "站所刘海波2",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    }]
+  },{
+    "id": "2",
+    "name": "交警玉海中队2",
+    "people": [{
+      "id": "25",
+      "name": "站所张志刚3",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    },{
+      "id": "26",
+      "name": "站所刘海波4",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    },{
+      "id": "27",
+      "name": "站所张志刚5",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    },{
+      "id": "28",
+      "name": "站所刘海波6",
+      "telephone": "156-5698-5698",
+      "department":"街道综治",
+      "duty":"工作分管领导"
+    }]
+  }]
+}

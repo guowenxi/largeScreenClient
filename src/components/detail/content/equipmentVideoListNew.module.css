@@ -1,0 +1,154 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0.8em;
+    background: url('../images/planStepNewOne.svg') center no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+}
+
+.title {
+    font-size: 1.2em;
+    font-family: TRENDS;
+}
+
+.closeIcon {
+    width: 1.2em;
+    height: 1.2em;
+    background: url('../images/planStepNewTwo.png') center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.menuBox {
+    position: relative;
+    /*width: calc(100% - 10em);*/
+    width: 100%;
+    height: 3em;
+    margin-bottom: 1em;
+}
+
+.menuListBox {
+    position: relative;
+    width: auto;
+    height: 3em;
+    white-space: nowrap;
+}
+
+.menuItem {
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    padding: 1em;
+    line-height: 1em;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.menuListBox .menuItem:first-child {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.menuListBox .menuItem:last-child {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.selectedMenu {
+    background: rgb(22, 132, 252);
+}
+
+.showAllButton {
+    font-size: 1em;
+    height: 3em;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.contentBox {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 15em);
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    object-fit: fill;
+}
+
+.footBox {
+    position: relative;
+    width: 100%;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detailBox {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: column;
+    padding: 1em;
+}
+
+.endButton {
+    font-size: 1em;
+    height: 3em;
+    position: relative;
+}
+
+.bigContentBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0a3c7b;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 0 1em 1em;
+}
+
+.hide {
+    opacity: 0;
+    z-index: -1;
+}
+
+.videoListBox {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 7em);
+}
+
+.videoItem {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: black;
+    object-fit: fill;
+    border: 1px solid #0a3c7b;
+}
+
+.selectedItem {
+    border: 1px solid #14E8F2;
+}

@@ -1,0 +1,37 @@
+{
+	"success": 1,
+	"errorCode": null,
+	"message": "",
+	"data": [{
+		"department": "交警玉海中队",
+		"people": [{
+			"name": "张志刚1",
+			"telphone": "156-5698-5698"
+		},{
+			"name": "刘海波1",
+			"telphone": "156-5698-5698",
+            "checked":false
+		},{
+			"name": "张志刚2",
+			"telphone": "156-5698-5698"
+		},{
+			"name": "刘海波2",
+			"telphone": "156-5698-5698"
+		}]
+	},{
+		"department": "交警玉海中队",
+		"people": [{
+			"name": "张志刚3",
+			"telphone": "156-5698-5698"
+		},{
+			"name": "刘海波4",
+			"telphone": "156-5698-5698"
+		},{
+			"name": "张志刚5",
+			"telphone": "156-5698-5698"
+		},{
+			"name": "刘海波6",
+			"telphone": "156-5698-5698"
+		}]
+	}]
+}

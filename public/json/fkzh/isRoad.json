@@ -1,0 +1,8 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "isRoad": 0
+  }
+}

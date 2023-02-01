@@ -1,0 +1,31 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "teamNumber": "2",
+    "orgCountyMc": "xx区",
+    "orgRoadMc": "xx镇街",
+    "orgCommunityMc": "xx村社",
+    "gridLeaderName": "张三",
+    "gridLeaderPhone": "12232123212",
+    "teamLeaderName": "李四",
+    "teamLeaderPhone": "12232123212",
+    "teamMemberNum": 12,
+    "girdPeopleCount": 34,
+    "gridName": "章启玲、吴茂财、朱伯松、陶国鸿、吴茂明、潘永贵、王冬宝、朱忠桂、吴吉荣、陶冬生、吴金友、吴锦方、吴加林、吴金卫、戴林玉、吴仙玉、吴金荣、王仙聪、吴锦平、吴冬云、陈利国、潘永见、吴庆法、吴锦华、吴仙富、吴仙玉、罗永辉、吴仙德、陶素云、陶冬明、潘永斌、吴锦秀、罗昌法、吴小根、吴君明、罗永祥、林小龙、陶国林、吴玉明、吴言青、瞿斌、陈国力、曾琴、吴观福、章文正、阮玲丽、吴新利、陈普友、陶国斌、蒋永超、陈吉永、王福兵、罗昌富、吴宝明、王增友、王邦法、吴春富、陶国林、李林福、吴忠明、邬仙明、吴锦康、罗永民、罗昌友、吴春富、王文初、王冬初、吴冬云、吴锦荷、吴新德、吴新利、吴宝西、管冬青、吴言国、吴宝明、吴锦玲、吴光达、罗雪琴、李小明、王晓飞、吴云富、王福琴、尚才福、吴小玲、管彦荣、陶宝友、陈仙友、蒋永超、吴永林、王保根、陶冬青、吴仙花、戴东青、罗骏、罗永根、陶冬明、王冬林、吴金友、林扬正、罗小田、仙根、吴海荣、罗昌友、潘永福、吴锦昌、郑素清、陈庆祝、吴保富、罗永民、吴言土、朱伯松、王友定、吴春方、王雪芬、吴言友、吴言江",
+    "signature": "http://fsp.vortex.zj.chinamobile.com/api-gateway/fsp-lowcode-client/contentManage/download?url=http://my-obs-bucket-demo.zzobs1.zj.chinamobile.com/MW173HPV.jpg",
+    "feedback": [{
+      "backTime": "2022-1-10 13:16:46",
+      "leader": "李四",
+      "leaderPhone": "12232123212",
+      "completion": "已完成编组，并已通知到户。",
+      "memberNum": 10
+    },{
+      "backTime": "2022-1-09 13:16:46",
+      "leader": "李四",
+      "leaderPhone": "12232123212",
+      "completion": "编组进行中，正在通知。"
+    }]
+  }
+}

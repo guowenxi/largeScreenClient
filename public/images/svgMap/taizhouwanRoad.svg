@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="933" height="726" viewBox="0 0 933 726">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        font-size: 24px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="8" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="台州新区_拷贝" data-name="台州新区 拷贝">
+      <g id="文字">
+        <text id="三甲街道" class="cls-4" x="293.744" y="335.382">三甲街道</text>
+        <text id="海虹街道" class="cls-4" x="232.744" y="177.382">海虹街道</text>
+        <text id="东部园区" class="cls-4" x="650.744" y="326.382">东部园区</text>
+        <text id="椒江农场" class="cls-4" x="399.744" y="283.382">椒江农场</text>
+      </g>
+    </g>
+  </g>
+</svg>

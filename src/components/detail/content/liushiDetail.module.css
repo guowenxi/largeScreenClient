@@ -1,0 +1,39 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.titleBox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-break: break-all;
+}
+.imgStyle{
+    width: 14%;
+    height: 100%;
+}
+.title{
+    color:rgb(73,180,255);
+    font-size: 2vh;
+}
+.contentBox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 85%;
+}
+.content{
+    color:white;
+    line-height: 1.5em;
+    word-break: break-all;
+}

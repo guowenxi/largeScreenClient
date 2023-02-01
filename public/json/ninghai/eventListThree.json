@@ -1,0 +1,557 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    },
+    {
+      "roadId": "xxxxxx",
+      "road": "xx镇街",
+      "content": [{
+        "": "id",
+        "name": "信访维稳",
+        "parentName": "综治工作平台",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "矛盾纠纷",
+        "num": 20
+      },{
+        "parentName": "综治工作平台",
+        "name": "治安隐患",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "市场监管平台",
+        "name": "金融监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "食药安全",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "工商监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "质量监管",
+        "num": 20
+      },{
+        "parentName": "综合执法平台",
+        "name": "金融监管",
+        "num": 20
+      }]
+    }
+  ]
+}

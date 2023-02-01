@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "茶院乡": {
+      "茶院乡": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "茶院乡": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "茶院乡": ""
+  },
+  "mapRoadImg": {
+    "茶院乡": "./images/svgMap/茶院乡.png"
+  },
+  "mapBgSize": {
+    "茶院乡": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "茶院乡": {
+      "茶院乡": {
+        "left": "61.5%",
+        "top": "40%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

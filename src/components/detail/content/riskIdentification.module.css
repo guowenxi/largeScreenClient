@@ -1,0 +1,36 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+    text-align: center;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 2em);
+    margin-bottom: 0.5em;
+}
+.content td{
+    height: calc(100% - 2em);
+    border: 1px solid #3cfffd;
+    padding: 0.25em 0.5em;
+}
+.title{
+    color: #16cdef;
+    font-weight: bold;
+    background-color: rgba(2,167,240,0.3);
+}
+.title td{
+    border-bottom: 0;
+}
+.explain{
+    font-weight: lighter;
+}
+.level{
+    position: relative;
+    width: 100%;
+    height: 1em;
+}

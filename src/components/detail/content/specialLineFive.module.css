@@ -1,0 +1,13 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.lineBoxOne {
+    position: absolute;
+    left: 0;
+    top: 16.5%;
+    width: 100%;
+    height: 83.5%;
+}

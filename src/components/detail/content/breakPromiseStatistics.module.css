@@ -1,0 +1,72 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 3px;
+    background: url('../images/breakPromiseStatisticsBg.png') center center no-repeat;
+    background-size: 100% 100%;
+    line-height: 1;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100% - 6px);
+    height: 2.5em;
+    margin-left: 3px;
+    font-size: 1.3em;
+    color: #87cdfb;
+    font-weight: 600;
+    background-color: rgba(0, 199, 255, 0.6);
+}
+
+.bodyBox {
+    display: flex;
+    width: calc(100% - 6px);
+    height: calc(100% - 12px - 2.5em);
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.left {
+    flex-shrink: 0;
+    width: 62%;
+    height: 100%;
+    color: #fff;
+}
+
+.leftItemBox {
+    display: flex;
+    align-items: center;
+    height: calc(100% / 7);
+    font-size: 1.2em;
+    line-height: calc(100% / 7);
+}
+
+.leftItem {
+    display: flex;
+    justify-content: center;
+    width: calc(100% / 3);
+}
+
+.background {
+    background-color: rgba(39, 104, 136, 0.2);
+}
+
+.right {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: 100%;
+    border-left: 1px solid #044968;
+    font-size: 2em;
+    color: #87cdfb;
+    font-family: 'LESLIE';
+}
+
+.arrow {
+    margin-left: 0.5em;
+    margin-top: 0.1em;
+}

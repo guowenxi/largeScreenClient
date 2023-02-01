@@ -1,0 +1,18 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "roadId": 1,
+    "roadName": "街道1"
+  },{
+    "roadId": 2,
+    "roadName": "街道2"
+  },{
+    "roadId": 3,
+    "roadName": "街道3"
+  },{
+    "roadId": 4,
+    "roadName": "街道4"
+  }]
+}

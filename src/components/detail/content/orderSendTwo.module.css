@@ -1,0 +1,232 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    left: 0;
+    top: 0;
+}
+.peopleSelectBg{
+    z-index: 999;
+}
+.backgroundBox,.peopleSelectBox{
+    position: absolute;
+    width: 70%;
+    height: 76%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #07e6ed;
+    box-shadow: 0 0 30px 0 rgba(0,198,255,.45);
+    padding: 0.5em;
+    background-color: #041a2a;
+}
+.closeIcon{
+    position: absolute;
+    font-size: 1.67em;
+    right: 1em;
+    top: 1em;
+    cursor: pointer;
+    color: #07e6ed;
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 2.4em;
+    font-size: 1.77em;
+    color: #07e6ed;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.lineBox{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 5% 0 calc(5% - 0.5em);
+    margin-bottom: 1.5em;
+    display: flex;
+}
+.rowPart,.row{
+    position: relative;
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.row{
+    width: 100%;
+}
+.red{
+    position: relative;
+    color: #f00;
+    line-height: 2em;
+}
+.title{
+    position: relative;
+    color: #fff;
+    line-height: 2em;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+.input,.datePicker,.select,.box .textArea,.addFile{
+    position: relative;
+    width: calc(100% - 6.5em);
+    height: 2em;
+    border-color: #07e6ed;
+    font-size: 1em;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+}
+.input{
+    padding-left: 0.5em;
+}
+.box .textArea{
+    height: 8em;
+    resize: none;
+    padding-left: 0.5em;
+}
+.peopleBox,.fileBox{
+    position: relative;
+    width: calc(100% - 6.5em);
+    border: 1px solid #07e6ed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.peopleName,.fileName{
+    position: relative;
+    border: 1px solid #07e6ed;
+    margin: 0.25em;
+    line-height: 1em;
+    padding: 0.25em 0.5em;
+    float: left;
+}
+.selectPeople{
+    position: relative;
+    line-height: 2em;
+    padding-left: 0.5em;
+    color: #bfbfbf;
+}
+.fileBox{
+    cursor: default;
+    border: none;
+    height: 6em;
+}
+.addFile{
+    width: 7.5em;
+    height: 2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #07e6ed;
+    border: 1px solid #07e6ed;
+    float: left;
+}
+.peopleSelectBox{
+    width: 50%;
+    height: 70%;
+    padding: 0 1em;
+}
+.peopleSelectBox .closeIcon{
+    top: 0.5em;
+    right: 0.5em;
+}
+.selectHeadBox{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    font-size: 1.67em;
+    line-height: 2em;
+    text-align: left;
+}
+.selectContent{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 6.34em);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0 2em;
+}
+.treeBox{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+.selectedBox{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    margin-right: 10%;
+}
+.peopleLine,.peopleLineTitle{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.peopleLineTitle{
+    background-color: rgba(255,255,255,0.3);
+}
+.table{
+    width: 100%;
+}
+.tableContent{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 2em);
+}
+.table,.table td{
+    position: relative;
+    border: 1px solid #07e6ed;
+}
+.table td{
+    border-left: none;
+    border-top: none;
+    height: 2em;
+    padding-left: 0.5em;
+}
+.index{
+    width: 35%;
+}
+.name{
+    width: 65%;
+}
+.footBox{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    font-size: 1em;
+    margin: 0 3em;
+    height: 2em;
+    padding: 0 1.5em;
+}
+.fileName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    margin: 0 0.5em;
+}
+.delete{
+    margin-left: 0.5em;
+    color: red;
+    font-size: 1em;
+    cursor: pointer;
+}

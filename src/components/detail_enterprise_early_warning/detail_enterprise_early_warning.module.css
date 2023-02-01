@@ -1,0 +1,129 @@
+.detailEnterpriseEarlyWarningBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; }
+  .detailEnterpriseEarlyWarningBox ul {
+    padding: 0; }
+  .detailEnterpriseEarlyWarningBox .closeBtn {
+    /*position: relative;*/
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 1.5vh;
+    color: #fff;
+    float: right; }
+  .detailEnterpriseEarlyWarningBox .header .detailBox {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    .detailEnterpriseEarlyWarningBox .header .detailBox li {
+      display: inline-block; }
+      .detailEnterpriseEarlyWarningBox .header .detailBox li p:nth-child(1) {
+        color: #0ff; }
+      .detailEnterpriseEarlyWarningBox .header .detailBox li p:nth-child(2) {
+        color: #fff; }
+    .detailEnterpriseEarlyWarningBox .header .detailBox li:nth-child(2) {
+      margin-left: 8%;
+      color: #40A9FF;
+      text-decoration: underline; }
+    .detailEnterpriseEarlyWarningBox .header .detailBox li:nth-child(3) {
+      margin-left: 5%;
+      color: #FF0000;
+      text-decoration: underline; }
+    .detailEnterpriseEarlyWarningBox .header .detailBox li:nth-child(4) {
+      margin-left: 5%;
+      color: #40A9FF;
+      text-decoration: underline; }
+    .detailEnterpriseEarlyWarningBox .header .detailBox .textTitle {
+      margin-bottom: 0.9vh;
+      line-height: 5.1vh;
+      font-size: 3.8vh;
+      font-weight: bold; }
+  .detailEnterpriseEarlyWarningBox .main {
+    font-size: 1.2vh;
+    color: #fff; }
+    .detailEnterpriseEarlyWarningBox .main .mainItem .mainTitle {
+      line-height: 3.5vh;
+      font-size: 1.5vh;
+      font-weight: bold;
+      margin: 0; }
+    .detailEnterpriseEarlyWarningBox .main .mainItem .mainTitle:before {
+      /*content: '|';
+      margin-right: 0.45vh;
+      font-weight: bold;*/ }
+    .detailEnterpriseEarlyWarningBox .main .mainContent {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 2.8vh; }
+      .detailEnterpriseEarlyWarningBox .main .mainContent .contentItem {
+        width: 100%; }
+        .detailEnterpriseEarlyWarningBox .main .mainContent .contentItem p {
+          display: inline-block;
+          margin-bottom: 0; }
+        .detailEnterpriseEarlyWarningBox .main .mainContent .contentItem p:nth-child(1) {
+          width: 20%;
+          text-align: right; }
+        .detailEnterpriseEarlyWarningBox .main .mainContent .contentItem p:nth-child(2) {
+          width: 80%;
+          word-wrap: break-word;
+          vertical-align: top; }
+      .detailEnterpriseEarlyWarningBox .main .mainContent .contentTableItem {
+        width: 100%; }
+        .detailEnterpriseEarlyWarningBox .main .mainContent .contentTableItem ul {
+          list-style: none;
+          text-align: center;
+          border-right: 1px solid #fff; }
+          .detailEnterpriseEarlyWarningBox .main .mainContent .contentTableItem ul li {
+            float: left;
+            padding: 0 1%;
+            border-top: 1px solid #fff;
+            border-left: 1px solid #fff;
+            word-wrap: break-word; }
+        .detailEnterpriseEarlyWarningBox .main .mainContent .contentTableItem ul:nth-last-child(1) {
+          border-bottom: 1px solid #fff; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth li:nth-child(1) {
+      width: 15%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth li:nth-child(2) {
+      width: 15%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth li:nth-child(3) {
+      width: 15%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth li:nth-child(4) {
+      width: 20%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth li:nth-child(5) {
+      width: 35%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth2 li:nth-child(1) {
+      width: 22%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth2 li:nth-child(2) {
+      width: 22%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth2 li:nth-child(3) {
+      width: 22%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth2 li:nth-child(4) {
+      width: 34%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth3 li:nth-child(1) {
+      width: 30%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth3 li:nth-child(2) {
+      width: 40%; }
+    .detailEnterpriseEarlyWarningBox .main .tableWidth3 li:nth-child(3) {
+      width: 30%; }
+    .detailEnterpriseEarlyWarningBox .main .tableHeight {
+      width: 100%; }
+      .detailEnterpriseEarlyWarningBox .main .tableHeight ul {
+        height: 3.6vh; }
+        .detailEnterpriseEarlyWarningBox .main .tableHeight ul li {
+          height: 3.6vh;
+          line-height: 110%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          word-break: break-all; }
+    .detailEnterpriseEarlyWarningBox .main .tableHeight2 ul {
+      height: 4.6vh; }
+      .detailEnterpriseEarlyWarningBox .main .tableHeight2 ul li {
+        height: 4.6vh;
+        line-height: 1.85vh; }
+
+/*# sourceMappingURL=detail_area_early_warning.module.css.map */

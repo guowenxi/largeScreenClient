@@ -1,0 +1,122 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.backgroundBox {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #0f4c76;
+    box-shadow: 0 0 30px 0 rgba(0, 198, 255, .45);
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.contentBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url("../images/boxBgFive.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.closeIcon {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    right: 2em;
+    top: 2em;
+    cursor: pointer;
+}
+
+.tableBox {
+    width: 70%;
+    border: 1px solid #2c728b;
+}
+
+.tableHeader {
+    height: 2.55em;
+    padding: 0.5em 0;
+    text-align: center;
+    background-color: #0853d9;
+    letter-spacing: 12px;
+}
+
+.tableItem {
+    width: 50%;
+    height: 2.55em;
+    text-align: center;
+}
+
+.titleItem {
+    background: #12556c;
+    letter-spacing: 9.6px;
+}
+
+.inner {
+    width: 100%;
+}
+
+.innerItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numBox {
+    margin-right: 0.2em;
+    font-size: 1.3em;
+    color: #00eaff;
+}
+
+.themeTwo .backgroundBox{
+    border: 1px solid #2c728b;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+    background: #041a2a;
+}
+.themeTwo .headBox{
+    position: absolute;
+    width: 100%;
+    height: 1.5em;
+    left: 0;
+    top: 0;
+    background: #12556c;
+    border-radius: 0;
+}
+.themeTwo .contentBox{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 1.5em);
+    left: 0;
+    bottom: 0;
+    border-radius: 0;
+    background: #041a2a;
+}
+.themeTwo .contentBox table{
+    font-size: 0.8em;
+}
+.themeTwo .tableHeader{
+    background: #12556c;
+}
+.themeTwo .closeIcon{
+    width: 1em;
+    height: 1em;
+    right: 0.25em;
+    top: 0.25em;
+}

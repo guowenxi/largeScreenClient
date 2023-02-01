@@ -1,0 +1,27 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "name": "今日上报/总结",
+            "num": 233,
+            "total": 233
+        },
+        {
+            "name": "本周上报/总结",
+            "num": 233,
+            "total": 233
+        },
+        {
+            "name": "本月上报/总结",
+            "num": 233,
+            "total": 233
+        },
+        {
+            "name": "今年上报/总结",
+            "num": 233,
+            "total": 233
+        }
+    ]
+}

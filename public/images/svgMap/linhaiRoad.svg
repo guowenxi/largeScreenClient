@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="421" viewBox="0 0 880 421">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="临海_拷贝" data-name="临海 拷贝">
+      <g id="文字">
+        <text id="白水洋镇" class="cls-3" x="87.672" y="137.46">白水洋镇</text>
+        <text id="括苍镇" class="cls-3" x="132.672" y="271.46">括苍镇</text>
+        <text id="尤溪镇" class="cls-3" x="217.672" y="354.46">尤溪镇</text>
+        <text id="江南街道" class="cls-3" x="246.673" y="292.46">江南街道</text>
+        <text id="古城街道" class="cls-3" x="258.672" y="228.46">古城街道</text>
+        <text id="永丰镇" class="cls-3" x="210.672" y="164.46">永丰镇</text>
+        <text id="河头镇" class="cls-3" x="269.672" y="79.46">河头镇</text>
+        <text id="大田街道" class="cls-3" x="322.672" y="149.46">大田街道</text>
+        <text id="大洋街道" class="cls-3" x="320.672" y="202.46">大洋街道</text>
+        <text id="汇溪镇" class="cls-3" x="352.672" y="101.46">汇溪镇</text>
+        <text id="邵家渡街道" class="cls-3" x="414.673" y="234.46">邵家渡街道</text>
+        <text id="汛桥镇" class="cls-3" x="329.673" y="307.46">汛桥镇</text>
+        <text id="沿江镇" class="cls-3" x="413.672" y="343.46">沿江镇</text>
+        <text id="涌泉镇" class="cls-3" x="455.673" y="303.46">涌泉镇</text>
+        <text id="东塍镇" class="cls-3" x="459.672" y="158.46">东塍镇</text>
+        <text id="小芝镇" class="cls-3" x="573.672" y="217.46">小芝镇</text>
+        <text id="杜桥镇" class="cls-3" x="622.672" y="302.46">杜桥镇</text>
+        <text id="桃渚镇" class="cls-3" x="715.672" y="263.46">桃渚镇</text>
+        <text id="上盘镇" class="cls-3" x="795.672" y="329.46">上盘镇</text>
+      </g>
+    </g>
+  </g>
+</svg>

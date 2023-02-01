@@ -1,0 +1,83 @@
+.body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.upIcon{
+    transform: rotateZ(180deg);
+}
+.selectListBox{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.selectItem{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    cursor: pointer;
+}
+.selected{
+    background-color: rgb(205,209,216) !important;
+    color: #0099ff !important;
+}
+.bodyName{
+    word-break: keep-all;
+    width: 100%;
+    position: relative;
+    height: 1em;
+    line-height: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.themeOne .body{
+    background-color: rgba(255,255,255,0.1);
+    padding: 0 0.5em;
+}
+.themeOne .bodyName{
+    color: rgba(255,255,255,0.5);
+}
+.themeOne .icon{
+    color: rgba(255,255,255,0.5);
+    transition: transform 150ms ease-in;
+    font-size: 1em;
+}
+.themeOne .selectItem{
+    padding: 0 0.5em;
+    background-color: rgb(33,47,80);
+    color: rgba(255,255,255,0.5);
+}
+.themeOne .selectItem:hover{
+    background-color: rgb(131,140,158);
+}
+.themeTwo .body{
+    padding: 0 0.5em;
+    border: 1px solid rgb(26,113,128);
+}
+.themeTwo .bodyName{
+    color: rgba(255,255,255,0.5);
+}
+.themeTwo .icon{
+    color: rgba(255,255,255,0.5);
+    transition: transform 150ms ease-in;
+    font-size: 1em;
+}
+.themeTwo .selectItem{
+    padding: 0 0.5em;
+    background-color: rgb(33,47,80);
+    color: rgba(255,255,255,0.5);
+}
+.themeTwo .selectItem:hover{
+    background-color: rgb(131,140,158);
+}

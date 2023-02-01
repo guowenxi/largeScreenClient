@@ -1,0 +1,275 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.left{
+    position: absolute;
+    width: 78%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.head{
+    position: relative;
+    width: 28%;
+    height: 85%;
+}
+.select{
+    position: relative;
+    width: 8em;
+    height: 2.5em;
+    margin-right: 1em;
+}
+.headLeft{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.selectedFloor{
+    position: relative;
+    font-size: 3em;
+    color: rgb(58,251,237);
+    line-height: 100%;
+    font-weight: bold;
+    margin-right: 0.4em;
+}
+.partName{
+    position: relative;
+    font-size: 1.8em;
+    color: rgb(58,251,237);
+    line-height: 100%;
+    margin-right: 1em;
+}
+.stateList{
+    display: flex;
+    justify-content: space-between;
+    line-height: 100%;
+    width: 70%;
+    flex-direction: column;
+    height: 85%;
+}
+.statusItem{
+    position: relative;
+    height: 100%;
+    width: 8em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+    /* margin-right: 2em; */
+}
+.statusItem .itemImg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.statusItem .itemBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.statusItem .name{
+    color: rgba(255,255,255,0.7);
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+}
+.statusItem .count{
+    color: rgb(58,251,237);
+    font-size: 1.5em;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    line-height: 100%;
+}
+.bottom{
+    position: absolute;
+    width: 100%;
+    height: 4.5em;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+.bottomLeft{
+    position: relative;
+    width: 8%;
+    height: 100%;
+}
+.bottomRight{
+    position: relative;
+    width: 92%;
+    height: 100%;
+}
+.bottomLeftBox{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    color:rgb(58,251,237) ;
+}
+.floorList{
+    position: relative;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+}
+.floorItem{
+    position: relative;
+    line-height: 1em;
+    font-size: 1em;
+    color: rgb(34,134,143);
+    cursor: pointer;
+    width: 1em;
+    text-align: center;
+}
+.floorSelected{
+    cursor: default;
+    font-size: 1.5em;
+    color: rgb(58,251,237);
+    text-decoration: underline;
+}
+.barBox{
+    position: relative;
+    width: 100%;
+    height: 1em;
+    background-color: rgba(37,133,229,0.2);
+}
+.bar{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(37,133,229);
+}
+.content{
+    position: absolute;
+    width: 70%;
+    height: 85%;
+    left: 28%;
+    top: 0em;
+}
+.floorImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.room{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selectRight{
+    position: absolute;
+    width: 10%;
+    height: 2em;
+    right: 10%;
+    top: 0;
+}
+.selectRightTwo{
+    position: absolute;
+    width: 10%;
+    height: 2em;
+    right: 0;
+    top: 0;
+}
+.goodsBox{
+    position: absolute;
+    width: 20%;
+    height: calc(100% - 2.5em);
+    right: 0;
+    bottom: 0;
+}
+.goodsItem{
+    position: relative;
+    width: 100%;
+    height: 9em;
+    margin-bottom: 0.5em;
+    padding: 0 1em;
+}
+.goodsItemBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.goodsHead{
+    position: relative;
+    width: 100%;
+    height: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.goodsHead .icon{
+    position: relative;
+    width: 6%;
+}
+.goodsHead .typeName{
+    position: relative;
+    width: 55%;
+    color: rgb(58,251,237);
+    font-size: 1em;
+    text-align: left;
+}
+.goodsHead .No{
+    position: relative;
+    width: 25%;
+    color: rgba(255,255,255,0.8);
+    font-size: 0.7em;
+    text-align: left;
+}
+.goodsHead .rightIcon{
+    position: relative;
+    font-size: 1em;
+    color: rgba(255,255,255,0.8);
+}
+.goodsContent{
+    position: relative;
+    width: 100%;
+    height: 71%;
+    font-size: 0.8em;
+    color: rgba(255,255,255,0.6);
+    padding: 0.5em 0;
+}
+.goodsContent .title{
+    position: relative;
+    height: 25%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+.goodsContent .value{
+    position: relative;
+    height: 25%;
+    width: 66%;
+    display: flex;
+    align-items: center;
+}

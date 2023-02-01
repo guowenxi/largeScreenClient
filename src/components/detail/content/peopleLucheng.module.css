@@ -1,0 +1,89 @@
+.detailBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+    padding-left: 11em;
+}
+.portrait{
+    position: absolute;
+    width: 9em;
+    height: 100%;
+    left: 0;
+}
+.head{
+    position: absolute;
+    left: 6em;
+    height: 1.5em;
+    color: #27bfd1;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headIcon{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*flex-flow: column;*/
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.row{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #e1e3e7;
+}
+.rowOne{
+    width: 40%;
+}
+.rowTwo{
+    width: 60%;
+}
+.title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleOne{
+    width: 4em;
+}
+.titleTwo{
+    width: 6em;
+}
+.contentOne{
+    width: calc(100% - 5em);
+    color: #acbcd5;
+}
+.contentTwo{
+    width: calc(100% - 7em);
+    color: #acbcd5;
+}
+.themeTwo .portrait{
+    height: 12em;
+}
+.themeTwo .row{
+    width: 100% !important;
+}
+.themeTwo .title{
+    width: 6em !important;
+}
+.themeTwo .contentOne,.themeTwo .contentTwo{
+    width: calc(100% - 7em) !important;
+}

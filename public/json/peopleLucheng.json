@@ -1,0 +1,12 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "id":"20","x":120.6653,"y":28.0154,"type":1,"user": "张三","telphone":"15636598654","userType":"xx类型","grid":"xxx片区"
+  },{
+    "id":"21","x":120.6354,"y":28.0216,"type":2,"user": "李四","telphone":"15636598654","userType":"xx类型","grid":"xxx片区"
+  },{
+    "id":"22","x":120.6121,"y":28.0206,"type":3,"user": "王五","telphone":"15636598654","userType":"xx类型","grid":"xxx片区"
+  }]
+}

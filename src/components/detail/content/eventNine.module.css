@@ -1,0 +1,100 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url("../images/boxBgSeven.png") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+}
+.contentBox{
+    position: relative;
+    width: calc(50% - 1em);
+    height: 100%;
+}
+.head{
+    position: relative;
+    width: 21em;
+    height: 1.75em;
+    background: url("../images/orderSendThreeHead.png") no-repeat;
+    background-size: 100% 100%;
+    padding-left: 2.5em;
+    line-height: 1.75em;
+    font-weight: bold;
+    font-size: 1.125em;
+}
+.detailBox{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 3em);
+    left: 0;
+    bottom: 0;
+    padding-left: 1em;
+}
+.row{
+    position: relative;
+    width: 100%;
+    min-height: 2.25em;
+}
+.title{
+    color: #72a9a7;
+    float: left;
+}
+.centerLine{
+    position: relative;
+    width: 1px;
+    height: 100%;
+    background: #215c5c;
+}
+.timeBox{
+    position: absolute;
+    height: 1.75em;
+    font-size: 1.125em;
+    padding: 0 0.5em;
+    border-radius: 6px;
+    background: #ef4a4a;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.processBox,.stepBox{
+    position: relative;
+    width: 100%;
+}
+.point{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    top: 0.25em;
+    background: #1affe7;
+}
+.time{
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding-left: 1.5em;
+    color: #72a9a7;
+}
+.stepContent{
+    position: relative;
+    width: 100%;
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+}
+.processLine{
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 0.5em);
+    top: 0.5em;
+    left: 0.5em;
+    background: #1affe7;
+}

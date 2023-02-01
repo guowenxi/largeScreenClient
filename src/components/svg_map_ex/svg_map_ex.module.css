@@ -1,0 +1,236 @@
+.box, .boxSvg, .numBox, .clusterBox, .allBox, .mapBox, .roadImg,.maskImg,.mapContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.roadImg{
+    pointer-events: none;
+}
+.maskImg{
+    pointer-events: none;
+    /*opacity: 0.5;*/
+}
+.allBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapBox {
+    position: relative;
+}
+
+.svgPart {
+    fill-opacity: 0;
+    stroke: none;
+    cursor: pointer;
+}
+
+.fillPart {
+    fill-opacity: 1;
+    stroke: #b4d1f9;
+    stroke-linejoin: round;
+    stroke-opacity: 0.6;
+    stroke-width: 2px;
+    fill-rule: evenodd;
+}
+.clipPath{
+    fill: none;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+    stroke: none;
+}
+.hideLine .fillPart{
+    stroke: none;
+}
+
+.numBox, .clusterBox {
+    pointer-events: none;
+}
+
+/* 给svg图片添加的渐隐渐显的动画 */
+.boxSvg {
+    animation: fadeIn 1.8s infinite alternate;
+}
+
+/* 渐隐渐显的动画设置 */
+@keyframes fadeIn {
+    from {
+        opacity: .2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.circlePoint{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.detailOneBox {
+    position: absolute;
+    transform: translate(0%, -50%);
+    background: rgb(26, 84, 160);
+    border: 1px solid rgb(38,134,155);
+    border-radius: 0.5em;
+    padding: 1em;
+    color: white;
+    pointer-events: none;
+    width: 13em;
+    height: 12em;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    flex-flow: column;
+    font-size: 1em;
+}
+.red{
+    color: rgb(255, 18, 0);
+    font-weight: bold;
+}
+.orange{
+    color: rgb(245, 166, 35);
+    font-weight: bold;
+}
+.yellow{
+    color: rgb(248, 231, 28);
+    font-weight: bold;
+}
+.green{
+    color: rgb(1, 234, 171);
+    font-weight: bold;
+}
+
+.additionBgWZ2 img{
+    position: absolute;
+    right: -57%;
+    bottom: 9.3%;
+    width: 242%;
+    opacity: 0;
+}
+.detailTwoBox{
+    width: auto;
+    height: 5em;
+}
+.detailThreeBox{
+    width: auto;
+    height: auto;
+    background: rgb(9,15,15);
+    line-height: 2em;
+}
+.detailThreeBox .red{
+    font-size: 1.2em;
+    margin: 0 2px;
+}
+.detailFiveBox{
+    width: 15.75em;
+    height: 14.55em;
+    background: url("./images/detailBgFive.png") no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 0;
+}
+.detailSixBox{
+    width: 10.10em;
+    height:14.70em;
+    background: url(./images/hangzhou.png) no-repeat;
+    font-size: 1.67vh;
+    padding: 1em;
+    color: #ffffff;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 0;
+    position: relative;
+}
+.roadName{
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+.dataBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 1.6em);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.dataItem{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-indent: 1em;
+    font-size: 0.7em;
+    color: #00eaff;
+    word-break: keep-all;
+}
+.dataItem:first-child{
+    color: #ffce38;
+}
+.shutBox{
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    width: 0.75em;
+    height: 0.75em;
+    float: right;
+    margin-right: -0.75em;
+    margin-top: -0.75em;
+    cursor:pointer;
+    display: none;
+}
+.head{
+    font-size: 1.13em;
+    color: #24dcf7;  
+
+}
+.rowq{
+    position: relative;
+    width: 100%;
+    margin-top: -0.5em;
+    font-size: 1.67vh;
+    line-height: 2em;
+    text-align: center;
+}
+.row{
+    position: relative;
+    width:95%;
+    /* margin-bottom: 1em; */
+    margin-left: 0.5em;
+    line-height: 2.8em;
+    font-size: 1.48vh;
+}
+.row:nth-last-child(2){
+    margin-bottom: 0;
+}
+.headRow{
+    align-items: center;
+    justify-content: space-between;
+}
+.homeName{
+    width: 12em;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.detailButton{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0.2em;
+    line-height: 1.5em;
+    cursor: pointer;
+    font-size: 1.67vh;
+}

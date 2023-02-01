@@ -1,0 +1,37 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "total":5114,
+    "list":[
+      {
+        "id": 1,
+        "title": "踩踏事件",
+        "time": "2021-7-1 15:24:32",
+        "roadName": "安阳街道",
+        "typeName": "紧急事件",
+        "type": 1,
+        "content": "江南夜总会发送踩踏事件"
+      },
+      {
+        "id": 2,
+        "title": "陈某异动",
+        "time": "2021-7-1 15:24:32",
+        "roadName": "安阳街道",
+        "typeName": "重点人异动",
+        "type": 2,
+        "content": "陈某从瑞安购票去京"
+      },
+      {
+        "id": 3,
+        "title": "xxx指令",
+        "time": "2021-7-1 15:24:32",
+        "roadName": "安阳街道",
+        "typeName": "下达指令",
+        "type": 3,
+        "content": "请尽快行动"
+      }
+    ]
+  }
+}

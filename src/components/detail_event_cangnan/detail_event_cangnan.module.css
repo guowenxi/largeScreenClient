@@ -1,0 +1,249 @@
+.detailEventBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.detailEventBox p {
+    margin-bottom: 0;
+}
+
+.detailEventBox .closeBtn {
+    /*position: relative;*/
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 1.5vh;
+    color: #fff;
+    float: right;
+}
+
+.detailEventBox .header .detailBox {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.detailEventBox .header .detailBox li {
+    display: inline-block;
+}
+
+.detailEventBox .header .detailBox li p:nth-child(1) {
+    color: #0ff;
+}
+
+.detailEventBox .header .detailBox li p:nth-child(2) {
+    color: #fff;
+}
+
+.detailEventBox .header .detailBox li span {
+    font-size: 1.4vh;
+    color: #f4a316;
+}
+
+.detailEventBox .header .detailBox li:nth-child(2) {
+    margin-left: 8%;
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.detailEventBox .header .detailBox .textTitle {
+    margin-bottom: 0.9vh;
+    line-height: 5.1vh;
+    font-size: 3.8vh;
+    font-weight: bold;
+}
+
+.detailEventBox .main {
+    font-size: 1.2vh;
+    color: #fff;
+}
+
+.detailEventBox .main .mainTitleHeader {
+    line-height: 4vh;
+    font-size: 1.6vh;
+    font-weight: bold;
+}
+
+.detailEventBox .main .mainItem .mainTitle {
+    line-height: 3.5vh;
+    font-weight: bold;
+}
+
+.detailEventBox .main .mainTitle2 {
+    line-height: 3.5vh;
+    font-weight: bold;
+}
+
+.detailEventBox .main .mainTitle2:before {
+    content: '|';
+    margin-right: 0.45vh;
+    font-weight: bold;
+}
+
+.detailEventBox .main .mainContent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2.8vh;
+}
+
+.detailEventBox .main .mainContent .contentItem {
+    width: 100%;
+}
+
+.detailEventBox .main .mainContent .contentItem p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.detailEventBox .main .mainContent .contentItem p .clickItem {
+    display: inline-block;
+    margin-right: 2vh;
+    color: #4e9ef7;
+    cursor: pointer;
+}
+
+.detailEventBox .main .mainContent .contentItem p:nth-child(1) {
+    width: 28%;
+    text-align: right;
+}
+
+.detailEventBox .main .mainContent .contentItem p:nth-child(2) {
+    width: 72%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+.detailEventBox .main .mainContent .contentTableItem {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.detailEventBox .main .mainContent .contentTableItem ul {
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.detailEventBox .main .mainContent .contentTableItem ul li {
+    float: left;
+    padding: 0 1%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    word-wrap: break-word;
+}
+
+.detailEventBox .main .mainContent .contentTableItem ul:nth-last-child(1) {
+    border-bottom: 1px solid #fff;
+}
+
+.detailEventBox .main .mainContent .contentTableItem .tableHeader {
+    margin: 0;
+    padding: 0;
+}
+
+.detailEventBox .main .mainContent .contentTableItem .tableContent {
+    margin: 0;
+    padding: 0;
+}
+
+.detailEventBox .main .mainContent .contentItemAll {
+    display: inline-block;
+    width: 100%;
+}
+
+.detailEventBox .main .mainContent .contentItemAll p {
+    width: 100% !important;
+    text-align: left !important;
+    margin-bottom: 0;
+}
+
+.detailEventBox .main .mainContent .contentItemHalf {
+    display: inline-block;
+    width: 50%;
+}
+
+.detailEventBox .main .mainContent .contentItemHalf p:nth-child(1) {
+    width: 40%;
+}
+
+.detailEventBox .main .mainContent .contentItemHalf p:nth-child(2) {
+    width: 60%;
+}
+
+.detailEventBox .main .tableWidth li:nth-child(1) {
+    width: 18%;
+}
+
+.detailEventBox .main .tableWidth li:nth-child(2) {
+    width: 22%;
+}
+
+.detailEventBox .main .tableWidth li:nth-child(3) {
+    width: 30%;
+}
+
+.detailEventBox .main .tableWidth li:nth-child(4) {
+    width: 30%;
+}
+
+.detailEventBox .main .tableWidth2 li:nth-child(1) {
+    width: 11%;
+}
+
+.detailEventBox .main .tableWidth2 li:nth-child(2) {
+    width: 12%;
+}
+
+.detailEventBox .main .tableWidth2 li:nth-child(3) {
+    width: 12%;
+}
+
+.detailEventBox .main .tableWidth2 li:nth-child(4) {
+    width: 18%;
+}
+
+.detailEventBox .main .tableWidth2 li:nth-child(5) {
+    width: 17%;
+}
+
+.detailEventBox .main .tableWidth2 li:nth-child(6) {
+    width: 15%;
+}
+
+.detailEventBox .main .tableWidth2 li:nth-child(7) {
+    width: 15%;
+}
+
+.detailEventBox .main .tableHeight {
+    width: 100%;
+}
+
+.detailEventBox .main .tableHeight ul {
+    height: 3.6vh;
+}
+
+.detailEventBox .main .tableHeight ul li {
+    height: 3.6vh;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.detailEventBox .main .tableHeight2 ul {
+    height: 4.6vh;
+}
+
+.detailEventBox .main .tableHeight2 ul li {
+    height: 4.6vh;
+    line-height: 1.85vh;
+}
+
+/*# sourceMappingURL=detail_event.module.css.map */

@@ -1,0 +1,126 @@
+.managementBoxTitle {
+    display: flex;
+    justify-content: flex-end;
+    right: 2%;
+    position: absolute;
+}
+
+.managementBoxTitle label {
+    display: flex;
+    /*width: 5vw;*/
+    align-items: center;
+    cursor: pointer;
+}
+
+.managementBoxTitle label .specialSpan {
+    display: block;
+    background-color: #ffffff;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.5em;
+}
+
+.managementBoxSelect {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    width:97%;
+    background-color: rgb(1, 16, 49);
+}
+
+.managementBoxSelect ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.managementBoxSelect .divSelect {
+    padding: 0 2%;
+    color: #0077c1;
+    width: 100%;
+    line-height: 4.9vh;
+    border-radius: 0.5vh;
+    border: 2px solid #0077c1;
+}
+.managementBoxSelect .noEdit{
+    border: none;
+}
+
+.managementBoxSelect .divSelect .arrowDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    line-height: 4.9vh;
+    cursor: pointer;
+}
+.managementBoxSelect .noEdit .arrowDiv{
+    cursor: default;
+}
+.managementBoxSelect .noEdit .arrowDiv .arrowDown{
+    opacity: 0;
+}
+.managementBoxContent {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    margin: 0 auto;
+    width: 96%;
+    height: 85%;
+}
+
+.managementBoxContent img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.managementBoxContent .textPlan {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.managementBoxContent .textPlan li {
+    flex: 1 1;
+    margin: 0 0.5%;
+    padding: 3% 2%;
+    text-align: center;
+    background-color: #011e3d;
+}
+
+.managementBoxContent .textPlan li .indexTitle{
+    display: inline-block;
+    margin: 0 auto;
+    width: 9.5vh;
+    height: 9.5vh;
+    line-height: 9.5vh;
+    font-size: 6vh;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.managementBoxContent .textPlan li .textContent{
+    margin-top: 2%;
+    font-size: 1.6vh;
+    color: #00a4ff;
+    text-align: left;
+}
+.hidden{
+    z-index: -1;
+    opacity: 0;
+}

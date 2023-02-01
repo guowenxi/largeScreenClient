@@ -1,0 +1,11 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[
+    {
+      "name": "综合管理",
+      "id": "screen010102"
+    }
+  ]
+}

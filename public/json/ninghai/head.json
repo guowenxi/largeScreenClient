@@ -1,0 +1,36 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": null,
+  "data": {
+    "dataUnit": 1,
+    "dataUnitProblem": 2,
+    "commonDataPlatform": 3,
+    "commonDataPlatformProblem": 4,
+    "totalData": 5,
+    "todayData": 6,
+    "custom": 7,
+    "findSide": 8,
+    "overallPlanningSide": 10,
+    "specialtySide": 9,
+    "disposeSide": 90,
+    "evTypeA": [
+      "违规信访",
+      "重点人员",
+      "国家安全"
+    ],
+    "evTypeB": [
+      "邻里纠纷",
+      "房屋纠纷",
+      "水事纠纷"
+    ],
+    "yearWarning": 12,
+    "mothWarning": 11,
+    "onceNotReceive": 13,
+    "twiceNotReceive": 16,
+    "thriceNotReceive": 14,
+    "processing": 18,
+    "feedback": 17
+  },
+  "timestamp": 1661907919408
+}

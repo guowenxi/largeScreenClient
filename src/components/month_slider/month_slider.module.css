@@ -1,0 +1,34 @@
+.container {
+    width: 88%;
+    position: absolute;
+    height: 100%;
+    background-color: #0b3057;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    font-size: 1.5em;
+    color: #fff;
+    background: #054a78;
+    cursor: pointer;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    color: #fff;
+    background-color: #054a78;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="877" height="727" viewBox="0 0 877 727">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 19.91px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="仙居县_拷贝" data-name="仙居县 拷贝">
+      <g xmlns="http://www.w3.org/2000/svg" id="组_2" data-name="组 2">
+        <text id="安岭乡" class="cls-3" transform="translate(55.274 611.514) scale(0.703 0.703)">安岭乡</text>
+        <text id="溪港乡" class="cls-3" transform="translate(131.897 617.842) scale(0.703 0.703)">溪港乡</text>
+        <text id="湫山乡" class="cls-3" transform="translate(136.818 451.892) scale(0.703 0.703)">湫山乡</text>
+        <text id="横溪镇" class="cls-3" transform="translate(217.273 394.231) scale(0.703 0.703)">横溪镇</text>
+        <text id="埠头镇" class="cls-3" transform="translate(310.937 320.478) scale(0.703 0.703)">埠头镇</text>
+        <text id="皤滩乡" class="cls-3" transform="translate(313.966 426.577) scale(0.703 0.703)">皤滩乡</text>
+        <text id="淡竹乡" class="cls-3" transform="translate(382.857 495.489) scale(0.703 0.703)">淡竹乡</text>
+        <text id="白塔镇" class="cls-3" transform="translate(408.164 352.04) scale(0.703 0.703)">白塔镇</text>
+        <text id="田市镇" class="cls-3" transform="translate(500.678 385.089) scale(0.703 0.703)">田市镇</text>
+        <text id="步路乡" class="cls-3" transform="translate(549.461 332.351) scale(0.703 0.703)">步路乡</text>
+        <text id="上张乡" class="cls-3" transform="translate(570.925 467.361) scale(0.703 0.703)">上张乡</text>
+        <text id="朱溪镇" class="cls-3" transform="translate(670.628 405.555) scale(0.703 0.703)">朱溪镇</text>
+        <text id="双庙乡" class="cls-3" transform="translate(763.865 318.99) scale(0.703 0.703)">双庙乡</text>
+        <text id="大战乡" class="cls-3" transform="translate(652.093 281.018) scale(0.703 0.703)">大战乡</text>
+        <text id="下各镇" class="cls-3" transform="translate(730.124 225.467) scale(0.703 0.703)">下各镇</text>
+        <text id="南峰街道" class="cls-3" transform="translate(574.064 238.124) scale(0.703 0.703)">南峰街道</text>
+        
+        <text id="官路镇" class="cls-3" transform="translate(421.52 212.107) scale(0.703 0.703)">官路镇</text>
+        <text id="安洲街道" class="cls-3" transform="translate(499.55 172.025) scale(0.703 0.703)">安洲街道</text>
+        <text id="广度乡" class="cls-3" transform="translate(578.985 74.283) scale(0.703 0.703)">广度乡</text>
+        <text id="福应街道" class="cls-3" transform="translate(629.598 147.414) scale(0.703 0.703)">福应街道</text>
+      </g>
+    </g>
+  </g>
+</svg>

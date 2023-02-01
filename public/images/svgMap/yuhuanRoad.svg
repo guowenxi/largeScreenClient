@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="770" height="557"
+    viewBox="0 0 770 557">
+    <defs>
+        <style>
+            .cls-1 {
+                filter: url(#filter);
+            }
+
+            .cls-2 {
+                fill: #002762;
+                stroke: #b4d1f9;
+                stroke-width: 2px;
+                fill-rule: evenodd;
+            }
+
+            .cls-3 {
+                font-size: 25.671px;
+                fill: #fff;
+                font-family: "Microsoft YaHei";
+            }
+        </style>
+        <filter id="filter" filterUnits="userSpaceOnUse">
+            <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha" />
+            <feComposite result="composite" />
+            <feComposite result="composite-2" />
+            <feComposite result="composite-3" />
+            <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76" />
+            <feComposite result="composite-4" operator="in" in2="composite-3" />
+            <feBlend result="blend" in2="SourceGraphic" />
+            <feBlend result="blend-2" in="SourceGraphic" />
+        </filter>
+    </defs>
+    <g id="画板_1" data-name="画板 1">
+        <g id="玉环市_拷贝" data-name="玉环市 拷贝">
+            <g xmlns="http://www.w3.org/2000/svg" id="文字">
+                <text id="大麦屿街道" class="cls-3" transform="translate(100.171 454.806) scale(0.545 0.545)">大麦屿街道</text>
+                <text id="玉城街道" class="cls-3" transform="translate(150.551 349.553) scale(0.545 0.545)">玉城街道</text>
+                <text id="玉环经济开发区" class="cls-3" transform="translate(180.37 200.385) scale(0.545 0.545)">玉环经济开发区</text>
+                <text id="干江镇" class="cls-3" transform="translate(430.72 298.834) scale(0.545 0.545)">干江镇</text>
+                <text id="龙溪镇" class="cls-3" transform="translate(370.777 243.754) scale(0.545 0.545)">龙溪镇</text>
+                <text id="沙门镇" class="cls-3" transform="translate(503.74 166.858) scale(0.545 0.545)">沙门镇</text>
+                <text id="楚门镇" class="cls-3" transform="translate(336.446 181.038) scale(0.545 0.545)">楚门镇</text>
+                <text id="清岗镇" class="cls-3" transform="translate(316.93 120.329) scale(0.545 0.545)">清港镇</text>
+                <text id="海山乡" class="cls-3" transform="translate(104.305 159.223) scale(0.545 0.545)">海山乡</text>
+                <text id="芦浦镇" class="cls-3" transform="translate(205.117 242.663) scale(0.545 0.545)">芦浦镇</text>
+                <text id="坎门街道" class="cls-3" transform="translate(222.555 450.256) scale(0.545 0.545)">坎门街道</text>
+                <text id="鸡山乡" class="cls-3" transform="translate(500.48 422.987) scale(0.545 0.545)">鸡山乡</text>
+            </g>
+        </g>
+    </g>
+</svg>

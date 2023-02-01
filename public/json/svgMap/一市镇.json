@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "一市镇": {
+      "一市镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "一市镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "一市镇": ""
+  },
+  "mapRoadImg": {
+    "一市镇": "./images/svgMap/一市镇.png"
+  },
+  "mapBgSize": {
+    "一市镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "一市镇": {
+      "一市镇": {
+        "left": "63%",
+        "top": "47%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

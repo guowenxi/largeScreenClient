@@ -1,0 +1,19 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "name": "信用评分",
+            "content": 985
+        },
+        {
+            "name": "信用等级",
+            "content": "优"
+        },
+        {
+            "name": "信用状态",
+            "content": "正常"
+        }
+    ]
+}

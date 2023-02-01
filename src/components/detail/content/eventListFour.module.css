@@ -1,0 +1,59 @@
+.box,.noData{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.box{
+    width: calc(100% + 1em);
+}
+.contentBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 3em);
+    margin-bottom: 0.5em;
+}
+.itemBox{
+    position: relative;
+    width: 100%;
+    height: 5em;
+    padding-left: 9.5em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.itemBox:last-child{
+    margin-bottom: 0;
+}
+.img{
+    position: absolute;
+    height: 100%;
+    width: 8.89em;
+    left: 0;
+    top: 0;
+}
+.title{
+    position: relative;
+    width: calc(100% - 2em);
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+.time{
+    position: relative;
+    width: 100%;
+    color: #799edb;
+    font-weight: bold;
+    text-align: left;
+}
+.tag{
+    position: absolute;
+    right: 2em;
+    bottom: 0;
+    border: 1px solid #1f99c7;
+    padding: 0.25em 1.5em;
+    line-height: 1em;
+    background: rgba(29,157,206,0.1);
+}

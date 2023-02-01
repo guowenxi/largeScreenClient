@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "大佳何街道": {
+      "大佳何街道": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "大佳何街道": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "大佳何街道": ""
+  },
+  "mapRoadImg": {
+    "大佳何街道": "./images/svgMap/大佳何街道.png"
+  },
+  "mapBgSize": {
+    "大佳何街道": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "大佳何街道": {
+      "大佳何街道": {
+        "left": "64.5%",
+        "top": "48%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

@@ -1,0 +1,44 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /*padding: 0.5em;*/
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    top: 0;
+    left: 0;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*height: calc(100% - 2.5em);*/
+}
+.button{
+    position: relative;
+    margin-left: 0.8em;
+    width: 3em;
+    height: 2em;
+    cursor: pointer;
+}
+.select {
+    cursor: default;
+}
+.video{
+    position: relative;
+    float: left;
+}
+.blank{
+    position: relative;
+    float: left;
+    background-color: #000;
+}

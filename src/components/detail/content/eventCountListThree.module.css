@@ -1,0 +1,27 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+.table{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.table td{
+    border: 1px solid #baf0ff;
+    padding: 1em 0;
+}
+.head{
+    background: rgb(23,78,128);
+}
+.dataRow{
+    /*cursor: pointer;*/
+}
+.bgBorder{
+    border: 1px solid #baf0ff;
+    pointer-events: none;
+}

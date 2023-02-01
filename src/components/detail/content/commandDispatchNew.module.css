@@ -1,0 +1,153 @@
+.container {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.buttonBox {
+    margin-bottom: 1em;
+}
+
+.buttonItem {
+    height: 2em;
+    padding: 0 0.5em;
+    border-radius: 4px;
+    border: solid 1px #1f84cc;
+    margin-right: 1em;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.selectedButtonItem {
+    border-color: #1f84cc;
+    background-color: #1f84cc;
+}
+
+.top {
+    width: 100%;
+    height: 14em;
+    background-color: rgba(15, 63, 97, 0.3);
+    border-radius: 2px;
+    border: solid 1px #1f84cc;
+}
+
+.operationButtonBox {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 2em;
+}
+
+.operationButtonItem {
+    width: 5em;
+    padding: 0;
+    margin-right: 1.5em;
+}
+
+.topContent {
+    width: 100%;
+    height: 8em;
+    margin-bottom: 1.5em;
+}
+
+.teamItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+}
+
+.orangeIcon {
+    width: 1em;
+    height: 1em;
+    margin: 0 0.7em;
+    background: url('../images/commandDispatchNewOne.png') center no-repeat;
+    background-size: 100% 100%;
+}
+
+.teamItemCenter {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 9em);
+}
+
+.sendAgainButton {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 2em;
+    color: #239aee;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.teamStatus {
+    font-weight: 600;
+}
+
+.planButtonBox {
+    height: 2em;
+    margin: 1.5em 0 1em;
+}
+
+.bottom {
+    width: 100%;
+    height: calc(100% - 21.5em);
+    border-radius: 2px;
+    border: solid 1px #1f84cc;
+    background-color: rgba(15, 63, 97, 0.3);
+}
+
+.bottomContent {
+    width: 100%;
+    height: 11.5em;
+    margin-bottom: 1.5em;
+}
+
+.operationBox {
+    display: flex;
+    align-items: center;
+    height: 2.5em;
+    margin-left: 1em;
+}
+
+.operationInput {
+    flex: 1;
+    height: 2em;
+    padding: 0 0.5em;
+    border-radius: 4px;
+    border: solid 1px #26a5ff;
+    margin-right: 1em;
+    color: #fff;
+    background-color: transparent;
+    outline: 0;
+}
+
+.operationButton {
+    width: 3.5em;
+}
+
+.dialogueItem {
+    padding: 0 1em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.dialogueName {
+    display: flex;
+    padding: 0.3em 0 0.6em;
+    font-size: 0.8em;
+}
+
+.redIcon {
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-color: #ee6763;
+}
+
+.useName {
+    margin-right: 1em;
+}

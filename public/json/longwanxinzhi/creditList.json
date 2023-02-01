@@ -1,0 +1,113 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "total": "7",
+        "list": [
+            {
+                "region": "温州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },
+            {
+                "region": "宁波市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },{
+                "region": "杭州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },{
+                "region": "台州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },{
+                "region": "衡州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },{
+                "region": "温州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },
+            {
+                "region": "宁波市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },{
+                "region": "杭州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },{
+                "region": "台州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            },{
+                "region": "衡州市",
+                "enterpriseTotal": 200,
+                "excellentNum": 50,
+                "goodNum": 50,
+                "commonlyNum": 50,
+                "poorNum": 50,
+                "warningNum": 1,
+                "creditScore": 950,
+                "creditLevel": "优"
+            }
+        ]
+    }
+}

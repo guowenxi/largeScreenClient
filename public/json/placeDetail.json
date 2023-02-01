@@ -1,0 +1,18 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "regLevel": "3",
+    "name": "场所名称",
+    "user": "联系人",
+    "phone": "联系方式",
+    "type": "场所类型",
+    "road": "所属街道",
+    "time": "登记时间",
+    "range": "经营范围",
+    "address": "场所地址",
+    "userList": [{"month": "1月","date": "1-12","electricNum": "100","electricPrice": "200","waterNum": "20","waterPrice": "40","gasNum": "10","gasPrice": "50","total": 290}],
+    "risk": ["安全生产","治安安全","环保卫士","法律诉讼","税收社保","消防安全"]
+  }
+}

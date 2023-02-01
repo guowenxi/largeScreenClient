@@ -1,0 +1,132 @@
+.mainItem {
+    padding: 5%;
+}
+
+.mainItem .mainTitle {
+    line-height: 3.5vh;
+    font-weight: bold;
+}
+
+.mainItem .mainTitle:before {
+    content: '|';
+    margin-right: 0.45vh;
+    font-weight: bold;
+}
+
+.mainItem .mainContent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 3vh;
+}
+
+.mainItem .mainContent .contentItem {
+    width: 100%;
+}
+
+.mainItem .mainContent .contentItem p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.mainItem .mainContent .contentItem p:nth-child(1) {
+    width: 100%;
+    line-height: 3vh;
+    color: white;
+    font-size: 2vh;
+}
+
+.mainItem .mainContent .contentItem p:nth-child(2) {
+    width: 100%;
+    line-height: 4.2vh;
+    font-size: 2.5vh;
+}
+
+.mainItem .mainContent .contentItem p .clickItem {
+    display: inline-block;
+    margin-right: 2vh;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mainItem .mainContent .contentItemAll {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.mainItem .mainContent .contentItemAll p {
+    width: 100% !important;
+    text-align: left !important;
+    margin-bottom: 0;
+}
+
+.mainItem .mainContent .contentItemHalf {
+    display: inline-table;
+    width: 50%;
+    margin-bottom: 2vh;
+}
+
+.mainItem .mainContent .contentTableItem ul {
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.mainItem .mainContent .contentTableItem ul li {
+    float: left;
+    padding: 0 1%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    word-wrap: break-word;
+}
+
+.mainItem .mainContent .contentTableItem ul:nth-last-child(1) {
+    border-bottom: 1px solid #fff;
+}
+
+.mainItem .mainContent .contentTableItem .tableHeader {
+    margin: 0;
+    padding: 0;
+}
+
+.mainItem .mainContent .contentTableItem .tableContent {
+    margin: 0;
+    padding: 0;
+}
+
+.mainItem .mainContent .tableHeight {
+    width: 100%;
+}
+
+.mainItem .mainContent .tableHeight ul {
+    height: 3.6vh;
+}
+
+.mainItem .mainContent .tableHeight ul li {
+    height: 3.6vh;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.mainItem .mainContent .tableHeight2 ul {
+    height: 4.6vh;
+}
+
+.mainItem .mainContent .tableHeight2 ul li {
+    height: 4.6vh;
+    line-height: 1.85vh;
+}
+
+.mainItem .mainContent .contentTableItem {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.detailColor{
+    color: #00FFFF;
+}

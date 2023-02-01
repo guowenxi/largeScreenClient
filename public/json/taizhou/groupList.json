@@ -1,0 +1,25 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [
+    {
+      "id": "1",
+      "name": "xx镇",
+      "groupNum": 15,
+      "peopleNum": 255
+    },
+    {
+      "id": "2",
+      "name": "xx街道",
+      "groupNum": 15,
+      "peopleNum": 255
+    },
+    {
+      "id": "3",
+      "name": "xx乡",
+      "groupNum": 15,
+      "peopleNum": 255
+    }
+  ]
+}

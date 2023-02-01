@@ -1,0 +1,106 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #215563;
+    color: white;
+    padding: 1em;
+    word-break: break-all;
+}
+.leftBox{
+    position: relative;
+    width: calc(40% - 2em);
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column;
+    border: 1px solid #1485a3;
+    border-radius: 5px;
+    background: rgba(68,198,248,0.2);
+    padding: 1em;
+    margin-right: 2em;
+}
+.title{
+    margin-bottom: 1em;
+    color: rgba(255,255,255,0.7);
+    background: rgba(68,198,248,0.5);
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+}
+.content{
+    height: 10.5em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.rightBox{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding: 1em 0;
+}
+.stepBox{
+    position: relative;
+    width: 100%;
+    min-height: 6em;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+.point{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 0;
+    top: 0.6em;
+    background-color: rgb(68,198,248);
+    border-radius: 0.5em;
+}
+.line{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 0.5em;
+    top: 0;
+    background-color: rgba(87,87,87,0.35);
+}
+.headBox{
+    position: relative;
+    width: 100%;
+    height: 2.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.time{
+    position: relative;
+    line-height: 1em;
+    text-align: left;
+}
+.status{
+    position: relative;
+    text-align: center;
+    color: #00ffb9;
+    background-color: rgba(64,162,84,0.2);
+    border: 1px solid #3cb26b;
+    border-radius: 5px;
+    padding: 0.5em 0.6em;
+    line-height: 1em;
+}
+.stepContent{
+    text-align: left;
+    color: rgba(255,255,255,0.7);
+    min-height: 4.5em;
+    padding-bottom: 1em;
+}
+
+.noData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+}

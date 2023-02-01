@@ -1,0 +1,302 @@
+.changeButton {
+    position: relative;
+    height: 100%;
+    width: 32%;
+    background: url("../images/addPowerTwo.png") no-repeat;
+    background-size: 100% 100%;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.changeButtonSelected {
+    /* background: url("../images/addPowerOne.png") no-repeat; */
+    background-size: 100% 100%;
+    color: #00fffc;
+    cursor: default;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 67, 150);
+    background-color: rgba(4, 30, 67, 0.5);
+}
+
+.blueColor {
+    color: #61d6e8;
+}
+
+/*处置小组*/
+.handlePowerBox {
+    position: absolute;
+    width: 40%;
+    height: calc(100% - 5.6em);
+    bottom: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.handleTitleBox {
+    position: relative;
+    width: 100%;
+    height: 1.2em;
+    margin-bottom: 1em;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: white;
+}
+
+.handleContentBox {
+    position: relative;
+    width: 100%;
+    padding-left: calc(0.6em + 4px);
+    margin-bottom: 1em;
+}
+
+.handleTitleLine {
+    position: relative;
+    width: 4px;
+    height: 100%;
+    background: rgb(0, 162, 237);
+    border-radius: 4px;
+    margin-right: 0.6em;
+}
+
+.handleContentRow {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 2em;
+}
+
+.handleContentRow .handleContentRowPart {
+    margin-right: 1em;
+    color: white;
+}
+
+.handleTeamBox {
+    position: relative;
+    /*width: calc(50% - 0.5em);*/
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.handleTeamName {
+    position: relative;
+    width: 100%;
+    color: #4fcbff;
+}
+
+/*事件新增*/
+.eventAddBox {
+    position: absolute;
+    width: 55%;
+    /*height: 68%;*/
+    top: 50%;
+    left: 50%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    /*padding: 1em 1em 1em 2.2em;*/
+    padding: 1em;
+    color: rgba(255, 255, 255, 0.8);
+    /*border-radius: 4px;*/
+    transform: translate(-50%, -50%);
+}
+
+.editHeadBox {
+    position: relative;
+    width: 100%;
+    height: 1.2em;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editHeadBox div:first-child {
+    font-size: 1.2em;
+}
+
+.closeIcon {
+    cursor: pointer;
+}
+
+.editFootBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.editFootBox button {
+    margin-left: 1em;
+}
+
+.eventAddRow {
+    position: relative;
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.8em 0;
+}
+
+.addRowTitle {
+    position: relative;
+    width: 6em;
+    text-align: right;
+}
+
+.addRowContent {
+    position: relative;
+    width: calc(100% - 7em);
+    font-size: 1em;
+}
+
+.addRowContentAddress {
+    position: relative;
+    width: calc(100% - 7em);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addressContent {
+    position: relative;
+    width: calc(100% - 3em);
+}
+
+.positionSelect {
+    color: gray;
+    font-size: 1.8em;
+}
+
+.positionSelected {
+    color: #0D83D1;
+}
+
+/*事件研判*/
+
+.eventDiscussBox,
+.addOrderBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding: 1em;
+    color: rgba(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+}
+
+.addOrderBox {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 67, 150);
+    background-color: rgba(4, 30, 67, 0.5);
+}
+
+/*指令下达*/
+.selectedListBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0.8em 0;
+}
+
+.selectedListTitle {
+    line-height: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.selectedItemBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5em;
+    border: 1px solid #0D83D1;
+    line-height: 1.8em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
+.deleteIcon {
+    color: red;
+    margin-left: 0.5em;
+}
+
+.groupChangeBox {
+    position: relative;
+    width: 15em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2em;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+
+.groupChangeBox .changeButton {
+    width: calc(50% - 0.5em);
+}
+
+.groupListBox {
+    position: relative;
+    width: 100%;
+    height: 12em;
+    overflow: hidden;
+}
+
+.groupListContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.checkBox {
+    margin-right: 0.5em;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.editContent {
+    position: relative;
+    width: 100%;
+    min-height: 6em !important;
+    margin: 2em 0;
+}
+
+.addOrderButton {
+    right: 8em;
+    top: 3em;
+}
+
+.openMeetingButton {
+    right: 15.5em;
+    top: 3em;
+}
+
+.addPowerButton {
+    right: 0.5em;
+    top: 3em;
+    border-color: #00FFFF;
+    color: #00FFFF;
+}
+
+.situationButton {
+    right: 23em;
+    top: 3em;
+}

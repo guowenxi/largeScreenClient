@@ -1,0 +1,20 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "ids": ["type1","type2","type3","type4","type5"],
+    "legends": null,
+    "series": [
+      100, 150, 100, 100, 100
+    ],
+    "title": "",
+    "xAxis": [
+      "类型1",
+      "类型2",
+      "类型3",
+      "类型4",
+      "类型5"
+    ]
+  }
+}

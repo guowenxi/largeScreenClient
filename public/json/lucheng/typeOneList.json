@@ -1,0 +1,18 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "firstId": 1,
+    "firstName": "类型1"
+  },{
+    "firstId": 2,
+    "firstName": "类型2"
+  },{
+    "firstId": 3,
+    "firstName": "类型3"
+  },{
+    "firstId": 4,
+    "firstName": "类型4"
+  }]
+}

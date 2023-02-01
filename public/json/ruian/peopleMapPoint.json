@@ -1,0 +1,37 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[
+    {
+      "x":120.6296,
+      "y":27.7787,
+      "peopleType":"1",
+      "isContinue":1,
+      "id":"00089d0d2d78462293db67ea664a1869",
+      "LEVEL":"2",
+      "levelStatus":"2#1",
+      "NAME":"陈某"
+    },
+    {
+      "x":120.6186,
+      "y":27.7899,
+      "peopleType":"1",
+      "isContinue":0,
+      "id":"11189d0d2d78462293db67ea66789123",
+      "LEVEL":"2",
+      "levelStatus":"2#0",
+      "NAME":"程某 "
+    },
+    {
+      "x":120.6376,
+      "y":27.7857,
+      "peopleType":"1",
+      "isContinue":0,
+      "id":"22289d0d2d78462293db67ea66789869",
+      "LEVEL":"3",
+      "levelStatus":"3#0",
+      "NAME":"叶某"
+    }
+  ]
+}

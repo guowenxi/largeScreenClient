@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "桃源街道": {
+      "桃源街道": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "桃源街道": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "桃源街道": ""
+  },
+  "mapRoadImg": {
+    "桃源街道": "./images/svgMap/桃源街道.png"
+  },
+  "mapBgSize": {
+    "桃源街道": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "桃源街道": {
+      "桃源街道": {
+        "left": "73%",
+        "top": "51%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

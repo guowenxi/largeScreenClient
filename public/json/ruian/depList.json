@@ -1,0 +1,401 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [
+    {
+      "children": [
+        {
+          "children": null,
+          "codeId": "1",
+          "key": "430b7a2ca8fd4d9c967533bf3870485e",
+          "title": "测试1"
+        },
+        {
+          "children": null,
+          "codeId": "2",
+          "key": "10fabf42234d4dc0a3cdc2ed5d6de144",
+          "title": "策2"
+        }
+      ],
+      "codeId": "11",
+      "key": "4018b15b1d4f4698a6abbce57cc60769",
+      "title": "测试2"
+    },
+    {
+      "children": [
+        {
+          "children": null,
+          "codeId": "002",
+          "key": "b3d4b6a45ea64c609481f11e92e844a0",
+          "title": "平安002"
+        },
+        {
+          "children": null,
+          "codeId": "001",
+          "key": "62867f3434a44e7da1437927bc289505",
+          "title": "平安办01"
+        }
+      ],
+      "codeId": "001",
+      "key": "44019e74c6474c2999c35dc7ce1f5c48",
+      "title": "平安办"
+    },
+    {
+      "children": null,
+      "codeId": "1",
+      "key": "626a9fedffbd47118f4d5d29b0e1e42a",
+      "title": "测试工作组"
+    },
+    {
+      "children": [
+        {
+          "children": null,
+          "codeId": "127003474",
+          "key": "47202de2b8a24d959e63e5284ddf5762",
+          "title": "娄桥街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003475",
+          "key": "f8936e7b44b442659b279a57e39c0a21",
+          "title": "丽岙街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003476",
+          "key": "9a6bb099e4c34a3a98b4266fa8830d5d",
+          "title": "南白象街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003477",
+          "key": "03fe0270f6fd4aaa869277b20ae1938b",
+          "title": "瓯海区综合行政执法局"
+        },
+        {
+          "children": [
+            {
+              "children": null,
+              "codeId": "127142471",
+              "key": "e162e671d7e541d1a84daffe0371d5ce",
+              "title": "办事处"
+            }
+          ],
+          "codeId": "127003478",
+          "key": "5d13f8133f74489da5afcc575c1aec91",
+          "title": "三垟街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003479",
+          "key": "e5b42bb85c734d46a2212fa4fe006792",
+          "title": "新桥街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003480",
+          "key": "b07f9f3fe9384b0892883691a983f656",
+          "title": "景山街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003481",
+          "key": "cbb3746a1ace4f1395ef58f4ccd066bb",
+          "title": "潘桥街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003482",
+          "key": "090d2a4afd9e409f9bdea48f062e0108",
+          "title": "领导部门"
+        },
+        {
+          "children": null,
+          "codeId": "127003483",
+          "key": "3624ab0093c44f0c9f6d810666ba87ad",
+          "title": "区信访局"
+        },
+        {
+          "children": null,
+          "codeId": "127003484",
+          "key": "4d1272f081eb4911b283af78a7c1762b",
+          "title": "党工部"
+        },
+        {
+          "children": null,
+          "codeId": "127003485",
+          "key": "af11e49f4c224bc48bce8d392772fee9",
+          "title": "梧田街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003486",
+          "key": "e8597cb1c6cf4251b1ca660999541c84",
+          "title": "区平安办"
+        },
+        {
+          "children": null,
+          "codeId": "127003487",
+          "key": "ac4eae5a789a40778be9a232711450d8",
+          "title": "仙岩街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003488",
+          "key": "1c20338502cb4db1a1d53baaf8319785",
+          "title": "瞿溪街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003489",
+          "key": "9792adf35c3f432bba5269378e8d691e",
+          "title": "区政法委"
+        },
+        {
+          "children": null,
+          "codeId": "127003490",
+          "key": "2a3c0b3c153d4eb2a740eddd9fbe1106",
+          "title": "茶山街道"
+        },
+        {
+          "children": null,
+          "codeId": "127003491",
+          "key": "4d936f4c3b8d4497a1d6cc16addc9948",
+          "title": "瓯海区住房和城乡建设局"
+        },
+        {
+          "children": null,
+          "codeId": "127003492",
+          "key": "ba234432cbb1417091e3abcf16f21db7",
+          "title": "泽雅镇"
+        },
+        {
+          "children": null,
+          "codeId": "127003493",
+          "key": "8397c2382225434a98ad0181c7643862",
+          "title": "郭溪街道"
+        },
+        {
+          "children": null,
+          "codeId": "127310117",
+          "key": "8d406cedc99448b3a68b7033a92487be",
+          "title": "区委稳办"
+        }
+      ],
+      "codeId": "127112403",
+      "key": "f4564c311a074d0e9eecdd3b7eab247f",
+      "title": "瓯海区"
+    },
+    {
+      "children": null,
+      "codeId": "4",
+      "key": "17bbc3020eee4574aeeb6f4f81029c76",
+      "title": "测试4"
+    },
+    {
+      "children": null,
+      "codeId": "444",
+      "key": "5f78030b6e5646e38e2e44e08a878aae",
+      "title": "444"
+    },
+    {
+      "children": null,
+      "codeId": "012",
+      "key": "1577026b38cf4166be486a20688ad9f7",
+      "title": "区委政法委"
+    },
+    {
+      "children": null,
+      "codeId": "12312",
+      "key": "4f5987287d3c4bf1bfebedda2eff6712",
+      "title": "1111"
+    },
+    {
+      "children": null,
+      "codeId": "013",
+      "key": "b68006d8241a4910b930716d23d5a68c",
+      "title": "区委办"
+    },
+    {
+      "children": null,
+      "codeId": "014",
+      "key": "784d72bc5a7947fb89ca2c7845d3e30e",
+      "title": "区政府办"
+    },
+    {
+      "children": null,
+      "codeId": "015",
+      "key": "aafc8433d0b7461c8ad87cf32c3309be",
+      "title": "区法制办"
+    },
+    {
+      "children": null,
+      "codeId": "016",
+      "key": "a0bd17970bd54f439c20d6315279ec15",
+      "title": "区委组织部"
+    },
+    {
+      "children": null,
+      "codeId": "017",
+      "key": "fd5f4dbcb8be44e2bb7ee66848d30a01",
+      "title": "区委宣传部"
+    },
+    {
+      "children": null,
+      "codeId": "018",
+      "key": "d8c47c3e5d5a48f18e85155fa1dd242b",
+      "title": "区民宗局"
+    },
+    {
+      "children": null,
+      "codeId": "021",
+      "key": "d7b0cb1540d3482cab0d54177c4bc0d1",
+      "title": "区公安分局"
+    },
+    {
+      "children": null,
+      "codeId": "022",
+      "key": "145a0d2f65a84c4abec94a3732d64290",
+      "title": "区检察院"
+    },
+    {
+      "children": null,
+      "codeId": "023",
+      "key": "946aadf5c12649e48d16aee3d8c38eb3",
+      "title": "区法院"
+    },
+    {
+      "children": null,
+      "codeId": "024",
+      "key": "635ab78df4d34cac8571b6e8bca217d5",
+      "title": "区司法局"
+    },
+    {
+      "children": null,
+      "codeId": "025",
+      "key": "f5eddcbbadff4ed8aea63e77ee1a46cf",
+      "title": "区委防范办"
+    },
+    {
+      "children": null,
+      "codeId": "026",
+      "key": "de3d1cf4a37b465f8849f8f642bdc78a",
+      "title": "区国安办"
+    },
+    {
+      "children": null,
+      "codeId": "027",
+      "key": "88d0febbfdd7437eb9fd9d4174c194de",
+      "title": "区综治办"
+    },
+    {
+      "children": null,
+      "codeId": "028",
+      "key": "1250ca7ae71e480994985bffc4c54dbf",
+      "title": "区人社局"
+    },
+    {
+      "children": null,
+      "codeId": "029",
+      "key": "4f7bdc3bddbb47aeb93b7cd6c34a6088",
+      "title": "区财政局"
+    },
+    {
+      "children": null,
+      "codeId": "030",
+      "key": "44e73d3d78ea4541b8b8f6ebb87322f8",
+      "title": "区农业局"
+    },
+    {
+      "children": null,
+      "codeId": "031",
+      "key": "d6850a9211fc4edda753e354bbca4243",
+      "title": "区发改局"
+    },
+    {
+      "children": null,
+      "codeId": "033",
+      "key": "f9c84ad11e2146598ddfdcebf25a4711",
+      "title": "区民政局"
+    },
+    {
+      "children": null,
+      "codeId": "034",
+      "key": "c33193ceb881470cb0dfac013022ed2b",
+      "title": "区风景旅游局"
+    },
+    {
+      "children": null,
+      "codeId": "035",
+      "key": "ca07bbace63f42b39ff169d655af3bb4",
+      "title": "区商务局"
+    },
+    {
+      "children": null,
+      "codeId": "036",
+      "key": "e640df5dd3c34985a9a132373ee0e5e9",
+      "title": "区住建局"
+    },
+    {
+      "children": null,
+      "codeId": "037",
+      "key": "9f74b8ae7caf43faa567beb834d981b4",
+      "title": "区城管局"
+    },
+    {
+      "children": null,
+      "codeId": "038",
+      "key": "d991a0bf6b214c15b2f8f92b89bbbcc2",
+      "title": "区卫生局"
+    },
+    {
+      "children": null,
+      "codeId": "039",
+      "key": "d9e85361a2cc4317afa96bbdd5294013",
+      "title": "区文广新局"
+    },
+    {
+      "children": null,
+      "codeId": "040",
+      "key": "1eb10cdd9fb446f18de16e2f430243f6",
+      "title": "区教育局"
+    },
+    {
+      "children": null,
+      "codeId": "041",
+      "key": "52cb6e0d763d4bb69216b8e78faf74e1",
+      "title": "区市场监管局"
+    },
+    {
+      "children": null,
+      "codeId": "042",
+      "key": "592661d4f4b84d27965062f74a288da4",
+      "title": "区残联"
+    },
+    {
+      "children": null,
+      "codeId": "043",
+      "key": "56b4260fcd674a2dafbbeedc5e417580",
+      "title": "西湖国土分局"
+    },
+    {
+      "children": null,
+      "codeId": "044",
+      "key": "697490d1dd5b4737a3131472a1eae85f",
+      "title": "西湖环保分局"
+    },
+    {
+      "children": null,
+      "codeId": "045",
+      "key": "5632744474e24f8792fc641befbcb468",
+      "title": "西湖规划分局"
+    },
+    {
+      "children": null,
+      "codeId": "12121212",
+      "key": "b6be43c5420748c28371f2ceae3e864b",
+      "title": "1212121212"
+    }
+  ]
+}

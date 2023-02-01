@@ -1,0 +1,16 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+  	"id":"1","x":120.67995773425323,"y":27.930327878391836,"type":"type1","category":"category2"
+  },{
+  	"id":"2","x":120.680643071261,"y":27.9336606636567,"type":"type1","category":"category3"
+  },{
+  	"id":"3","x":120.680600155917,"y":27.9355918541474,"type":"type2","category":"category3"
+  },{
+  	"id":"4","x":120.678485859332,"y":27.9348051120756,"type":"type2","category":"category1"
+  },{
+  	"id":"5","x":120.678410757479,"y":27.9366933872221,"type":"type3","category":"category2"
+  }]
+}

@@ -1,0 +1,19 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "enterpriseName": "温州xxxx有限公司",
+        "legalPerson": "张山",
+        "creditCode": "xxxxxxxx",
+        "contactInformation": "12345678912",
+        "businessAddress": "温州市龙湾区xx街道",
+        "industry": "农林",
+        "enterpriseType": "公司",
+        "incorporationDate": "2019.07.01",
+        "busnessNatrue": "温州市龙湾区",
+        "enterpriseTag": "xxx",
+        "administrativeDivision": "温州市龙湾区",
+        "pinganGrid": "xxxxx"
+    }
+}

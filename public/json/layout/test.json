@@ -1,0 +1,300 @@
+{
+  "areaClickInteract": [
+    {
+      "hideList": [
+        1655367438107,
+        1655191795625,
+        1665731083168
+      ],
+      "actionType": 1,
+      "showList": [
+        1655191806656
+      ],
+      "type": 8
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655195968822"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "reGetData": 1,
+      "type": 1,
+      "receiveId": "1655192616525"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458167673"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458189066"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458245891"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "message": [],
+      "receiveId": "1655458342483"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458376091"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458385586"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458413274"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458308040"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "receiveId": "1655458322339"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "dataKeyName": "roadId",
+      "keyName": "roadId",
+      "type": 1,
+      "message": [
+        {
+          "dataKey": "name",
+          "messageKey": "name",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "cardId",
+          "messageKey": "cardId",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "controlStatus",
+          "messageKey": "controlStatus",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "actualState",
+          "messageKey": "actualState",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "followUpTime",
+          "messageKey": "followUpTime",
+          "dataSource": 2
+        }
+      ],
+      "receiveId": "1655192616525"
+    },
+    {
+      "actionType": 1,
+      "dataType": 1,
+      "keyName": "roadId",
+      "dataKeyName": "roadId",
+      "type": 1,
+      "message": [
+        {
+          "dataKey": "name",
+          "messageKey": "name",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "cardId",
+          "messageKey": "cardId",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "suspectedReason",
+          "messageKey": "suspectedReason",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "reportTime",
+          "messageKey": "reportTime",
+          "dataSource": 2
+        },
+        {
+          "dataKey": "handleStatusName",
+          "messageKey": "handleStatusName",
+          "dataSource": 2
+        }
+      ],
+      "receiveId": "1655458272362"
+    },
+    {
+      "dataType": 2,
+      "keyName": "name",
+      "type": 1,
+      "receiveId": "1655193407746"
+    }
+  ],
+  "xMin": "120.2855",
+  "areaNameKey": "name",
+  "detailType": 4,
+  "maxheight": 4,
+  "yMax": "29.34746",
+  "showType": 1,
+  "pointAreaLeft": 7,
+  "minheight": 1,
+  "area": "瑞安",
+  "numKey": "",
+  "yMin": "28.03444",
+  "stdDeviation": 8,
+  "pointSizeList": [
+    {
+      "size": 3,
+      "more": 1,
+      "less": 2
+    },
+    {
+      "size": 6,
+      "more": 2,
+      "less": 999
+    }
+  ],
+  "shadowStyleList": [
+    {
+      "color": "rgba(59,211,215,1)",
+      "more": 0,
+      "less": 51
+    },
+    {
+      "color": "rgba(255,230,186,1)",
+      "more": 51,
+      "less": 101
+    },
+    {
+      "color": "rgba(242,116,96,1)",
+      "more": 101,
+      "less": 9999
+    }
+  ],
+  "pointAreaHeight": 84,
+  "pointParams": "",
+  "numClickInteract": [],
+  "pointAreaTop": 8,
+  "pointAreaWidth": 88,
+  "nameKey": "id",
+  "pointUrl": "",
+  "styleList": [
+    {
+      "color": "rgba(0,114,255,1)",
+      "bgColorList": [
+        {
+          "color": "rgba(0,114,255,0.8)",
+          "percent": 0
+        },
+        {
+          "color": "rgba(0,114,255,0)",
+          "percent": 100
+        }
+      ],
+      "more": 0,
+      "gradientAngle": 180,
+      "less": 3000
+    },
+    {
+      "color": "rgba(249,170,33,1)",
+      "bgColorList": [
+        {
+          "color": "rgba(249,170,33,0.8)",
+          "percent": 0
+        },
+        {
+          "color": "rgba(249,170,33,0)",
+          "percent": 100
+        }
+      ],
+      "more": 3001,
+      "gradientAngle": 180,
+      "less": 6000
+    },
+    {
+      "color": "rgba(225,103,94,1)",
+      "bgColorList": [
+        {
+          "color": "rgba(225,103,94,0.8)",
+          "percent": 0
+        },
+        {
+          "color": "rgba(225,103,94,0)",
+          "percent": 100
+        }
+      ],
+      "more": 6001,
+      "gradientAngle": 180,
+      "less": 100000
+    }
+  ],
+  "fontSize": "1.5vh",
+  "areaStyleList": [
+    {
+      "color": "rgba(232,167,59,0.7)",
+      "more": 60,
+      "less": 80
+    },
+    {
+      "color": "rgba(178,76,61,0.7)",
+      "more": 80,
+      "less": 9999
+    },
+    {
+      "color": "rgba(23,124,128,0.6)",
+      "more": -9999,
+      "less": 60
+    }
+  ],
+  "xMax": "121.9387",
+  "areaNumKey": "num"
+}

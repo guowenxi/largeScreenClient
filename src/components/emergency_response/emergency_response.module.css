@@ -1,0 +1,115 @@
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.head{
+    position: absolute;
+    width: 100%;
+    height: 2em;
+    font-size: 0.6em;
+}
+.selectBox{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selectItem{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    border: 0;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.selectBox .selectItem:nth-child(1){
+    border-color: #ff3333;
+    color: #ff3333;
+    border-style: solid;
+}
+.selectBox .selectItem:nth-child(2){
+    border-color: #ff8533;
+    color: #ff8533;
+    border-style: solid;
+}
+.selectBox .selectItem:nth-child(3){
+    border-color: #fff533;
+    color: #fff533;
+    border-style: solid;
+}
+.selectedItem{
+    border: 1px;
+    cursor: default;
+    background-color: rgba(255,255,255,0.1);
+}
+.responseButton{
+    position: absolute;
+    right: 0;
+    width: 19%;
+    height: 100%;
+    background: linear-gradient(180deg,#008922 0%,#00c022 50%,#008922 100%);
+    color: white;
+    cursor: pointer;
+}
+.listBox{
+    position: absolute;
+    top: 1.8em;
+    height: calc(71% - 1.8em);
+    width: 100%;
+}
+.listItem{
+    position: relative;
+    width: 48%;
+    height: 3.5em;
+    background-color: rgb(1,28,70);
+    color: white;
+    margin-right: 4%;
+    margin-bottom: 1vh;
+    float: left;
+    padding: 0 1em;
+    justify-content: flex-start;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+.listItem img{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    float: left;
+    margin-right: 1em;
+}
+.listBox .listItem:nth-child(2n){
+    margin-right: 0;
+}
+.listBox .listItem:nth-last-child(1),.listBox .listItem:nth-last-child(2){
+    margin-bottom: 0;
+}
+.remark{
+    position: absolute;
+    top: 71%;
+    font-size: 1em;
+    color: white;
+    text-indent: 0.7em;
+    line-height: 1em;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    height: calc(29% - 2em) !important;
+    bottom: 0;
+    resize: none;
+    font-size: 0.7em;
+    line-height: 150%;
+    background-color: rgb(1,28,70);
+    border: 0;
+    padding: 1em;
+    color: #fff;
+}

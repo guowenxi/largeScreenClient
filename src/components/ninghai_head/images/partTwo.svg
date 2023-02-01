@@ -1,0 +1,239 @@
+<svg id="标签化体系1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="313" height="340" viewBox="0 0 313 340">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 10.911px;
+        opacity: 0.8;
+        font-family: ShiShangZhongHeiJianTi;
+      }
+
+      .cls-1, .cls-15 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #5684b3;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-3, .cls-4, .cls-5, .cls-6, .cls-9 {
+        stroke-width: 1px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-dasharray: 4 2;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-24, .cls-3 {
+        opacity: 0.6;
+      }
+
+      .cls-3 {
+        stroke: #6eaae6;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+        stroke: url(#linear-gradient-4);
+        filter: url(#filter);
+      }
+
+      .cls-13, .cls-26, .cls-5 {
+        fill: none;
+      }
+
+      .cls-22, .cls-5, .cls-9 {
+        opacity: 0.4;
+      }
+
+      .cls-5 {
+        stroke: url(#linear-gradient-5);
+      }
+
+      .cls-6 {
+        fill: #044393;
+        stroke: #3ff;
+      }
+
+      .cls-7 {
+        fill: #0d76c5;
+      }
+
+      .cls-8 {
+        fill: #1aa0d3;
+      }
+
+      .cls-9 {
+        fill: #0f90c3;
+        stroke: #33ffe9;
+      }
+
+      .cls-10 {
+        fill: #24b3b3;
+        opacity: 0.16;
+      }
+
+      .cls-11, .cls-16, .cls-18, .cls-20 {
+        fill: #021343;
+      }
+
+      .cls-11 {
+        stroke: url(#linear-gradient-6);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-7);
+        stroke: url(#linear-gradient-8);
+      }
+
+      .cls-13 {
+        stroke: #24b3b3;
+      }
+
+      .cls-14 {
+        font-size: 16.587px;
+        fill: #3ff;
+        font-family: "Source Han Sans CN";
+      }
+
+      .cls-15 {
+        font-size: 23.696px;
+        font-family: zcool-gdh;
+      }
+
+      .cls-16 {
+        stroke: url(#linear-gradient-9);
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-10);
+        stroke: url(#linear-gradient-11);
+      }
+
+      .cls-18 {
+        stroke: url(#linear-gradient-12);
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-13);
+        stroke: url(#linear-gradient-14);
+      }
+
+      .cls-20 {
+        stroke: url(#linear-gradient-15);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-16);
+        stroke: url(#linear-gradient-17);
+      }
+
+      .cls-22, .cls-23, .cls-24, .cls-25 {
+        fill: #1c99d9;
+        stroke: #21aaec;
+      }
+
+      .cls-23 {
+        opacity: 0.2;
+      }
+
+      .cls-25 {
+        fill-opacity: 0.7;
+      }
+
+      .cls-26 {
+        stroke: #dbeaf4;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="723" y1="564" x2="723" y2="451.188" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b4580"/>
+      <stop offset="1" stop-color="#0b4580"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="723" y1="548.438" x2="723" y2="435.625" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1289c6"/>
+      <stop offset="1" stop-color="#126cc6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="723" y1="532.875" x2="723" y2="420.062" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0fb2cb"/>
+      <stop offset="1" stop-color="#126cc6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="723" y1="532.875" x2="723" y2="420.062" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ff"/>
+      <stop offset="1" stop-color="#24b3b3"/>
+    </linearGradient>
+    <filter id="filter" x="590" y="408" width="267" height="138" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="4.333" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#3ff" flood-opacity="0.23"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="723" y1="528.719" x2="723" y2="424.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ff"/>
+      <stop offset="1" stop-color="#94ceda"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="722.61" y1="335.719" x2="722.61" y2="385.406" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4288a1"/>
+      <stop offset="1" stop-color="#29a0c9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="722.625" y1="378.062" x2="722.625" y2="343.062" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07518a"/>
+      <stop offset="1" stop-color="#2190cc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="722.625" y1="378.062" x2="722.625" y2="343.062" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#083e75"/>
+      <stop offset="1" stop-color="#4095c7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="644.797" y1="404.188" x2="644.797" y2="453.875" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-10" x1="644.813" y1="446.531" x2="644.813" y2="411.5" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-11" x1="644.813" y1="446.531" x2="644.813" y2="411.5" xlink:href="#linear-gradient-8"/>
+    <linearGradient id="linear-gradient-12" x1="722.61" y1="429.844" x2="722.61" y2="479.531" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-13" y1="472.188" y2="437.188" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-14" y1="472.188" y2="437.188" xlink:href="#linear-gradient-8"/>
+    <linearGradient id="linear-gradient-15" x1="800.422" y1="380.844" x2="800.422" y2="430.531" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-16" x1="800.407" y1="423.188" x2="800.407" y2="388.188" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-17" x1="800.407" y1="423.188" x2="800.407" y2="388.188" xlink:href="#linear-gradient-8"/>
+  </defs>
+  <g id="体系内容">
+    <path id="形状_2" data-name="形状 2" class="cls-2" d="M602,508.767L722.61,451.194,844,507.989,722.61,564.006Z" transform="translate(-565 -301)"/>
+    <path id="形状_2_拷贝_2" data-name="形状 2 拷贝 2" class="cls-3" d="M602,493.207L722.61,435.634,844,492.429,722.61,548.446Z" transform="translate(-565 -301)"/>
+    <g transform="translate(-565 -301)" style="fill: url(#linear-gradient-3); filter: url(#filter)">
+      <path id="形状_2-2" data-name="形状 2" class="cls-4" d="M602,477.647L722.61,420.074,844,476.869,722.61,532.886Z" style="stroke: inherit; filter: none; fill: inherit"/>
+    </g>
+    <use transform="translate(-565 -301)" xlink:href="#形状_2-2" style="stroke: url(#linear-gradient-4); filter: none; fill: none"/>
+    <path id="形状_2_拷贝" data-name="形状 2 拷贝" class="cls-5" d="M610.932,477.561l111.707-53.325,112.427,52.6L722.639,528.724Z" transform="translate(-565 -301)"/>
+    <path id="形状_6" data-name="形状 6" class="cls-6" d="M625.347,476.091L644.8,465.977l21.787,10.114L644.8,486.205Z" transform="translate(-565 -301)"/>
+    <path id="形状_7" data-name="形状 7" class="cls-7" d="M637.019,481.537l8.559-4.668,7.781,3.89-7.781,4.668Z" transform="translate(-565 -301)"/>
+    <path id="形状_6-2" data-name="形状 6" class="cls-6" d="M702.38,438.746l19.452-10.114,21.787,10.114L721.832,448.86Z" transform="translate(-565 -301)"/>
+    <path id="形状_7-2" data-name="形状 7" class="cls-7" d="M714.051,444.192l8.559-4.668,7.782,3.89-7.782,4.668Z" transform="translate(-565 -301)"/>
+    <path id="形状_6-3" data-name="形状 6" class="cls-6" d="M700.823,474.535l19.453-10.114,21.787,10.114-21.787,10.114Z" transform="translate(-565 -301)"/>
+    <path id="形状_6_拷贝_2" data-name="形状 6 拷贝 2" class="cls-6" d="M700.823,512.658l19.453-10.115,21.787,10.115-21.787,10.114Z" transform="translate(-565 -301)"/>
+    <path id="形状_7-3" data-name="形状 7" class="cls-7" d="M712.5,479.981l8.559-4.668,7.781,3.89-7.781,4.668Z" transform="translate(-565 -301)"/>
+    <path id="形状_6-4" data-name="形状 6" class="cls-6" d="M700.823,513.436l19.453-10.115,21.787,10.115L720.276,523.55Z" transform="translate(-565 -301)"/>
+    <path id="形状_7-4" data-name="形状 7" class="cls-7" d="M712.5,518.882l8.559-4.668,7.781,3.89-7.781,4.668Z" transform="translate(-565 -301)"/>
+    <path id="形状_10" data-name="形状 10" class="cls-8" d="M721.054,498.653l-15.562,7.78v9.337l14.006,7,17.118-9.336-1.556-8.559Z" transform="translate(-565 -301)"/>
+    <path id="形状_6_拷贝" data-name="形状 6 拷贝" class="cls-9" d="M700.045,502.543L719.5,492.429l21.787,10.114L719.5,512.658Z" transform="translate(-565 -301)"/>
+    <path id="形状_8" data-name="形状 8" class="cls-9" d="M719.5,512.658l-0.355-.193-18.32-9.922-1.556,10.893,21.009,10.114Z" transform="translate(-565 -301)"/>
+    <path id="形状_9" data-name="形状 9" class="cls-9" d="M719.5,512.658V523.55l22.565-10.892-1.556-10.115Z" transform="translate(-565 -301)"/>
+    <path id="形状_6-5" data-name="形状 6" class="cls-6" d="M778.634,474.535l19.453-10.114,21.787,10.114-21.787,10.114Z" transform="translate(-565 -301)"/>
+    <path id="形状_7-5" data-name="形状 7" class="cls-7" d="M790.306,479.981l8.559-4.668,7.781,3.89-7.781,4.668Z" transform="translate(-565 -301)"/>
+  </g>
+  <g id="新增">
+    <g id="组_2718" data-name="组 2718">
+      <path id="矩形_14_拷贝_6" data-name="矩形 14 拷贝 6" class="cls-22" d="M833.805,556.144l-29.223-13.657h0L773.9,556.824h0l29.223,13.657h0l30.679-14.337h0Z" transform="translate(-565 -301)"/>
+      <path id="矩形_14_拷贝_6-2" data-name="矩形 14 拷贝 6" class="cls-23" d="M833.805,558.768l-29.223-13.657h0L773.9,559.448h0l29.223,13.657h0l30.679-14.337h0Z" transform="translate(-565 -301)"/>
+      <path id="矩形_14_拷贝_6-3" data-name="矩形 14 拷贝 6" class="cls-24" d="M833.805,552.645l-29.223-13.657h0L773.9,553.325h0l29.223,13.657h0l30.679-14.337h0Z" transform="translate(-565 -301)"/>
+      <path id="矩形_14_拷贝_6-4" data-name="矩形 14 拷贝 6" class="cls-25" d="M833.805,549.146l-29.223-13.657h0L773.9,549.826h0l29.223,13.657h0l30.679-14.337h0Z" transform="translate(-565 -301)"/>
+      <path id="形状_12" data-name="形状 12" class="cls-26" d="M788.533,493.772s12.351,21.614,11.927,28.568-21.737,12.956-20.233,25.352" transform="translate(-565 -301)"/>
+    </g>
+    <image id="新增-2" data-name="新增" x="228" y="241" width="21" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAPCAYAAAALWoRrAAABfklEQVQ4jZWUzSvEURSG30FDlCQfDQsLZSijZC0bC9lYWChLsVGsLJSNPSv/AAvysWGjlGKjRtlgY2NSFpqSYSgaHz0aneG6zW+GU2dx733Pc88953ZCgIpYWNJrMZFrZXn2yiX1SopJ6pKUlhSRVCVpUVKzpLWC1Gym5i3ABLAHpChsSaDTif3lLnAeSBvqOQD57q3Xg6AVwDjwaMInYBCY8gDZ/TgwAlx6Z/0+tA44dAQZYMsEjcAZcAssA11AgyVx58SkTPsNbQIe8jz1Hugx4QAQATqATbs44+mXXGgkoH4fwBFQb+JKe0GQ7QIlOWjY6uU3ZMUyqwUmgXaDzwVAT4Go2/1uTzBqsBiw4+zPmL4VuPFiDoA+IOR+hVWv8GNAIk9JjoE2YNb5MW9W0xo305zvF6iZb9dOszaAIbdRvk8DJ/+ALwDD1sgvVtBAqZVULelCUsYZKNnhUiopIelc0rakpKS4G/yXKZW7JGrD5EXSlaSUDZvs+sckfQKZKFe4hQGHugAAAABJRU5ErkJggg=="/>
+  </g>
+</svg>

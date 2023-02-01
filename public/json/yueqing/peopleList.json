@@ -1,0 +1,6 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{"total": "7","list": [{"name": "张三", "warningLevel": "1", "peopleTypeName": "社区矫正人员", "warningTime": "2021-2-9", "roadName": "xx街道","handleState":2}]}
+}

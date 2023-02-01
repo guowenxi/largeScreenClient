@@ -1,0 +1,98 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.backgroundBox{
+    position: absolute;
+    width: 35%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #8AE0F3;
+    box-shadow: 0 0 30px 0 rgba(0,198,255,.45);
+    padding: 1em;
+    background: #112A43;
+    color: white;
+}
+.editHeadBox{
+    position: relative;
+    width: 100%;
+    height: 1.2em;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editHeadBox div:first-child{
+    font-size: 1.2em;
+}
+.closeIcon{
+    cursor: pointer;
+}
+/*.closeIcon{*/
+/*    position: absolute;*/
+/*    width: 2em;*/
+/*    height: 2em;*/
+/*    right: 1em;*/
+/*    top: 1em;*/
+/*    cursor: pointer;*/
+/*}*/
+.eventAddRow{
+    position: relative;
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.8em 0;
+}
+.addRowTitle{
+    position: relative;
+    width: 6em;
+    text-align: right;
+}
+.addEventTwoBox .addRowTitle{
+    width: 7em;
+}
+.addRowContent{
+    position: relative;
+    width: calc(100% - 7em);
+    font-size: 1em;
+}
+.addRowContentAddress{
+    position: relative;
+    width: calc(100% - 7em);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addEventTwoBox .addRowContent,.addEventTwoBox .addRowContentAddress{
+    width: calc(100% - 8em);
+}
+.addressContent{
+    position: relative;
+    width: calc(100% - 3em);
+}
+.positionSelect{
+    color: gray;
+    font-size: 1.8em;
+}
+.positionSelected{
+    color: #0D83D1;
+}
+.editFootBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.editFootBox button{
+    margin-left: 1em;
+}
+.edit{
+    background: none;
+    color: white;
+}

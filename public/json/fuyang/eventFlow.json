@@ -1,0 +1,34 @@
+{
+  "success": 1,
+  "message": "OK",
+  "data": [
+    {
+      "deptName": "融富中蕴",
+      "title": "责任科室签收",
+      "type": 3,
+      "conductor": "融富中蕴001",
+      "createTime": "2022-06-14 17:05:46",
+      "phone": "18270495992"
+    },
+    {
+      "buildName": "5.31测试楼盘2",
+      "cause": "销售文件不符",
+      "title": "用户发起投诉",
+      "devName": "杭州绿城银湖置业有限公司",
+      "type": 0,
+      "createTime": "2022-06-13 15:31:51",
+      "fileVoList": [],
+      "describe": "以后比较"
+    },
+    {
+      "title": "法规科交办",
+      "type": 1,
+      "conductor": "融富中蕴001",
+      "opinion": "123",
+      "createTime": "2022-06-14 17:05:24",
+      "phone": "18270495992"
+    }
+
+
+  ]
+}

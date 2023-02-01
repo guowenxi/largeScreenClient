@@ -1,0 +1,83 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 2.66em;
+    text-align: center;
+}
+.headName{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 1.33em;
+    line-height: 2em;
+    border: 1px solid #16cdef;
+    color: #16cdef;
+}
+.formNo{
+    position: absolute;
+    line-height: 1em;
+    font-size: 1em;
+    right: 0.5em;
+    bottom: 0.5em;
+}
+.body{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 2.66em);
+}
+.body table{
+    position: relative;
+    width: 100%;
+}
+.body td{
+    border: 1px solid #16cdef;
+    line-height: 1.2em;
+    padding: 0.5em 0;
+    word-break: break-all;
+}
+.titleOne{
+    width: 5.2em;
+    color: #16cdef;
+    background-color: rgba(2,167,240,0.2);
+    text-align: center;
+}
+.contentOne{
+    width: calc(100% - 5.2em);
+    padding: 0.5em !important;
+}
+.titleTwo{
+    width: 4.2em;
+    color: #16cdef;
+    background-color: rgba(2,167,240,0.2);
+    text-align: center;
+}
+.contentTwo{
+    width: 4.2em;
+    padding: 0.5em !important;
+}
+.contentThree{
+    width: calc(100% - 22em);
+    padding: 0.5em !important;
+}
+.picBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.pic{
+    position: relative;
+    width: 4em;
+    height: 3em;
+    margin-right: 0.3em;
+}

@@ -1,0 +1,147 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "name": "信用",
+            "num": 293,
+            "statistics": [
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                }
+            ]
+        }, {
+            "name": "司法",
+            "num": 293,
+            "statistics": [
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                }
+            ]
+        }, {
+            "name": "法人",
+            "num": 293,
+            "statistics": [
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                }
+            ]
+        }, {
+            "name": "安全",
+            "num": 293,
+            "statistics": [
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                }
+            ]
+        }, {
+            "name": "网格",
+            "num": 293,
+            "statistics": [
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                }
+            ]
+        }, {
+            "name": "舆情",
+            "num": 293,
+            "statistics": [
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                }
+            ]
+        }, {
+            "name": "服务",
+            "num": 293,
+            "statistics": [
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 21
+                },
+                {
+                    "name": "xxxxxx",
+                    "num": 19
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "title": "鲁班夜宵店店主暴力抗法鲁班夜宵店店主暴力抗法鲁班夜宵店店主暴力抗法",
+    "incidentTime": "2020-9-24 09:56:12",
+    "eventType": "抗法",
+    "regLevel": "3",
+    "isSolve": 1,
+    "leaderList": [{"name": "李四","duty": "xx","phone": "13589658965","department": "xxxxx"},{"name": "李四","duty": "xx","phone": "13589658965","department": "xxxxx"}],
+    "incidentContent": "问题概述",
+    "unitInCharge": "上级主管部门",
+    "workSituation": "配合情况",
+    "basicAppeal": "基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求基本诉求",
+    "reasonableAppeal": "合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求合理诉求",
+    "unreasonableAppeal": "不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求不合理诉求",
+    "negotiableAppeal": "可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求可协商诉求",
+    "safeguardWays": "维权方式及群体动向",
+    "department": "责任单位",
+    "dutyDepartmentLeader": "责任人姓名",
+    "dutyDepartmentJob": "责任人职务",
+    "measure": "稳控措施",
+    "dissovleDiff": "化解难点",
+    "dissovleAble": "化解空间",
+    "dissovleTimeLimit": "化解期限",
+    "disposalSituation": "处置情况",
+    "controlSituation": "稳控情况",
+    "allControlList": [{"name": "李四","duty": "主任","phone": "13589658965","department": "政法委"},{"name": "李四","duty": "主任","phone": "13589658965","department": "政法委"},{"name": "李四","duty": "主任","phone": "13589658965","department": "政法委"},{"name": "李四","duty": "主任","phone": "13589658965","department": "政法委"}],
+    "": ""
+  }
+}

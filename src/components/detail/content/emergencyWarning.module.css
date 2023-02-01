@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    color: #fff;
+    line-height: 1;
+}
+
+.itemBox {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.itemInnerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    width: 15%;
+    color: #00dfe8;
+}
+
+.type {
+    width: 15%;
+}
+
+.statusInnerBox {
+    width: 6.5em;
+    height: 6.5em;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 6.5em;
+    background: url('../images/emergencyWarningOne.png') center center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.reason {
+    display: inline-flex;
+    flex-direction: column;
+    width: 45%;
+    text-align: left;
+}
+
+.reasonItem {
+    width: 100%;
+    padding-left: 0.5em;
+    line-height: 2.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.reasonBackground {
+    background: linear-gradient(92deg, rgb(140, 255, 235, 0.2) 0%, rgba(140, 255, 235, 0) 100%);
+}
+
+.status {
+    width: 20%;
+}
+
+.detail {
+    width: 10%;
+    cursor: pointer;
+}
+
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2em;
+}

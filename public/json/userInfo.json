@@ -1,0 +1,21 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "departmentId": "330381002000",
+    "departmentIds": "330381002000,",
+    "departmentName": "玉海街道,",
+    "email": "",
+    "headPath": "",
+    "hierarchy": "1",
+    "name": "玉海街道",
+    "openId": "",
+    "permission": "",
+    "phone": "",
+    "remark": "",
+    "roadId": "33038100200",
+    "userId": "1cb9cbe76ebc4becb1512d0a6370d92f",
+    "userName": "yhjd"
+  }
+}

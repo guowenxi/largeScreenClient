@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "胡陈乡": {
+      "胡陈乡": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "胡陈乡": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "胡陈乡": ""
+  },
+  "mapRoadImg": {
+    "胡陈乡": "./images/svgMap/胡陈乡.png"
+  },
+  "mapBgSize": {
+    "胡陈乡": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "胡陈乡": {
+      "胡陈乡": {
+        "left": "65%",
+        "top": "50%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

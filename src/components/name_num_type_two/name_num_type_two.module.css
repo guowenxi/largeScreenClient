@@ -1,0 +1,80 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/background.svg");
+    line-height: 100%;
+}
+.pie{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.pieTwo{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+}
+.animateOnOne{
+    animation: animate 8s infinite linear;
+}
+.animateOnTwo{
+    animation: animate 15s infinite linear;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topNum{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 28%;
+    cursor: pointer;
+}
+.topTitle{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 45%;
+    cursor: pointer;
+}
+.itemBox{
+    position: absolute;
+    border-color: rgb(35,126,174);
+    width: 50%;
+    height: 24%;
+    border-width: 4px;
+    border-radius: 20px;
+    left: 25%;
+    border-style: solid;
+    top: 64%;
+    cursor: pointer;
+}
+.itemBox .num{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 0;
+    top: 0;
+}
+.itemBox .title{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    left: 0;
+    bottom: 0;
+}

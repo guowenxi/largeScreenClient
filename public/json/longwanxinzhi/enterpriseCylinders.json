@@ -1,0 +1,23 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "name": "差",
+            "num": "1000"
+        },
+        {
+            "name": "一般",
+            "num": "686"
+        },
+        {
+            "name": "良",
+            "num": "321"
+        },
+        {
+            "name": "优",
+            "num": "868"
+        }
+    ]
+}

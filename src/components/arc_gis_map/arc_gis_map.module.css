@@ -1,0 +1,272 @@
+.icon{
+    max-width: 40px;
+    max-height: 40px;
+    min-width: 20px;
+    min-height: 20px;
+    cursor: pointer;
+}
+.box,.shade{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.box{
+    pointer-events: auto;
+}
+.shade{
+    pointer-events: none;
+}
+.mapBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.mapBox svg image{
+    cursor: pointer;
+}
+.blurOpen{
+    filter: blur(5px);
+}
+.selectBox{
+    position: absolute;
+    width: auto;
+    /*top: 1em;
+    right: 1em;*/
+    top: 0.25em;
+    /*right: 26em;*/
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0862745098039216);
+}
+.selectItem{
+    position: relative;
+    width: auto;
+    height: 100%;
+    float: left;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+.checkboxGroup{
+    position: absolute;
+    width: 20em;
+    right: 0;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+.checkbox{
+    position: relative;
+    width: 100%;
+    height: 1em;
+    line-height: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.windowBox{
+    opacity: 0;
+    z-index: -1;
+}
+.legend{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0862745098039216);
+}
+.borderTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.borderLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.borderRight{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.borderBottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.blur{
+    filter: blur(5px);
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.trailTimeBox{
+    position: absolute;
+    width: calc(100% - 20vh);
+    height: 4em;
+    bottom: 1vh;
+    left: 1vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgba(255,255,255,.2);
+    font-size: 1.5vh;
+    color: white;
+}
+.trailTimeLine{
+    position: absolute;
+    width: calc(100% - 12em);
+    height: 1px;
+    background-color: white;
+}
+.trailTimePoint{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 0;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #0D83D1;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.trailTimePointName{
+    position: absolute;
+    bottom: 100%;
+    width: 12em;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    left: 50%;
+    color: #0D83D1;
+}
+.startTime{
+    position: absolute;
+    bottom: 0;
+    left: 0.5em;
+}
+.endTime{
+    position: absolute;
+    bottom: 0;
+    right: 0.5em;
+}
+.iconPause{
+    position: absolute;
+    transform: translate(-50%, 0);
+    font-size: 1.2em;
+    left: 50%;
+    bottom: 0;
+    line-height: 1.2em;
+}
+
+@media screen and (max-width: 1440px){
+    .selectBox{
+        font-size: 12px;
+    }
+    .selectItem{
+        padding: 0.6em;
+    }
+}
+
+.selectBoxTwo{
+    position: absolute;
+    height: auto !important;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    border: 1px solid #0ff;
+    width: 15em;
+    background: rgba(24, 38, 73,0.8);
+}
+.selectBoxTwo .headBox{
+    position: relative;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255,0.7);
+}
+.selectBoxTwo .head{
+    font-size: 1.2em;
+    color: white;
+}
+.selectBoxTwo .changeShow{
+    color: #0ff;
+    cursor: pointer;
+}
+.selectBoxTwo .contentBox{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.selectBoxTwo .checkContentBox{
+    position: relative;
+    width: 11em;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.selectBoxTwo .checkBoxThemeTwo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 1em 0;
+}
+.selectBoxTwo .point{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+.selectBoxTwo .contentBox .checkBoxThemeTwo:nth-child(1) .point{
+    background-color: rgb(238,99,99);
+}
+.selectBoxTwo .contentBox .checkBoxThemeTwo:nth-child(2) .point{
+    background-color: rgb(95,156,248);
+}
+.selectBoxTwo .contentBox .checkBoxThemeTwo:nth-child(3) .point{
+    background-color: #BD10E0;
+}
+.selectBoxTwo .contentBox .checkBoxThemeTwo:nth-child(4) .point{
+    background-color: rgb(93,198,135);
+}
+
+.blueMask{
+    background: rgba(74, 144, 226, 0.1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+/*全边界展示筛选框样式*/
+.allGridSelectBox{
+    position: absolute;
+    padding: 0.8em;
+    top: 1em;
+    left: 1em;
+    border: 1px solid #00FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(4,40,55,0.8);
+}
+.allGridCheckBox{
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+.allGridType{
+    color: white;
+}

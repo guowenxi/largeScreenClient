@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="767" height="946" viewBox="0 0 767 946">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 22.973px;
+        fill: #fff;
+        font-family: "Adobe Heiti Std";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="丁兰街道" class="cls-3" x="394.234" y="171.895">丁兰街道</text>
+  <text id="笕桥街道" class="cls-3" x="359.234" y="361.895">笕桥街道</text>
+  <text id="九堡街道" class="cls-3" x="593.234" y="406.895">九堡街道</text>
+  <text id="彭埠街道" class="cls-3" x="451.234" y="498.895">彭埠街道</text>
+  <text id="四季青街道" class="cls-3" x="346.234" y="621.895">四季青街道</text>
+  <text id="凯旋街道" class="cls-3" x="259.234" y="594.895">凯旋街道</text>
+  <text id="闸弄口街道" class="cls-3" x="233.234" y="515.895">闸弄口街道</text>
+  <text id="采荷街道" class="cls-3" x="252.234" y="661.895">采荷街道</text>
+  <text id="小营街道" class="cls-3" x="181.234" y="692.895">小营街道</text>
+  <text id="望江街道" class="cls-3" x="239.234" y="748.895">望江街道</text>
+  <text id="紫阳街道" class="cls-3" x="187.234" y="791.895">紫阳街道</text>
+  <text id="南星街道" class="cls-3" x="68.234" y="882.895">南星街道</text>
+  <text id="清波街道" class="cls-3" x="73.234" y="719.895">清波街道</text>
+  <text id="湖滨街道" class="cls-3" x="94.234" y="661.895">湖滨街道</text>
+</svg>

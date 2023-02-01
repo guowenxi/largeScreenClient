@@ -1,0 +1,26 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.lineBlack{
+    fill: black;
+    /*stroke-width: 2;*/
+    stroke: none;
+}
+.line{
+    /*fill: none;*/
+    /*stroke-width: 2;*/
+    stroke: none;
+}
+.mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: -webkit-linear-gradient(0deg,rgba(7,19,34,1) 0%,rgba(7,19,34,0) 4%,rgba(7,19,34,0) 96%,rgba(7,19,34,1) 100%);
+}

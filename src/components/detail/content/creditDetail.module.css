@@ -1,0 +1,73 @@
+.box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6em 5em 5em;
+    background: url("../images/boxBgFour.png") no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.closeIcon{
+    position: absolute;
+    right: 2.5em;
+    top: 1.5em;
+    font-size: 2em;
+    color: #85cbfb;
+    opacity: 0.8;
+}
+.box table,.box tr,.box td{
+    border-right: 1px solid #00c7ff;
+    border-bottom: 1px solid #00c7ff;
+    text-align: center;
+}
+.leftTableBox{
+    position: relative;
+    width: 85%;
+    height: 100%;
+    border: 1px solid #00c7ff;
+    border-right: none;
+}
+.headTable{
+    /*border-top: 1px solid #00c7ff;*/
+    /*border-left: 1px solid #00c7ff;*/
+    background: rgb(1,107,146);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+    color: #87cdfb;
+    height: 2em;
+    width: 100%;
+}
+.contentTableBox{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - 2.4em);
+}
+.contentTable{
+    position: relative;
+    width: 100%;
+}
+.contentTable td{
+    padding: 0.4em;
+}
+
+.rightTableBox{
+    position: relative;
+    width: 15%;
+    height: 100%;
+    border-top: 1px solid #00c7ff;
+}
+.rightTable{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #87cdfb;
+    font-size: 3em;
+    font-family: 'LESLIE';
+}

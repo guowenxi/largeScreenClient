@@ -1,0 +1,35 @@
+.peopleItem{
+    width: 12em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.levelBox{
+    width: 12em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.levelBox div{
+    position: relative;
+    width: 50%;
+}
+.red{
+    color: rgb(255, 18, 0);
+    font-weight: bold;
+}
+.orange{
+    color: rgb(245, 166, 35);
+    font-weight: bold;
+}
+.yellow{
+    color: rgb(248, 231, 28);
+    font-weight: bold;
+}
+.green{
+    color: rgb(1, 234, 171);
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+.selectTitle {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    margin-bottom: 0;
+    line-height: 5.8vh;
+    font-size: 1.85vh;
+    font-weight: bold;
+    color: #f00;
+}
+
+.selectBox {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin-bottom: 0;
+    padding: 0;
+    right: 2%;
+    top: 0;
+    width: 35%;
+    line-height: 6vh;
+    font-size: 1.5vh;
+}
+
+.selectBox li {
+    flex: 1;
+    float: left;
+    text-align: center;
+}
+
+.selectBox li span {
+    color: #333;
+    text-decoration: underline;
+}
+
+.listBox {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.listBox .listItem {
+    margin-bottom: 0.8em;
+    padding: 2.5%;
+    width: 100%;
+    cursor: pointer;
+}
+.listBox .listItem:last-child{
+    margin-bottom: 0;
+}
+
+.listBox .listItem:nth-child(1) {
+    margin-top: 0;
+}
+
+.listBox .listItem .title {
+    line-height: 1.5em;
+    color: #878e9e;
+    font-size: 1.7vh;
+}
+
+.listBox .listItem .content {
+    line-height: 3.5vh;
+    color: #cfd2d8;
+    font-size: 2.2vh;
+}

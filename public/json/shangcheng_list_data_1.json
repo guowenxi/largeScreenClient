@@ -1,0 +1,6 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [{"name":"出租房总数","num":"12690"},{"name":"企业租房总数","num":"1423"},{"name":"个人租房总数","num":"26154"}]
+}

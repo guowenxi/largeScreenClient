@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="855" height="600" viewBox="0 0 855 600">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 20.541px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="天台_拷贝" data-name="天台 拷贝">
+      <g xmlns="http://www.w3.org/2000/svg" id="组_13" data-name="组 13">
+        <text id="龙溪乡" class="cls-3" transform="translate(152.36 488.765) scale(0.682 0.682)">龙溪乡</text>
+<!--        <text id="天台县里石门水库管理局" class="cls-3" transform="translate(1 462.866) scale(0.682 0.682)">天台县里石门水库管理局</text>-->
+<!--        <text id="街头镇" class="cls-3" transform="translate(125.77 380.291) scale(0.682 0.682)">街头镇</text>-->
+        <text id="街头镇" class="cls-3" transform="translate(88.77 393.292) scale(0.682 0.682)">街头镇</text>
+        <text id="雷锋乡" class="cls-3" transform="translate(283.267 442.42) scale(0.682 0.682)">雷峰乡</text>
+        <text id="南屏乡" class="cls-3" transform="translate(399.173 417.884) scale(0.682 0.682)">南屏乡</text>
+        <text id="福溪街道" class="cls-3" transform="translate(485.081 396.074) scale(0.682 0.682)">福溪街道</text>
+        <text id="始丰街道" class="cls-3" transform="translate(386.901 321.103) scale(0.682 0.682)">始丰街道</text>
+        <text id="平桥镇" class="cls-3" transform="translate(197.36 293.159) scale(0.682 0.682)">平桥镇</text>
+        <text id="三州乡" class="cls-3" transform="translate(183.042 212.737) scale(0.682 0.682)">三州乡</text>
+        <text id="白鹤镇" class="cls-3" transform="translate(375.31 165.028) scale(0.682 0.682)">白鹤镇</text>
+        <text id="赤城街道" class="cls-3" transform="translate(490.535 277.484) scale(0.682 0.682)">赤城街道</text>
+        <text id="三合镇" class="cls-3" transform="translate(666.44 392.666) scale(0.682 0.682)">三合镇</text>
+        <text id="洪畴镇" class="cls-3" transform="translate(733.939 406.979) scale(0.682 0.682)">洪畴镇</text>
+        <text id="坦头镇" class="cls-3" transform="translate(610.304 299.294) scale(0.682 0.682)">坦头镇</text>
+        <text id="泳溪乡" class="cls-3" transform="translate(724.394 276.802) scale(0.682 0.682)">泳溪乡</text>
+        <text id="石梁镇" class="cls-3" transform="translate(578.488 141.173) scale(0.682 0.682)">石梁镇</text>
+      </g>
+    </g>
+  </g>
+</svg>

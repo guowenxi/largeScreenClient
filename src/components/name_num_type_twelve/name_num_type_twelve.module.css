@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.allBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.item{
+    position: relative;
+}
+.itemBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.absolute{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.relative{
+    position: relative;
+}
+.contentItem{
+    position: absolute;
+}

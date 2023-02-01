@@ -1,0 +1,75 @@
+{
+  "success":3,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "roadName": "安阳街道",
+    "level": 1
+  }, {
+    "roadName": "玉海街道",
+    "level": 2
+  }, {
+    "roadName": "锦湖街道",
+    "level": 3
+  }, {
+    "roadName": "东山街道",
+    "level": 4
+  }, {
+    "roadName": "上望街道",
+    "level": 5
+  }, {
+    "roadName": "莘塍街道",
+    "level": 1
+  }, {
+    "roadName": "汀田街道",
+    "level": 2
+  }, {
+    "roadName": "飞云街道",
+    "level": 3
+  }, {
+    "roadName": "仙降街道",
+    "level": 4
+  }, {
+    "roadName": "南滨街道",
+    "level": 5
+  }, {
+    "roadName": "云周街道",
+    "level": 3
+  }, {
+    "roadName": "潘岱街道",
+    "level": 3
+  }, {
+    "roadName": "塘下镇",
+    "level": 3
+  }, {
+    "roadName": "陶山镇",
+    "level": 3
+  }, {
+    "roadName": "湖岭镇",
+    "level": 3
+  }, {
+    "roadName": "马屿镇",
+    "level": 3
+  }, {
+    "roadName": "桐浦镇",
+    "level": 3
+  }, {
+    "roadName": "林川镇",
+    "level": 3
+  }, {
+    "roadName": "曹村镇",
+    "level": 3
+  }, {
+    "roadName": "高楼镇",
+    "level": 3
+  }, {
+    "roadName": "平阳坑镇",
+    "level": 3
+  }, {
+    "roadName": "芳庄乡",
+    "level": 3
+  }, {
+    "roadName": "北麂乡",
+    "level": 3
+  }]
+}

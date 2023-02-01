@@ -1,0 +1,85 @@
+.chartBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.listBox {
+    position: absolute;
+    left: 15%;
+    top: 0;
+    width: 85%;
+    height: 100%;
+}
+
+.listBox .titleAll {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 20%;
+    transform: translate(0, -50%);
+}
+
+.listBox .itemAll {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 80%;
+    height: 100%;
+}
+
+.listBox .itemAll:before {
+    position: absolute;
+    display: inline-block;
+    content: " ";
+    width: 0.2vh;
+    height: 100%;
+    background-color: #797f84;
+    transform: translate(-1000%, 0);
+}
+
+.listBox .itemAll .contentItem {
+    position: relative;
+    display: inline-block;
+}
+
+.listBox .itemAll .contentItem .itemText {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-bottom: 0;
+}
+
+.listBox .icon {
+    width: 2vh;
+    height: 2vh;
+}
+
+.listBox .iconText {
+    background-color: #143d54;
+    width: 2vh;
+    height: 2vh;
+    border-radius: 5%;
+    color: #fff;
+}
+
+.listBox .name {
+    margin: 0 5%;
+}
+
+.listBox .num {
+    display: inline-block;
+    margin: 0 2.5%;
+    padding: 0 2%;
+    width: 40%;
+    border-radius: 5%;
+    background-color: #143d54;
+}
+
+.listBox .num span:nth-child(2) {
+    float: right;
+}

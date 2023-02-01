@@ -1,0 +1,50 @@
+.box{
+    position: relative;
+    width: 40em;
+    height: 20em;
+    font-size: 12px;
+    padding: 1em 1em 1em 1.5em;
+}
+.contentBox{
+    padding-right: 1em;
+}
+.title{
+    position: relative;
+    font-size: 1.167em;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+.content{
+    margin: 1em 0;
+    position: relative;
+    color: #63b8ff;
+}
+.row{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.fileBox{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+.rowContent{
+    position: relative;
+    width: calc(100% - 5em);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.img{
+    position: relative;
+    height: 5.4em;
+    width: 9.6em;
+    border: 1px solid rgb(1,137,252);
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+}

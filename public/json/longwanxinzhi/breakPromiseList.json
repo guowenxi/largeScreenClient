@@ -1,0 +1,81 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "list": [
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            },
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            },
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            },
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            },
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            },
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            },
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            },
+            {
+                "credit": "xxxx 521",
+                "judicial": "xxxx 522",
+                "grid": "xxxx 523",
+                "service": "xxxx 524",
+                "publicSentiment": "xxxx 525",
+                "safe": "xxxx 526",
+                "legalPerson": "xxxx 527"
+            }
+        ]
+    }
+}

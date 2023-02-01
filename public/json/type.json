@@ -1,0 +1,6 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{"value":"type1","label":"类型1"},{"value":"type2","label":"类型2"},{"value":"type3","label":"类型3"},{"value":"type4","label":"类型4"}]
+}

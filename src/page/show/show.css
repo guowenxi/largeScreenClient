@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'LESLIE';
+    src: url("../../assets/fonts/LESLIE.TTF");
+}
+@font-face {
+    font-family: 'IRON_MAN_OF_WAR';
+    src: url("../../assets/fonts/IRON MAN OF WAR 001C NCV.ttf");
+}
+@font-face {
+    font-family: 'MFBanHei';
+    src: url("../../assets/fonts/MFBanHei.otf");
+}
+@font-face {
+    font-family: 'MFLiHei';
+    src: url("../../assets/fonts/MFLiHei.otf");
+}
+@font-face {
+    font-family: 'TRENDS';
+    src: url("../../assets/fonts/TRENDS.TTF");
+}
+@font-face {
+    font-family: 'QUARTZEF';
+    src: url("../../assets/fonts/QUARTZEF.OTF");
+}
+@font-face {
+    font-family: 'DINPRO-REGULAR';
+    src: url("../../assets/fonts/DINPRO-REGULAR.OTF");
+}
+
+/*@font-face {*/
+    /*font-family: 'ssjd';*/
+    /*src: url("../../assets/fonts/ssjd.ttf");*/
+/*}*/
+
+body {
+    margin: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",*/
+    /*"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",*/
+    /*sans-serif;*/
+    font-family: "MicrosoftYaHei";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    user-select: none;
+    /*font-family: '站酷文艺体';*/
+}
+#root{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.canvas{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.scrollbars-hideScroll > :nth-child(2),.scrollbars-hideScroll > :nth-child(3){
+    display: none;
+}
+.components_box{
+    /*position: absolute;*/
+}
+.hideTablePage .ant-pagination{
+    display: none;
+}
+.blueScrollbars>:nth-child(2)>div,
+.blueScrollbars>:nth-child(3)>div{
+    background-color: #2196f3 !important;
+}
+/*.Scrollbars > div{*/
+/*    margin-right: -17.5px !important;*/
+/*    margin-bottom: -17.5px !important;;*/
+/*}*/
+
+/*.Scrollbars>:nth-child(1){*/
+/*    margin-right: -0px !important;*/
+/*    margin-bottom: -0px !important;*/
+/*}*/
+/*.Scrollbars>:nth-child(1)::-webkit-scrollbar{*/
+/*    display: none;*/
+/*}*/
+/*.Scrollbars>:nth-child(2){*/
+/*    display: none;*/
+/*}*/
+/*.Scrollbars>:nth-child(3){*/
+/*    display: none;*/
+/*}*/
+/*.ScrollbarBody>:nth-child(1){*/
+/*    margin-right: -0px !important;*/
+/*    margin-bottom: -0px !important;*/
+/*}*/
+/*.ScrollbarBody>:nth-child(1)::-webkit-scrollbar {*/
+/*     display: none;*/
+/* }*/
+/*.ScrollbarBody>:nth-child(2){*/
+/*    display: none;*/
+/*}*/
+/*.ScrollbarBody>:nth-child(3){*/
+/*    display: none;*/
+/*}*/

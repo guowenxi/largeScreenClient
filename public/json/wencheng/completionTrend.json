@@ -1,0 +1,11 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "num": 5,
+            "trend": "up"
+        }
+    ]
+}

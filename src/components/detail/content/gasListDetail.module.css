@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.listBox {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+.listInnerBox {
+    height: 100%;
+    border-top: solid 1px #3cfffd;
+    margin-right: 3.5em;
+}
+.listBox .listInnerBox:last-child{
+    margin-right: 0;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    height: 6.25%;
+    border-left: solid 1px #3cfffd;
+    border-right: solid 1px #3cfffd;
+    cursor: pointer;
+}
+
+.listItem img{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+}
+.uncheck{
+    opacity: 0.5;
+}
+
+.firstContent, .secondContent {
+    flex-shrink: 0;
+    width: 7em;
+    margin-left: 0.5em;
+}
+
+.secondContent {
+    width: 12em;
+}
+
+.thirdContent {
+    margin: 0 0.5em;
+    flex-shrink: 0;
+    width: 6.5em;
+}
+
+
+.onlyLine {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

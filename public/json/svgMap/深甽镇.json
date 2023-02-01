@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "深甽镇": {
+      "深甽镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "深甽镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "深甽镇": ""
+  },
+  "mapRoadImg": {
+    "深甽镇": "./images/svgMap/深甽镇.png"
+  },
+  "mapBgSize": {
+    "深甽镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "深甽镇": {
+      "深甽镇": {
+        "left": "59%",
+        "top": "51%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

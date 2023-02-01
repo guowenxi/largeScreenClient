@@ -1,0 +1,91 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.headBox{
+    position: relative;
+    height: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.row{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    line-height: 1em;
+    font-size: 1em;
+}
+.checkBox{
+    font-size: 1em;
+    display: flex;
+    position: relative;
+}
+.no{
+    width: 9.5em;
+}
+.member{
+    width: 7em;
+}
+.name{
+    width: 8em;
+}
+.peopleNum{
+    width: 9.5em;
+}
+.text{
+    color: white;
+    line-height: 1em;
+}
+.groupLineBox{
+    position: relative;
+    width: 100%;
+    height: 4em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #1890ff;
+}
+.groupLineBox:first-child{
+    margin-top: 2px;
+}
+.groupBox{
+    position: relative;
+    width: 100%;
+    height: 4em;
+    top: -0.09em;
+}
+.button{
+    position: relative;
+    font-size: 1em;
+    height: 2em;
+    padding: 0 0.5em;
+}
+.detail{
+    position: absolute;
+    height: 2em;
+    right: 0;
+    font-size: 1em;
+    color: #1890ff;
+    bottom: 1.5em;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.detailIcon{
+    font-size: 1em;
+    color: #1890ff;
+    margin-left: 0.2em;
+}
+.detailSelected .row{
+    color: #1890ff !important;
+}

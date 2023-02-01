@@ -1,0 +1,89 @@
+.addPowerBox{
+    position: absolute;
+    width: 68%;
+    height: 80%;
+    top: 12%;
+    left: 15%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding:1em;
+    /*border-radius: 4px;*/
+}
+.title{
+    position: relative;
+    width: 100%;
+    height: 8%;
+}
+.choose{
+    position: relative;
+    width: 100%;
+    height: 55%;
+}
+.checkBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.checkBoxStyle{
+    color: white;
+    font-size: 1.5em;
+}
+.checkStyle{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 22%;
+}
+.button{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tabBox {
+    position: relative;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+}
+.tabItem {
+    position: relative;
+    float: left;
+    border-radius: 0.25em;
+    cursor: pointer;
+    color: white;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(100,143,182);
+}
+.selectedTab {
+    cursor: default;
+    background: rgb(50,157,255);
+    color: white;
+}
+.tabName {
+    padding: 0 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 2em;
+    border-top-left-radius: initial;
+    border-bottom-left-radius: initial;
+}
+.textArea{
+    width: 100%;
+    height: 100%;
+    background: rgb(20,36,84);
+    color: white;
+}
+.buttonStyle{
+    width: 15%;
+    height: 40%;
+    font-size: 1em;
+}

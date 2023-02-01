@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.planName {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 1.7em;
+    font-size: 1.1em;
+    background: linear-gradient(90deg, rgba(11, 58, 119, 0.68) 0%, rgba(12, 55, 109, 0.34) 50%, rgba(12, 51, 100, 0) 100%);
+    letter-spacing: 2.8px;
+}
+
+.blueBar {
+    width: 0.25em;
+    height: 100%;
+    margin-right: 0.5em;
+    background-color: #00c6ff;
+}
+
+.title {
+    font-weight: 600;
+    text-shadow: #00b5ed 0px 0px 20px;
+}
+
+.closeIconBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    width: 1.7em;
+    height: 1.7em;
+    cursor: pointer;
+}
+
+.closeIcon {
+    width: 1em;
+    height: 1em;
+}
+
+.firstTitle {
+    margin: 0.5em 0 0.2em 0.4em;
+}
+
+.processNameBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.processNameItem {
+    padding: 0.3em 1em;
+    margin: 0.4em 0.3em 0 0;
+    background-color: rgba(0, 168, 231, 0.4);
+    cursor: pointer;
+}
+
+.activeProcessName {
+    background-color: rgba(0, 168, 231, 1);
+}
+
+.processItem {
+    margin: 0.5em 0;
+    line-height: 1.5;
+}
+
+.memberItem {
+    display: flex;
+    margin-top: 1em;
+}
+
+.name {
+    width: 4.5em;
+}
+
+.thirdTitle {
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.matterItem {
+    margin: 0.5em 0;
+    color: rgba(200, 219, 244, 0.76);
+    line-height: 1.5;
+}
+
+.endButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 168, 231, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 0.5em;
+    cursor: pointer;
+}

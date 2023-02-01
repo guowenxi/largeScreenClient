@@ -1,0 +1,10 @@
+.arc-gis-map-box .esriPopup .pointer.bottom{
+    border-color: transparent rgba(255,255,255,1) rgba(255,255,255,1) transparent;
+}
+.arc-gis-map-box .esriPopup .contentPane{
+    padding: 0;
+    background: none;
+}
+.arc-gis-map-box .esriPopup .titlePane{
+    display: none;
+}

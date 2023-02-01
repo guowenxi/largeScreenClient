@@ -1,0 +1,112 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: white;
+    background: rgb(2,17,53);
+    box-shadow: 0 0 10px 0 rgba(255,255,255,.2);
+    padding: 1.5em;
+}
+.leftBox{
+    position: absolute;
+    width: 24%;
+    height: calc(100% - 3em);
+    left: 1.5em;
+    top: 1.5em;
+    background-color: rgba(30,35,74,0.8);
+}
+.title{
+    position: relative;
+    width: 100%;
+    height: 2.6em;
+    font-size: 1.25em;
+    line-height: 2.6em;
+    background-color: #172d5c;
+    padding-left: 0.8em;
+}
+.timeLineBox{
+    position: relative;
+    width: 100%;
+    height: 4em;
+    margin: 1em 0;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    position: absolute;
+    height: 2px;
+    width: calc(100% - 4em);
+    left: 2em;
+    top: calc(50% - 1px);
+    background-color: #39dcdc;
+}
+.timeStepBox{
+    position: relative;
+    width: 6.5em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    line-height: 1em;
+}
+.pointStatus{
+    color: #39dcdc;
+    min-height: 1em;
+}
+.timePoint{
+    width: 1.5em;
+    height: 1.5em;
+}
+.pointTime{
+    color: white;
+    min-height: 1em;
+}
+.content{
+    position: relative;
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+}
+.blueColor{
+    color: #7ca2d1;
+}
+.yellowColor{
+    color: #dedf7c;
+}
+.greenColor{
+    color: #7cd1d0;
+}
+.peopleBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+.peopleBox:last-child{
+    margin-bottom: 0;
+}
+.rightBox{
+    position: absolute;
+    width: calc(76% - 4.5em);
+    height: calc(100% - 3em);
+    right: 1.5em;
+    top: 1.5em;
+    background-color: rgba(30,35,74,0.8);
+}
+.closeIcon{
+    position: absolute;
+    right: 1em;
+    top: 0.625em;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+.stepImg{
+    position: relative;
+    width: calc(100% - 2em);
+    height: calc(100% - 5.25em);
+    margin: 1em;
+}

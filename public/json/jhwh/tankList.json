@@ -1,0 +1,50 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "list": [
+      {
+        "valveStatus": 1,
+        "warning": 0,
+        "name": "1#氢氟酸储罐",
+        "no": "V3303A",
+        "per": 24.16,
+        "temperature": "27.8℃",
+        "airPressure": "0.13KPa",
+        "status": "连锁投入"
+      },
+      {
+        "valveStatus": 2,
+        "warning": 1,
+        "name": "1#氢氟酸储罐",
+        "no": "V3303A",
+        "per": 84.16,
+        "temperature": "27.8℃",
+        "airPressure": "0.13KPa",
+        "status": "连锁投入"
+      },
+      {
+        "valveStatus": 3,
+        "warning": 0,
+        "name": "1#氢氟酸储罐",
+        "no": "V3303A",
+        "per": 24.16,
+        "temperature": "27.8℃",
+        "airPressure": "0.13KPa",
+        "status": "连锁投入"
+      },
+      {
+        "valveStatus": 4,
+        "warning": 0,
+        "name": "1#氢氟酸储罐",
+        "no": "V3303A",
+        "per": 24.16,
+        "temperature": "27.8℃",
+        "airPressure": "0.13KPa",
+        "status": "连锁投入"
+      }
+    ],
+    "total": 4
+  }
+}

@@ -1,0 +1,36 @@
+.typeNineBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.typeNineBox .listItem {
+    display: inline-block;
+    position: relative;
+    background-color: #134b74;
+}
+
+.typeNineBox .listItem .icon {
+    position: absolute;
+}
+
+.typeNineBox .listItem .title {
+    position: absolute;
+    margin-bottom: 0;
+}
+
+.typeNineBox .listItem .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    position: absolute;
+    margin-bottom: 0;
+    padding-left: 0;
+    color: #fff;
+}
+
+.typeNineBox .listItem .content li {
+    width: 100%;
+    text-align: left;
+}

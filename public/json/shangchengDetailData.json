@@ -1,0 +1,91 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "roadName": "丁兰",
+            "warningThing": "20",
+            "warningPeople": "18",
+            "warningCompany": "7"
+        },
+        {
+            "roadName": "笕桥",
+            "warningThing": "25",
+            "warningPeople": "10",
+            "warningCompany": "1"
+        },
+        {
+            "roadName": "九堡",
+            "warningThing": "28",
+            "warningPeople": "10",
+            "warningCompany": "10"
+        },
+        {
+            "roadName": "闸弄口",
+            "warningThing": "23",
+            "warningPeople": "18",
+            "warningCompany": "16"
+        },
+        {
+            "roadName": "彭埠",
+            "warningThing": "23",
+            "warningPeople": "12",
+            "warningCompany": "6"
+        },
+        {
+            "roadName": "凯旋",
+            "warningThing": "20",
+            "warningPeople": "18",
+            "warningCompany": "5"
+        },
+        {
+            "roadName": "四季青",
+            "warningThing": "27",
+            "warningPeople": "20",
+            "warningCompany": "10"
+        },
+        {
+            "roadName": "采荷",
+            "warningThing": "25",
+            "warningPeople": "15",
+            "warningCompany": "5"
+        },
+        {
+            "roadName": "小营",
+            "warningThing": "21",
+            "warningPeople": "12",
+            "warningCompany": "1"
+        },
+        {
+            "roadName": "湖滨",
+            "warningThing": "23",
+            "warningPeople": "18",
+            "warningCompany": "6"
+        },
+        {
+            "roadName": "清波",
+            "warningThing": "23",
+            "warningPeople": "18",
+            "warningCompany": "6"
+        },
+        {
+            "roadName": "望江",
+            "warningThing": "23",
+            "warningPeople": "18",
+            "warningCompany": "6"
+        },
+        {
+            "roadName": "紫阳",
+            "warningThing": "23",
+            "warningPeople": "18",
+            "warningCompany": "6"
+        },
+        {
+            "roadName": "南星",
+            "warningThing": "23",
+            "warningPeople": "18",
+            "warningCompany": "6"
+        }
+    ]
+}

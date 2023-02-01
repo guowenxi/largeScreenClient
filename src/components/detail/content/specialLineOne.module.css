@@ -1,0 +1,48 @@
+.box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.lineBoxOne {
+    position: absolute;
+    width: 25%;
+    height: 32%;
+    left: 0;
+    top: 37%;
+}
+
+.lineBoxTwo {
+    position: absolute;
+    width: 33%;
+    height: 15.5%;
+    left: 31%;
+    top: 17%;
+}
+
+.lineBoxThree {
+    position: absolute;
+    width: 27.42%;
+    height: 28.5%;
+    left: 57%;
+    top: 47%;
+}
+
+.lineBoxFour {
+    position: absolute;
+    width: 42.5%;
+    height: 31.58%;
+    /*background-color: rgba(0,255,255,0.5);*/
+    left: 30%;
+    top: 61%;
+}
+
+.lineBoxFive {
+    position: absolute;
+    left: 62%;
+    top: 15%;
+    width: 13%;
+    height: 6.5%;
+}

@@ -1,0 +1,64 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.background{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("./images/background.svg");
+}
+.itemBox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .itemBox:nth-child(2){
+    width: 74.8%;
+    height: 22%;
+    left: 0%;
+    top: 12%;
+}
+.box .itemBox:nth-child(3){
+    width: 74.8%;
+    height: 22%;
+    left: 0%;
+    top: 45%;
+}
+.box .itemBox:nth-child(4){
+    width: 30%;
+    height: 30%;
+    left: 64%;
+    top: 52%;
+    flex-direction: column;
+}
+.num{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    right: 0;
+    line-height: 100%;
+}
+.numBg{
+    position: relative;
+    width: auto;
+    height: auto;
+    line-height: 100%;
+}
+.unit{
+    position: relative;
+    line-height: 140%;
+}
+.numBox{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 0.5em 0.5em;
+}

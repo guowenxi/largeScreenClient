@@ -1,0 +1,40 @@
+.noMargin {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 85%;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+}
+
+.svgBox {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    padding-top: 2.5vh;
+}
+
+.word {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5vh;
+}

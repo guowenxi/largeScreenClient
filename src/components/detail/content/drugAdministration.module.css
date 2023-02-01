@@ -1,0 +1,163 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-image: url('../images/drugBg.svg');
+}
+.title{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.titleLeft{
+    display: flex;
+    align-items: flex-end;
+}
+.titleRight{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.icon{
+    width: 10%;
+}
+.supervisory{
+    color: white;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+}
+.titleName{
+    font-size: 1.5em;
+    color: rgb(0,255,255);
+    padding:0 0.5em;
+}
+.titleType{
+    font-size: 1em;
+    color: rgb(233,67,19);
+}
+.textLeft{
+    width: 40%;
+    /* height: 80%; */
+    position: absolute;
+    left: 0;
+    top: 20%;
+    padding:1em;
+}
+.textBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0.4em 0em
+}
+.itemBox{
+    display: flex;
+    width: 100%;
+}
+.question{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    white-space: nowrap;
+}
+.answer{
+    color: rgb(0,251,252);
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    padding:0 0.5em;
+}
+.line{
+    width: 1px;
+    height: 70%;
+    position: absolute;
+    top:20%;
+    left: 40%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgb(0,255,255),rgba(0,0,0,0));
+}
+.textRight{
+    width: 60%;
+    height: 80%;
+    position: relative;
+    top: 20%;
+    left: 41%;
+    padding:1.5em 1em
+}
+.table{
+    width: 100%;
+}
+.tableHead{
+    color: white;
+    font-weight: normal;
+    width: 25%;
+    text-align: left;
+}
+.tableBody{
+    color: rgb(0,255,255);
+}
+.tdStyle{
+    text-overflow:ellipsis;
+    overflow: hidden;
+    width: 4em;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.themeTwo{
+    background: none;
+}
+.themeTwo .titleLeft{
+    width: 70%;
+}
+.themeTwo .title{
+    height: 24px;
+}
+.themeTwo .titleName{
+    font-size: 16px;
+    color: #333;
+}
+.themeTwo .titleRight{
+    width: 30%;
+}
+.themeTwo .textLeft,.themeTwo .textRight{
+    top: 20px;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.themeTwo .question,.themeTwo .tableHead{
+    color: #999;
+    font-size: 14px;
+}
+.themeTwo .textBox{
+    padding: 0;
+}
+.themeTwo .answer{
+    color: #333;
+    font-size: 14px;
+}
+.themeTwo .line{
+    background-image: linear-gradient(rgba(0,0,0,0),rgb(193,193,193),rgba(0,0,0,0));
+}
+.themeTwo .titleRight img{
+    display: none;
+}
+.themeTwo .supervisory{
+    font-size: 16px;
+    color: #1492ff;
+}
+.themeTwo .tdStyle{
+    color: #333;
+    font-size: 14px;
+    width: 8.5em;
+}
+.themeTwo .tableBody td{
+    width: 25%;
+}

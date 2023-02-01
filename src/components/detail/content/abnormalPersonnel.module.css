@@ -1,0 +1,240 @@
+.container {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.header {
+    padding-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.basicInfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basicInfoItem {
+    padding-left: 1em;
+    padding-bottom: 1.5em;
+}
+
+.basicInfoContent {
+    padding-left: 1em;
+}
+
+.riskWarningTitle {
+    display: flex;
+    padding-bottom: 1em;
+    font-size: 1.15em;
+}
+
+.lineOne {
+    width: 3px;
+    height: 1em;
+    margin-left: 1em;
+    background-color: #03429a;
+}
+
+.lineTwo {
+    width: 1px;
+    height: 1em;
+    margin: 0 0.5em 0 0.2em;
+    background-color: #03429a;
+}
+
+.riskWarningContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.riskWarningContentItem {
+    display: flex;
+    padding-left: 1em;
+    padding-bottom: 1.5em;
+}
+
+.riskWarningInnerContent {
+    flex: 1;
+    flex-shrink: 0;
+    padding-left: 1em;
+    word-break: break-all;
+}
+
+
+
+.relatedPerson {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.relatedPersonNameBox {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 7em;
+}
+
+.name {
+    width: 3em;
+    height: 5.8em;
+    border: 1px solid #3274e9;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: calc(3em - 2px);
+    background-color: #0853d9;
+    writing-mode: vertical-lr;
+}
+
+.horizontalLine {
+    width: 1em;
+    height: 2px;
+    background-color: #0750d3;
+}
+
+.relationBox {
+    display: flex;
+    width: calc(100% - 4.5em);
+}
+
+.verticalLine {
+    width: 2px;
+    background-color: #0750d3;
+}
+
+.relationList {
+    width: calc(100% - 3px);
+}
+
+.relationItem {
+    display: flex;
+    width: 100%;
+}
+
+.relationLeft {
+    flex-shrink: 0;
+    display: flex;
+}
+
+.connectingBox {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 3.5em;
+}
+
+.connectingLine {
+    width: 7em;
+    height: 2px;
+    background-color: #0750d3;
+}
+
+.relationContent {
+    position: absolute;
+    top: 0;
+}
+
+.relationName {
+    width: 5.8em;
+    height: 2.9em;
+    border: 2px solid #193a87;
+    border-radius: 10px;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2.9em;
+    background-color: #05236e;
+}
+
+.relationRight {
+    flex-shrink: 0;
+    margin-left: 0.5em 0;
+    width: calc(100% - 14.3em);
+}
+
+
+.listItem {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.itemGrid {
+    margin: 0;
+}
+
+.title {
+    flex-shrink: 0;
+    width: 5em;
+    text-align: right;
+    line-height: 1.2;
+}
+
+.content {
+    flex-shrink: 0;
+    width: calc(100% - 5em);
+    padding-right: 0.5em;
+    line-height: 1.2;
+    word-break: break-all;
+}
+
+
+.trendAssessment {
+    padding-left: 1em;
+    padding-bottom: 1em;
+    line-height: 1.1em;
+    word-break: break-all;
+}
+
+
+
+.stepBox{
+    position: relative;
+    width: 100%;
+    min-height: 6em;
+    padding-left: 2em;
+}
+.point{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: 0;
+    top: 0;
+    background-color: rgb(8,83,217);
+    border-radius: 0.5em;
+}
+.line{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 0.5em;
+    top: 0;
+    background-color: rgb(8,83,217);
+}
+.time{
+    position: relative;
+    line-height: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+.status{
+    position: relative;
+    width: 5em;
+    text-align: center;
+    border: 1px solid rgb(34,112,227);
+    color: rgb(34,112,227);
+    background-color: rgba(8,83,217,0.3);
+    margin-bottom: 1em;
+}
+.stepContent{
+    text-align: left;
+    color: rgba(255,255,255,0.7);
+    min-height: 4.5em;
+    padding-bottom: 1em;
+}

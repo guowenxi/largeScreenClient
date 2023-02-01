@@ -1,0 +1,52 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "id": "123",
+    "title": "江南夜总会发生人员踩踏事件",
+    "typeName": "非正常死亡",
+    "time": "2021-7-2 10:22:13",
+    "road": "安阳街道",
+    "address": "安阳街道xx路xx号xx楼",
+    "source": "110报警",
+    "level": "一级",
+    "content": "江南夜总会发生人员踩踏事件江南夜总会发生人员踩踏事件江南夜总会发生人员踩踏事件江南夜总会发生人员踩踏事件",
+    "typeLevel": "分类等级",
+    "isEmphasisArea": "否",
+    "eventCode": "事件编码",
+    "eventNo": "事件代码",
+    "status": "受理中",
+    "loginName": "登录名称",
+    "disposeName": "处理者名称",
+    "reportPhone": "18654986625",
+    "groupCode": "组织机构编码",
+    "handleList": [{
+      "stepName": "新增",
+      "department": "xx部门",
+      "handleUser": "王某某",
+      "phone": "18699875642",
+      "opinion": "办理意见",
+      "fileList": [{
+        "name": "xx文件1.doc",
+        "url": "./images/liushi.jpg"
+      },{
+        "name": "xx文件2.doc",
+        "url": "./images/liushi.jpg"
+      }]
+    },{
+      "stepName": "受理",
+      "department": "xx部门",
+      "handleUser": "王某某",
+      "phone": "18699875642",
+      "opinion": "办理意见",
+      "fileList": [{
+        "name": "xx文件1.doc",
+        "url": "./images/liushi.jpg"
+      },{
+        "name": "xx文件2.doc",
+        "url": "./images/liushi.jpg"
+      }]
+    }]
+  }
+}

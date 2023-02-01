@@ -1,0 +1,141 @@
+.managementBoxTitle {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 5vh;
+    position: absolute;
+}
+
+.managementBoxTitle label {
+    display: flex;
+    /*width: 5vw;*/
+    align-items: center;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.managementBoxTitle label .specialSpan {
+    display: block;
+    width: 2vh;
+    height: 2vh;
+    background-color: #ffffff;
+    margin: 0 1vh;
+}
+
+.managementBoxSelect {
+    position: absolute;
+    top: 8.5vh;
+    left: 2%;
+    width: 34%;
+    font-size: 2.5vh;
+    background-color: rgb(1, 16, 49);
+}
+
+.managementBoxSelect ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.managementBoxSelect .divSelect {
+    padding: 0 2%;
+    width: 100%;
+    line-height: 4.9vh;
+    border-radius: 0.5vh;
+    border: 2px solid #0077c1;
+    background: #021844;
+}
+.managementBoxSelect .noEdit{
+    border: none;
+}
+
+.managementBoxSelect .divSelect .arrowDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.9vh;
+    line-height: 4.9vh;
+    cursor: pointer;
+}
+.managementBoxSelect .noEdit .arrowDiv{
+    cursor: default;
+}
+.managementBoxSelect .divSelect .arrowDiv .arrowDown {
+    margin: 0;
+    border-top: 19px solid #0077c1;
+    border-right: 14px solid transparent;
+    border-left: 14px solid transparent;
+}
+.managementBoxSelect .noEdit .arrowDiv .arrowDown{
+    opacity: 0;
+}
+.managementBoxContent {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    margin: 0 auto;
+    width: 96%;
+    height: 75%;
+}
+
+.managementBoxContent img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.managementBoxContent .textPlan {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.managementBoxContent .textPlan li {
+    flex: 1 1;
+    margin: 0 0.5%;
+    padding: 3% 1em;
+    text-align: center;
+    background-color: #011e3d;
+}
+
+.managementBoxContent .textPlan li .indexTitle{
+    display: inline-block;
+    margin: 0 auto;
+    width: 9.5vh;
+    height: 9.5vh;
+    line-height: 9.5vh;
+    font-size: 6vh;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.managementBoxContent .textPlan li .textContent{
+    margin-top: 2%;
+    font-size: 1.6vh;
+    color: #00a4ff;
+    text-align: left;
+}
+.hidden{
+    z-index: -1;
+    opacity: 0;
+}
+.scrollbarsBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

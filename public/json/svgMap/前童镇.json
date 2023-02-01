@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "前童镇": {
+      "前童镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "前童镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "前童镇": ""
+  },
+  "mapRoadImg": {
+    "前童镇": "./images/svgMap/前童镇.png"
+  },
+  "mapBgSize": {
+    "前童镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "前童镇": {
+      "前童镇": {
+        "right": "49%",
+        "top": "51%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

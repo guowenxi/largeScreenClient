@@ -1,0 +1,10 @@
+.ant-timeline-item-head{
+    background: none;
+}
+.ant-timeline-item{
+    font-size: inherit;
+    padding: 0 0 0.6em;
+}
+.ant-timeline .ant-timeline-item:last-child{
+    padding: 0 !important;
+}

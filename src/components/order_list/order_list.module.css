@@ -1,0 +1,64 @@
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52,57,87,0.8);
+    border-radius: 2%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.selectTitle {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    margin-bottom: 0;
+    line-height: 3em;
+    font-weight: bold;
+    color: #f00;
+}
+
+.selectBox {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin-bottom: 0;
+    padding: 0;
+    right: 6%;
+    top: 0;
+    width: 25%;
+    line-height: 3.6em;
+    font-size: .8em;
+}
+
+.selectBox li {
+    flex: 1;
+    float: left;
+    text-align: center;
+}
+
+.selectBox li span {
+    color: rgb(25,158,216);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.listBox {
+    list-style: none;
+    position: absolute;
+    margin-bottom: 0;
+    padding: 0;
+    left: 10%;
+    top: 2.5em;
+    width: 92%;
+}
+
+.listBox .listItem {
+    width: 100%;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.listBox .listItem span {
+    float: right;
+    margin-right: 10%;
+    font-weight: bold;
+    color: #ff0000;
+}

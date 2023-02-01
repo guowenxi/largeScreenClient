@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "力洋镇": {
+      "力洋镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "力洋镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "力洋镇": ""
+  },
+  "mapRoadImg": {
+    "力洋镇": "./images/svgMap/力洋镇.png"
+  },
+  "mapBgSize": {
+    "力洋镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "力洋镇": {
+      "力洋镇": {
+        "left": "60%",
+        "top": "42%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

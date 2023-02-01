@@ -1,0 +1,116 @@
+.luchengEventTableBox .ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td,
+.luchengEventTableBox .ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td,
+.luchengEventTableBox .ant-table-thead>tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td,
+.luchengEventTableBox .ant-table-tbody>tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td {
+    background: transparent;
+}
+
+.luchengEventTableBox .ant-table {
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-table-thead>tr>th {
+    color: #fff;
+    background: transparent;
+}
+
+.luchengEventTableBox .ant-table-tbody>tr.ant-table-row-selected td {
+    color: inherit;
+    background: transparent;
+}
+
+.luchengEventTableBox .ant-table-thead {
+    background-color: #082852;
+    border: 0;
+}
+
+.luchengEventTableBox .ant-table-thead>tr>th {
+    border: 0;
+}
+
+.luchengEventTableBox .ant-table-row:nth-of-type(even) {
+    background-color: #092047;
+}
+
+.luchengEventTableBox .ant-table-tbody>tr>td {
+    border: 0;
+}
+
+.luchengEventTableBox .ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-pagination-item-container .ant-pagination-item-ellipsis {
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-pagination-item {
+    background-color: transparent;
+}
+
+.luchengEventTableBox .ant-pagination-item a {
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-pagination-total-text {
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-pagination-options-quick-jumper {
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-pagination-options-quick-jumper input {
+    color: #fff;
+    background-color: transparent;
+}
+
+.luchengEventTableBox .ant-table-placeholder {
+    border: 0;
+    background-color: transparent;
+}
+
+.luchengEventTableBox .ant-empty-description {
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-input {
+    padding: 1em 2em;
+    border: 1px solid #1d519c;
+    color: #fff;
+    background-color: #071940;
+}
+
+
+.luchengEventTableBox .ant-select-selection {
+    display: flex;
+    align-items: center;
+    width: 20em;
+    min-height: 2.58em;
+    padding: 0 0.5em;
+    border-radius: 4px;
+    border: solid 1px #1f84cc;
+    margin-right: 1em;
+    outline: 0;
+    color: #fff;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.luchengEventTableBox .ant-select-selection__rendered {
+    width: 100%;
+    margin: 0;
+}
+
+.luchengEventTableBox .ant-select-selection__placeholder {
+    width: 100%;
+    color: #fff;
+}
+
+.luchengEventTableBox .ant-select-arrow {
+    color: #fff;
+}

@@ -1,0 +1,144 @@
+.box{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: white;
+  padding: 0 1em;
+}
+.headBox{
+  position: relative;
+  width: 100%;
+  height: 1.6em;
+}
+.eventListBox{
+  position: relative;
+  width: 100%;
+  height: calc(100% - 2.4em);
+}
+.blankBox{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background: #5297da;
+  opacity: 0.2;
+}
+.blankText{
+  line-height: 2em;
+}
+.detailBox{
+  position: relative;
+  width: 100%;
+  /*height: calc(100% - 5.6em);*/
+  padding: 0.8em 1em;
+}
+.detailBox:last-child{
+  margin-bottom: 0;
+}
+.headTwo{
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+.title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+}
+.line{
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5em;
+  background-color: #03d5f5;
+  margin-top: 0.15em;
+}
+.subTitle{
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+.detailContent{
+  position: relative;
+  width: 100%;
+  /*height: calc(100% - 1.5em);*/
+  font-size: 0.7em;
+  line-height: 1.5em;
+  color: #a6c2df;
+  margin-bottom: 2em;
+}
+.status{
+  color: #fff;
+}
+.info{
+  font-size: 0.7em;
+}
+.info > .title {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+.info > .detailContent {
+  margin-bottom: 2em;
+  font-size: 0.7em;
+}
+.info > .detailContent > .img{
+  width: 12.5em;
+  height: 6.25em;
+  margin-right: 0.5em;
+}
+.info > .detailContent > .img:last-child{
+  margin-right: 0;
+}
+.info > .file_list{
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+  font-size: 0.8em;
+}
+.file_name{
+  min-width: 5em;
+  margin-right: 1em;
+}
+.file_down{
+  color: #03d5f5;
+}
+
+.themeTwo{
+  padding: 0;
+}
+.themeTwo .line{
+  display: none;
+}
+.themeTwo .headTwo{
+  height: auto;
+  line-height: 1.2em;
+  color: #2ce4fc;
+  margin-bottom: 0.25em;
+}
+.themeTwo .eventListBox{
+  height: 100%;
+}
+.themeTwo .detailBox{
+  cursor: pointer;
+  background: rgba(25,69,102,0.4);
+  margin-bottom: 0.6em;
+  padding: 0.5em 0.8em;
+  border-radius: 10px;
+}
+.themeTwo .detailContent{
+  opacity: 1;
+  font-size: 0.78em;
+}
+.themeTwo .rowContent{
+  color: rgb(102,244,255);
+}

@@ -1,0 +1,141 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: rgba(0,16,41,0.9);
+}
+.titleBox{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    top: 0;
+    left: 0;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-size: 1.5em;
+    padding: 0em 0.7em;
+}
+.contentBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 5vh);
+    top: 0;
+    left: 0;
+    padding:0em 1em;
+}
+.img{
+    width: 100%;
+    height: 35%;
+}
+.monitorDetail{
+    width: 100%;
+    padding: 0.5em;
+}
+.monitorDetailItem{
+    display: flex;
+}
+.monitorDetailItemOne{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.question{
+    color:white;
+    font-size: 1.5em;
+}
+.answer{
+    color: white;
+    font-size: 1.5em;
+}
+.statisticsDetial{
+    width: 100%;
+    border-width: 1px 0 1px 0;
+    border-color: white;
+    border-style: dashed;
+}
+.monthBox{
+    width: 100%;
+    display: flex;
+    padding: 0.5em 1em;
+    align-items: center;
+}
+.rectOne{
+    width: 1.5em;
+    height:1.5em;
+    background: rgb(252,193,45);
+}
+.rectTwo{
+    width: 1.5em;
+    height:1.5em;
+    background: rgb(0,253,186);
+}
+.statisticsTitle{
+    color:white;
+    font-size: 1.5em;
+    padding: 0em 1em;
+}
+.statisticsContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0em 1em;
+}
+.icon{
+    width: 10%;
+}
+.numOne{
+    color: rgb(255,190,31);
+    font-size: 1.5em;
+}
+.numTwo{
+    color:rgb(0,253,186);
+    font-size: 1.5em;
+}
+.compare{
+    color: white;
+    font-size: 1.5em;
+}
+.detailItem{
+    display: flex;
+    width: 100%;
+    padding: 0.5em;
+}
+.item{
+    display: flex;
+    padding: 0.5em;
+}
+.warningTitle{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+}
+.warningImg{
+    width: 10%;
+}
+.scrollBox{
+    display: flex;
+    padding: 0.2em 1em;
+}
+.carNumber{
+    color: rgb(242,100,117);
+    font-size: 1.5em;
+    width: 30%;
+}
+.stop{
+    color: white;
+    font-size: 1.5em;
+    width: 44%;
+}
+.time{
+    color: white;
+    font-size: 1.5em;
+    width: 26%;
+}

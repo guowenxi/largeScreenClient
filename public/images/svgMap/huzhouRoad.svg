@@ -1,0 +1,38 @@
+<svg id="湖州市地图" xmlns="http://www.w3.org/2000/svg" width="533" height="403" viewBox="0 0 533 403">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 16px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="长兴县" class="cls-3" x="210.068" y="99.884">长兴县</text>
+  <text id="吴兴区" class="cls-3" x="305" y="229.884">吴兴区</text>
+  <text id="南浔区" class="cls-3" x="416.068" y="211.884">南浔区</text>
+  <text id="德清县" class="cls-3" x="312.068" y="307.884">德清县</text>
+  <text id="安吉县" class="cls-3" x="123.068" y="282.884">安吉县</text>
+  <text id="南太湖_新区" data-name="南太湖  新区" class="cls-3" x="320" y="140">南太湖<tspan x="320" dy="20"> 新区</tspan></text>
+</svg>

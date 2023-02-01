@@ -1,0 +1,103 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "eventAddress":"测试地址10",
+    "eventContent":"测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10测试事件内容10",
+    "eventDate":"2022-08-14 13:50:00",
+    "eventLevel":null,
+    "eventLevelName":"无",
+    "eventState":"",
+    "eventStateName":"",
+    "eventTitle":"测试标题10",
+    "eventType":"1",
+    "eventTypeName":"测试事件类型名称",
+    "fileIdList":[
+      {
+        "fileId":"1ac8e3a8de2c4008a051e79feec3d0dc",
+        "fileName":"mda-maunc8q8gpwgjts8.mp4",
+        "fileType":"video/mp4",
+        "fileUrl":"C://upload/a5cfbfe756334d14a03be3418cf585ea\\20220810"
+      },
+      {
+        "fileId":"8158ef8145ca4bc79cb039a529e18d2d",
+        "fileName":"测试文档.doc",
+        "fileType":"application/msword",
+        "fileUrl":"C://upload/1195d57f9e984518a6560c879b3e1108\\20220811"
+      },
+      {
+        "fileId":"ef84005a7ab34bd1b1899c372c712722",
+        "fileName":"file (2).jpeg",
+        "fileType":"image/jpeg",
+        "fileUrl":"C://upload/a5cfbfe756334d14a03be3418cf585ea\\20220810"
+      }
+    ],
+    "finishTime":null,
+    "handleDepartmentName":"xx部门",
+    "handleList":[{
+      "handleTime": "2022-09-07 14:15:11",
+      "handleUser": "王某某",
+      "handleDesc": "处置内容处置内容处置内容处置内容",
+      "fileIdList": [
+        {
+          "fileId":"1ac8e3a8de2c4008a051e79feec3d0dc",
+          "fileName":"mda-maunc8q8gpwgjts8.mp4",
+          "fileType":"video/mp4",
+          "fileUrl":"C://upload/a5cfbfe756334d14a03be3418cf585ea\\20220810"
+        },
+        {
+          "fileId":"ef84005a7ab34bd1b1899c372c712722",
+          "fileName":"file (2).jpeg",
+          "fileType":"image/jpeg",
+          "fileUrl":"C://upload/a5cfbfe756334d14a03be3418cf585ea\\20220810"
+        },
+        {
+          "fileId":"8158ef8145ca4bc79cb039a529e18d2d",
+          "fileName":"测试文档.doc",
+          "fileType":"application/msword",
+          "fileUrl":"C://upload/1195d57f9e984518a6560c879b3e1108\\20220811"
+        }
+      ]
+    },{
+      "handleTime": "2022-09-07 14:15:11",
+      "handleUser": "王某某",
+      "handleDesc": "处置内容处置内容处置内容处置内容",
+      "fileIdList": [
+        {
+          "fileId":"ef84005a7ab34bd1b1899c372c712722",
+          "fileName":"file (2).jpeg",
+          "fileType":"image/jpeg",
+          "fileUrl":"C://upload/a5cfbfe756334d14a03be3418cf585ea\\20220810"
+        }
+      ]
+    },{
+      "handleTime": "2022-09-07 14:15:11",
+      "handleUser": "王某某",
+      "handleDesc": "处置内容处置内容处置内容处置内容",
+      "fileIdList": [
+        {
+          "fileId":"ef84005a7ab34bd1b1899c372c712722",
+          "fileName":"file (2).jpeg",
+          "fileType":"image/jpeg",
+          "fileUrl":"C://upload/a5cfbfe756334d14a03be3418cf585ea\\20220810"
+        }
+      ]
+    }],
+    "handleStatus":null,
+    "handleUserName":"王某某",
+    "id":"e315fccf756644fc878ecaf19752ff06",
+    "labelList":["重大安全事故","较大消防事故"],
+    "labelName":"",
+    "overdueDays":null,
+    "overdued":"",
+    "riskLevel":1,
+    "riskLevelName":"高风险",
+    "roadId":"330303002000",
+    "roadName":"蒲州街道",
+    "sourceId":"adqd30",
+    "sourceType":"1",
+    "sourceTypeName":"四平台事件"
+  },
+  "timestamp":"1662522391135"
+}

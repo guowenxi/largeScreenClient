@@ -1,0 +1,31 @@
+.box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+.item{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    flex-direction: row;
+}
+.dropBox{
+    position: absolute;
+    width:100%;
+    /* border:1px solid rgb(16,119,216);
+    background-color: rgb(5,29,80); */
+}
+.underlineBox{
+    position: relative;
+    width: 1em;
+    height: 0.3em;
+    border-radius: 5px;
+    top:0.3em;
+}

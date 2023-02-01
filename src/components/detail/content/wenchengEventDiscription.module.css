@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vh;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.itemBox {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.title {
+    flex-shrink: 0;
+    width: 8em;
+    text-align: right;
+}
+
+.contentBox {
+    display: flex;
+    width: 50%;
+}
+
+.content {
+    padding-left: 0.2em;
+}
+
+.fileBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.onlyLine {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rateBox {
+    display: flex;
+    align-items: center;
+}
+
+.rateText {
+    margin-left: 4em;
+    margin-top: 0.5em;
+}
+
+.rateLabelBox {
+    display: flex;
+    margin: 2em 0;
+    font-size: 0.8em;
+}
+
+.rateLabel {
+    padding: 0 0.2em;
+    border: 1px solid #fff;
+    margin-right: 0.5em;
+    line-height: 1.8em;
+}

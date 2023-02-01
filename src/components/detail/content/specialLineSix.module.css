@@ -1,0 +1,33 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.lineBoxOne {
+    position: absolute;
+    left: 8.5%;
+    top: 46%;
+    width: 58.2%;
+    height: 48.3%;
+}
+
+.lineBoxTwo {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 56.5%;
+    height: 55%;
+}
+
+.lineBoxThree {
+    position: absolute;
+    left: 49%;
+    top: 20.5%;
+    width: 11%;
+    height: 10%;
+}
+
+.sameLevel {
+    z-index: 1;
+}

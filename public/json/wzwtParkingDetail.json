@@ -1,0 +1,24 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":{
+        "road":"工商银行门口",
+        "capture":"500",
+        "monitorNum":"50",
+        "monitorType":"手动",
+        "address":"永宁西路工商银行门口",
+        "monthCompare":"10%",
+        "monthWarningNum":"50",
+        "monthRectificationNum":"30",
+        "monthParkingNum":"10",
+        "dayCompare":"10%",
+        "dayWarningNum":"50",
+        "dayRectificationNum":"30",
+        "dayParkingNum":"10",
+        "monthType":0,
+        "dayType":0,
+        "pic": "./images/jiankong.jpg",
+        "warningStop":[{"carNumber":"浙C06C80","num":"3","time":"13:19:00"},{"carNumber":"浙C06C80","num":"3","time":"13:19:00"},{"carNumber":"浙C06C80","num":"3","time":"13:19:00"},{"carNumber":"浙C06C80","num":"3","time":"13:19:00"},{"carNumber":"浙C06C80","num":"3","time":"13:19:00"},{"carNumber":"浙C06C80","num":"3","time":"13:19:00"},{"carNumber":"浙C06C80","num":"3","time":"13:19:00"}]
+    }
+  }

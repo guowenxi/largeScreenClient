@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'LESLIE';
+    src: url("../../assets/fonts/LESLIE.TTF");
+}
+@font-face {
+    font-family: 'IRON_MAN_OF_WAR';
+    src: url("../../assets/fonts/IRON MAN OF WAR 001C NCV.ttf");
+}
+@font-face {
+    font-family: 'MFBanHei';
+    src: url("../../assets/fonts/MFBanHei.otf");
+}
+@font-face {
+    font-family: 'MFLiHei';
+    src: url("../../assets/fonts/MFLiHei.otf");
+}
+@font-face {
+    font-family: 'TRENDS';
+    src: url("../../assets/fonts/TRENDS.TTF");
+}
+@font-face {
+    font-family: 'QUARTZEF';
+    src: url("../../assets/fonts/QUARTZEF.OTF");
+}
+@font-face {
+    font-family: 'DINPRO-REGULAR';
+    src: url("../../assets/fonts/DINPRO-REGULAR.OTF");
+}
+/*@font-face {*/
+/*    font-family: 'ssjd';*/
+    /*src: url("../../assets/fonts/ssjd.ttf");*/
+/*}*/
+body {
+    margin: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",*/
+    /*"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",*/
+    /*sans-serif;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    user-select: none;
+    background: none;
+    font-family: "MicrosoftYaHei";
+    /*font-family: '方正综艺简体';*/
+    /*font-family: '上首京东体';*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.app-box{
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+    bottom: 0;
+}
+.canvas-box {
+    position: absolute;
+    width: 70%;
+    /*height: 60%;*/
+    height: 84%;
+    /*background-color: beige;*/
+    left: 12%;
+    /*top: 20%;*/
+    top: 8%;
+    /*overflow: scroll;*/
+}
+.canvas-view{
+    position: relative;
+    /*border: 1px solid #09d3ac;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.scale-slider{
+    position: absolute !important;
+    bottom: 2vh;
+    left: 35vw;
+    width: 50vw;
+}
+.scale-slider .ant-slider-track,.scale-slider .ant-slider-track:hover{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.edit-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15vw;
+    height: 100%;
+    border-left: 1px solid #ccc;
+    padding-bottom: 4vh;
+}
+.edit-box .edit-title {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid gray;
+    font-size: 3vh;
+    line-height: 5vh;
+}
+.edit-box .edit-title-small {
+    font-size: 2vh;
+    height: 4vh;
+}
+.edit-box .interact-list-box {
+    position: relative;
+    width: 100%;
+    padding: 0 5%;
+}
+.edit-box .edit-blank {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    font-size: 2vh;
+    line-height: 5vh;
+    text-align: center;
+}
+.edit-box .edit-title-button {
+    float: right;
+    margin-top: 1vh;
+}
+.edit-box .edit-item {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    font-size: 2vh;
+    line-height: 5vh;
+}
+.edit-box .edit-item-title {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.edit-box .edit-item-input {
+    position: relative;
+    width: 58%;
+    height: 3vh;
+    float: left;
+    margin-top: 1vh;
+}
+.edit-box .edit-item-textarea {
+    line-height: 1.2;
+    word-break: break-all;
+    position: relative;
+    width: 100%;
+    height: 8vh;
+}
+
+.edit-box .ant-tabs .ant-tabs-bar{
+    margin: 0;
+}
+.edit-box .ant-collapse{
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.edit-box .ant-collapse .ant-select{
+    width: 100%;
+}
+.edit-box .save-button{
+    position: absolute;
+    width: 100%;
+    height: 4vh;
+    font-size: 2vh;
+    line-height: 4vh;
+    text-align: center;
+    bottom: 0;
+    border-top: 1px solid #000;
+    cursor: pointer;
+}
+.edit-box .thumbnail-box{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit-box .thumbnail-box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.edit-box .thumbnail-box .refresh{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128,128,128,0.2);
+    /*opacity: 0;*/
+}
+/*.edit-box .thumbnail-box .refresh:hover{*/
+/*    opacity: 1;*/
+/*}*/
+
+.head-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+    color: #fff;
+    font-size: 1.4vh;
+    background-color: #666;
+}
+.head-menu .head-menu-item {
+    position: relative;
+    width: 10vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+    justify-content: center;
+}
+.head-menu .menu-list-box {
+    position: absolute;
+    top: 100%;
+    width: 40vh;
+    height: 40vh;
+    z-index: 10;
+    border: 1px solid #f1f1f1;
+}
+.head-menu .component-type-box {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: #f0f2f5;
+    box-shadow: 0 2px 4px 0 hsla(0,0%,83.9%,.5);
+    border-radius: 2px;
+}
+.head-menu .component-type-box .component-type-item {
+    line-height: 32px;
+    padding: 0 15px;
+    color: #282828;
+    font-size: 12px;
+    background-clip: padding-box;
+    cursor: pointer;
+}
+.head-menu .component-type-box .component-type-item:hover {
+    background-color: #fff;
+    box-shadow: 0 2px 5px hsla(0,0%,58.8%,.4);
+}
+.head-menu .component-type-box .component-type-active {
+    background-color: #fff;
+    box-shadow: 0 2px 5px hsla(0,0%,58.8%,.4);
+    border-right: 1px solid #f1f1f1;
+}
+.head-menu .component-list-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -25%;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+.head-menu .component-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 2%;
+    width: 50%;
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    cursor: pointer;
+}
+.head-menu .component-item:hover {
+    background-color: #f1f1f1;
+}
+.head-menu .preview{
+    float: right;
+    font-size: 2vh;
+    line-height: 7vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+.component-menu-box{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 0;
+    border-right: 1px solid #000000;
+    padding-bottom: 4vh;
+}
+.app-box .paste-button{
+    position: absolute;
+    top: 0;
+    right: 15vw;
+    font-size: 2vh;
+    cursor: pointer;
+    margin: 1vh;
+}
+.ant-collapse-content > .ant-collapse-content-box{
+    padding: 8px !important;
+}
+/*.Scrollbars > div{*/
+/*    margin-right: -17.5px !important;*/
+/*    margin-bottom: -17.5px !important;;*/
+/*}*/
+
+.ant-tree li .ant-tree-node-content-wrapper {
+    color: gray;
+}
+.scrollbars-hideScroll > :nth-child(2),.scrollbars-hideScroll > :nth-child(3){
+    display: none;
+}
+.hideTablePage .ant-pagination{
+    display: none;
+}

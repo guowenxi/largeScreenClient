@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.firstContent {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 4.7em;
+}
+
+.imgBox {
+    width: 4.7em;
+    height: 4.7em;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nameBox {
+    display: flex;
+}
+
+.gender {
+    margin-left: 1.5em;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.centerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+    margin-left: 0em;
+}
+
+.carType {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #00a8e7;
+}
+
+.secondContent {
+    display: block;
+    margin-top: 0.7em;
+}
+
+.thirdContent {
+    display: flex;
+    margin: 0.7em 0;
+}
+
+.matterTitle {
+    flex-shrink: 0;
+}
+
+.matterContent {
+    width: 25em;
+    line-height: 1.2;
+    word-wrap:break-word;
+}
+
+.recordItem {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 3em;
+    border-radius: 10px;
+    border: solid 1px #00ecff;
+}
+
+.recordIcon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.1em;
+    margin-left: 0.7em;
+}
+
+.recordStatus {
+    margin-left: 1em;
+    font-weight: 600;
+}
+
+.recordTime {
+    margin-left: 1.2em;
+    font-size: 0.9em;
+}
+
+.recordPhoto {
+    position: absolute;
+    right: 0.7em;
+    width: 1.5em;
+    height: 2em;
+    border-radius: 5px;
+}

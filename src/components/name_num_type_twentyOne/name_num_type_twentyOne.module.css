@@ -1,0 +1,46 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.itemBox{
+    background-image: url("./images/bingtu_kuang.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+}
+.imgBox{
+    background-image: url("./images/bingtu_beijing.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    width: 74%;
+    height: 74%;
+}
+.titleStyle{
+    position: absolute;
+    width: 6em;
+    height: 2em;
+    top: 1em;
+    left: 1em;
+}
+.titleText{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    color: white;
+}

@@ -1,0 +1,19 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[
+    {
+      "name":"xx来源",
+      "id":"1"
+    },
+    {
+      "name":"xx来源",
+      "id":"2"
+    },
+    {
+      "name":"xx来源",
+      "id":"3"
+    }
+  ]
+}

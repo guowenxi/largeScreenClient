@@ -1,0 +1,53 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.lineBoxOne {
+    position: absolute;
+    top: 24.3%;
+    left: 29%;
+    width: 58.8%;
+    height: 49.2%;
+}
+
+.lineBoxTwo {
+    position: absolute;
+    top: 24.3%;
+    left: 29%;
+    width: 58.8%;
+    height: 49.2%;
+}
+
+.lineBoxThree {
+    position: absolute;
+    top: 24.3%;
+    left: 29%;
+    width: 58.8%;
+    height: 49.2%;
+}
+
+.lineBoxFour {
+    position: absolute;
+    left: 9.3%;
+    top: 38.6%;
+    width: 59.8%;
+    height: 50.3%;
+}
+
+.lineBoxFive {
+    position: absolute;
+    left: 9.3%;
+    top: 38.6%;
+    width: 59.8%;
+    height: 50.3%;
+}
+
+.lineBoxSix {
+    position: absolute;
+    left: 9.3%;
+    top: 38.6%;
+    width: 59.8%;
+    height: 50.3%;
+}

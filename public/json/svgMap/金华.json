@@ -1,0 +1,63 @@
+{
+  "roadPosition": {
+    "金华": {
+      "兰溪市": {
+        "left": "30%",
+        "top": "37%"
+      },
+      "浦江县": {
+        "left": "48%",
+        "top": "26%"
+      },
+      "义乌市": {
+        "left": "57%",
+        "top": "33%"
+      },
+      "东阳市": {
+        "left": "78%",
+        "top": "37%"
+      },
+      "磐安县": {
+        "left": "85%",
+        "top": "52%"
+      },
+      "永康市": {
+        "left": "58%",
+        "top": "61%"
+      },
+      "武义县": {
+        "left": "28%",
+        "top": "84%"
+      },
+      "婺城区": {
+        "left": "27%",
+        "top": "61%"
+      },
+      "金东区": {
+        "left": "38%",
+        "top": "45%"
+      }
+    }
+  },
+  "areaPath": {
+  },
+  "areaBoxSize": {
+  },
+  "mapBgImg": {
+    "金华": "./images/svgMap/jinhua.png"
+  },
+  "mapRoadImg": {
+  },
+  "mapBgSize": {
+    "金华": {
+      "width": 883,
+      "height": 762
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+  },
+  "areaCode": {
+  }
+}

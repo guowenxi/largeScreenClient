@@ -1,0 +1,148 @@
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: relative;
+    width: 21em;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 2vh;
+    padding: 0.5em;
+    color: white;
+}
+.line{
+    position: relative;
+    width: 100%;
+    height: 4vh;
+    line-height: 4vh;
+}
+.line .title{
+    color: rgba(255,255,255,0.8);
+    float: left;
+    width: 5em;
+}
+.line .content{
+    float: left;
+    width: 15em;
+    height: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+}
+.button{
+    position: relative;
+    width: 6em;
+    height: 4vh;
+    line-height: 4vh;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(0,164,255);
+    cursor: pointer;
+}
+
+.editBox{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background-color: rgb(255,51,51);
+    z-index: 50;
+    border-radius: 3vh;
+    padding: 2.5vh 4vh;
+    font-size: 3vh;
+}
+.selectBox{
+    position: absolute;
+    width: calc(100% - 16vh);
+    height: auto;
+    font-size: 2vh;
+    line-height: 5vh;
+    border: 1px solid #fff;
+    text-indent: 1em;
+    color: #fff;
+    border-radius: 1vh;
+    z-index: 1;
+}
+.selectItem{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    cursor: pointer;
+}
+.closeIcon{
+    position: relative;
+    float: right;
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+    margin-top: 0.5vh;
+}
+.groupTypeBox{
+    position: relative;
+    width: 100%;
+    margin-top: 5vh;
+    height: 8vh;
+    font-size: 2.5vh;
+    line-height: 120%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.groupTypeItem{
+    position: relative;
+    padding: 0 0.4em;
+    border-radius: 1vh;
+    line-height: 170%;
+    margin-right: 1em;
+    color: white;
+    cursor: pointer;
+}
+.groupTypeSelected{
+    background-color: rgba(0,0,0,0.2);
+    cursor: default;
+}
+.groupListBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 30vh);
+}
+.groupItem{
+    position: relative;
+    width: 20%;
+    height: 6vh;
+    justify-content: flex-start;
+    font-size: 2.5vh;
+    float: left;
+    cursor: pointer;
+    color: white;
+}
+.groupItem img{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    float: left;
+    margin-right: 1em;
+}
+.text{
+    position: relative;
+    height: 18vh !important;
+    resize: none;
+    font-size: 2.5vh;
+    border-radius: 1vh;
+    margin-top: 2vh;
+}
+.sendButton{
+    position: relative;
+    width: 5.5em;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin: 2vh auto 0;
+    font-size: 2.5vh;
+    line-height: 5vh;
+    text-align: center;
+    border-radius: 1vh;
+    color: #fff;
+}

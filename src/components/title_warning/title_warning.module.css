@@ -1,0 +1,60 @@
+.newsList {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.newsList .newsItem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.newsList .newsItem .coverBox {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+.newsList .newsItem .coverBox img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newsList .newsItem .textBox {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    width: 80%;
+}
+
+.newsList .newsItem .textBox li {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.coverImg{
+    margin-right: 1em;
+}
+.itemPart{
+    overflow: hidden;/*超出部分隐藏*/
+    text-overflow:ellipsis;/* 超出部分显示省略号 */
+    white-space: nowrap;/*规定段落中的文本不进行换行 */
+    cursor: pointer;
+    margin-right: 1em;
+}
+.itemPart:last-child{
+    margin: 0;
+}

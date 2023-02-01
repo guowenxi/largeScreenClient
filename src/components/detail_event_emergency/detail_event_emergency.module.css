@@ -1,0 +1,88 @@
+.detailEventBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.detailEventBox p{
+    margin-bottom: 0;
+}
+
+.closeBtn{
+    position: relative;
+    font-size: 1.5vh;
+    color: #fff;
+    float: right;
+}
+
+.header {
+}
+
+.header .detailBox {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.header .detailBox li {
+    display: inline-block;
+}
+
+.header .detailBox li p:nth-child(1) {
+    color: #0ff;
+}
+
+.header .detailBox li p:nth-child(2) {
+    color: #fff;
+}
+
+.header .detailBox li:nth-child(2) {
+    margin-left: 2.35vw;
+}
+
+.header .detailBox li:nth-child(3) {
+    margin-left: 1.35vw;
+}
+
+.header .detailBox li:nth-child(4) {
+    margin-top: 3vh;
+}
+
+.header .detailBox li:nth-child(5) {
+    margin-left: 1.6vw;
+}
+
+.header .detailBox li:nth-child(6) {
+    margin-left: 2.1vw;
+}
+
+.header .detailBox .textTitle {
+    margin-bottom: 0.9vh;
+    line-height: 5.1vh;
+    font-size: 3.8vh;
+    font-weight: bold;
+}
+
+.header .detailBox .textContent {
+    line-height: 2.55vh;
+    font-size: 1.4vh;
+}
+
+.header .detailBox .textContent p {
+    /*max-width: 4.5vw;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+.main {
+    font-size: 1.2vh;
+    color: #fff;
+}
+.hidden{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}

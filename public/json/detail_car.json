@@ -1,0 +1,18 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":{
+        "carNumber":"浙C25415",
+        "color":"白色",
+        "onLine":"是",
+        "people":"张三",
+        "telphone":"13656876589",
+        "inTime":"2020.06.19 10:15",
+        "name":"张三",
+        "type":"民警",
+        "imgSrc":"http://localhost:8080/fyDisplaySystem/file/download/8be7c65280a1495a9b0f0099f6e5016d",
+        "health":"绿色",
+        "temperature":"36.2°"
+    }
+  }

@@ -1,0 +1,50 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 0.5em;
+}
+.itemBox{
+    position: relative;
+    width: 100%;
+    padding: 1em 1em 1em 15em;
+    border-bottom: 2px solid rgba(226,240,247,0.2);
+    min-height: 13em;
+}
+.head{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 1.286em;
+    line-height: 2em;
+    color: #20b3ff;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+}
+.content{
+    position: relative;
+    width: 100%;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: rgb(226,240,247);
+}
+.imgBox{
+    position: absolute;
+    left: 1em;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 13em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    position: relative;
+    max-width: 12em;
+    max-height: calc(100% - 2em);
+    padding: 4px;
+    border: 1px solid rgb(133,207,255);
+}

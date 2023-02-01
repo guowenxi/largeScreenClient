@@ -1,0 +1,27 @@
+.selectBox{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+}
+.uploadBox{
+    position: relative;
+    float: left;
+    width: auto !important;
+}
+.fileBox{
+    position: relative;
+    width: 104px;
+    height: 104px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 0.5vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+}
+.img{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}

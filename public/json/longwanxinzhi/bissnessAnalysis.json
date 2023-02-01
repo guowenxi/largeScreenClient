@@ -1,0 +1,21 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [
+        {
+            "name": "已处置事件",
+            "num": 240
+        },
+        {
+            "name": "修复事件",
+            "num": 120,
+            "rate": 50
+        },
+        {
+            "name": "加分事件",
+            "num": 120,
+            "rate": 50
+        }
+    ]
+}

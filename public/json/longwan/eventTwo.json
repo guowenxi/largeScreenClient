@@ -1,0 +1,132 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "assignFileIds":"c27cb69afedd48b388163d9ea55b4dae,1962ab3fa16849159d52e07d1c945f7c",
+    "assignFileList":[
+      {
+        "fileId":"1962ab3fa16849159d52e07d1c945f7c",
+        "fileName":"word文件.doc",
+        "fileType":"application/msword",
+        "fileUrl":"C://upload/dda0c744d03b4086af40747fa9f9dd51\\20220831"
+      },
+      {
+        "fileId":"c27cb69afedd48b388163d9ea55b4dae",
+        "fileName":"图片.jpg",
+        "fileType":"image/jpeg",
+        "fileUrl":"C://upload/dda0c744d03b4086af40747fa9f9dd51\\20220831"
+      }
+    ],
+    "eventState":3,
+    "eventStateCode":3,
+    "eventStateName":"待反馈",
+    "feedBackContent":"测试测试",
+    "feedBackFileIds":"59595d8de2f2474d8838e3fcd686a550,2df8716970aa4f2387cf795b6780dd51",
+    "feedBackFiles":[
+      {
+        "fileId":"2df8716970aa4f2387cf795b6780dd51",
+        "fileName":"图片.jpg",
+        "fileType":"image/jpeg",
+        "fileUrl":"C://upload/dad088b1f7704ae5908ef651151351de\\20220831"
+      },
+      {
+        "fileId":"59595d8de2f2474d8838e3fcd686a550",
+        "fileName":"word文件.doc",
+        "fileType":"application/msword",
+        "fileUrl":"C://upload/dad088b1f7704ae5908ef651151351de\\20220831"
+      }
+    ],
+    "finishContent":"测试完成",
+    "finishUserDepartmentName":"部门1",
+    "finishUserId":"dda0c744d03b4086af40747fa9f9dd51",
+    "finishUserName":"吕玉阳",
+    "handleDays":1,
+    "handleDepartmentId":"c66b710813704adbb3a8de8a8cbc3b7d",
+    "handleDepartmentName":"部门1",
+    "handleList":[
+      {
+        "fileIdList":[
+          {
+            "fileId":"1962ab3fa16849159d52e07d1c945f7c",
+            "fileName":"word文件.doc",
+            "fileType":"application/msword",
+            "fileUrl":"C://upload/dda0c744d03b4086af40747fa9f9dd51\\20220831"
+          },
+          {
+            "fileId":"c27cb69afedd48b388163d9ea55b4dae",
+            "fileName":"图片.jpg",
+            "fileType":"image/jpeg",
+            "fileUrl":"C://upload/dda0c744d03b4086af40747fa9f9dd51\\20220831"
+          }
+        ],
+        "fileIds":"c27cb69afedd48b388163d9ea55b4dae,1962ab3fa16849159d52e07d1c945f7c",
+        "handleDesc":"测试附加",
+        "handleTime":"2022-08-31 14:05:22",
+        "handleUser":"部门1: 吕玉阳"
+      },
+      {
+        "fileIdList":[],
+        "fileIds":"",
+        "handleDesc":"高苗凡签收",
+        "handleTime":"2022-08-31 15:15:38",
+        "handleUser":"部门1: 高苗凡"
+      },
+      {
+        "fileIdList":[
+          {
+            "fileId":"2df8716970aa4f2387cf795b6780dd51",
+            "fileName":"图片.jpg",
+            "fileType":"image/jpeg",
+            "fileUrl":"C://upload/dad088b1f7704ae5908ef651151351de\\20220831"
+          },
+          {
+            "fileId":"59595d8de2f2474d8838e3fcd686a550",
+            "fileName":"word文件.doc",
+            "fileType":"application/msword",
+            "fileUrl":"C://upload/dad088b1f7704ae5908ef651151351de\\20220831"
+          }
+        ],
+        "fileIds":"59595d8de2f2474d8838e3fcd686a550,2df8716970aa4f2387cf795b6780dd51",
+        "handleDesc":"测试测试",
+        "handleTime":"2022-08-31 15:17:23",
+        "handleUser":"部门1: 高苗凡"
+      },
+      {
+        "fileIdList":[],
+        "fileIds":"",
+        "handleDesc":"测试完成",
+        "handleTime":"2022-08-31 15:29:10",
+        "handleUser":"部门1: 吕玉阳"
+      }
+    ],
+    "handleTime":"2022-08-31 15:17:23",
+    "handleUserId":"dad088b1f7704ae5908ef651151351de",
+    "handleUserName":"高苗凡",
+    "id":"7db58df50b884538a15b33e217f687d2",
+    "instruction":"测试附加",
+    "leftHandleDays":-1,
+    "overdued":"否",
+    "statusTimeList":[{
+      "id":1,
+      "name":"已督办",
+      "time":"2022-08-31 14:05:22"
+    },{
+      "id":2,
+      "name":"已签收",
+      "time":"2022-08-31 15:15:38"
+    },{
+      "id":3,
+      "name":"已反馈",
+      "time":"2022-08-31 15:17:23"
+    },{
+      "id":4,
+      "name":"已办结",
+      "time":""
+    }],
+    "superviseUserDepartmentName":"部门1",
+    "superviseUserId":"dda0c744d03b4086af40747fa9f9dd51",
+    "superviseUserName":"吕玉阳"
+  },
+  "timestamp":"1662608912333"
+}

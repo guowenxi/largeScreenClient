@@ -1,0 +1,24 @@
+.hideScrollbars>:nth-child(2),
+.hideScrollbars>:nth-child(3){
+    display: none;
+}
+.EventCountListThreeScrollbars{
+    height: calc(100% - 3.55em) !important;
+}
+.EventCountListFourScrollbars{
+    /*height: calc(100% - 5em) !important;*/
+}
+.EventCountListThreeScrollbars>:nth-child(2)>div,
+.EventCountListThreeScrollbars>:nth-child(3)>div,
+.EventCountListFourScrollbars>:nth-child(2)>div,
+.EventCountListFourScrollbars>:nth-child(3)>div{
+    background-color: #2196f3 !important;
+}
+.EventCountListThreeScrollbars>:nth-child(1),
+.EventCountListFourHideScrollbars>:nth-child(1),
+.EventCountListFourScrollbars>:nth-child(1){
+    /*padding-right: 10px;*/
+}
+.EventCountListFourScrollbars>:nth-child(1){
+    /*padding-bottom: 10px;*/
+}

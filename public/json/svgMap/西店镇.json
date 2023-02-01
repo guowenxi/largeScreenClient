@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "西店镇": {
+      "西店镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "西店镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "西店镇": ""
+  },
+  "mapRoadImg": {
+    "西店镇": "./images/svgMap/西店镇.png"
+  },
+  "mapBgSize": {
+    "西店镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "西店镇": {
+      "西店镇": {
+        "left": "64%",
+        "top": "50%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

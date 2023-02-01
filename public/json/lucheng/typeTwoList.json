@@ -1,0 +1,18 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "secondId": 1,
+    "secondName": "小类1"
+  },{
+    "secondId": 2,
+    "secondName": "小类2"
+  },{
+    "secondId": 3,
+    "secondName": "小类3"
+  },{
+    "secondId": 4,
+    "secondName": "小类4"
+  }]
+}

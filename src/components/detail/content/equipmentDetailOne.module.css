@@ -1,0 +1,129 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    color: #fff;
+    line-height: 1;
+    background-color: rgba(2, 61, 86, 0.4);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1em;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 0.8em;
+    text-shadow: #00b5ed 0px 0px 20px;
+}
+
+.statusIcon {
+    width: 0.6em;
+    height: 0.6em;
+    margin: 0 0.2em 0 1.5em;
+    border-radius: 50%;
+}
+
+.statusText {
+    font-size: 0.8em;
+}
+
+.closeIcon {
+    width: 0.8em;
+    height: 0.8em;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+    border: solid 1px #3cfffd;
+    margin-top: 0.7em;
+    font-size: 0.85em;
+    color: #3cfffd;
+    background-color: #066288;
+}
+
+.tabItem {
+    width: 33.33%;
+    line-height: 1.6em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.activeTabItem {
+    color: #3cfffd;
+    font-weight: 600;
+    background-color: rgba(0, 172, 254, 0.4);
+}
+
+.detail {
+    height: calc(100% - 4em);
+    font-size: 0.85em;
+}
+
+.detailItem {
+    display: flex;
+    align-items: center;
+    padding: 0.58em 0;
+    border: solid 1px #3cfffd;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.detailItemTitle {
+    flex-shrink: 0;
+    width: 5em;
+    margin: 0 3em 0 1em;
+}
+
+.detailItemContent {
+    flex-shrink: 0;
+    width: 11em;
+    height: 1.1em;
+    margin-right: 0.3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.firstDetailTitle {
+    width: 4em;
+    margin-left: 0.6em;
+    font-size: 1.1em;
+    line-height: 2.15em;
+}
+
+.imgButton {
+    padding-right: 0.6em;
+    color: #00acfe;
+    cursor: pointer;
+}
+
+.detailItemContentMore {
+    line-height: 1.2em;
+    word-break: break-all;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+}

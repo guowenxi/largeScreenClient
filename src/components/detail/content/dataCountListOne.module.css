@@ -1,0 +1,54 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box,.num{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    flex-flow: column;
+}
+.rowBox{
+    position: relative;
+    width: 100%;
+    padding-bottom: 2em;
+}
+.titleBox,.barBox{
+    position: relative;
+    width: 100%;
+}
+.titleBox{
+    height: 3em;
+}
+.barBox{
+    height: 1.5em;
+    background: rgb(4, 26, 42);
+}
+.title{
+    color: white;
+}
+.allNum{
+    color: #07E5EC;
+    font-size: 1.14em;
+    font-weight: bold;
+}
+.rowBox:nth-child(2n+1) .finishBar{
+    background: linear-gradient(90deg, rgba(0, 162, 242, 0.01) 0%, rgb(0, 162, 242) 100%);
+}
+.rowBox:nth-child(2n) .finishBar{
+    background: linear-gradient(90deg, rgba(7, 230, 237, 0.01) 0%, rgb(7, 230, 237) 100%);
+}
+.finishBar,.unFinishBar{
+    position: relative;
+    height: 100%;
+}
+.num{
+    text-align: center;
+    top: 100%;
+    line-height: 2em;
+    color: white;
+    font-size: 1.14em;
+}

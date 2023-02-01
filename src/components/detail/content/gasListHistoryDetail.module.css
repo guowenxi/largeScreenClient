@@ -1,0 +1,59 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.listBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 3em);
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timeBox{
+    position: relative;
+    width: 10em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+}
+.head{
+    background: rgb(1,93,133);
+    height: 3em !important;
+}
+.itemPart{
+    position: relative;
+    width: 10em;
+    height: 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightBox{
+    position: relative;
+    width: calc(100% - 10em);
+    height: 100%;
+}
+.contentBox{
+    position: relative;
+    height: 100%;
+}
+.lineBox{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lineBox:nth-child(2n+1){
+    background: rgb(9,73,88);
+}

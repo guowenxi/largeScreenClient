@@ -1,0 +1,15 @@
+.numBox{
+    position: relative;
+    width: 0.6em;
+    height: 1em;
+    overflow: hidden;
+}
+.numListBox{
+    position: absolute;
+    width: 100%;
+}
+.numItem{
+    position: relative;
+    float: left;
+    width: 100%;
+}

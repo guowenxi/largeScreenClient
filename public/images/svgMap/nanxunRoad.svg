@@ -1,0 +1,44 @@
+<svg id="组_3" data-name="组 3" xmlns="http://www.w3.org/2000/svg" width="1110" height="722" viewBox="0 0 1110 722">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 22px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_2" data-name="组 2">
+    <text id="菱湖镇" class="cls-3" transform="translate(279.25 505.383)">菱湖镇</text>
+    <text id="和孚镇" class="cls-3" transform="translate(359.233 368.291)">和孚镇</text>
+    <text id="旧馆街道" class="cls-3" transform="translate(493.203 278.231)">旧馆街道</text>
+    <text id="东迁街道" class="cls-3" transform="translate(682.16 211.186)">东迁街道</text>
+    <text id="南浔镇" class="cls-3" transform="translate(808.132 292.241)">南浔镇</text>
+    <text id="练市镇" class="cls-3" transform="translate(777.139 472.361)">练市镇</text>
+    <text id="双林镇" class="cls-3" transform="translate(605.178 391.307)">双林镇</text>
+    <text id="善琏镇" class="cls-3" transform="translate(617.174 556.418)">善琏镇</text>
+    <text id="石淙镇" class="cls-3" transform="translate(493.203 496.378)">石淙镇</text>
+    <text id="千金镇" class="cls-3" transform="translate(460.209 596.445)">千金镇</text>
+  </g>
+</svg>

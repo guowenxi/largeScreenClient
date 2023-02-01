@@ -1,0 +1,46 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.themeOneBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0.5em 0.5em 1em 0.5em;
+    border-radius: 0.5em;
+    background-color: rgba(255,255,255,0.1);
+}
+.themeOneContent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+.themeOneButtonBox{
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.themeOneButton{
+    position: relative;
+    width: 0.3em;
+    height: 0.3em;
+    border-radius: 50%;
+    background-color: rgb(17,122,142);
+    cursor: pointer;
+    margin: 0 0.15em;
+}
+.themeOneButtonSelected{
+    background-color: #0ff;
+    cursor: default;
+}

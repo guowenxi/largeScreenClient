@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60" height="110" viewBox="50 100 60 110">
+	<defs>
+		<style>
+
+			.cls-11, .cls-12, .cls-13, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-3, .cls-4, .cls-5, .cls-6, .cls-9 {
+			stroke-width: 1px;
+			}
+			.cls-10, .cls-11, .cls-12, .cls-13, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+			fill-rule: evenodd;
+			}
+
+			.cls-10 {
+			fill: url(#rect1);
+			}
+
+			.cls-11, .cls-16, .cls-18, .cls-20 {
+			fill: #021343;
+			}
+
+			.cls-13, .cls-26, .cls-5 {
+			fill: none;
+			}
+
+			.cls-13 {
+			stroke: #24b3b3;
+			}
+
+
+			.cls-16 {
+			stroke: url(#linear-gradient-9);
+			}
+
+			.cls-17 {
+			fill: url(#linear-gradient-10);
+			stroke: url(#linear-gradient-11);
+			}
+		</style>
+
+		<linearGradient id="rect1" x1="0" y1="0" x2="0" y2="1">
+			<stop  offset="0" style="stop-color:#24b3b3;stop-opacity:0.2"/>
+			<stop  offset="1" style="stop-color:#24b3b3;stop-opacity:0"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient" x1="723" y1="564" x2="723" y2="451.188" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#0b4580"/>
+			<stop offset="1" stop-color="#0b4580"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient-2" x1="723" y1="548.438" x2="723" y2="435.625" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1289c6"/>
+			<stop offset="1" stop-color="#126cc6"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient-3" x1="723" y1="532.875" x2="723" y2="420.062" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#0fb2cb"/>
+			<stop offset="1" stop-color="#126cc6"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient-4" x1="723" y1="532.875" x2="723" y2="420.062" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#3ff"/>
+			<stop offset="1" stop-color="#24b3b3"/>
+		</linearGradient>
+		<filter id="filter" x="590" y="408" width="267" height="138" filterUnits="userSpaceOnUse">
+			<feGaussianBlur result="blur" stdDeviation="4.333" in="SourceAlpha"/>
+			<feComposite result="composite"/>
+			<feComposite result="composite-2"/>
+			<feComposite result="composite-3"/>
+			<feFlood result="flood" flood-color="#3ff" flood-opacity="0.23"/>
+			<feComposite result="composite-4" operator="in" in2="composite-3"/>
+			<feBlend result="blend" in2="SourceGraphic"/>
+			<feBlend result="blend-2" in="SourceGraphic"/>
+		</filter>
+		<linearGradient id="linear-gradient-5" x1="723" y1="528.719" x2="723" y2="424.25" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#3ff"/>
+			<stop offset="1" stop-color="#94ceda"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient-6" x1="722.61" y1="335.719" x2="722.61" y2="385.406" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#4288a1"/>
+			<stop offset="1" stop-color="#29a0c9"/>
+		</linearGradient>
+<!--		内方块颜色-->
+		<linearGradient id="linear-gradient-7" x1="722.625" y1="378.062" x2="722.625" y2="343.062" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#0884d6"/>
+			<stop offset="1" stop-color="#2bdfe4"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient-8" x1="722.625" y1="378.062" x2="722.625" y2="343.062" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#083e75"/>
+			<stop offset="1" stop-color="#4095c7"/>
+		</linearGradient>
+		<linearGradient id="linear-gradient-9" x1="644.797" y1="404.188" x2="644.797" y2="453.875" xlink:href="#linear-gradient-6"/>
+		<linearGradient id="linear-gradient-10" x1="644.813" y1="446.531" x2="644.813" y2="411.5" xlink:href="#linear-gradient-7"/>
+		<linearGradient id="linear-gradient-11" x1="644.813" y1="446.531" x2="644.813" y2="411.5" xlink:href="#linear-gradient-8"/>
+		<linearGradient id="linear-gradient-12" x1="722.61" y1="429.844" x2="722.61" y2="479.531" xlink:href="#linear-gradient-6"/>
+		<linearGradient id="linear-gradient-13" y1="472.188" y2="437.188" xlink:href="#linear-gradient-7"/>
+		<linearGradient id="linear-gradient-14" y1="472.188" y2="437.188" xlink:href="#linear-gradient-8"/>
+		<linearGradient id="linear-gradient-15" x1="800.422" y1="380.844" x2="800.422" y2="430.531" xlink:href="#linear-gradient-6"/>
+		<linearGradient id="linear-gradient-16" x1="800.407" y1="423.188" x2="800.407" y2="388.188" xlink:href="#linear-gradient-7"/>
+		<linearGradient id="linear-gradient-17" x1="800.407" y1="423.188" x2="800.407" y2="388.188" xlink:href="#linear-gradient-8"/>
+	</defs>
+
+	<path id="矩形_8-2" data-name="矩形 8" class="cls-10" d="M622.235,444.97h44.352v55.239H622.235V444.97h0Z" transform="translate(-565 -301)"/>
+	<path id="形状_3-2" data-name="形状 3" class="cls-16" d="M643.7,404.174l-19.879,9.939-1.105,28.712L643.7,453.868l23.193-11.043V414.113Z" transform="translate(-565 -301)"/>
+	<path id="形状_3_拷贝-2" data-name="形状 3 拷贝" class="cls-17" d="M644.022,411.516l-14.006,7-0.778,20.228,14.784,7.78,16.34-7.78V418.518Z" transform="translate(-565 -301)"/>
+	<path id="形状_4-2" data-name="形状 4" class="cls-13" d="M624.569,415.406L644.8,425.52l21.008-10.114" transform="translate(-565 -301)"/>
+	<path id="形状_5-2" data-name="形状 5" class="cls-13" d="M644.8,425.52l0.778,27.23" transform="translate(-565 -301)"/>
+</svg>

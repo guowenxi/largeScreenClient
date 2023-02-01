@@ -1,0 +1,676 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "planProcessesTaskId": "f019b9e9eb28427ab89b2701557ffdd8",
+    "planDetail": {
+      "process": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "emergencyPlanProcessTaskTeams": null,
+                        "id": "335114aeabe34d57aaaaec116b35bc08",
+                        "name": "处置成功",
+                        "planTaskDesc": "",
+                        "planTaskType": "ZFW00405",
+                        "runFlag": false
+                      },
+                      {
+                        "children": [],
+                        "emergencyPlanProcessTaskTeams": null,
+                        "id": "335114aeabe34d57aaaaec116b35bc08",
+                        "name": "处置成功",
+                        "planTaskDesc": "",
+                        "planTaskType": "ZFW00405",
+                        "runFlag": false
+                      }
+                    ],
+                    "emergencyPlanProcessTaskTeams": null,
+                    "id": "8a4f4b75d6324f3095eac47eb8096022",
+                    "name": "请求市里支援",
+                    "planTaskDesc": "",
+                    "planTaskType": "ZFW00404",
+                    "runFlag": true
+                  },
+                  {
+                    "children": [],
+                    "emergencyPlanProcessTaskTeams": null,
+                    "id": "f019b9e9eb28427ab89b2701557ffdd8",
+                    "name": "处置成功",
+                    "planTaskDesc": "",
+                    "planTaskType": "ZFW00405",
+                    "runFlag": false
+                  },
+                  {
+                    "children": [],
+                    "emergencyPlanProcessTaskTeams": null,
+                    "id": "f019b9e9eb28427ab89b2701557ffdd8",
+                    "name": "处置成功",
+                    "planTaskDesc": "",
+                    "planTaskType": "ZFW00405",
+                    "runFlag": false
+                  }
+                ],
+                "emergencyPlanProcessTaskTeams": [
+                  "3ff7366c8d224f0796f85fc77b7608cd"
+                ],
+                "id": "6bc568ec27c246cb98d9342db8c30f94",
+                "name": "现场处置",
+                "planTaskDesc": "",
+                "planTaskType": "ZFW00403",
+                "runFlag": false
+              }
+            ],
+            "emergencyPlanProcessTaskTeams": [
+              "f3753902c6754657995200cc2712f63e"
+            ],
+            "id": "66ae0103db314fd08524fc85e40f6118",
+            "name": "成立处置小组",
+            "planTaskDesc": "",
+            "planTaskType": "ZFW00402",
+            "runFlag": false
+          }
+        ],
+        "emergencyPlanProcessTaskTeams": null,
+        "id": "a73042c169b742508c8ebc257374d101",
+        "name": "启动预案",
+        "planTaskDesc": "",
+        "planTaskType": "ZFW00401",
+        "runFlag": false
+      },
+      "commandersList": [
+        {
+          "commanderDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+          "commanderId": "746fa6117ee64cc9b50fd663ee68fa8a",
+          "commanderType": "2",
+          "createTime": null,
+          "createUserId": "",
+          "departmentName": "瓯海区",
+          "duty": "",
+          "id": "9d4d5a7897094218bd39e7c735b51ff9",
+          "peopleList": null,
+          "planId": "c741cc38e75c491ca759e25529c73d76",
+          "planProcessId": "b5fe042e54664dc0bf8afa6cfe4f74ee",
+          "status": null,
+          "updateTime": null,
+          "updateUserId": "",
+          "userName": "吴昊"
+        },
+        {
+          "commanderDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+          "commanderId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+          "commanderType": "1",
+          "createTime": null,
+          "createUserId": "",
+          "departmentName": "瓯海区",
+          "duty": "",
+          "id": "cf3da2226a9848b8900405917245c0f1",
+          "peopleList": null,
+          "planId": "c741cc38e75c491ca759e25529c73d76",
+          "planProcessId": "b5fe042e54664dc0bf8afa6cfe4f74ee",
+          "status": null,
+          "updateTime": null,
+          "updateUserId": "",
+          "userName": "车子昂"
+        },
+        {
+          "commanderDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+          "commanderId": "e687e67fa677408fa13a68043c7677ec",
+          "commanderType": "3",
+          "createTime": null,
+          "createUserId": "",
+          "departmentName": "瓯海区",
+          "duty": "",
+          "id": "fe9505fbaec345f6926f5c868db73ca9",
+          "peopleList": null,
+          "planId": "c741cc38e75c491ca759e25529c73d76",
+          "planProcessId": "b5fe042e54664dc0bf8afa6cfe4f74ee",
+          "status": null,
+          "updateTime": null,
+          "updateUserId": "",
+          "userName": "付猛"
+        }
+      ],
+      "planName": "第一预案"
+    },
+    "runStationId": null,
+    "runTeamId": null,
+    "handingStudy": {
+      "createTime": "2021-04-18 16:47:36",
+      "createUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+      "createUserName": "吴昊",
+      "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+      "eventType": "1010",
+      "eventTypeName": "征地拆迁",
+      "id": "b3bbb8b1315e41ecabcc4c9b9932cd81",
+      "influence": "fghh",
+      "isPlat": 2,
+      "joinNum": "55",
+      "planType": "",
+      "remark": "gghjj",
+      "status": 1,
+      "studyAddress": "浙江省杭州市滨江区长河街道杭州祁绩教育培训学校(滨江校区)中易新能源",
+      "studyLat": 30.198836557721798,
+      "studyLng": 120.19419878353135,
+      "warningLevel": 3,
+      "warningLevelName": "较大"
+    },
+    "processHandles": [
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 17:13:48",
+        "createUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "fileList": [
+            {
+              "fileName": "C65B8BD8-FA1F-457E-95B4-15823B1065A0.png",
+              "fileType": "image/png",
+              "fileId": "338b33f97006470cbfe13214064411bd"
+            },
+            {
+              "fileName": "C65B8BD8-FA1F-457E-95B4-15823B1065A0.png",
+              "fileType": "image/png",
+              "fileId": "338b33f97006470cbfe13214064411bd"
+            }
+          ],
+          "title": "结束应急",
+          "contentList": [
+            "瓯海区  车子昂  结束应急"
+          ]
+        },
+        "id": "a9ad8f2d191042f5a70835a4960cadae",
+        "operationId": "",
+        "operationType": 106,
+        "remark": "",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 17:13:47",
+        "createUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "title": "处置成功",
+          "contentList": [
+            "当前事件 处置成功"
+          ]
+        },
+        "id": "e1fbd182d6db408fb6aa8cbc07761a14",
+        "operationId": "1447e0be6a3145e9a2c21f208a8cfcdc",
+        "operationType": 103,
+        "remark": "",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:51:37",
+        "createUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "3df2d2e1b9c14b539088ad00d3e653d3",
+        "handleMap": {
+          "title": "现场处置",
+          "contentList": [
+            "车子昂向  三组 请求增派力量"
+          ]
+        },
+        "id": "0215d77d877342feb6707e6b816fb7e1",
+        "operationId": "32a58a75cee047e6a298a5428f02701a",
+        "operationType": 104,
+        "remark": "",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:51:23",
+        "createUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "68669eea7a5846fe857f251150a8abc4",
+        "handleMap": {
+          "title": "现场处置",
+          "contentList": [
+            "车子昂 下达指令 进行一次下达指令"
+          ]
+        },
+        "id": "9fe551860b5643b1bdb3f071615dd532",
+        "operationId": "a418afd6868c432aafe1157ab341aef0",
+        "operationType": 105,
+        "remark": "进行一次下达指令",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:49:50",
+        "createUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "title": "现场处置",
+          "contentList": [
+            "瓯海区  车子昂  第三步上报"
+          ],
+          "fileList": [
+            {
+              "fileName": "244F78FF-7B08-4568-AFEF-F6DC285207C2.png",
+              "fileType": "image/png",
+              "fileId": "73a306ee62f84b7c857333cc1e2cbb3c"
+            },
+            {
+              "fileName": "00535E5C-DC3B-44E2-94F1-81C71CD9CB2A.png",
+              "fileType": "image/png",
+              "fileId": "bf3dbdc68b584caaba5546ea4925584c"
+            }
+          ]
+        },
+        "id": "4a9548f181a94da0b3f812bef9635738",
+        "operationId": "7048824af4b64dfdb0c48418047a0b1f",
+        "operationType": 102,
+        "remark": "第三步上报",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:49:48",
+        "createUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "title": "现场处置",
+          "contentList": [
+            "瓯海区  吴昊  fdhj"
+          ],
+          "fileList": [
+            {
+              "fileName": "mmexport1576323882838.jpg",
+              "fileType": "image/jpeg",
+              "fileId": "0f80b4b48a904054bed04a6953595834"
+            }
+          ]
+        },
+        "id": "53c983eafefd420dbf2a10baea1ef2c2",
+        "operationId": "7048824af4b64dfdb0c48418047a0b1f",
+        "operationType": 102,
+        "remark": "fdhj",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:48:47",
+        "createUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "title": "现场处置",
+          "contentList": [
+            "瓯海区  车子昂  已经到达现场"
+          ]
+        },
+        "id": "3520bb7fa4d24743a07e1e3ea5d06d0b",
+        "operationId": "4402f1a4648b4d6b8492472df3fb8f2e",
+        "operationType": 103,
+        "remark": "",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:48:29",
+        "createUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "title": "成立处置小组",
+          "contentList": [
+            "瓯海区  车子昂  第二步上报"
+          ],
+          "fileList": [
+            {
+              "fileName": "1DCB3D5E-E00F-45BC-8C23-9A930B26444C.png",
+              "fileType": "image/png",
+              "fileId": "313f87e43be84b59b470ce09719d3ba7"
+            }
+          ]
+        },
+        "id": "ae9cfe05fb014be09451cc5352a6eaa8",
+        "operationId": "df3082f432e8437ab9239bbb8e00cd15",
+        "operationType": 102,
+        "remark": "第二步上报",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:47:59",
+        "createUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "title": "成立处置小组",
+          "contentList": [
+            "瓯海区  车子昂  已经到达现场",
+            "瓯海区  吴昊  已经到达现场"
+          ]
+        },
+        "id": "b033edfa85f34c478571736f3c12e791",
+        "operationId": "36ca5d2230124b039f388e4e0b82ef20",
+        "operationType": 103,
+        "remark": "",
+        "status": 1
+      },
+      {
+        "createDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+        "createTime": "2021-04-18 16:47:58",
+        "createUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+        "emergencyId": "4bd4fd3b087e4cb392a86a20061e0234",
+        "handleIndex": "",
+        "handleMap": {
+          "title": "启动预案",
+          "contentList": [
+            "瓯海区  吴昊  启动应急预案"
+          ]
+        },
+        "id": "2dc9bf6643a94de5be93fcb777ecf0ae",
+        "operationId": "d8b3de2a02474cc0b707131ad548073b",
+        "operationType": 101,
+        "remark": "gghjj",
+        "status": 1
+      }
+    ],
+    "signStatus": "1",
+    "runHanding": {
+      "content": "",
+      "createTime": "2021-04-18 16:46:42",
+      "createUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+      "createUserName": "车子昂",
+      "districtsId": "1",
+      "endTime": null,
+      "eventId": "6833e9c3873b406683f2881895ff9061",
+      "eventType": "1010",
+      "eventTypeName": "征地拆迁",
+      "fileId": "",
+      "fileList": [
+        {
+          "fileName": "C65B8BD8-FA1F-457E-95B4-15823B1065A0.png",
+          "fileType": "image/png",
+          "fileId": "338b33f97006470cbfe13214064411bd"
+        }
+      ],
+      "id": "4bd4fd3b087e4cb392a86a20061e0234",
+      "incidentRemark": "不要让我们",
+      "incidentTime": "2021-04-18 00:00:00",
+      "influence": "一下我",
+      "isEnd": 0,
+      "isReport": 0,
+      "isstart": 1,
+      "measuresTaken": "不会在任何",
+      "planId": "c741cc38e75c491ca759e25529c73d76",
+      "planName": "第一预案",
+      "planType": "",
+      "startPlanTime": null,
+      "status": 1,
+      "studyId": "b3bbb8b1315e41ecabcc4c9b9932cd81",
+      "title": "测试6",
+      "trends": "这些天能",
+      "updateTime": "2021-04-18 16:46:42",
+      "updateUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+      "warningLevel": 3,
+      "warningLevelName": "较大",
+      "x": 120.64838041,
+      "y": 27.78176691
+    },
+    "allTeamList": [
+      {
+        "allMemberList": [
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "283860",
+            "id": "2a3340144e8d484d90dc3170b9ffdc9c",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "1",
+            "teamId": "",
+            "teamUserId": "e687e67fa677408fa13a68043c7677ec",
+            "teamUserPhone": "15797821270",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "付猛"
+          },
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "202498",
+            "id": "c70d6271a47c4a238d37f506495c9020",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "2",
+            "teamId": "",
+            "teamUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+            "teamUserPhone": "17554238739",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "车子昂"
+          },
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "318085",
+            "id": "ee18bd7b43c74d0a96407899ca5bf94b",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "3",
+            "teamId": "",
+            "teamUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+            "teamUserPhone": "17826832875",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "吴昊"
+          }
+        ],
+        "createTime": null,
+        "createUserId": "",
+        "deleteIdList": null,
+        "departmentNum": null,
+        "deputyLeaderList": null,
+        "deputyLeaderName": "",
+        "deputyLeaderPhone": "",
+        "id": "3ff7366c8d224f0796f85fc77b7608cd",
+        "leaderList": null,
+        "leaderName": "",
+        "leaderPhone": "",
+        "memberList": null,
+        "memberName": "",
+        "rbacToken": "",
+        "status": null,
+        "teamArrivalInterval": 123,
+        "teamName": "二组",
+        "teamTools": "枪",
+        "updateTime": null,
+        "updateUserId": ""
+      },
+      {
+        "allMemberList": [
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "202498",
+            "id": "482677e1e238431aba1ed43179722570",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "1",
+            "teamId": "",
+            "teamUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+            "teamUserPhone": "17554238739",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "车子昂"
+          },
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "283860",
+            "id": "95760344bae94df5818fa019204901db",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "3",
+            "teamId": "",
+            "teamUserId": "e687e67fa677408fa13a68043c7677ec",
+            "teamUserPhone": "15797821270",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "付猛"
+          },
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "318085",
+            "id": "9f562bb04ded41f9a35420ea75db492f",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "2",
+            "teamId": "",
+            "teamUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+            "teamUserPhone": "17826832875",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "吴昊"
+          }
+        ],
+        "createTime": null,
+        "createUserId": "",
+        "deleteIdList": null,
+        "departmentNum": null,
+        "deputyLeaderList": null,
+        "deputyLeaderName": "",
+        "deputyLeaderPhone": "",
+        "id": "f3753902c6754657995200cc2712f63e",
+        "leaderList": null,
+        "leaderName": "",
+        "leaderPhone": "",
+        "memberList": null,
+        "memberName": "",
+        "rbacToken": "",
+        "status": null,
+        "teamArrivalInterval": 123,
+        "teamName": "一组",
+        "teamTools": "枪",
+        "updateTime": null,
+        "updateUserId": ""
+      },
+      {
+        "allMemberList": [
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "202498",
+            "id": "59335f3203ad4f15b18e5254a80d08fd",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "2",
+            "teamId": "",
+            "teamUserId": "b99ac514bb4b4bf3a10cdb7fe519851f",
+            "teamUserPhone": "17554238739",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "车子昂"
+          },
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "318085",
+            "id": "66085c97f6964208bf7e83f8ccc35cb9",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "1",
+            "teamId": "",
+            "teamUserId": "746fa6117ee64cc9b50fd663ee68fa8a",
+            "teamUserPhone": "17826832875",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "吴昊"
+          },
+          {
+            "createTime": null,
+            "createUserId": "",
+            "departmentId": "",
+            "departmentName": "瓯海区",
+            "empAccountId": "283860",
+            "id": "dcff7637c46a48babd0722edd35a7c9b",
+            "phone": "",
+            "status": null,
+            "teamDepartId": "f4564c311a074d0e9eecdd3b7eab247f",
+            "teamDuty": "3",
+            "teamId": "",
+            "teamUserId": "e687e67fa677408fa13a68043c7677ec",
+            "teamUserPhone": "15797821270",
+            "updateTime": null,
+            "updateUserId": "",
+            "userId": "",
+            "userName": "付猛"
+          }
+        ],
+        "createTime": null,
+        "createUserId": "",
+        "deleteIdList": null,
+        "departmentNum": null,
+        "deputyLeaderList": null,
+        "deputyLeaderName": "",
+        "deputyLeaderPhone": "",
+        "id": "8be8d7bbc4974d13ac74e326142f35ce",
+        "leaderList": null,
+        "leaderName": "",
+        "leaderPhone": "",
+        "memberList": null,
+        "memberName": "",
+        "rbacToken": "",
+        "status": null,
+        "teamArrivalInterval": 123,
+        "teamName": "三组",
+        "teamTools": "123124",
+        "updateTime": null,
+        "updateUserId": ""
+      }
+    ],
+    "runProcessesTaskId": "1447e0be6a3145e9a2c21f208a8cfcdc",
+    "basicStationList": null
+  }
+}

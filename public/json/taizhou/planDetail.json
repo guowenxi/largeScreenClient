@@ -1,0 +1,88 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "roadId": "1",
+    "communityId": "1",
+    "department": "1",
+    "name": "黄岩区九小场所消防检查",
+    "departmentName":"台州市消防局",
+    "limitTime":4,
+    "limitType":2,
+    "areaName":"xx区xx街道",
+    "levelName":"村社",
+    "level": 2,
+    "type":1,
+    "formName":"食堂卫生检查",
+    "content":"食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查食堂卫生检查",
+    "groupNum":15,
+    "peopleNum":325,
+    "groupList":[{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇xx村消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    },{
+      "name":"XX镇消防检查组",
+      "num":"13",
+      "leaderName":"张阿三",
+      "leaderPhone":"13588888888"
+    }]
+  }
+}

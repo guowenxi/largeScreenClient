@@ -1,0 +1,85 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('./images/background_img.jpg') no-repeat;
+}
+.loginBox{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 35%;
+    top: 25%;
+}
+.loginBox img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    text-align: center;
+    top: -15%;
+    left: 0;
+    font-size: 5vh;
+    color: white;
+}
+.inputBox{
+    position: absolute;
+    width: 72.8%;
+    height: 12.4%;
+    left: 13.5%;
+    top: 23%;
+    font-size: 2vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.loginBox .inputBox:nth-child(4){
+    top: 41%;
+}
+.inputBox img{
+    position: relative;
+    height: 2em;
+    width: 2em;
+    margin: 0 1em;
+}
+.inputBox input{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(255,255,255,0.03);
+    padding-left: 3.6em;
+    top: 0;
+    left: 0;
+    border: 2px solid rgba(0,164,255,0.2);
+}
+.inputBox input:focus{
+    border: 2px solid rgba(0,164,255,0.6);
+    outline:none;
+}
+input::-webkit-input-placeholder{
+    color:#fff;
+  }
+.remember{
+    position: absolute;
+    width: 72.8%;
+    height: 12.4%;
+    left: 13.5%;
+    top: 58%;
+    font-size: 2vh;
+    color: #fff;
+}
+.login{
+    position: absolute;
+    width: 72.8%;
+    height: 12.4%;
+    left: 13.5%;
+    top: 70%;
+    font-size: 3vh;
+}

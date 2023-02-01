@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.itemHead {
+    display: flex;
+    justify-content: center;
+}
+
+.itemHeadItem {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.subItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subItemItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}

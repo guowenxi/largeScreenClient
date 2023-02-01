@@ -1,0 +1,425 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f3f8fc;
+}
+.contentBox{
+    position: relative;
+    width: 48%;
+    height: 100%;
+}
+.contentBox:nth-child(1){
+    width: 40%;
+}
+.contentBox:nth-child(2){
+    width: 56%;
+}
+.row{
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+    /*line-height: 1em;*/
+    display: flex;
+    align-items: flex-start;
+}
+.title{
+    position: relative;
+    width: 5.05em;
+    text-align: right;
+    color: #037ee7;
+}
+.contentOne{
+    position: relative;
+    width: calc(100% - 5.05em);
+}
+.contentTwo{
+    position: relative;
+    width: calc(50% - 5.05em);
+}
+.contentThree,.contentFour{
+    position: relative;
+    width: calc(100% - 5.05em);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.contentThree div:nth-child(2n + 1){
+    color: #75aedf;
+}
+.contentThree div:nth-child(2n){
+    margin-right: 3em;
+}
+.label{
+    position: relative;
+    padding: 0 0.5em;
+    border: 1px solid #5996ca;
+    color: #76b0e1;
+    margin-right: 1em;
+    border-radius: 4px;
+}
+.img{
+    position: relative;
+    width: 15.2em;
+    height: 8.55em;
+    margin-right: 1em;
+}
+.fileRow{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.8em;
+}
+.fileName{
+    margin-right: 2em;
+    max-width: 12.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.downloadButton{
+    font-size: 0.78em;
+    padding: 0 0.8em;
+    background: #5996ca;
+    border-radius: 4px;
+    line-height: 2em;
+    cursor: pointer;
+}
+.downloadButton:hover{
+    background: #037ee7;
+}
+.fileIcon{
+    color: #76b0e1;
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+.listBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 5.5em);
+}
+.listRow{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 1.2em;
+}
+.titleRow{
+    background: #1d3b6c;
+}
+.listRow:nth-child(2n){
+    background: rgba(29,59,108,0.5);
+}
+.listRow>div{
+    padding: 0.6em 0.8em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column;
+}
+.listRow>div:nth-child(1){
+    width: 22%;
+}
+.listRow>div:nth-child(2){
+    width: 15%;
+}
+.listRow>div:nth-child(3){
+    width: 40%;
+}
+.listRow>div:nth-child(4){
+    width: 23%;
+}
+.listFileName{
+    color: #0D83D1;
+    cursor: pointer;
+    word-break: break-all;
+    margin-bottom: 0.6em;
+    line-height: 1em;
+    font-size: 0.88em;
+}
+.listFileName:last-child{
+    margin-bottom: 0;
+}
+.listScrollBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 2.4em);
+}
+
+.partLeftBox{
+    position: absolute;
+    width: 40%;
+    left: 0;
+    height: 100%;
+}
+.partRightBox{
+    position: absolute;
+    width: 60%;
+    right: 0;
+    height: 100%;
+}
+.titleTwo{
+    position: relative;
+    font-size: 0.88em;
+    color: #5a96ca;
+    text-align: right;
+    width: 7.05em;
+}
+.contentFive{
+    position: relative;
+    font-size: 0.88em;
+    width: calc(100% - 7.05em);
+}
+.partRightBox .contentFive .fileRow:first-child{
+    margin: 0;
+}
+.rowTwo{
+    justify-content: space-between;
+}
+.backMessage{
+    padding: 0.5em;
+    background-color: #037ee7;
+    border-radius: 4px;
+    line-height: 1em;
+}
+.warningMessage{
+    color: #ff4a23;
+}
+.progressBox{
+    position: relative;
+    width: 100%;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    font-size: 0.88em;
+    margin-bottom: 1em;
+}
+.progressLine{
+    position: absolute;
+    width: 2px;
+    height: 90%;
+    left: calc(50% - 1px);
+    top: 5%;
+    background: #32629f;
+}
+.progressStepBox{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.progressStepBox:nth-child(2n){
+    justify-content: flex-end;
+}
+.progressStepItem{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: -3px;
+}
+.progressStepBox:nth-child(2n+1) .progressStepItem{
+    flex-direction: row-reverse;
+}
+.progressStepIcon{
+    position: relative;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+}
+.progressStepIcon span{
+    position: relative;
+}
+.progressStepImg{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    left: 0;
+    top: 0;
+}
+.progressContent{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: flex-start;
+}
+.progressStepBox:nth-child(2n+1) .progressContent{
+    align-items: flex-end;
+}
+.point{
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #80c2fa;
+    margin-left: -3px;
+    margin-right: 0.25em;
+}
+.progressStepBox:nth-child(2n+1) .point{
+    margin-right: -3px;
+    margin-left: 0.25em;
+}
+.editButtonBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 3em;
+}
+.editButtonBox button{
+    margin-left: 1em;
+}
+
+/*转入督办弹框*/
+.editBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.45);
+}
+.eventAddBox{
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding: 1em;
+    color: rgba(255,255,255,0.8);
+    transform: translate(-50%, -50%);
+}
+.editHeadBox{
+    position: relative;
+    width: 100%;
+    height: 1.2em;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editHeadBox .headName{
+    font-size: 1.2em;
+}
+.closeIcon{
+    cursor: pointer;
+}
+.eventAddRow{
+    position: relative;
+    min-height: 2.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.8em 0;
+}
+.addRowTitle{
+    position: relative;
+    width: 5em;
+    text-align: right;
+}
+.addRowContent{
+    position: relative;
+    width: calc(100% - 6em);
+    font-size: 1em;
+}
+.addRowTextArea{
+    position: relative;
+    width: calc(100% - 6em);
+    height: 8em;
+    font-size: 1em;
+}
+
+.addFileRow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.addFile{
+    position: relative;
+    font-size: 1em;
+    background: none;
+    width: 7.5em;
+    height: 2.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+}
+.addFileName{
+    position: relative;
+    line-height: 1em;
+    padding: 0 0.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5em;
+}
+.editFootBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.delete{
+    margin-left: 0.5em;
+    color: red;
+    font-size: 1em;
+    cursor: pointer;
+}
+.limitTime{
+    position: relative;
+    width: 6em;
+    font-size: 1em;
+}
+.editFootBox button{
+    margin-left: 1em;
+}
+
+.boxTwo .contentBox:nth-child(1){
+    width: 30%;
+}
+.boxTwo .contentBox:nth-child(2){
+    width: 66%;
+}
+
+.boxTwo .listRow>div:nth-child(1){
+    width: 10%;
+}
+.boxTwo .listRow>div:nth-child(2){
+    width: 20%;
+}
+.boxTwo .listRow>div:nth-child(3){
+    width: 20%;
+}
+.boxTwo .listRow>div:nth-child(4){
+    width: 15%;
+}
+.boxTwo .listRow>div:nth-child(5){
+    width: 35%;
+}

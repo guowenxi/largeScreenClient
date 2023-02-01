@@ -1,0 +1,38 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [
+    {
+      "x": 120.6048,
+      "y": 30.0063,
+      "creditLevel": 1,
+      "id": "red01"
+    },{
+      "x": 120.58217,
+      "y": 29.9668,
+      "creditLevel": 2,
+      "id": "red02"
+    },{
+      "x": 120.55195,
+      "y": 29.980905,
+      "creditLevel": 3,
+      "id": "red03"
+    },{
+      "x": 120.535135,
+      "y": 30.022447,
+      "creditLevel": 4,
+      "id": "red04"
+    },{
+      "x": 120.584573,
+      "y": 30.036867,
+      "creditLevel": 5,
+      "id": "red05"
+    },{
+      "x": 120.62130,
+      "y": 30.040987,
+      "creditLevel": 1,
+      "id": "red06"
+    }
+  ]
+}

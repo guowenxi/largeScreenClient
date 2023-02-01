@@ -1,0 +1,12 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "ids": ["part1","part2","part3","part4","part5","part6","part7","part8","part9","part10"],
+    "legends": null,
+    "series":   [100,135,230,100,120,100,100,100,100,100]  ,
+    "title": "",
+    "xAxis": ["微网格1", "微网格2", "微网格3", "微网格4", "微网格5", "微网格6","微网格7", "微网格8", "微网格9", "微网格10"]
+  }
+}

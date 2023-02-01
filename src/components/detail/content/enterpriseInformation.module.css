@@ -1,0 +1,43 @@
+.itemBox {
+    display: flex;
+    justify-content: space-between;
+    height: 16.66%;
+    font-size: 1.2vh;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 49%;
+    height: 100%;
+    padding: 0 1em;
+}
+
+.background {
+    background: rgba(39, 104, 136, 0.4);
+}
+
+.name {
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.content {
+    width: 60%;
+    height: 100%;
+    color: #87cdfb;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.content::before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* .onlyLine {} */

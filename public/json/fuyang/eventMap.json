@@ -1,0 +1,45 @@
+{
+  "success": 1,
+  "message": "OK",
+  "data": [{
+      "id": "0a355fb5b8a411eca402525400126627",
+      "name": "江畔锦园北区",
+      "status": "在售",
+      "addre": "杭州市富阳区富春街道赵家埠弄（暂名）22号江畔锦园北区",
+      "devName": "杭州绿城银湖置业有限公司",
+      "warningNumber": 23,
+      "warningLevel": 0,
+      "x": 119.941778,
+      "y": 30.068058
+  }, {
+      "id": "46fe7b471e5f5ec8b4c411f09bbfa259",
+      "name": "江语云城",
+      "status": "在售",
+      "addre": "富阳区富春湾新城大桥南路与望仙路交叉口",
+      "devName": "中交城投富春湾（杭州）置业开发有限公司",
+      "warningNumber": 32,
+      "warningLevel": 1,
+      "x": 119.986067,
+      "y": 30.007038
+  }, {
+      "id": "eb32481bb7f011eca402525400126",
+      "name": "云川未来城",
+      "status": "在售",
+      "addre": "富阳区富春湾新城大桥南路与塘子畈街交叉口",
+      "devName": "杭州富阳融富中蕴城市开发建设有限公司",
+      "warningNumber": 26,
+      "warningLevel": 0,
+      "x": 119.987908,
+      "y": 30.010007
+  }, {
+      "id": "ed0b02d4b7fc11eca402525400126627",
+      "name": "宸光悦公寓",
+      "status": "预售",
+      "addre": "杭州市富阳区银湖街道新桥新路",
+      "devName": "杭州祥生弘腾房地产开发有限公司",
+      "warningNumber": 19,
+      "warningLevel": 1,
+      "x": 119.921003,
+      "y": 30.088615
+  }]
+}

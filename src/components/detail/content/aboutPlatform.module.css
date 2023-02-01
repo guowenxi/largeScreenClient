@@ -1,0 +1,56 @@
+.detailBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.itemBox{
+    position: relative;
+    width: 100%;
+}
+.platformName{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.2em;
+    font-size: 1.2em;
+    color: #27bfd1;
+}
+.headIcon{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+.platformName span{
+    color: rgb(86,134,150);
+}
+.reasonItem{
+    position: relative;
+    width: 100%;
+    padding-left: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.2em;
+    color: #95afc0;
+}
+.reasonItem img{
+    height: 1em;
+    margin-right: 0.5em;
+}
+.special{
+    color: #2d9bc6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.reasonItem .symbol:last-child{
+    display: none;
+}
+.split{
+    margin: 0 0.2em;
+}

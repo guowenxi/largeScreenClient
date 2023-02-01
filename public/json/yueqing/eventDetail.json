@@ -1,0 +1,20 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "oversee":1,
+    "overTime":1,
+    "status":"1",
+    "title":"预警事件标题预警事件标题",
+    "content":"这里是预警事件的文字描述这里是预警事件的文字描述这里是预警事件的文字描述",
+    "type":"平安法治—城市管理—占道经营",
+    "source":"信访12345",
+    "address":"乐清市顶山街道光明路",
+    "time":"2022/10/08 02:23",
+    "statusName":"处置中",
+    "level":1,
+    "levelName":"低风险",
+    "imgList":["./images/ruian/img1.png","./images/ruian/img2.png","./images/ruian/img3.png"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "name": "监控1",
+    "id": "1"
+  },{
+    "name": "监控2",
+    "id": "2"
+  },{
+    "name": "监控3",
+    "id": "3"
+  }]
+}

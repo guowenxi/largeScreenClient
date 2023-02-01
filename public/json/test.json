@@ -1,0 +1,24 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":{
+    "ids":null,
+        "legends":null,
+        "series":[
+        37,
+        46,
+        11,
+        7,
+        4
+    ],
+        "title":"",
+        "xAxis":[
+        "财产经济纠纷",
+        "社会治安和公共安全",
+        "劳动和社会保障",
+        "行政管理和执法纠纷",
+        "民间纠纷"
+    ]
+}
+}

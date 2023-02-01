@@ -1,0 +1,68 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+.box:focus{
+    outline: none;
+}
+.selectedBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.selectedBox img{
+    position: relative;
+    pointer-events: auto;
+}
+.selectedBox .backgroundImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: default;
+}
+.selectedBoxThemeTwo{
+    justify-content: center;
+}
+.name{
+    position: relative;
+}
+.nameOverHide{
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dropBox{
+    position: absolute;
+    width:100%;
+    top: 100%;
+    pointer-events: auto;
+}
+.drop{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*.drop:hover{*/
+/*    background-color: rgb(16,54,118);*/
+/*    color:white;*/
+/*}*/
+.icon{
+    color: rgba(255,255,255,0.5);
+    position: relative;
+}

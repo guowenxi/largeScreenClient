@@ -1,0 +1,109 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.charts {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: -30px;
+    left: 0;
+}
+.charts :global .highcharts-background {
+    display: none;
+}
+.charts .chartsInner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.charts .guang {
+    position: absolute;
+    left: 50%;
+    top: 66%;
+    width: 95.5%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    pointer-events: none;
+}
+.charts .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: scaleY(-0.5) translateY(-50%);
+    left: 0;
+    top: 0;
+}
+@keyframes ani {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.charts .bg .bgInner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*transform: translate(-50%, -50%);*/
+    animation: ani 10s linear infinite;
+}
+.legend {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: column wrap;
+    position: absolute;
+    width: 46%;
+    height: 76%;
+    right: 0;
+    top: 12%;
+    font-size: 20px;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.legend .item {
+    position: relative;
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.legend .cir {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    left: 0;
+}
+.legend .textBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -2px;
+}
+.legend .text {
+    color: #fff;
+    /*text-indent: 2em;*/
+    /*width: 80%;*/
+    line-height: 1.1em;
+}
+.legend .text2 {
+    color: #20F4F9;
+    /*width: 20%;*/
+    text-align: right;
+    text-indent: 0;
+}
+@media screen and (max-width: 1440px){
+    .legend{
+        font-size: 12px;
+    }
+}

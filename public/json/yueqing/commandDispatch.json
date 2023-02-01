@@ -1,0 +1,208 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "workTeam": [
+            {
+                "name": "刘德华",
+                "identity": "公安",
+                "status": "接受并前往"
+            },{
+                "name": "郭富城",
+                "identity": "住建局",
+                "status": "已抵达"
+            },{
+                "name": "黎明",
+                "identity": "消防",
+                "status": "接受并前往"
+            },{
+                "name": "张学友",
+                "identity": "城管",
+                "status": "已抵达"
+            },{
+                "name": "刘德华",
+                "identity": "公安",
+                "status": "接受并前往"
+            },{
+                "name": "郭富城",
+                "identity": "住建局",
+                "status": "已抵达"
+            },{
+                "name": "黎明",
+                "identity": "消防",
+                "status": "接受并前往"
+            },{
+                "name": "张学友",
+                "identity": "城管",
+                "status": "已抵达"
+            },{
+                "name": "刘德华",
+                "identity": "公安",
+                "status": "接受并前往"
+            },{
+                "name": "郭富城",
+                "identity": "住建局",
+                "status": "已抵达"
+            },{
+                "name": "黎明",
+                "identity": "消防",
+                "status": "接受并前往"
+            },{
+                "name": "张学友",
+                "identity": "城管",
+                "status": "已抵达"
+            },{
+                "name": "刘德华",
+                "identity": "公安",
+                "status": "接受并前往"
+            },{
+                "name": "郭富城",
+                "identity": "住建局",
+                "status": "已抵达"
+            },{
+                "name": "黎明",
+                "identity": "消防",
+                "status": "接受并前往"
+            },{
+                "name": "张学友",
+                "identity": "城管",
+                "status": "已抵达"
+            },{
+                "name": "刘德华",
+                "identity": "公安",
+                "status": "接受并前往"
+            },{
+                "name": "郭富城",
+                "identity": "住建局",
+                "status": "已抵达"
+            },{
+                "name": "黎明",
+                "identity": "消防",
+                "status": "接受并前往"
+            },{
+                "name": "张学友",
+                "identity": "城管",
+                "status": "已抵达"
+            },{
+                "name": "刘德华",
+                "identity": "公安",
+                "status": "接受并前往"
+            },{
+                "name": "郭富城",
+                "identity": "住建局",
+                "status": "已抵达"
+            },{
+                "name": "黎明",
+                "identity": "消防",
+                "status": "接受并前往"
+            },{
+                "name": "张学友",
+                "identity": "城管",
+                "status": "已抵达"
+            }
+        ],
+        "calling": [
+            {
+                "name": "刘德华",
+                "identity": "公安"
+            },{
+                "name": "郭富城",
+                "identity": "住建局"
+            },{
+                "name": "黎明",
+                "identity": "消防"
+            },{
+                "name": "张学友",
+                "identity": "城管"
+            },{
+                "name": "刘德华",
+                "identity": "公安"
+            },{
+                "name": "郭富城",
+                "identity": "住建局"
+            },{
+                "name": "黎明",
+                "identity": "消防"
+            },{
+                "name": "张学友",
+                "identity": "城管"
+            }
+        ],
+        "unableExecute": [
+            {
+                "name": "刘德华",
+                "identity": "公安",
+                "reason": "正在执行任务"
+            },{
+                "name": "郭富城",
+                "identity": "住建局",
+                "reason": "正在执行任务"
+            },{
+                "name": "黎明",
+                "identity": "消防",
+                "reason": "正在执行任务"
+            },{
+                "name": "张学友",
+                "identity": "城管",
+                "reason": "正在执行任务"
+            }
+        ],
+        "dialogue": [
+            {
+                "name": "指挥中心",
+                "content": "已设置小组，系统发送处置信息。",
+                "time": "2021.03.24 13:31",
+                "identity": 1
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已到达现场，开始处置。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已返回目标，处置完成。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已返回目标，处置完成。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已返回目标，处置完成。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已返回目标，处置完成。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已返回目标，处置完成。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已返回目标，处置完成。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            },
+            {
+                "name": "处置小组刘德华",
+                "content": "已返回目标，处置完成。",
+                "time": "2021.03.24 13:31",
+                "identity": 2
+            }
+        ]
+    }
+}

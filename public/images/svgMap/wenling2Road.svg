@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="965" height="539" viewBox="0 0 965 539">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 14.979px;
+        fill: #fffefe;
+        text-anchor: middle;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="温岭_拷贝" data-name="温岭 拷贝">
+      <g id="文字">
+        <text id="大溪镇" class="cls-3" x="186.621" y="138.533">大溪镇</text>
+        <text id="温峤镇" class="cls-3" x="206.622" y="296.533">温峤镇</text>
+        <text id="坞根镇" class="cls-3" x="158.622" y="406.533">坞根镇</text>
+        <text id="太平街道" class="cls-3" x="353.622" y="326.533">太平街道</text>
+        <text id="城西街道" class="cls-3" x="325.622" y="274.533">城西街道</text>
+        <text id="横峰街道" class="cls-3" x="326.622" y="199.533">横峰街道</text>
+        <text id="泽国镇" class="cls-3" x="360.621" y="116.533">泽国镇</text>
+        <text id="城北街道" class="cls-3" x="400.622" y="173.533">城北街道</text>
+        <text id="城东街道" class="cls-3" x="434.621" y="248.533">城东街道</text>
+        <text id="城南镇" class="cls-3" x="463.621" y="431.533">城南镇</text>
+        <text id="石桥头镇" class="cls-3" x="508.622" y="344.533">石桥头镇</text>
+        <text id="箬横镇" class="cls-3" x="633.621" y="283.533">箬横镇</text>
+        <text id="新河镇" class="cls-3" x="528.622" y="167.533">新河镇</text>
+        <text id="滨海镇" class="cls-3" x="679.623" y="141.533">滨海镇</text>
+        <text id="松门镇" class="cls-3" x="774.621" y="362.533">松门镇</text>
+        <text id="东部新区管委会" class="cls-3" x="819.621" y="243.533">东部新区</text>
+        <text id="石塘镇" class="cls-3" x="706.622" y="445.533">石塘镇</text>
+      </g>
+    </g>
+  </g>
+</svg>

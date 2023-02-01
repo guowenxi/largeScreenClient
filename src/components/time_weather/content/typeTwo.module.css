@@ -1,0 +1,34 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    left: 0;
+    top: 0;
+}
+.topLine{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.week{
+    font-size: 1.2em;
+    color: #fff;
+}
+.bottomLine{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box img{
+    width: 1.2em;
+    height: 0.8em;
+    margin-right: 0.5em;
+}

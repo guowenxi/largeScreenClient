@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "桑洲镇": {
+      "桑洲镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "桑洲镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "桑洲镇": ""
+  },
+  "mapRoadImg": {
+    "桑洲镇": "./images/svgMap/桑洲镇.png"
+  },
+  "mapBgSize": {
+    "桑洲镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "桑洲镇": {
+      "桑洲镇": {
+        "left": "59%",
+        "top": "59%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

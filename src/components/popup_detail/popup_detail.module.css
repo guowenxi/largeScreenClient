@@ -1,0 +1,16 @@
+.detailBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.iframeBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.close{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}

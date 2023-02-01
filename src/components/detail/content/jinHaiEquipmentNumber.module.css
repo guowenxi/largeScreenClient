@@ -1,0 +1,22 @@
+.container {
+    font-size: 1.3em;
+    color: #fff;
+}
+.label {
+    color: #64b4c6;
+}
+.common {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+.statusText {
+    padding: 0.1em 1em;
+    background: #27a709;
+    border-radius: 30px;
+}
+.pressureText {
+    padding: 0.1em 1em;
+    background: #d702c1;
+    border-radius: 30px;
+}

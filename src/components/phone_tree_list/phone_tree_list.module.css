@@ -1,0 +1,73 @@
+.lineBox{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-right: 1em;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-indent: 0.5em;
+}
+.closeAll{
+    position: absolute;
+    right: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+.childBox{
+    position: relative;
+    width: 100%;
+}
+.nodeBox{
+
+}
+.itemBox{
+    justify-content: space-between;
+    text-indent: 2em;
+}
+.closeAll img,.itemBox img{
+    /*width: 1.5em;*/
+    /*height: 1.5em;*/
+    cursor: pointer;
+    float: right;
+    margin-left: 0.5em;
+}
+.indentation{
+    position: relative;
+    height: 100%;
+    float: left;
+}
+.playBox{
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    left: 80%;
+    top: 0;
+    background-color: rgb(6,6,73);
+    padding: 0 0.5em 0.5em;
+}
+.playBox .head{
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.playBox .head img{
+    width: 1.2em;
+    height: 1.2em;
+    cursor: pointer;
+}
+.playBox object{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 1.5em);
+    bottom: 0;
+    background-color: white;
+}

@@ -1,0 +1,120 @@
+.box, .mapBg, .detailBg, .nameBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.mapBg{
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.polygon {
+    fill: none;
+    stroke: #CCCCCC;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.rect {
+    fill: #09F9F8;
+}
+.roadName{
+    color: #fff;
+}
+.point{
+    position: absolute;
+    width: 32px;
+    height: 44px;
+    transform: translate(-50%, -100%);
+    cursor: pointer;
+}
+.detailBox{
+    position: absolute;
+    width: 265px;
+    height: 104px;
+    transform: translate(-18.6%, -89%);
+    pointer-events: none;
+    /*z-index: 1;*/
+}
+.detailBoxTwo{
+    position: absolute;
+    width: 400px;
+    height: 165px;
+    transform: translate(-20%, -80%);
+    pointer-events: none;
+    /*z-index: 1;*/
+}
+.count{
+    position: absolute;
+    width: 21%;
+    height: 58%;
+    left: 7.7%;
+    top: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2em;
+}
+.detailBoxTwo .count{
+    left: 9.5%;
+    top: 21%;
+}
+.contentBox{
+    position: absolute;
+    width: 62%;
+    height: 43%;
+    left: 30%;
+    top: 26%;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    position: relative;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentItem{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.title{
+    font-size: 0.8em;
+}
+.number{
+    font-size: 1.2em;
+    align-items: flex-end;
+}
+.detailBoxTwo .contentBox{
+    width: 65%;
+    height: 41%;
+    left: 30%;
+    top: 28%;
+}
+.detailBoxTwo .contentBox .content:nth-child(2n) .number{
+    color: rgb(231,145,52);
+}
+.nameItem{
+    position: absolute;
+    transform: translate(-50%, 0.5em);
+    color: white;
+    padding: 0 0.6em;
+    background: #1aaabc;
+    border-radius: 0.5em;
+}

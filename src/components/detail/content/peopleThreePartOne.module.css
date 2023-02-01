@@ -1,0 +1,109 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 1em;
+    word-break: break-all;
+    border: 1px solid #215563;
+    background: rgba(24,55,76,0.2);
+}
+.headBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 2.5em;
+    margin: 0;
+    background: rgba(68,198,248,0.2);
+}
+.lineOne{
+    position: relative;
+    width: 4px;
+    height: 100%;
+    background: rgb(3,66,154);
+    margin-right: 0.25em;
+}
+.lineTwo{
+    position: relative;
+    width: 3px;
+    height: 1.17em;
+    background: #0dceff;
+    margin-right: 1em;
+    margin-left: 0.6em;
+}
+.headName{
+    padding-bottom: 0.1em;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1em;
+}
+.rowPart{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1em 0.5em;
+    width: 50%;
+}
+.rowPartOne{
+    width: 50%;
+}
+.rowPartTwo{
+    width: 100%;
+}
+.content td{
+    padding: 1em 0.5em;
+}
+.title{
+    color: rgba(255,255,255,0.7);
+    width: 4.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1em;
+}
+.dataContent{
+    width: calc(100% - 5.5em);
+}
+.levelRect{
+    position: relative;
+    width: 4em;
+    height: 1em;
+    margin: 0.25em 0.5em 0.25em 0;
+    float: left;
+}
+
+.tableOne,.tableOne td{
+    border: 1px solid rgb(33,109,222);
+}
+.tableOne td{
+    border-left: none;
+    border-top: none;
+}
+
+.noData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+}
+
+.themeTwo{
+    border: none;
+    padding: 0;
+}
+.themeTwo .rowPart{
+    padding: 0.65em calc(1.6em + 3px);
+}

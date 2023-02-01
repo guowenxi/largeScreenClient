@@ -1,0 +1,20 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": {
+    "title": "发生踩踏事件发生踩踏事件发生踩踏事件发生踩踏事件",
+    "type": "非正常死亡",
+    "time": "2021-4-15 14:52:34",
+    "roadName": "安阳街道",
+    "address": "xx路xx号",
+    "level": "1级",
+    "source": "110报警",
+    "influence": "",
+    "development": "",
+    "measures": "",
+    "remark": "",
+    "status": 1,
+    "id": "123456"
+  }
+}

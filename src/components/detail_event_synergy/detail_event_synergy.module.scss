@@ -1,0 +1,352 @@
+.detailEventSynergyBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+
+  ul {
+    padding: 0;
+  }
+
+  .closeBtn {
+    /*position: relative;*/
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 1.5vh;
+    color: #fff;
+    float: right;
+  }
+
+  .header {
+    .detailBox {
+      list-style: none;
+      display: inline-block;
+      margin: 0;
+      width: 100%;
+
+      li {
+        display: inline-block;
+
+        p:nth-child(1) {
+          color: #0ff;
+        }
+
+        p:nth-child(2) {
+          color: #fff;
+        }
+
+        span {
+          font-size: 1.4vh;
+          color: rgb(244, 163, 22);
+        }
+      }
+
+      li:nth-child(2) {
+        margin-left: 8%;
+        color: #FF0000;
+        text-decoration: underline;
+      }
+
+      li:nth-child(3) {
+        margin-left: 5%;
+        color: #FF0000;
+        text-decoration: underline;
+      }
+
+      .textTitle {
+        margin-bottom: 0.9vh;
+        line-height: 5.1vh;
+        font-size: 3.8vh;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .main {
+    font-size: 1.2vh;
+    color: #fff;
+
+    .mainItem {
+      .mainTitle {
+        line-height: 3.5vh;
+        font-size: 1.5vh;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      .mainTitle:before {
+        /*content: '|';
+        margin-right: 0.45vh;
+        font-weight: bold;*/
+      }
+
+      .mainContent {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: 2.8vh;
+
+        .contentItem {
+          width: 100%;
+
+          p {
+            display: inline-block;
+            margin-bottom: 0;
+          }
+
+          p:nth-child(1) {
+            width: 25%;
+            text-align: right;
+          }
+
+          p:nth-child(2) {
+            width: 75%;
+            word-wrap: break-word;
+            vertical-align: top;
+          }
+        }
+
+        .contentTableItem {
+          width: 100%;
+
+          ul {
+            list-style: none;
+            text-align: center;
+            border-right: 1px solid #fff;
+
+            li {
+              float: left;
+              padding: 0 1%;
+              border-top: 1px solid #fff;
+              border-left: 1px solid #fff;
+              word-wrap: break-word;
+            }
+          }
+
+          ul:nth-last-child(1) {
+            border-bottom: 1px solid #fff;
+          }
+
+          .tableHeader {
+          }
+
+          .tableContent {
+          }
+        }
+      }
+
+      .tableWidth {
+        li:nth-child(1) {
+          width: 18%;
+        }
+
+        li:nth-child(2) {
+          width: 22%;
+        }
+
+        li:nth-child(3) {
+          width: 30%;
+        }
+
+        li:nth-child(4) {
+          width: 30%;
+        }
+      }
+
+      .tableWidth2 {
+        li:nth-child(1) {
+          width: 11%;
+        }
+
+        li:nth-child(2) {
+          width: 12%;
+        }
+
+        li:nth-child(3) {
+          width: 12%;
+        }
+
+        li:nth-child(4) {
+          width: 18%;
+        }
+
+        li:nth-child(5) {
+          width: 17%;
+        }
+
+        li:nth-child(6) {
+          width: 15%;
+        }
+
+        li:nth-child(7) {
+          width: 15%;
+        }
+      }
+
+      .tableWidth3 {
+        li:nth-child(1) {
+          width: 10%;
+        }
+
+        li:nth-child(2) {
+          width: 30%;
+        }
+
+        li:nth-child(3) {
+          width: 15%;
+        }
+
+        li:nth-child(4) {
+          width: 30%;
+        }
+
+        li:nth-child(5) {
+          width: 15%;
+        }
+      }
+
+      .tableHeight {
+        width: 100%;
+
+        ul {
+          height: 3.6vh;
+
+          li {
+            height: 3.6vh;
+            line-height: 110%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            word-break: break-all;
+          }
+        }
+      }
+
+      .progressContent {
+        list-style: none;
+        line-height: 2.8vh;
+
+        .progressItem {
+          position: relative;
+
+          .stepsItemTail {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0.5vh;
+            width: 1px;
+            height: 100%;
+            background: #fff;
+          }
+
+          .stepsItemIcon {
+            float: left;
+            margin-right: 1vh;
+            width: 1vh;
+            height: 1vh;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+
+          .stepsItemContent {
+            display: block;
+            overflow: hidden;
+            vertical-align: top;
+
+            .itemTitle {
+              /*line-height: initial;*/
+              /*transform: translateY(-15%);*/
+              font-size: 1vh;
+              line-height: 100%;
+              float: left;
+              margin-right: 1vh;
+            }
+
+            .itemTitleName {
+              font-size: 1.2vh;
+              color: #00a4ff;
+              line-height: 100%;
+            }
+
+            .itemContent {
+              position: relative;
+              margin-bottom: 1vh;
+              padding: 1vh;
+              color: #000;
+              background-color: #fff;
+
+              p {
+                position: absolute;
+                bottom: 0;
+                color: #999;
+                margin-bottom: 0;
+              }
+            }
+
+            .itemRemark {
+              float: left;
+              color: #00a4ff;
+            }
+          }
+        }
+      }
+
+      .emergencyEventContent {
+        list-style: none;
+        line-height: 2.8vh;
+
+        .emergencyEventItem {
+          .emergencyTitle {
+            margin-bottom: 2vh;
+            line-height: 3.7vh;
+            font-size: 1.3vh;
+            border-bottom: 1px solid #fff;
+          }
+
+          .emergencyProgressContent {
+            .progressItem {
+              position: relative;
+              min-height: 3.8vh;
+
+              .stepsItemTail {
+                z-index: -1;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0.9vh;
+                width: 1px;
+                height: 100%;
+                background: #fff;
+              }
+
+              .stepsItemIcon {
+                float: left;
+                margin-right: 1vh;
+                width: 1.8vh;
+                height: 1.8vh;
+                line-height: 1.8vh;
+                background-color: #fff;
+                border-radius: 50%;
+                color: #000;
+                text-align: center;
+              }
+
+              .stepsItemContent {
+                display: block;
+                overflow: hidden;
+                vertical-align: top;
+                transform: translateY(-0.5vh);
+
+                p {
+                  display: inline-block;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

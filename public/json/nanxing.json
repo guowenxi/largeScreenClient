@@ -1,0 +1,8 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "id":"1","x":120.157028,"y":30.209269,"count": "45","name": "事件1","pointType": "停车泊位","title":"事件详情","time":"2020-05-20 12:24:24","person":"张三","address":"月海路150号","content":"这里是详细描述"
+  }]
+}

@@ -1,0 +1,35 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: rgba(255,255,255,0.86);
+}
+.head{
+    position: relative;
+    width: 100%;
+    font-size: 1.14em;
+    line-height: 3em;
+}
+.content{
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.content:last-child{
+    margin: 0;
+}
+.content,.content tr,.content td{
+    border: 0;
+}
+.trTitle,.trContent{
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+.trTitle{
+    width: 15%;
+}
+.trContent{
+    width: 35%;
+}

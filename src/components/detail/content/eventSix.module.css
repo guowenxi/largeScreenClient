@@ -1,0 +1,69 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+}
+.line{
+    position: absolute;
+    left: calc(0.5em - 1px);
+    width: 2px;
+    height: 100%;
+    top: 0;
+    background: rgb(1, 152, 252);
+}
+.itemBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1em;
+}
+.point{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: rgb(1, 152, 252);
+    margin-right: 0.5em;
+}
+.row{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding-left: 1.5em;
+}
+.fileName {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fileBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fileItemBox{
+    position: relative;
+    width: 30%;
+    /*margin-bottom: 0.5em;*/
+}
+.file{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 6em;
+}

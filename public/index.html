@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<!--    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+<!--    <link rel="apple-touch-icon" href="logo192.png" />-->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+<!--    <title>温州警保精密智控服务系统</title>-->
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+  <!-- 单兵ocx事件 -->
+  <script language="javascript" for="callOcx" event="onReceivePublishMsg(header,content)" type="text/javascript">
+    TreateReceivePublishMsg(header,content);
+  </script>
+  <!-- 来电事件 -->
+  <script language="javascript" for="callOcx" event="onIncomingCall_Event(mynum, othersidenum, callid, callstatus, isvideo)" type="text/javascript">
+    onIncomingCall(mynum, othersidenum, callid, callstatus, isvideo);
+  </script>
+
+<!--  瓯海监控事件-->
+  <!----窗口状态设置事件---->
+  <script language="javascript" for="CameraWitnessWebOcx" event="ChangePlayWindowStatus(hWnd,lStatus,lType);">
+    VOcx.ChangePlayWindowStatus(hWnd,lStatus);
+  </script>
+  <!----窗口关闭视频事件---->
+  <script language="javascript" for="CameraWitnessVideoOcx" event="StopVideo(hWnd);">
+    WebOcx.StopVideo(hWnd);
+    WebOcx.StopPlayRecord(hWnd);
+  </script>
+  <!----关闭全部视频事件---->
+  <script language="javascript" for="CameraWitnessVideoOcx" event="StopAllMonitor();">
+    WebOcx.StopAllMonitor();
+  </script>
+  <!----云台控制事件---->
+  <script language="javascript" for="CameraWitnessVideoOcx" event="OnPTZControl(hWnd, lPTZCommand, sPuID, sChannelID);">
+    WebOcx.PTZControlEx(hWnd,lPTZCommand,5);
+  </script>
+  <!-- 监控焦点更改事件 -->
+  <script language="javascript" for="CameraWitnessVideoOcx" event="OnChangeFocus(hWnd);">
+    changeCameraFocus(hWnd);
+  </script>
+  <!--本地截图事件-->
+  <script language="javascript" for="CameraWitnessVideoOcx" event="CaptureImage(hWnd);">
+    cacthPicture(hWnd);
+  </script>
+  <!--开始本地录像事件-->
+  <script language="javascript" for="CameraWitnessVideoOcx" event="StartLocalRecord(hWnd);">
+    startRec(hWnd);
+  </script>
+  <!--停止本地录像事件-->
+  <script language="javascript" for="CameraWitnessVideoOcx" event="StopLocalRecord(hWnd);">
+    stopRec(hWnd);
+  </script>
+
+<!--苍南监控事件-->
+  <script type="text/javascript" for="h3c_IMOS_ActiveX" event="eventClickFrame(ulFrameNum,  pcFrameInfo)">
+    if (typeof dealEventClickFrame == "function") {
+      dealEventClickFrame(ulFrameNum, pcFrameInfo);
+    }
+  </script>
+  <script src="./plugin/jsencrypt.min.js"></script>
+  <script src="./plugin/jsWebControl-1.0.0.min.js"></script>
+  <script src="./plugin/svg.min.js"></script>
+<!--  <script src="https://webapi.amap.com/maps?key=6085aa08ca22d7fe1b225e9d0c0d6d0d&v=版本号(必填，建议使用最新版本)&plugin=Map3D(同步加载 3D 地图)"></script>-->
+<!--  <script src="https://webapi.amap.com/loca?key=6085aa08ca22d7fe1b225e9d0c0d6d0d&v=1.3.0(必填，请选择最新版本号)"></script>-->
+  <script src="https://webapi.amap.com/maps?v=1.4.15&key=6085aa08ca22d7fe1b225e9d0c0d6d0d&plugin=AMap.Geocoder"></script>
+<!--  <script src="http://localhost:8080/arcgis/arcgis_js_api/init.js"></script>-->
+<!--  <link rel="stylesheet" href="http://localhost:8080/arcgis/arcgis_js_api/dijit/themes/tundra/tundra.css">-->
+<!--  <link rel="stylesheet" href="http://localhost:8080/arcgis/arcgis_js_api/esri/css/esri.css">-->
+<!--  <script src="http://api.tianditu.gov.cn/api?v=4.0&tk=5f3c63e8be0917d6e2d742257b3a20d8" type="text/javascript"></script>-->
+<!--乐清单兵依赖包-->
+<!--  <script src="./plugin/jquery.min.js"></script>-->
+<!--  <script src="./plugin/alawmulaw.min.js"></script>-->
+<!--  <script src="./plugin/talk.js"></script>-->
+<!--金海危化监控依赖包-->
+  <script src="./plugin/jhwh/jquery.min.js"></script>
+  <script src="./plugin/jhwh/json.js"></script>
+  <script src="./plugin/jhwh/videoPlayer.js"></script>
+</html>

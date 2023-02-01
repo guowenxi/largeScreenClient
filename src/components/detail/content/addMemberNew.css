@@ -1,0 +1,11 @@
+.addMemberNewBox .ant-tree li .ant-tree-node-content-wrapper:hover {
+    background-color: #26a5ff;
+}
+
+.addMemberNewBox .ant-tree li .ant-tree-node-content-wrapper {
+    color: #fff;
+}
+
+.addMemberNewBox .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background-color: #26a5ff;
+}

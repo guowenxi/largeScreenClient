@@ -1,0 +1,66 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "total": 8,
+        "list": [
+            {
+                "time": "2021.01.01",
+                "type": "处罚类",
+                "dimension": "信用",
+                "matter": "重大税收违法当事人",
+                "score": "-30"
+            },
+            {
+                "time": "2021.01.01",
+                "type": "警告类",
+                "dimension": "安全",
+                "matter": "安全生产领域失信信息",
+                "score": "+15"
+            },
+            {
+                "time": "2021.01.01",
+                "type": "处罚类",
+                "dimension": "信用",
+                "matter": "重大税收违法当事人",
+                "score": "-30"
+            },
+            {
+                "time": "2021.01.01",
+                "type": "警告类",
+                "dimension": "安全",
+                "matter": "安全生产领域失信信息",
+                "score": "+15"
+            },
+            {
+                "time": "2021.01.01",
+                "type": "处罚类",
+                "dimension": "信用",
+                "matter": "重大税收违法当事人",
+                "score": "-30"
+            },
+            {
+                "time": "2021.01.01",
+                "type": "警告类",
+                "dimension": "安全",
+                "matter": "安全生产领域失信信息",
+                "score": "+15"
+            },
+            {
+                "time": "2021.01.01",
+                "type": "处罚类",
+                "dimension": "信用",
+                "matter": "重大税收违法当事人",
+                "score": "-30"
+            },
+            {
+                "time": "2021.01.01",
+                "type": "警告类",
+                "dimension": "安全",
+                "matter": "安全生产领域失信信息",
+                "score": "+15"
+            }
+        ]
+    }
+}

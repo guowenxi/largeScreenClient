@@ -1,0 +1,53 @@
+.box{
+    position: relative;
+    width: 21em;
+    padding: 1em;
+}
+.head{
+    font-size: 1.25em;
+}
+.row{
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.5em;
+    line-height: 1.25em;
+}
+.row:nth-last-child(2){
+    margin-bottom: 0;
+}
+.headRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homeName{
+    width: 12em;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.showButton{
+    color: rgb(0,179,218);
+    cursor: pointer;
+}
+.line{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(64,230,245);
+    margin-bottom: 0.5em;
+}
+.detailButton{
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    line-height: 1.25em;
+    color: rgb(0,179,218);
+    cursor: pointer;
+}
+.green{
+    color: rgb(25,217,145);
+}
+.red{
+    color: #ff3f14;
+}

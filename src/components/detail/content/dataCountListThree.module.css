@@ -1,0 +1,119 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.itemBox{
+    position: relative;
+    width: calc(100% - 10px);
+    background: rgba(1,137,252,0.1);
+    padding: 1em 1.5em 1.5em;
+    margin-bottom: 1em;
+    border: 1px solid rgba(1,137,252,0.1);
+    cursor: pointer;
+}
+.selectedBox{
+    border: 1px solid #0189fc;
+    cursor: default;
+}
+.itemBox:last-child{
+    margin-bottom: 0;
+}
+.head{
+    position: relative;
+    width: 100%;
+    font-size: 1.5em;
+    color: rgb(174,200,251);
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.perRow{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+}
+.perTitle{
+    font-size: 1.167em;
+    color: #97bdff;
+    line-height: 1em;
+}
+.perData{
+    font-size: 1.833em;
+    line-height: 1em;
+}
+.barBox{
+    position: relative;
+    width: 100%;
+    height: 1em;
+    background: #082e5e;
+    margin: 0.1em 0 0.6em;
+}
+.bar{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgb(1, 178, 252) 0%, rgb(31, 213, 191) 100%);
+}
+.leaderBox{
+    position: relative;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(1,137,252, 0.4) 0%, rgba(1,137,252,0) 100%);
+    font-weight: bold;
+}
+.memberBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 0.6em;
+}
+.typeOne{
+    position: relative;
+    width: 35%;
+    text-align: left;
+    padding-left: 0.5em;
+    font-size: 1.33em;
+    color: #93b9fa;
+}
+.typeTwo{
+    position: relative;
+    width: 35%;
+    line-height: 1em;
+    padding: 0.5em 0;
+    border: 1px solid #1f99c7;
+    background: #1d9dce;
+    text-align: center;
+}
+.typeThree{
+    position: relative;
+    width: 35%;
+    line-height: 1em;
+    padding: 0.5em 0;
+    border: 1px solid #1f99c7;
+    background: rgba(29,157,206,0.3);
+    text-align: center;
+}
+.name{
+    position: relative;
+    width: 30%;
+    font-size: 1.167em;
+    padding-left: 2em;
+}
+.phone{
+    position: relative;
+    width: 35%;
+    padding-left: 2em;
+}

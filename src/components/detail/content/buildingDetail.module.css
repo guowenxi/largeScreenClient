@@ -1,0 +1,124 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.head{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lineOne{
+    position: relative;
+    height: 1.25em;
+    width: 0.375em;
+    margin-right: 2px;
+    background: white;
+}
+.lineTwo{
+    position: relative;
+    height: 1.25em;
+    width: 2px;
+    margin-right: 0.5em;
+    background: white;
+}
+.headText{
+    font-size: 1.25em;
+}
+.contentOne{
+    position: relative;
+    width: 100%;
+    padding: 1em calc(0.875em + 4px);
+}
+.table{
+    position: relative;
+    width: 100%;
+}
+.table td{
+    border: 1px solid #1a539e;
+    padding: 0.25em;
+    text-align: center;
+}
+.title{
+    position: relative;
+    background: rgba(0,110,255,0.2);
+    width: 14%;
+}
+.tdContentOne{
+    width: 36%;
+}
+.table .tdContentTwo{
+    width: 86%;
+    height: 10em;
+    text-align: left;
+    padding: 0.5em;
+}
+.table .tdContentThree{
+    width: 86%;
+    height: 9.125em;
+    text-align: left;
+    padding: 0.5em;
+}
+.img{
+    position: relative;
+    width: 13em;
+    height: 8.125em;
+    margin-right: 0.5em;
+    float: left;
+}
+.img:nth-child(5n){
+    margin-right: 0;
+}
+.img:nth-child(5) ~ .img{
+    margin-top: 1em;
+}
+.tableTwo{
+    position: relative;
+    width: 100%;
+}
+.tableTwo td{
+    height: 3em;
+}
+.titleTwo{
+    position: relative;
+    width: 9.5em;
+    text-align: right;
+}
+.tdContentFour{
+    position: relative;
+    width: calc(50% - 9.5em);
+}
+.fileName{
+    position: relative;
+    text-decoration-line: underline;
+    color: #4088ff;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+.tdContentFive{
+    position: relative;
+    width: calc(100% - 9.5em);
+    height: 8em !important;
+}
+.fileTypeBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.typeName{
+    position: relative;
+    width: 25em;
+}
+.fileBox{
+    position: relative;
+    width: calc(100% - 25em);
+}

@@ -1,0 +1,62 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 3.125em;
+    background: rgba(25,180,250,0.5);
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 3.125em);
+}
+.row{
+    position: relative;
+    width: 100%;
+    height: 3.125em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon{
+    font-size: 1em;
+    color: white;
+    margin-right: 0.5em;
+}
+.noChild .icon{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.head .row{
+    cursor: default;
+}
+.name,.number{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.name,.childName{
+    width: 60%;
+    justify-content: flex-start;
+}
+.number{
+    width: 40%;
+    justify-content: center;
+}
+.content > div > div > .row:nth-child(2n){
+    background: rgba(25,180,250,0.15);
+}
+.childName{
+    text-indent: 3.5em;
+    color: #c5d0d4;
+}

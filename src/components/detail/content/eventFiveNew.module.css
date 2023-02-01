@@ -1,0 +1,123 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0.8em;
+    background: url('../images/planStepNewOne.svg') center no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+}
+
+.title {
+    font-size: 1.2em;
+    font-family: TRENDS;
+}
+
+.closeIcon {
+    width: 1.2em;
+    height: 1.2em;
+    background: url('../images/planStepNewTwo.png') center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.center {
+    position: relative;
+    width: 100%;
+    padding: 1.5em;
+}
+
+.tabBox {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.tabItem {
+    width: 4em;
+    border-bottom: 2px solid transparent;
+    font-size: 1.1em;
+    color: #a8c2de;
+    line-height: 1.5em;
+    font-family: TRENDS;
+    cursor: pointer;
+}
+
+.tabRightItem {
+    margin-left: 2em;
+}
+
+.activeTabItem {
+    border-color: #26a5ff;
+    color: #fff;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.infoTitle {
+    width: 6em;
+    height: 3em;
+    border-bottom: 1px solid #17b1ff;
+    text-align: center;
+    background-color: #26a5ff;
+}
+
+.infoContent {
+    width: 23em;
+    padding: 0.8em 1em;
+    border-bottom: 1px solid rgb(11, 127, 186);
+    line-height: 1.5;
+    background-color: rgba(38, 165, 255, 0.1);
+}
+
+.lastInfoItem {
+    border: 0;
+}
+
+.reasonContent {
+    color: rgba(255, 63, 64, 0.86);
+}
+
+.reasonTitle {
+    margin-right: 1em;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 2em;
+    right: 2.3em;
+    width: 100%;
+    height: 2.5em;
+}
+
+.buttonItem {
+    width: 6em;
+    height: 2.5em;
+    border-radius: 8px;
+    border: solid 1px #26a5ff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.rightButtonItem {
+    margin-left: 1em;
+    background-color: #26a5ff;
+}
+
+.evenLine {
+    background-color: rgba(38, 165, 255, 0.1);
+}

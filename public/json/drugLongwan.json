@@ -1,0 +1,16 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":{
+        "companyName":"温州市仁和药业",
+        "code":"91330000755918469E",
+        "person":"张志毅",
+        "address":"龙湾区福海路1234号",
+        "supervisory":"龙湾区状元所",
+        "label":"龙湾区状元所",
+        "time":"2020-05-18",
+        "life":"8年1个月",
+        "table":[{"type":"药品","credit":"782分","level":"A级 优秀","supervise":"782分"},{"type":"药品","credit":"782分","level":"A级 优秀","supervise":"782分"},{"type":"药品","credit":"782分","level":"A级 优秀","supervise":"782分"},{"type":"药品","credit":"782分","level":"A级 优秀","supervise":"782分"}]
+    }
+  }

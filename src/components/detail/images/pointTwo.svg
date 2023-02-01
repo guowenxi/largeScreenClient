@@ -1,0 +1,24 @@
+<svg id="_02" data-name="02" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.16;
+      }
+
+      .cls-2 {
+        opacity: 0.45;
+      }
+
+      .cls-3 {
+        opacity: 0.89;
+      }
+    </style>
+  </defs>
+  <circle id="椭圆_3_拷贝_4" data-name="椭圆 3 拷贝 4" class="cls-1" cx="10.5" cy="10.5" r="10.5"/>
+  <circle id="椭圆_3_拷贝_4-2" data-name="椭圆 3 拷贝 4" class="cls-2" cx="10.505" cy="10.505" r="7.875"/>
+  <circle id="椭圆_3_拷贝_4-3" data-name="椭圆 3 拷贝 4" class="cls-3" cx="10.5" cy="10.5" r="5.25"/>
+</svg>

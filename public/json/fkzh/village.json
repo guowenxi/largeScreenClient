@@ -1,0 +1,19 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "name": "村社名称",
+    "red": 10,
+    "green": 15,
+    "orange": 20,
+    "yellow": 5,
+    "people": [{
+      "name": "张某某",
+      "phone": "18357984561"
+    },{
+      "name": "王某某",
+      "phone": "18357984561"
+    }]
+  }
+}

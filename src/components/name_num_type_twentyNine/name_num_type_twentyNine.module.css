@@ -1,0 +1,158 @@
+.container {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    color: #fff;
+}
+
+.itemBox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.name {
+    width: 20%;
+    padding-right: 1em;
+    word-break: break-all;
+    line-height: 1.1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bar {
+    position: relative;
+    width: 65%;
+    height: 0.4em;
+}
+
+.barBg {
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00427a;
+}
+
+.barContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.barIcon {
+    position: absolute;
+    left: 0;
+    top: -0.2em;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background-color: #00fffd;
+}
+
+.greenStart {
+    position: absolute;
+    bottom: -1.4em;
+    width: 2em;
+    height: 1em;
+    text-align: center;
+    color: #00fffd;
+    font-weight: 600;
+}
+
+.value {
+    position: absolute;
+    top: -1.4em;
+    width: 2em;
+    height: 1em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.department {
+    width: 10%;
+    text-align: right;
+}
+
+.forwardIcon {
+    width: 0.5em;
+    height: 0.8em;
+    margin-left: 1.5em;
+}
+
+.reverseDirection {
+    position: absolute;
+    top: 0.5em;
+    font-size: 0.8em;
+    color: #ff391f;
+}
+.turnToMessage{
+    position: absolute;
+    left: 85%;
+    top: 0.5em;
+    width: 10%;
+    text-align: right;
+    font-size: 0.8em;
+    color: #ff391f;
+}
+.download{
+    position: absolute;
+    left: 0;
+    bottom: 0.5em;
+    text-align: left;
+    font-size: 0.8em;
+    color: #039aff;
+    text-decoration: underline;
+}
+
+.themeTwo .itemBox{
+    background: rgba(0,53,140,0.2);
+    margin-bottom: 0.4em;
+}
+.themeTwo .itemBox:last-child{
+    margin-bottom: 0;
+}
+.themeTwo .name{
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    width: 80%;
+}
+.themeTwo .forwardIcon{
+    position: absolute;
+    right: 1em;
+    top: 1.1em;
+}
+.themeTwo .bar{
+    position: absolute;
+    width: calc(100% - 10.5em);
+    left: 1em;
+    bottom: 2em;
+}
+.themeTwo .department{
+    width: 8.5em;
+    position: absolute;
+    right: 1em;
+    bottom: 1.75em;
+}
+.reverseDirectionTwo{
+    color: #ff391f;
+    padding: 0 1em;
+}
+.themeTwo .turnToMessage{
+    width: 8.5em;
+    position: absolute;
+    right: 1em;
+    bottom: 3em;
+    left: auto;
+    top: auto;
+    font-size: 1em;
+}
+.downloadTwo{
+    color: #039aff;
+    text-decoration: underline;
+}

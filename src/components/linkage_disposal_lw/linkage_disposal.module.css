@@ -1,0 +1,1090 @@
+.box,.bodyBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.leftBox{
+    position: absolute;
+    width: 38%;
+    height: 100%;
+    left: 1%;
+    top: 0;
+    border: 1px solid rgba(65,117,140,0.5);
+    background: rgba(15,59,101,0.5);
+    padding: 1em;
+}
+.rightBox{
+    position: absolute;
+    width: 59%;
+    height: 100%;
+    right: 1%;
+    top: 0;
+    padding: 1em;
+}
+.rightBoxLeft{
+    position: absolute;
+    width: 32%;
+    height: 100%;
+    border: 1px solid rgba(65,117,140,0.5);
+    background: rgba(15,59,101,0.5);
+    top: 0;
+    left: 40%;
+}
+.rightBoxRight{
+    position: absolute;
+    width: 26%;
+    height: 100%;
+    border: 1px solid rgba(65,117,140,0.5);
+    background: rgba(15,59,101,0.5);
+    top: 0;
+    right: 1%;
+    padding: 1em;
+}
+.rightBoxRight>div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.contentBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.listBox{
+    position: absolute;
+    width: calc(60% - 1em);
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.titleBox{
+    position: absolute;
+    width: 16em;
+    height: 2em;
+    line-height: 2em;
+    top: 0;
+    left: -0.25em;
+    font-size: 1.2em;
+    background: url("./images/titleBg.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+    color: rgb(185,239,253);
+    text-indent: 1em;
+}
+.detailBox{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: rgba(15,59,101,0.5);
+}
+.editButtonBox{
+    position: relative;
+    height: 2em;
+    right: 0;
+    top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+.addButton{
+    position: absolute;
+    /*width: 7em;*/
+    padding: 0 0.5em;
+    height: 2em;
+    top: 0.2em;
+    right: 0;
+    border: 1px solid rgb(45,166,220);
+    border-radius: 4px;
+    color: rgb(45,166,220);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.editButtonBox .addButton{
+    position: relative;
+    margin-left: 0.5em;
+    top: 0;
+    right: 0;
+}
+.editButtonBox .addButton:nth-child(2n){
+    border-color: #00FFFF;
+    color: #00FFFF;
+}
+.addIcon{
+    margin-right: 0.5em;
+}
+.discussButton{
+    position: relative;
+    line-height: 1em;
+    padding: 0.5em 0.8em;
+    border: 1px solid rgb(45,166,220);
+    border-radius: 4px;
+    color: rgb(45,166,220);
+    float: right;
+    cursor: pointer;
+}
+.buttonListBox{
+    position: absolute;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2em;
+    text-align: center;
+    top: 3em;
+}
+.changeButton{
+    position: relative;
+    height: 100%;
+    width: 32%;
+    background: url("./images/tap2.png") no-repeat;
+    background-size: 100% 100%;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+.changeButtonSelected{
+    background: url("./images/tap1.png") no-repeat;
+    background-size: 100% 100%;
+    color: #00fffc;
+    cursor: default;
+}
+.eventListBox{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 5.6em);
+    left: 0;
+    bottom: 0;
+}
+.eventItem{
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+.eventListBox .eventItem:last-child{
+    margin-bottom: 0;
+}
+.eventTime{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    color: rgb(34,150,249);
+    padding: 0 1em;
+    margin-bottom: 2px;
+    height: 1em;
+    line-height: 1em;
+}
+.eventContentBox{
+    position: relative;
+    width: 100%;
+    padding: 0.75em 1em;
+    line-height: 1.5em;
+    color: white;
+}
+.eventTitle{
+    position: relative;
+    width: 100%;
+}
+.eventContentLine{
+    position: relative;
+    width: 100%;
+    /*height: 1.5em;*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.eventContentLine div:first-child{
+    margin-right: 0.5em;
+    width: 4.5em;
+}
+.eventContentLine div:last-child{
+    width: calc(100% - 5em);
+}
+.blueColor{
+    color: #61d6e8;
+}
+.selectedEvent{
+    cursor: default;
+}
+.selectedEvent .eventTime{
+    background: rgba(0,0,0,0.25);
+    height: 2em;
+    line-height: 2em;
+}
+.selectedEvent .eventContentBox{
+    background: rgba(0,0,0,0.25);
+}
+.detailChangeBox{
+    width: calc(100% - 2em);
+    left: 1em;
+}
+.detailChangeBox .changeButton{
+    width: calc(50% - 0.5em);
+}
+.detailContentBox{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 5.6em);
+    left: 1em;
+    bottom: 0;
+    overflow: hidden;
+}
+.detailContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 1.5em 0 0;
+}
+.detailAttribute{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    padding-right: 1em;
+}
+.attributeTitle{
+    position: relative;
+    width: 4.5em;
+    margin-right: 1em;
+    text-align: right;
+    color: rgba(255,255,255,0.8);
+}
+.attributeContent{
+    position: relative;
+    width: calc(100% - 5.5em);
+    text-align: left;
+    color: #4fcbff;
+    word-break: break-all;
+}
+.progressStepBox{
+    position: relative;
+    width: 100%;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+.progressStepPoint{
+    position: absolute;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background: rgb(122,254,255);
+    top: 0;
+    left: 0;
+}
+.progressStepLine{
+    position: absolute;
+    width: 2px;
+    height: calc(100% - 0.5em);
+    bottom: 0;
+    left: calc(0.4em - 1px);
+    /*transform: translate(-50%, 0);*/
+    background: rgb(122,254,255);
+}
+.progressStepTime{
+    position: relative;
+    width: 100%;
+    line-height: 1em;
+    color: #cde3fa;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+.progressStepContentBox{
+    position: relative;
+    width: 100%;
+    padding: 0.5em;
+    background: rgba(49,56,93,0.8);
+}
+.progressStepTitle{
+    position: relative;
+    width: 100%;
+    color: #4fcbff;
+}
+.progressStepContent{
+    position: relative;
+    width: 100%;
+    color: #cde3fa;
+}
+.progressStepImg{
+    position: relative;
+    width: 100%;
+    height: 7em;
+    /*width: 11.2em;*/
+    /*height: 6.3em;*/
+}
+.progressStepFileBox{
+    position: relative;
+    /*width: 11.2em;*/
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progressStepFileBox .fileName{
+    position: relative;
+    width: calc(100% - 3em);
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+}
+.progressStepFileBox .download{
+    position: relative;
+    color: #0D83D1;
+    cursor: pointer;
+}
+/*预案步骤*/
+.planStepBox{
+    position: absolute;
+    width: 53%;
+    height: calc(100% - 3em);
+    left: 0;
+    bottom: 0;
+}
+.planNameBox,.timeBox{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.planName{
+    position: relative;
+    line-height: 1em;
+    font-size: 1.4em;
+    color: #00FFFF;
+}
+.timeBox{
+    height: 3.6em
+}
+.timeIcon{
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+}
+.timeText{
+    color: rgb(254,249,131);
+    font-size: 1.2em;
+    text-indent: 0.5em;
+    font-weight: bold;
+}
+.stepBox{
+    /*background: white;*/
+    position: absolute;
+    height: calc(70% - 7em);
+    width: 80%;
+    bottom: 30%;
+    left: 10%;
+}
+.stepBoxBg{
+    position: relative;
+    height: 100%;
+}
+.stepOneBox{
+    position: relative;
+    float: left;
+    /*border: 1px solid #14E8F2;*/
+}
+.stepNameBox{
+    position: relative;
+    width: 100%;
+    height: 3.5em;
+    /*margin-bottom: 4.5em;*/
+}
+.stepName{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    font-size: 1.5em;
+    width: 9em;
+    /*background: url('./images/step01.png');*/
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.stepName span{
+    position: relative;
+}
+.stepBg{
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    top: 0;
+}
+.finishStepBg{
+    height: 135%;
+    width: 110%;
+    left: -5%;
+    top: -11%;
+}
+.stepLineBox{
+    position: absolute;
+    width: 100%;
+    height: 4.5em;
+    top: 100%;
+    left: 0;
+}
+.stepLineBox svg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.stepLine{
+    stroke: rgb(2,138,205);
+}
+.stepChildBox{
+    position: relative;
+    width: 100%;
+}
+.stepImgBox{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stepImgOne{
+    position: relative;
+    max-width: 48%;
+    max-height: 100%;
+    cursor: pointer;
+}
+/*处置小组*/
+.handlePowerBox{
+    position: absolute;
+    width: 42%;
+    height: calc(100% - 5.6em);
+    bottom: 0;
+    right: 0;
+    color: rgba(255,255,255,0.8);
+}
+.handleTitleBox{
+    position: relative;
+    width: 100%;
+    height: 1.2em;
+    margin-bottom: 1em;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: white;
+}
+.handleContentBox{
+    position: relative;
+    width: 100%;
+    padding-left: calc(0.6em + 4px);
+    margin-bottom: 1em;
+}
+.handleTitleLine{
+    position: relative;
+    width: 4px;
+    height: 100%;
+    background: rgb(0,162,237);
+    border-radius: 4px;
+    margin-right: 0.6em;
+}
+.handleContentRow{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 2em;
+}
+.handleContentRow .handleContentRowPart{
+    margin-right: 1em;
+    color: white;
+}
+.feedbackRow{
+    flex-wrap: wrap;
+}
+.feedbackImg{
+    position: relative;
+    width: 8em;
+    height: 4.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+.handleTeamBox{
+    position: relative;
+    /*width: calc(50% - 0.5em);*/
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+.handleTeamName{
+    position: relative;
+    width: 100%;
+    color: #4fcbff;
+}
+.completeRemark{
+    word-break: break-all;
+}
+/*事件新增*/
+.eventAddBox{
+    position: absolute;
+    width: 55%;
+    /*height: 68%;*/
+    top: 50%;
+    left: 50%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    /*padding: 1em 1em 1em 2.2em;*/
+    padding: 1em;
+    color: rgba(255,255,255,0.8);
+    /*border-radius: 4px;*/
+    transform: translate(-50%, -50%);
+}
+.editHeadBox{
+    position: relative;
+    width: 100%;
+    height: 1.2em;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editHeadBox .headName{
+    font-size: 1.2em;
+}
+.nameSearch{
+    position: absolute;
+    width: 10em;
+    left: 6em;
+    font-size: 1em;
+    height: 2em;
+}
+.nameSearchTwo{
+    position: absolute;
+    width: 10em;
+    left: 17em;
+    font-size: 1em;
+}
+.nameSearch input,.nameSearchTwo input{
+    font-size: 1em;
+    line-height: 2em;
+    height: 2em;
+}
+.selectTask{
+    position: absolute;
+    width: 10em;
+    left: 6em;
+    font-size: 1em;
+    height: 2em;
+}
+.selectTask > div,
+.selectTask > div > div{
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+}
+.closeIcon{
+    cursor: pointer;
+}
+.editFootBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.editFootBox button{
+    margin-left: 1em;
+}
+.eventAddRow{
+    position: relative;
+    min-height: 2.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.8em 0;
+}
+.addRowTitle{
+    position: relative;
+    width: 5em;
+    text-align: right;
+}
+.addRowContent{
+    position: relative;
+    width: calc(100% - 6em);
+    font-size: 1em;
+}
+.addRowSelectPeople{
+    position: relative;
+    width: calc(100% - 6em);
+    font-size: 1em;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 0.5em;
+    cursor: pointer;
+}
+.addRowTextArea{
+    position: relative;
+    width: calc(100% - 6em);
+    height: 8em;
+    font-size: 1em;
+}
+.addRowContentAddress{
+    position: relative;
+    width: calc(100% - 6em);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addressContent{
+    position: relative;
+    width: calc(100% - 3em);
+}
+.positionSelect{
+    color: gray;
+    font-size: 1.8em;
+}
+.positionSelected{
+    color: #0D83D1;
+}
+/*事件研判*/
+.eventDiscussBox,.addOrderBox{
+    position: absolute;
+    width: 55%;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding: 1em;
+    color: rgba(255,255,255,0.8);
+    transform: translate(-50%, -50%);
+}
+/*指令下达*/
+.selectedListBoxAll{
+    position: relative;
+    width: 100%;
+    height: 7.4em;
+    margin: 0.8em 0;
+}
+.selectedListBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.selectedListTitle{
+    position: relative;
+    width: 100%;
+    line-height: 1.5em;
+    margin: 0.8em 0 0;
+}
+.selectedItemBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5em;
+    border: 1px solid #0D83D1;
+    line-height: 1.8em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+.deleteIcon{
+    color: red;
+    margin-left: 0.5em;
+}
+.groupChangeBox{
+    position: relative;
+    width: auto;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 2em;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+.groupChangeBox .changeButton{
+    width: auto;
+    margin-right: 0.5em;
+    padding: 0 0.5em;
+}
+.groupListBox{
+    position: relative;
+    width: 100%;
+    height: 15em;
+    overflow: hidden;
+}
+.groupListContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.checkBox{
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+.disabled{
+    opacity: 0.5;
+}
+.editContent{
+    position: relative;
+    width: 100%;
+    min-height: 6em !important;
+    margin: 0.8em 0;
+    font-size: 1em;
+}
+.addOrderButton{
+    /*right: 21.5em;*/
+    /*top: 3em;*/
+}
+.openMeetingButton{
+    /*right: 6.5em;*/
+    /*top: 3em;*/
+}
+.addPowerButton{
+    /*right: 14em;*/
+    /*top: 3em;*/
+    /*border-color: #00FFFF;*/
+    /*color: #00FFFF;*/
+}
+.situationButton{
+    /*right: 0.5em;*/
+    /*top: 3em;*/
+}
+.pointNum{
+    position: absolute;
+    font-size: 12px;
+    transform: translate(50%,-50%);
+    right: 0;
+    top: 0;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    text-align: center;
+}
+.canClick{
+    cursor: pointer;
+}
+.endButton{
+    /*right: 0.5em;*/
+    /*top: 0.25em;*/
+}
+/*地图*/
+.mapBox{
+    position: absolute;
+    width: 140%;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding: 1em;
+    color: rgba(255,255,255,0.8);
+    transform: translate(-50%, -50%);
+}
+.mapContent{
+    position: relative;
+    width: 100%;
+    height: 40em;
+    margin: 0.8em 0;
+}
+.addressSearchBox{
+    position: relative;
+    width: 100%;
+    height: 3em;
+    margin: 0.8em 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.addressSearchInput{
+    position: relative;
+    width: 25em;
+    margin-right: 1em;
+}
+/*现场情况*/
+.situationBox{
+    position: absolute;
+    width: 71%;
+    height: 100%;
+    left: 1%;
+    top: 0;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding: 1em;
+    color: rgba(255,255,255,0.8);
+}
+.situationMap{
+    position: absolute;
+    width: calc(75% - 3em);
+    height: calc(74% - 3.2em);
+    top: 3.2em;
+    left: 1em;
+}
+.cameraBox{
+    position: absolute;
+    width: 25%;
+    height: calc(74% - 3.2em);
+    top: 3.2em;
+    right: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.cameraVideo{
+    position: relative;
+    width: 100%;
+    height: 31.5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0D83D1;
+}
+.video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.situationBox .addressSearchBox{
+    margin: 1.5em 1em;
+}
+.hide{
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+.show{
+    opacity: 1;
+    z-index: 999;
+}
+.bodyBox{
+    background-color: rgb(19,15,57);
+}
+.feedbackBox{
+    position: absolute;
+    width: calc(100% - 2em);
+    height: calc(26% - 2em);
+    bottom: 1em;
+    background: rgb(13,40,76);
+}
+.feedbackTitle{
+    position: absolute;
+    width: 3em;
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    line-height: 2em;
+    letter-spacing: 0.5em;
+}
+.feedbackContent{
+    position: absolute;
+    width: calc(100% - 5.5em);
+    height: 100%;
+    padding: 1em 2em;
+    right: 1em;
+    top: 0;
+}
+.feedbackLeftIconBox{
+    position: absolute;
+    width: 2em;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedbackRightIconBox{
+    position: absolute;
+    width: 2em;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedbackIconOne{
+    position: relative;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+.noPage{
+    color: rgba(255,255,255,0.5);
+    cursor: default !important;
+}
+.feedbackListBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.feedbackAll,.feedbackFileAll{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    flex-wrap: nowrap;
+}
+.feedbackItemBox{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigFeedbackItem{
+    position: relative;
+    width: 40em;
+}
+.smallFeedbackItem{
+    position: relative;
+    width: 20em;
+}
+.feedbackFileBox{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.feedbackFile{
+    position: relative;
+    height: 100%;
+}
+.feedbackFileAllBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.feedbackFileAllBox .feedbackLeftIconBox,
+.feedbackFileAllBox .feedbackRightIconBox{
+    width: 1.5em;
+}
+.feedbackFileAllBox .feedbackIconOne{
+    font-size: 1em;
+    background: rgba(0,0,0,0.6);
+    padding: 0.25em;
+}
+.bodyBox .feedbackLeftIconBox,
+.bodyBox .feedbackRightIconBox{
+    width: 4.5em;
+}
+.bodyBox .feedbackIconOne{
+    font-size: 3em;
+    background: rgba(0,0,0,0.6);
+    padding: 0.25em;
+}
+.feedbackNoPic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: 1.5em;
+    line-height: 2em;
+    background: rgb(238,238,238);
+    flex-flow: column;
+}
+.noPicIcon{
+    font-size: 2.5em;
+    color: gray;
+}
+.feedbackText{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: none;
+    padding: 0.25em 0.5em;
+}
+/*人员选择*/
+.peopleSelectBox{
+    position: absolute;
+    width: 140%;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding: 1em;
+    color: rgba(255,255,255,0.8);
+    transform: translate(-50%, -50%);
+}
+.peopleSelectContent{
+    position: relative;
+    width: 100%;
+    height: 40em;
+    margin: 0.8em 0;
+}
+.treeBox{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.peopleListBox{
+    position: absolute;
+    width: 65%;
+    height: 50%;
+    right: 0;
+    top: 0;
+}
+.peopleSelectedListBox{
+    position: absolute;
+    width: 65%;
+    height: 50%;
+    right: 0;
+    bottom: 0;
+}
+.peopleSelectedListBox .selectedItemBox{
+    float: left;
+}

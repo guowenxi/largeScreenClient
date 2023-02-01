@@ -1,0 +1,23 @@
+.radialGradientStop1 {
+    stop-color: #66F4FF;
+    stop-opacity: 0;
+}
+
+.radialGradientStop2 {
+    stop-color: #66F4FF;
+}
+
+.rect {
+    fill-opacity: 8.000000e-002;
+    stroke: #66F4FF;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-opacity: 0.3;
+}
+
+.polygon {
+    fill: #66F4FF;
+    stroke: #66F4FF;
+    stroke-miterlimit: 10;
+}

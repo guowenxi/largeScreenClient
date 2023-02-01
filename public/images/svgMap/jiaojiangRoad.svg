@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="665" height="529" viewBox="0 0 665 529">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #002762;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke: #c3dafa;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+        stroke-opacity: 0.8;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #b4d1f9;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke-dasharray: 8 4;
+      }
+
+      .cls-6 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="淑江区">
+    <g id="组_19" data-name="组 19">
+      <text id="章安街道" class="cls-6" x="91.126" y="115.209">章安街道</text>
+      <text id="前所街道" class="cls-6" x="249.126" y="160.208">前所街道</text>
+      <text id="大陈镇" class="cls-6" x="462.126" y="294.208">大陈镇</text>
+      <text id="葭沚街道" class="cls-6" x="69.125" y="214.208">葭沚街道</text>
+      <text id="海门街道" class="cls-6" x="213.125" y="220.208">海门街道</text>
+      <text id="白云街道" class="cls-6" x="128.125" y="242.208">白云街道</text>
+      <text id="洪家街道" class="cls-6" x="97.125" y="333.209">洪家街道</text>
+      <text id="下陈街道" class="cls-6" x="184.125" y="375.209">下陈街道</text>
+    </g>
+  </g>
+</svg>

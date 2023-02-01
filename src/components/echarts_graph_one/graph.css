@@ -1,0 +1,74 @@
+.graph_content_three .ant-descriptions-item-content,
+.graph_content_three .ant-descriptions-item-label{
+    color: white !important;
+}
+.graph_content_three .ant-descriptions-item-label{
+    background-color: rgba(53,151,241,0.2);
+}
+.graph_content_three .ant-tabs-tab{
+    color: rgba(255,255,255,0.5);
+}
+.graph_content_three .ant-tabs-nav .ant-tabs-tab-active{
+    color: #1890ff;
+}
+
+
+/* 背景 */
+.antModalContent .ant-modal-content {
+    border: 1px solid #1e5cfb;
+    box-shadow: #042374 0px 0px 24px inset, #042374 0px 0px 24px;
+    background-color: #011851;
+}
+/* 关闭 */
+.antModalContent .ant-modal-content .ant-modal-close-x {
+    color: #fff;
+  }
+/* 框内 */
+ .antModalContent .ant-spin-container .ant-table-content{
+  color: #fff;
+}
+/* 上的下划线 */
+.antModalContent .ant-tabs-nav-scroll{
+  border-bottom: 2px solid #39b0ec;
+}
+.antModalContent .ant-tabs-nav-animated{
+  color: #fff;
+} 
+/* 下的下划线 */
+.antModalContent .ant-modal-footer{
+  border-top: 1px  solid #39b0ec;
+}
+/* 关闭按钮 */
+.antModalContent .ant-modal-footer .ant-btn{
+  background-color: #06215e;
+  border-radius: 2px;
+  border: 1px solid #1e5cfb;
+  color: #fff;
+}
+
+.antModalContent .ant-tabs-ink-bar{
+  position: absolute;
+  background: #0257cc;
+  pointer-events: none;
+  bottom: 0; 
+}
+.antModalContent .ant-table-thead >tr > th{
+  background-color: #011851 ;
+  color: #fff;
+  border-bottom: 1px solid #39b0ec;
+
+}
+
+.antModalContent .ant-table-tbody > tr  td{
+  border-bottom: 1px solid #39b0ec;
+
+}
+.antModalContent .ant-table-tbody > tr  td{
+  background-color: #011851 !important;
+  cursor: pointer;
+}
+.antModalContent .ant-table-tbody > tr th{
+  background-color: #011851 !important;
+  cursor: pointer;
+}
+

@@ -1,0 +1,75 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":{
+    "name": "芦岙村网格001",
+    "content": [{
+      "name": "专职网格员",
+      "value": "张荣"
+    },{
+      "name": "网格长",
+      "value": "林财标"
+    },{
+      "name": "常住人口",
+      "value": "126",
+      "unit": "户",
+      "subValue": "381",
+      "subUnit": "人"
+    },{
+      "name": "出租房户数",
+      "value": "22",
+      "unit": "户",
+      "subValue": "131",
+      "subUnit": "人"
+    },{
+      "name": "人密",
+      "value": "2",
+      "unit": "个"
+    },{
+      "name": "企业",
+      "value": "1",
+      "unit": "家"
+    },{
+      "name": "九小场所",
+      "value": "7",
+      "unit": "个"
+    },{
+      "name": "异常人员",
+      "value": "2",
+      "unit": "人"
+    },{
+      "name": "社区矫正",
+      "value": "1",
+      "unit": "人"
+    },{
+      "name": "刑满释放",
+      "value": "2",
+      "unit": "人"
+    },{
+      "name": "吸毒人员",
+      "value": "1",
+      "unit": "人"
+    },{
+      "name": "上访人员",
+      "value": "1",
+      "unit": "人"
+    },{
+      "name": "精神病人",
+      "value": "3",
+      "unit": "人"
+    },{
+      "name": "救助人员",
+      "value": "7",
+      "unit": "人"
+    },{
+      "name": "残疾人",
+      "value": "20",
+      "unit": "人"
+    },{
+      "name": "党员",
+      "value": "18",
+      "unit": "人"
+    }]
+  }
+}

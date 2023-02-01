@@ -1,0 +1,101 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.mapBox,.map,.mapTop,.pointBox,.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.roadPart{
+    cursor: pointer;
+}
+.mapTop,.pointBox{
+    pointer-events: none;
+}
+.noClusterInteract{
+    pointer-events: none;
+}
+.hasClusterInteract{
+    pointer-events: auto;
+    cursor: pointer;
+}
+.circleBox{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width:2vh;
+    height:2vh;
+}
+
+.detailBox{
+    position: absolute;
+    width: 265px;
+    height: 104px;
+    transform: translate(-18.6%, -89%);
+    pointer-events: none;
+    /*z-index: 1;*/
+}
+.detailBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.count{
+    position: absolute;
+    width: 21%;
+    height: 58%;
+    left: 7.7%;
+    top: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2em;
+}
+.contentBox{
+    position: absolute;
+    width: 62%;
+    height: 43%;
+    left: 30%;
+    top: 26%;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    position: relative;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentItem{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.title{
+    font-size: 0.8em;
+}
+.number{
+    font-size: 1.2em;
+}
+
+.imgLine{
+    position: absolute;
+    height: 3%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}

@@ -1,0 +1,161 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    line-height: 1;
+    background-color: #0F3F61;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: -3em;
+    left: 0;
+    width: 100%;
+    height: 3em;
+}
+
+.title {
+    font-size: 1.4em;
+    color: #8CD9FD;
+    text-shadow: rgb(82 188 255) 0px 0px 15px;
+}
+
+.processButton {
+    width: 5.3em;
+    height: 2.3em;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #1f84cc;
+    cursor: pointer;
+}
+
+.timeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: -19em;
+    top: 0;
+    width: 18em;
+    height: 8em;
+}
+
+.time {
+    font-size: 3.5em;
+    color: #ff9c00;
+    font-family: LESLIE;
+    letter-spacing: 4px;
+}
+
+.timeText {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.listBox {
+    padding: 0.8em;
+}
+
+.listItemName {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.icon {
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-color: #ff961a;
+}
+
+.listItemDetailBox {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.listItemProgressTime {
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.branchBox {
+    display: flex;
+    height: 3.9em;
+    padding: 0.8em;
+}
+
+.branchInnerBox {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.branchItem {
+    width: 8em;
+    height: 2.3em;
+	border: solid 1px #26a5ff;
+    border-radius: 4px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.selectedBranchItem {
+    border-color: #1f84cc;
+    background-color: #1f84cc;
+}
+
+.nextButton {
+    flex-shrink: 0;
+    width: 5em;
+    height: 2.3em;
+	border: solid 1px #1f84cc;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #1f84cc;
+    cursor: pointer;
+}
+
+.processBox {
+    width: 100%;
+    height: 6em;
+    color: #fff;
+}
+
+.processItem {
+    display: flex;
+    padding: 0 0.8em;
+    margin-bottom: 1.5em;
+}
+
+.completeBox {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 0.8em;
+}
+
+.completeButton {
+    width: 5em;
+    height: 2.3em;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #1f84cc;
+    cursor: pointer;
+}

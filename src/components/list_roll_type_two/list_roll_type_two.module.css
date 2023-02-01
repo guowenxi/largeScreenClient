@@ -1,0 +1,17 @@
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.listBox{
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.itemBox{
+    position: relative;
+    float: left;
+    height: 100%;
+}

@@ -1,0 +1,125 @@
+.arc-gis-map-select .ant-tree li .ant-tree-node-content-wrapper{
+    color: white;
+}
+.arc-gis-map-select .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected,
+.arc-gis-map-select .ant-tree li .ant-tree-node-content-wrapper:hover{
+    background-color: rgba(0, 153, 255, 1);
+}
+.arc-gis-map-select .ant-tabs-nav .ant-tabs-tab{
+    color: white;
+}
+.arc-gis-map-select .ant-tabs-nav .ant-tabs-tab-active,
+.arc-gis-map-select .ant-tabs-nav .ant-tabs-tab:hover{
+    color: #096dd9;
+}
+.themeOne .arc-gis-map-box .esriPopup .actionsPane{
+    padding: 0;
+}
+.themeOne .arc-gis-map-box .esriPopup .pointer.bottom{
+    border-color: #fff;
+}
+/*.themeOne .arc-gis-map-box .esriPopup .contentPane{*/
+/*    padding: 10px;*/
+/*}*/
+.esriPopup{
+    /*z-index: 0 !important;*/
+}
+.themeOne .arc-gis-map-box .esriPopup .sizer{
+    width: auto;
+}
+.themeOne .arc-gis-map-box .window{
+    font-size: 1.8vh;
+    word-break: keep-all;
+    background: #fff;
+    padding: 0.5em;
+}
+.themeTwo .arc-gis-map-box .esriPopup .sizer,.themeFour .arc-gis-map-box .esriPopup .sizer{
+    width: auto;
+}
+.themeTwo .arc-gis-map-box .esriPopup .actionsPane,.themeFour .arc-gis-map-box .esriPopup .actionsPane{
+    padding: 0;
+}
+.themeTwo .arc-gis-map-box .esriPopup .esriPopupWrapper,.themeFour .arc-gis-map-box .esriPopup .esriPopupWrapper{
+    box-shadow: none;
+    pointer-events: none;
+}
+.themeTwo .arc-gis-map-box .esriPopup .pointer.bottom,.themeFour .arc-gis-map-box .esriPopup .pointer.bottom{
+    display: none;
+}
+.themeTwo .arc-gis-map-box .esriPopup .contentPane{
+    top: 100px;
+    left: -15px;
+    max-height: none;
+}
+.themeFour .arc-gis-map-box .esriPopup .contentPane{
+    top: 55px;
+    left: -10px;
+    max-height: none;
+}
+.themeThree .arc-gis-map-box .esriPopup .actionsPane{
+    padding: 0;
+}
+.themeThree .arc-gis-map-box .esriPopup .sizer{
+    width: auto;
+}
+.themeThree .arc-gis-map-box .esriPopup .pointer.bottom{
+    display: none;
+}
+.themeThree .arc-gis-map-box .esriPopup .contentPane{
+    overflow: hidden;
+    max-height: none;
+}
+/*黑白色主题*/
+.blockMap .esriMapLayers > div:nth-child(1){
+    filter: invert(100%) sepia(100%) hue-rotate(150deg);
+}
+.blockMap .esriMapLayers > div:nth-child(2){
+    filter: invert(100%) sepia(100%) hue-rotate(150deg);
+}
+.grayMap .esriMapLayers > div:nth-child(1){
+    filter: grayscale(1) contrast(2.5);
+}
+.grayMap .esriMapLayers > div:nth-child(2){
+    filter: grayscale(1) contrast(2.5);
+}
+/*.grayMap .esriMapLayers > div:nth-child(2):after{*/
+/*    content: ' ';*/
+/*    background: rgba(74, 144, 226, 0.1);*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    pointer-events: none;*/
+/*}*/
+.theme-one .arc-gis-map-select {
+    background-color: rgb(1,35,54);
+}
+.theme-one .arc-gis-map-select span,.theme-one .arc-gis-map-select .anticon{
+    color:#fff
+}
+/*.map .esriMapContainer .esriMapLayers canvas:after {*/
+/*    content:' ';*/
+/*    position: absolute;*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    filter: blur(50px) ;*/
+/*    display: block;*/
+/*    background-color: white;*/
+/*}*/
+
+
+.arc-gis-map-layer-none-event{
+    pointer-events: none;
+}
+.maskTypeOne{
+    background: rgba(5,20,71, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}

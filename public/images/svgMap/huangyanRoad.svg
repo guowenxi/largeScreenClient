@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="868" height="429" viewBox="0 0 868 429">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #002762;
+        stroke: #b4d1f9;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="组_12_拷贝" data-name="组 12 拷贝">
+      <g id="组_11" data-name="组 11">
+        <text id="上郑乡" class="cls-3" x="110.125" y="225.209">上郑乡</text>
+        <text id="富山乡" class="cls-3" x="134.125" y="323.209">富山乡</text>
+        <text id="宁溪乡" class="cls-3" x="238.125" y="255.209">宁溪镇</text>
+        <text id="屿头乡" class="cls-3" x="251.125" y="119.209">屿头乡</text>
+        <text id="北洋镇" class="cls-3" x="393.125" y="192.209">北洋镇</text>
+        <text id="上垟乡" class="cls-3" x="312.125" y="347.209">上垟乡</text>
+        <text id="平田乡" class="cls-3" x="401.125" y="300.209">平田乡</text>
+        <text id="茅畲乡" class="cls-3" x="464.125" y="263.209">茅畲乡</text>
+        <text id="沙埠镇" class="cls-3" x="543.125" y="276.209">沙埠镇</text>
+        <text id="院桥镇" class="cls-3" x="666.125" y="293.209">院桥镇</text>
+        <text id="高桥街道" class="cls-3" x="609.125" y="226.209">高桥街道</text>
+        <text id="澄江街道" class="cls-3" x="548.126" y="192.209">澄江街道</text>
+        <text id="头陀镇" class="cls-3" x="498.125" y="131.209">头陀镇</text>
+        <text id="新前街道" class="cls-3" x="565.125" y="92.209">新前街道</text>
+        <text id="西城街道" class="cls-3" x="640.125" y="159.209">西城街道</text>
+        <text id="南城街道" class="cls-3" x="680.125" y="201.209">南城街道</text>
+        <text id="东城街道" class="cls-3" x="692.125" y="134.209">东城街道</text>
+        <text id="北城街道" class="cls-3" x="653.125" y="88.209">北城街道</text>
+        <text id="江口街道" class="cls-3" x="766.125" y="117.209">江口街道</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[
+    {
+      "name": "防疫地图",
+      "colorId": 3
+    }
+  ]
+}

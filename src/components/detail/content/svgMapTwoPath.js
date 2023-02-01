@@ -1,0 +1,105 @@
+export const greenPath = [{
+    type:1,
+    path:'M1016,283.992h660v8H1016v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M875.575,528.173L1016.99,283.231l6.93,4L882.5,532.172Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1669.57,289.229l136.31-484.173,9.26,0.322-138.3,485.7Z',
+    transform:'translate(-613,-198)'
+},{
+    type:2,
+    x:622,
+    y:524,
+    width:261,
+    height:8,
+    transform:'translate(-613,-198)'
+}];
+export const bluePath = [{
+    type:1,
+    path:'M1051,349.006h640v8H1051v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M612,719.006H1631v8H612v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1051,449.99h493v8H1051v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1549,292.013v330h-8v-330h8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1747.07,151.69l-55.02,205.331-7.73-2.07,55.03-205.331Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1420,292V622.01h-8V292h8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1154,292V622.01h-8V292h8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1051,198.015v423.97h-8V198.015h8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1051,500.014h497v8H1051v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'',
+    transform:'translate(-613,-198)'
+},{
+    type:2,
+    x:1051,
+    y:548,
+    width:490,
+    height:8,
+    transform:'translate(-613,-198)'
+}];
+export const yellowPath = [{
+    type:1,
+    path:'M866,622.015h909v8H866v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M426,391.99H810v8H426v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M865.712,629.892L802.56,394.245l7.728-2.07,63.151,235.647Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M914,252.994h740v8H914v-8Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1642.57,667.229l136.31-484.173,9.26,0.322-138.3,485.7Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1646.57,259.229l136.31-484.173,9.26,0.322-138.3,485.7Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M777.572,739.229l136.3-484.173,9.264,0.322-138.295,485.7Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M651.572,1184.23l136.3-484.174,9.264,0.322-138.295,485.7Z',
+    transform:'translate(-613,-198)'
+},{
+    type:1,
+    path:'M1543.57,1015.23l136.31-484.174,9.26,0.322-138.3,485.7Z',
+    transform:'translate(-613,-198)'
+}];

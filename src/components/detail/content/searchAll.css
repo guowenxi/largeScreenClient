@@ -1,0 +1,70 @@
+
+.searchAllContainer .ant-calendar-picker {
+    width: 55%;
+    height: 2.5em;
+    border: 1px solid #125699;
+    border-radius: 3px;
+    outline: 0;
+    color: #fff;
+    background-color: #032151;
+}
+
+.searchAllContainer .ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled) {
+    border: 0;
+}
+
+.searchAllContainer .ant-calendar-picker .ant-input {
+    border: 0;
+    color: #fff;
+    background-color: transparent;
+}
+
+.searchAllContainer .ant-select {
+    width: 55%;
+    color: #fff;
+    background-color: #032151;
+}
+
+.searchAllContainer .ant-select-selection {
+    border: 1px solid #125699;
+    background-color: transparent;
+}
+
+.searchAllContainer .ant-select-selection:hover {
+    border-color: #125699;
+}
+
+.searchAllContainer .ant-select-arrow-icon {
+    color: #1c89d3;
+}
+
+.searchAllContainer-select-dropdown-menu {
+    border-radius: 3px;
+    background: #0c1d4a;
+}
+
+.searchAllContainer-select-dropdown-menu .ant-select-dropdown-menu-item {
+    color: #fff !important;
+}
+
+.searchAllContainer-select-dropdown-menu .ant-select-dropdown-menu-item:hover {
+    color: #000 !important;
+}
+
+.searchAllContainer-select-dropdown-menu .ant-select-dropdown-menu-item-selected {
+    color: #fff !important;
+    background: #0c1d4a;
+}
+
+.searchAllContainer-select-dropdown-menu .ant-select-dropdown-menu-item-active {
+    color: #fff !important;
+    background: #0c1d4a;
+}
+
+.searchAllContainer .ant-radio-group {
+    width: 55%;
+}
+
+.searchAllContainer .ant-radio-wrapper {
+    color: #fff !important;
+}

@@ -1,0 +1,70 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [
+    {
+      "id": 11,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 12,
+      "name": "XX镇xx村消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 13,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 14,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 15,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 16,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 17,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 18,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    },
+    {
+      "id": 19,
+      "name": "XX镇消防检查组",
+      "num": "13",
+      "leaderName": "张阿三",
+      "leaderPhone": "13588888888"
+    }
+  ]
+}

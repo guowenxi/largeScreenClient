@@ -1,0 +1,69 @@
+.box{
+    position: relative;
+    width: 498px;
+    height: 288px;
+    font-size: 2vh;
+    color: #fff;
+    padding: 40px 24px 0 54px;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.itemContent {
+    position: relative;
+    width: 100%;
+    border: none;
+    line-height: 1.4em;
+    /*word-break: break-all;*/
+}
+.itemContent td {
+    border: none;
+    padding: 0.5em 0 0.1em;
+    position: relative;
+}
+.tdHead{
+    font-size: 35px;
+}
+.itemContent .num{
+    /*font-size: 120px;*/
+    /*line-height: 90%;*/
+    /*padding: .25em 0 0;*/
+    font-size: 65px;
+    line-height: 90%;
+    padding: 0.5em 0 0;
+}
+.unit{
+    font-size: 20px;
+}
+.titleRight .tdTitle{
+    text-align: right;
+}
+.smallBox{
+    position: relative;
+    width: 250px;
+    height: 144px;
+    font-size: 18px;
+    color: #fff;
+    padding: 25px 24px 0 28px;
+}
+.smallBox .itemContent  td{
+    padding: 0;
+}
+.smallBox .tdHead{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.smallBox .unit{
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.smallBox .num{
+    font-size: 24px;
+    line-height: 1.5em;
+    /*font-weight: bold;*/
+    padding: 0;
+}

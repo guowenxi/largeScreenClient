@@ -1,0 +1,280 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: white;
+    background: rgb(2,17,53);
+    box-shadow: 0 0 10px 0 rgba(255,255,255,.2);
+    padding: 1.8em;
+}
+.bgImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.blue{
+    color: #14E8F2;
+}
+.lightWhite{
+    color: rgba(255,255,255,0.6);
+}
+.headBox{
+    position: relative;
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: 1em;
+}
+.contentBox{
+    position: relative;
+    width: calc(100% - 3.6em);
+    height: calc(100% - 3.5em);
+}
+.menuButton{
+    position: relative;
+    width: auto;
+    padding: 0.5em 2em;
+    line-height: 1em;
+    float: left;
+    cursor: pointer;
+}
+.menuButton span{
+    position: relative;
+}
+.headMessage{
+    position: absolute;
+    right: 3em;
+    width: 47%;
+    height: 2.5em;
+    background: rgba(44,145,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    top: -0.42em;
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.6);
+}
+.closeIcon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+.headImg{
+    position: absolute;
+    width: 19%;
+    height: 50%;
+    padding: 0.5em;
+    border: 1px solid #03e0c7;
+    border-radius: 1em;
+    left: 0;
+    top: 0;
+}
+.detailBox{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    right: 0;
+    top: 0;
+}
+.detailOne{
+    position: absolute;
+    width: 34%;
+    height: 60%;
+    left: 2%;
+    top: 3%;
+}
+.detailTwo{
+    position: absolute;
+    width: 34%;
+    height: 30%;
+    background: rgba(44,145,255,0.2);
+    left: 2%;
+    bottom: 4.5%;
+}
+.tableOne,.tableOne tr,.tableOne td{
+    border: 0;
+}
+.tableOne td{
+    padding: 0.5em 0;
+}
+.tableOne .trTitle{
+    width: 8em;
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+}
+.tableOne .trContent{
+    width: calc(50% - 8em);
+}
+.detailBox .menuBox{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-size: 0.8em;
+}
+.listOne{
+    position: absolute;
+    width: 58%;
+    height: 80%;
+    left: 40%;
+    bottom: 4.5%;
+    color: white;
+    line-height: 3em;
+}
+.listOneHead{
+    color: #14E8F2;
+    line-height: 2em;
+    border-bottom: 1px solid #198f94;
+    font-weight: lighter;
+}
+.listRow{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listTd{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.listTwoBox{
+    position: absolute;
+    width: 49.2%;
+    height: 46%;
+    top: 54%;
+    left: 0;
+}
+.listTwoTitle{
+    position: absolute;
+    left: 3%;
+    top: 6%;
+}
+.listTwo{
+    position: absolute;
+    width: 94%;
+    height: calc(81% - 1.5em);
+    left: 3%;
+    bottom: 7%;
+    line-height: 3em;
+}
+.listThreeBox{
+    position: absolute;
+    width: 49.2%;
+    height: 46%;
+    top: 54%;
+    left: 50.8%;
+}
+.listThree{
+    position: absolute;
+    width: 94%;
+    height: calc(81% - 2em);
+    left: 3%;
+    bottom: 7%;
+    line-height: 3em;
+    color: white;
+}
+.listThree .td{
+    position: relative;
+    float: left;
+}
+.listThree .titleTd{
+    color: rgba(255,255,255,0.6);
+    margin-right: 1em;
+}
+.listThreeItemOne{
+    position: relative;
+    width: 100%;
+    height: 3.5em;
+    background: rgba(44,145,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    margin-bottom: 1em;
+}
+.listThreeItemOne .itemOneTr{
+    position: relative;
+    width: 33%;
+}
+.listThreeItemTwo{
+    position: relative;
+    width: 32.2%;
+    height: 7em;
+    background: rgba(44,145,255,0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 1.25em 1.5em;
+    margin-bottom: 1em;
+    margin-right: 1.7%;
+    line-height: 1em;
+    float: left;
+}
+.listThreeItemTwo .itemTwoTr{
+    position: relative;
+    width: 100%;
+}
+.listThreeItemTwo:nth-child(3n+2){
+    margin-right: 0;
+}
+.tableTwo{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 1px solid rgba(44,145,255,0.5);
+    float: left;
+}
+.tableTwo td{
+    border: 1px solid rgba(44,145,255,0.5);
+    border-left: 0;
+    border-top: 0;
+    padding: 0.5em;
+    position: relative;
+}
+.tableTwo .tdTitle{
+    color: #29d2ff;
+    background: rgba(44,145,255,0.2);
+    text-align: center;
+    width: 4%;
+    border-right: 0;
+}
+.tableTwo .tdContent{
+    padding: 1em;
+}
+.tableTwo .contentTitle{
+    color: rgba(255,255,255,0.6);
+    height: 2em;
+    line-height: 2em;
+}
+.tableTwo .contentDetail{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 2em);
+}
+.listFourHead{
+    color: #14E8F2;
+    line-height: 3em;
+}
+.listFourContent{
+    padding: 1.5em 0;
+    min-height: 6em;
+    margin-bottom: 1em;
+}
+.listFourHead .listTd,.listFourContent .listTd{
+    padding: 0 2em;
+}
+.listFourContent .listTd:last-child{
+    word-break: normal;
+    white-space: normal;
+}

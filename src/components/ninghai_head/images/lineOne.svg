@@ -1,0 +1,76 @@
+<svg id="预警推送1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="22" viewBox="0 0 105 22">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 10.911px;
+        opacity: 0.8;
+        font-family: ShiShangZhongHeiJianTi;
+      }
+
+      .cls-1, .cls-10, .cls-11 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-7 {
+        fill: #0b4f99;
+      }
+
+      .cls-13, .cls-2, .cls-3, .cls-4, .cls-6, .cls-7, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-13, .cls-3, .cls-4, .cls-6, .cls-9 {
+        opacity: 0.6;
+      }
+
+      .cls-4 {
+        stroke: #0c497e;
+      }
+
+      .cls-13, .cls-4, .cls-9 {
+        stroke-width: 1px;
+      }
+
+      .cls-11, .cls-5 {
+        font-size: 20px;
+        font-family: zcool-gdh;
+      }
+
+      .cls-12, .cls-5 {
+        fill: #15e4f9;
+      }
+
+      .cls-6 {
+        fill: #19bdd4;
+      }
+
+      .cls-7 {
+        fill-opacity: 0.6;
+      }
+
+      .cls-10, .cls-12, .cls-8 {
+        font-size: 14px;
+        font-family: "Source Han Sans CN";
+      }
+
+      .cls-8 {
+        fill: #1284ff;
+      }
+
+      .cls-13, .cls-9 {
+        fill: none;
+      }
+
+      .cls-9 {
+        stroke: #c6d8f0;
+      }
+
+      .cls-13 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="组_13" data-name="组 13">
+    <path id="形状_4" data-name="形状 4" class="cls-9" d="M0,0l7,21h98"/>
+  </g>
+</svg>

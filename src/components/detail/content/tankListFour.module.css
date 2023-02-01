@@ -1,0 +1,243 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    font-size: 2em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+}
+.noData{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listBox{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 4em);
+    left: 0;
+    bottom: 0;
+}
+.itemBox{
+    position: relative;
+    width: 100%;
+    height: 19em;
+}
+.tankImg{
+    position: absolute;
+    width: 93%;
+    height: 92%;
+    left: 0;
+    top: 0;
+}
+.lineBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lineOne{
+    height: 2em;
+    font-size: 1em;
+}
+.point{
+    position: relative;
+    width: 0.8em;
+    height: 0.8em;
+    margin: 0 1em;
+    border-radius: 50%;
+}
+.lineOne .point:last-child{
+    margin-right: 0;
+}
+.lineTwo{
+    width: 22em;
+    height: 12em;
+}
+.lineTwo img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.barBox{
+    position: absolute;
+    width: 1em;
+    height: 29.5%;
+    right: 43.9%;
+    top: 38%;
+    border-left: 2px solid #04ade6;
+    overflow: hidden;
+}
+.bar{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.name{
+    position: absolute;
+    width: 11.6%;
+    height: 30%;
+    left: 44.5%;
+    top: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lineThree{
+    width: 22em;
+    height: 3em;
+}
+.vCode{
+    position: absolute;
+    width: 11.6%;
+    height: 2em;
+    left: 44.5%;
+    top: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vStatus{
+    position: absolute;
+    width: 6.5em;
+    height: 2em;
+    border-radius: 0.5em;
+    background-color: rgb(255,75,75);
+    text-align: center;
+    line-height: 2em;
+    left: 50.3%;
+    top: 82%;
+    transform: translate(-50%, -50%);
+    font-size: 0.6em;
+}
+.per{
+    position: absolute;
+    height: 2em;
+    left: 58%;
+    width: 5em;
+    top: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lineFour{
+    height: 4em;
+}
+.lineFour div:first-child{
+    margin-right: 2em;
+}
+.pCode{
+    position: absolute;
+    width: 6.5em;
+    height: 2em;
+    color: rgb(0,217,133);
+    text-align: left;
+    line-height: 2em;
+    left: 70.6%;
+    top: 5.1em;
+}
+.valveOneStatus{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    left: 42.5%;
+    top: 24%;
+    transform: translate(-50%, -50%);
+}
+.valveTwoStatus{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    left: 57.4%;
+    top: 79.6%;
+    transform: translate(-50%, -50%);
+}
+.backNum{
+    position: absolute;
+    width: 6.5em;
+    height: 1em;
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    left: 62.6%;
+    top: 0;
+}
+.warningBox{
+    position: absolute;
+    width: 4.5%;
+    height: 20%;
+    left: 55%;
+    top: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.warningStatus{
+    position: relative;
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+}
+.pCodeBox,.mCodeBox{
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    left: 15%;
+    top: 47%;
+}
+.pStatus{
+    position: relative;
+    width: 6em;
+    height: 2em;
+    border-radius: 0.5em;
+    background-color: rgb(255,75,75);
+    text-align: center;
+    line-height: 2em;
+    font-size: 0.6em;
+}
+.mCodeBox{
+    left: 86.6%;
+    width: 10%;
+    top: 63%;
+}
+.mStatus{
+    position: absolute;
+    width: 6em;
+    height: 2em;
+    border-radius: 0.5em;
+    background-color: rgb(255,75,75);
+    text-align: center;
+    line-height: 2em;
+    font-size: 0.6em;
+    left: 94%;
+    top: 48%;
+}
+.temperature{
+    position: absolute;
+    text-align: left;
+    line-height: 2em;
+    left: 47%;
+    top: 24%;
+}

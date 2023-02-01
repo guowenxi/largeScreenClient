@@ -1,0 +1,16 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":[{
+        "id":"1","x":120.64003226674514,"y":28.00895008771897,"type":"type1","category":"category2","road":"温州大道交叉口","num":"10","monitorType":"手动","warningNum":"80","rectificationNum":"80"
+    },{
+        "id":"2","x":120.63591239369826,"y":27.98045429914475,"type":"type1","category":"category3","road":"温州大道交叉口","num":"20","monitorType":"手动","warningNum":"80","rectificationNum":"80"
+    },{
+        "id":"3","x":120.58716056264358,"y":28.007233473949437,"type":"type2","category":"category3","road":"温州大道交叉口","num":"30","monitorType":"手动","warningNum":"80","rectificationNum":"80"
+    },{
+        "id":"4","x":120.62306793985238,"y":28.019760615731585,"type":"type2","category":"category1","road":"温州大道交叉口","num":"40","monitorType":"手动","warningNum":"80","rectificationNum":"80"
+    },{
+        "id":"5","x":120.66372153676467,"y":28.02139698713303,"type":"type3","category":"category2","road":"温州大道交叉口","num":"-1","monitorType":"手动","warningNum":"80","rectificationNum":"80"
+    }]
+  }

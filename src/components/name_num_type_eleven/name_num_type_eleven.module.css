@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.allBox{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 2em);
+    bottom: 0;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+.contentItem{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.item{
+    position: relative;
+    justify-content: center;
+}
+.icon{
+    position: relative;
+}
+.index{
+    justify-content: center;
+}
+.button{
+    position: absolute;
+    padding: 0.5em;
+    cursor: pointer;
+    line-height: 1em;
+    font-size: 1em;
+}
+.alignCenter{
+    text-align: center;
+}
+.point{
+    cursor: pointer;
+}
+.specialItem{
+    cursor: default;
+    border-color: rgb(132,132,132) !important;
+    color: rgb(132,132,132) !important;
+}
+.specialItem .title{
+    background-color: rgb(132,132,132) !important;
+}
+.specialItem .fontColor{
+    color: rgb(132,132,132) !important;
+}

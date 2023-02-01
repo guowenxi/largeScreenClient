@@ -1,0 +1,189 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.backgroundBox{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #8AE0F3;
+    box-shadow: 0 0 30px 0 rgba(0,198,255,.45);
+    padding: 0.5em;
+    background: #112A43;
+}
+.closeIcon{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    right: 1em;
+    top: 1em;
+    cursor: pointer;
+}
+.treeBox{
+    position: absolute;
+    width: 25%;
+    height: calc(100% - 5em);
+    left: 1em;
+    top: 4em;
+}
+.treeNodeBox{
+    position: relative;
+    width: 100%;
+}
+.nodeLine{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    cursor: pointer;
+}
+.nodeLine:hover{
+    background-color: rgba(0,255,255,0.2);
+}
+.selectedNode{
+    background-color: rgba(0,255,255,0.4);
+}
+.nodeIcon{
+    font-size: 1em;
+    margin-right: 0.5em;
+    color: white;
+}
+.childrenBox{
+    position: relative;
+    width: 100%;
+    padding-left: 1.5em;
+}
+.searchBox{
+    position: absolute;
+    width: 25%;
+    height: 2em;
+    top: 1em;
+    left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input{
+    position: relative;
+    width: calc(100% - 5em);
+    height: 2em;
+    font-size: 1em;
+}
+.searchButton{
+    position: relative;
+    height: 2em;
+    width: 4em;
+    font-size: 1em;
+    padding: 0;
+}
+.userListTitle{
+    position: absolute;
+    height: 2em;
+    width: calc(75% - 3em);
+    line-height: 2em;
+    top: 4em;
+    /*left: calc(25% + 3em);*/
+    right: 1em;
+    text-align: left;
+    color: white;
+}
+.userListBox{
+    position: absolute;
+    /*width: calc(37.5% - 3em);*/
+    /*height: calc(60% - 4em);*/
+    width: calc(75% - 3em);
+    height: 25%;
+    /*left: calc(25% + 3em);*/
+    top: 6em;
+    right: 1em;
+}
+.checkBox{
+    margin-right: 1em;
+    margin-left: 0 !important;
+}
+.checkBoxText{
+    color: white;
+}
+.userSelectedListTitle{
+    position: absolute;
+    /*width: calc(37.5% - 3em);*/
+    width: calc(75% - 3em);
+    height: 2em;
+    /*top: 1em;*/
+    top: calc(25% + 6em);
+    right: 1em;
+    line-height: 2em;
+    text-align: left;
+    color: white;
+}
+.userSelectedListBox{
+    position: absolute;
+    /*width: calc(37.5% - 3em);*/
+    /*height: calc(60% - 4em);*/
+    right: 1em;
+    /*top: 4em;*/
+    top: calc(25% + 8em);
+    width: calc(75% - 3em);
+    height: 25%;
+}
+.selectedItemBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5em;
+    border: 1px solid #0D83D1;
+    line-height: 1.8em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    float: left;
+    color: white;
+}
+.deleteIcon{
+    color: red;
+    margin-left: 0.5em;
+}
+.textarea{
+    position: absolute;
+    width: calc(75% - 3em);
+    right: 1em;
+    height: calc(50% - 13em) !important;
+    bottom: 4em;
+    resize: none;
+    font-size: 1em;
+}
+.title{
+    position: absolute;
+    width: calc(75% - 10em);
+    height: 2em;
+    font-size: 1em;
+    top: 1em;
+    left: calc(25% + 2em);
+}
+.edit{
+    background: none;
+    color: white;
+}
+.buttonBox{
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+.button{
+    position: relative;
+    height: 2em;
+    font-size: 1em;
+}

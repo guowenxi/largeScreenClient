@@ -1,0 +1,264 @@
+.detailPeopleBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.closeBtn {
+    position: relative;
+    font-size: 1.5vh;
+    color: #fff;
+    float: right;
+}
+
+.header {
+    height: 12vh;
+}
+
+.header .portrait {
+    vertical-align: top;
+    width: 24.4%;
+    height: 12vh;
+    float: left;
+}
+
+.header .detailBox {
+    position: absolute;
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 4%;
+    padding: 0;
+    width: 70%;
+    right: 0;
+}
+
+.header .detailBox li {
+    position: absolute;
+    display: inline-block;
+}
+
+.header .detailBox li p:nth-child(1) {
+    top: 0;
+    color: #0ff;
+}
+
+.header .detailBox li p:nth-child(2) {
+    top: 0;
+    color: #fff;
+}
+
+.header .detailBox li:nth-child(2) {
+    top: 0;
+    left: 60%;
+}
+
+.header .detailBox li:nth-child(3) {
+    top: 0;
+    left: 75%;
+}
+
+.header .detailBox li:nth-child(4) {
+    top: 5.5vh;
+}
+
+.header .detailBox li:nth-child(5) {
+    top: 5.5vh;
+    left: 25%;
+}
+
+.header .detailBox li:nth-child(6) {
+    top: 5.5vh;
+    left: 60%;
+}
+
+.header .detailBox .textTitle {
+    line-height: 5.1vh;
+    font-size: 3.8vh;
+    font-weight: bold;
+}
+
+.header .detailBox .textContent {
+    line-height: 2.55vh;
+    font-size: 1.4vh;
+}
+
+.header .detailBox .textContent p {
+    /*max-width: 4.5vw;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+.btnRed {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.main {
+    font-size: 1.2vh;
+    color: #fff;
+}
+
+.main .mainItem {
+}
+
+.main .mainItem .mainTitle {
+    line-height: 3.5vh;
+    font-weight: bold;
+}
+
+.main .mainItem .mainTitle:before {
+    content: '|';
+    margin-right: 0.45vh;
+    font-weight: bold;
+}
+
+.main .mainItem .mainContent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2.8vh;
+}
+
+.main .mainItem .mainContent .contentItem {
+    width: 100%;
+}
+
+.main .mainItem .mainContent .contentItem {
+
+}
+
+.main .mainItem .mainContent .contentItem p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.main .mainItem .mainContent .contentItem p:nth-child(1) {
+    width: 22%;
+    text-align: right;
+}
+
+.main .mainItem .mainContent .contentItem p:nth-child(2) {
+    width: 78%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+.main .mainItem .mainContent .contentItem p .clickItem {
+    display: inline-block;
+    margin-right: 2vh;
+    color: #4e9ef7;
+    cursor: pointer;
+}
+
+.main .mainItem .mainContent .contentTableItem {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main .mainItem .mainContent .contentTableItem ul {
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.main .mainItem .mainContent .contentTableItem ul li {
+    float: left;
+    padding: 0 1%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    word-wrap: break-word;
+}
+
+.main .mainItem .mainContent .contentTableItem ul:nth-last-child(1) {
+    border-bottom: 1px solid #fff;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableHeader {
+    margin: 0;
+    padding: 0;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableContent {
+    margin: 0;
+    padding: 0;
+}
+
+.main .mainItem .mainContent .tableHeight {
+    width: 100%;
+}
+
+.main .mainItem .mainContent .tableHeight ul {
+    height: 3.6vh;
+}
+
+.main .mainItem .mainContent .tableHeight ul li {
+    height: 3.6vh;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.main .mainItem .mainContent .tableHeight2 ul {
+    height: 4.6vh;
+}
+
+.main .mainItem .mainContent .tableHeight2 ul li {
+    min-height: 4.6vh;
+    /*line-height: 1.85vh;*/
+    /*cursor: pointer;*/
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth li:nth-child(1) {
+    width: 18%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth li:nth-child(2) {
+    width: 22%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth li:nth-child(3) {
+    width: 30%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth li:nth-child(4) {
+    width: 30%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(1) {
+    width: 11%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(2) {
+    width: 12%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(3) {
+    width: 12%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(4) {
+    width: 18%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(5) {
+    width: 17%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(6) {
+    width: 15%;
+}
+
+.main .mainItem .mainContent .contentTableItem .tableWidth2 li:nth-child(7) {
+    width: 15%;
+}

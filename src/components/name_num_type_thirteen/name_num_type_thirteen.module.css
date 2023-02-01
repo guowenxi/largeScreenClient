@@ -1,0 +1,18 @@
+.box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icon{
+    position: relative;
+}
+.titleBox{
+    display: flex;
+    position: relative;
+}
+.subBox{
+    display: flex;
+    position: relative;
+}

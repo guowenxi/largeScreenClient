@@ -1,0 +1,64 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0.8em;
+    background: url('../images/planStepNewOne.svg') center no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+}
+
+.title {
+    font-size: 1.2em;
+    font-family: TRENDS;
+}
+
+.closeIcon {
+    width: 1.2em;
+    height: 1.2em;
+    background: url('../images/planStepNewTwo.png') center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    margin-top: 1em;
+}
+
+.leftBox {
+    width: 50%;
+    height: 100%;
+    padding-left: 1em;
+}
+.rightBox {
+    width: 50%;
+    height: 100%;
+    padding-left: 1em;
+}
+
+.memberBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: #fff;
+}
+
+.addButton {
+    color: skyblue;
+    cursor: pointer;
+}
+
+.headerBox {
+    padding-left: 1em;
+    margin-bottom: 0.6em;
+}

@@ -1,0 +1,124 @@
+.orderEditBox{
+    position: absolute;
+    width: 68%;
+    height: 80%;
+    top: 12%;
+    left: 15%;
+    border: 1px solid #70c4fe;
+    background: #130f39;
+    padding:1em;
+    /*border-radius: 4px;*/
+}
+.editHeadBox{
+    position: relative;
+    width: 100%;
+    height: 5%;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.editHeadBox div:first-child{
+    font-size: 1.2em;
+}
+.selectPeople{
+    position: relative;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.choosePeople{
+    width: 16%;
+    color: white;
+    font-size: 1.2em
+}
+.choose{
+    position: relative;
+    width: 100%;
+    height: 55%;
+}
+.checkBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 1em 0;
+}
+.checkBoxStyle{
+    color: white;
+    font-size: 1em;
+}
+.checkStyle{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 25%;
+}
+.button{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 7%;
+}
+.tabBox {
+    position: relative;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    padding: 0.5em 0;
+}
+.tabItem {
+    position: relative;
+    float: left;
+    border-radius: 0.25em;
+    cursor: pointer;
+    color: white;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(100,143,182);
+}
+.selectedTab {
+    cursor: default;
+    background: rgb(50,157,255);
+    color: white;
+}
+.tabName {
+    padding: 0 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 2em;
+    border-top-left-radius: initial;
+    border-bottom-left-radius: initial;
+}
+.textArea{
+    width: 100%;
+    height: 100%;
+    background: rgb(20,36,84);
+    color: white;
+}
+.buttonStyle{
+    width: 15%;
+    height: 50%;
+    font-size: 1em;
+}
+.peopleList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+    color:white;
+    height: 100%;
+}
+.selectBox{
+    display: flex;
+    margin-right: 0.5em;
+}

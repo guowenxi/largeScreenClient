@@ -1,0 +1,93 @@
+/*.time-select-search-box{*/
+/*    position: relative;*/
+/*}*/
+
+/*.ant-calendar-date-panel {*/
+/*    background: #000;*/
+/*}*/
+
+/*.ant-calendar-picker-container {*/
+/*    color: #fff;*/
+/*}*/
+
+/*.ant-calendar-date {*/
+/*    color: #fff;*/
+/*}*/
+
+/*.ant-calendar-range .ant-calendar-selected-start-date .ant-calendar-date,*/
+/*.dark .ant-calendar-range .ant-calendar-selected-end-date .ant-calendar-date {*/
+/*    color: #fff;*/
+/*}*/
+/*.ant-calendar-last-month-cell .ant-calendar-date,*/
+/*.ant-calendar-next-month-btn-day .ant-calendar-date,*/
+/*.ant-calendar-last-month-cell .ant-calendar-date:hover,*/
+/*.ant-calendar-next-month-btn-day .ant-calendar-date:hover{*/
+/*    color: rgba(255,255,255, 0.5);*/
+/*}*/
+/*.ant-calendar-date:active{*/
+/*    color: black;*/
+/*}*/
+/*.ant-calendar-range .ant-calendar-in-range-cell > div{*/
+/*    color: black;*/
+/*}*/
+/*.ant-calendar-range .ant-calendar-in-range-cell::before{*/
+
+/*}*/
+/*.ant-calendar-header .ant-calendar-century-select, .ant-calendar-header .ant-calendar-decade-select, .ant-calendar-header .ant-calendar-year-select, .ant-calendar-header .ant-calendar-month-select{*/
+/*    color:rgba(255,255,255,0.75);*/
+/*}*/
+/*.ant-calendar-picker-input {*/
+/*    background: #000;*/
+/*    color: #fff;*/
+/*    border: 0;*/
+/*}*/
+/*.ant-calendar-range-picker-separator{*/
+/*    color: rgba(255,255,255,0.8);*/
+/*}*/
+/*.ant-calendar-picker-clear{*/
+/*    color: rgba(255,255,255,0.5);*/
+/*    background: #000;*/
+/*}*/
+/*.ant-calendar-picker-clear:hover{*/
+/*    color: rgba(255,255,255,0.8);*/
+/*    background: #000;*/
+/*}*/
+/*.ant-calendar-picker-icon{*/
+/*    color: rgba(255,255,255,0.5);*/
+/*}*/
+/*.ant-calendar-range .ant-calendar-input, .ant-calendar-range .ant-calendar-time-picker-input{*/
+/*    color: white;*/
+/*    background: black;*/
+/*}*/
+/*.ant-calendar-range-middle{*/
+/*    color: rgba(255,255,255,0.8);*/
+/*}*/
+
+/*.ant-select-selection--single{*/
+/*    background: #000;*/
+/*    color: #fff;*/
+/*    border: 0;*/
+/*}*/
+/*.ant-select-arrow{*/
+/*    color: #fff;*/
+/*}*/
+/*.ant-select-dropdown{*/
+/*    background: #000;*/
+/*    border: 1px solid rgba(255,255,255,0.75);*/
+/*    color: #fff;*/
+/*}*/
+/*.ant-select-dropdown-menu-item{*/
+/*    color:#fff;*/
+/*}*/
+/*.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled){*/
+/*    color: #000;*/
+/*}*/
+/*.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled){*/
+/*    color: #000;*/
+/*}*/
+/*.ant-select-dropdown-menu-item-selected{*/
+/*    color: #000;*/
+/*}*/
+/*.ant-empty-small{*/
+/*    color: #fff;*/
+/*}*/

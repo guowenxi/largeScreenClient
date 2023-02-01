@@ -1,0 +1,12 @@
+.line1{
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+.line2{
+    fill: none;
+    stroke:#648FA2;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}

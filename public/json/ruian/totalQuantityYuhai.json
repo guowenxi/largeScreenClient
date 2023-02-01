@@ -1,0 +1,102 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": {
+        "petitionList": {
+            "emergencyCommondId": "",
+            "id": "3",
+            "insertIndex": null,
+            "peopleId": "00089d0d2d78462293db67ea664a1869",
+            "petitionContent": "异动内容3",
+            "petitionStatus": 0,
+            "petitionTime": "2021-05-09 13:07:27",
+            "petitionType": null,
+            "recordList": [
+                {
+                    "createTime": "2021-05-09 13:12:35",
+                    "createUserId": "",
+                    "id": "7",
+                    "petitionId": "3",
+                    "recordContent": "记录333",
+                    "remark": "",
+                    "status": null,
+                    "updateTime": null,
+                    "updateUserId": ""
+                },
+                {
+                    "createTime": "2021-05-09 13:12:33",
+                    "createUserId": "",
+                    "id": "6",
+                    "petitionId": "3",
+                    "recordContent": "记录222",
+                    "remark": "",
+                    "status": null,
+                    "updateTime": null,
+                    "updateUserId": ""
+                },
+                {
+                    "createTime": "2021-05-09 13:12:32",
+                    "createUserId": "",
+                    "id": "5",
+                    "petitionId": "3",
+                    "recordContent": "记录111",
+                    "remark": "",
+                    "status": null,
+                    "updateTime": null,
+                    "updateUserId": ""
+                }
+            ],
+            "roadId": null,
+            "status": null
+        },
+        "detailInfo": {
+            "address": "瑞安市玉海街道虹桥北路",
+            "nation": "汉族",
+            "level": "三级",
+            "peopleTypeName": "肇事肇祸精神病人",
+            "sex": "男",
+            "peopleType": "3",
+            "remark": "备注",
+            "roadName": "玉海街道",
+            "carId": "浙A10086",
+            "adminDivision": "浙江温州",
+            "phone": "15775487856",
+            "cardId": "362421*******11455",
+            "name": "李某",
+            "id": "00089d0d2d78462293db67ea664a1869",
+            "permanentAddress": null,
+            "headUrl":"a2d1459201904c198935a87b50cdff1a"
+        },
+        "controlPeopleList": [
+            {
+                "aboutId": "",
+                "aboutType": null,
+                "departType": null,
+                "duty": "测试职务1",
+                "empAccountId": "318085",
+                "id": "1",
+                "name": "吴昊",
+                "peopleType": null,
+                "peopleTypeName": "分管领导",
+                "phone": "17826832875",
+                "status": null,
+                "userId": "e2407521f3164d14a9e329c13b3defc1"
+            },
+            {
+                "aboutId": "",
+                "aboutType": null,
+                "departType": null,
+                "duty": "测试职务2",
+                "empAccountId": "202498",
+                "id": "2",
+                "name": "车子昂",
+                "peopleType": null,
+                "peopleTypeName": "成员",
+                "phone": "17554238739",
+                "status": null,
+                "userId": "9fba9b26db904fe1a19f57365e3d66d1"
+            }
+        ]
+    }
+}

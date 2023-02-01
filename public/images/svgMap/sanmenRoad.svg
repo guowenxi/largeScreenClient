@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="868" height="429" viewBox="0 0 868 429">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #002762;
+        stroke-linejoin: round;
+        stroke-opacity: 0.8;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: #b4d1f9;
+      }
+
+      .cls-3 {
+        stroke: #3470aa;
+      }
+
+      .cls-4 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: "Microsoft YaHei";
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#0a52ca" flood-opacity="0.76"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="三门县">
+    <g xmlns="http://www.w3.org/2000/svg" id="组_5" data-name="组 5">
+      <text id="沙柳街道" class="cls-4" x="277.125" y="75.209">沙柳街道</text>
+      <text id="蛇蟠乡" class="cls-4" x="478.125" y="60.209">蛇蟠乡</text>
+      <text id="海游街道" class="cls-4" x="256.125" y="124.209">海游街道</text>
+      <text id="珠岙镇" class="cls-4" x="165.125" y="176.208">珠岙镇</text>
+      <text id="海润街道" class="cls-4" x="362.125" y="129.209">海润街道</text>
+      <text id="亭旁镇" class="cls-4" x="257.126" y="213.209">亭旁镇</text>
+      <text id="健跳镇" class="cls-4" x="499.126" y="172.209">健跳镇</text>
+      <text id="横渡镇" class="cls-4" x="392.125" y="227.209">横渡镇</text>
+      <text id="浦坝港镇" class="cls-4" x="514.125" y="301.209">浦坝港镇</text>
+      <text id="花桥镇" class="cls-4" x="403.125" y="304.209">花桥镇</text>
+    </g>
+  </g>
+</svg>

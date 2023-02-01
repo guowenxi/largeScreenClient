@@ -1,0 +1,85 @@
+.detailBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.detailBox table,.detailBox td,.detailBox tr{
+    border: none;
+}
+.eventOneBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+    color: #27bfd1;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headIcon{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+.detailBox table{
+    position: relative;
+    width: calc(100% - 1.8em);
+    margin-left: 1.8em;
+}
+.detailBox td{
+    /*padding: 0.5em 0;*/
+    color: #acbcd5;
+}
+.detailBox .title{
+    width: 13%;
+    /*padding-left: 1em;*/
+    color: #e1e3e7;
+}
+.contentOne{
+    width: 47%;
+    padding-right: 1em;
+}
+.contentTwo{
+    width: 27%;
+    padding-right: 1em;
+}
+.contentThree{
+    width: 7%;
+    padding-right: 1em;
+}
+.leaderBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.leaderBox div:nth-child(1){
+    width: 18%;
+}
+.leaderBox div:nth-child(2){
+    width: 25%;
+}
+.leaderBox div:nth-child(3){
+    width: 40%;
+}
+.leaderBox div:nth-child(4){
+    width: 17%;
+}
+.blue{
+    color: #3fb2c6;
+    text-decoration: underline;
+}
+.company{
+    float: left;
+    margin-right: 1em;
+    cursor: pointer;
+}

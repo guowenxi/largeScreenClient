@@ -1,0 +1,15 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [
+    {
+      "name": "曲线",
+      "index": "1"
+    },
+    {
+      "name": "数值",
+      "index": "2"
+    }
+  ]
+}

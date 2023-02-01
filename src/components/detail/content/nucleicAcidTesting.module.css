@@ -1,0 +1,278 @@
+.box,.editBox,.detailBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.editBox{
+    background: rgba(14,47,99,0.8);
+    border: 3px solid #668aa1;
+    padding: 1.5em;
+}
+.headBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1em;
+}
+.head{
+    font-size: 1.33em;
+    font-weight: bold;
+}
+.close{
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+.editRow{
+    position: relative;
+    width: 100%;
+    margin: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.white{
+    color: white;
+    font-size: 1em;
+}
+.textAreaEdit{
+    position: relative;
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column;
+    margin-right: 5%;
+}
+.textAreaEdit:last-child{
+    margin-right: 0;
+}
+.textArea{
+    position: relative;
+    width: 100%;
+    height: 12em !important;
+    resize: none;
+}
+.editButtonBox{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    bottom: 2em;
+}
+.button{
+    margin: 0 1em;
+}
+.detailBox{
+    background: rgba(2,8,15,0.8);
+    border: 3px solid #668aa1;
+    padding: 1.5em;
+    overflow: hidden;
+}
+.smallHead{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #4096ee;
+    font-weight: bold;
+    line-height: 1em;
+}
+.countBox{
+    position: absolute;
+    width: 7em;
+    height: 14em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    top: 4em;
+}
+.countItem{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background: #21272d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.countName{
+    color: #bdc4cd;
+    font-size: 0.9em;
+}
+.countNum{
+    font-size: 1.1em;
+}
+.timeRangeBox,.timingBox{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    bottom: 1.5em;
+    height: 4em;
+}
+.timeRange{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em;
+    margin: 0 1.5em;
+}
+.timingBox{
+    justify-content: center;
+}
+.numPart{
+    position: relative;
+    font-size: 1.9em;
+    background: url("../images/bg4.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1.2em;
+    text-align: center;
+    margin: 0 2px;
+}
+.num{
+    position: relative;
+    font-family: LESLIE;
+}
+.timeUnit{
+    margin-right: 2em;
+}
+.timeUnit:last-child{
+    margin-right: 0;
+}
+.stateName{
+    position: absolute;
+    width: 6em;
+    height: 100%;
+    right: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65em;
+    color: #07b7df;
+}
+.stateNameSmall{
+    width: 8em;
+    font-size: 0.5em;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 6em;
+    left: 0;
+    background: linear-gradient(90deg,rgba(87,185,250,0) 0%,rgba(84,184,239,0.5)25%, rgb(81,183,227) 50%, rgba(84,184,239,0.5) 75%,rgba(87,185,250,0) 100%);
+}
+.editButton,.newButton{
+    position: absolute;
+    padding: 0.5em 1em;
+    transform: translate(-50%,0);
+    left: 50%;
+    bottom: 7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+.editButton{
+    background: rgb(238,196,99);
+}
+.newButton{
+    background: rgb(81,183,227);
+}
+.centerBox{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ring{
+    position: absolute;
+    width: 14em;
+    height: 14em;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 11%;
+}
+.centerBg{
+    position: relative;
+    width: 38.5em;
+    height: 34.17em;
+}
+.timePerBox{
+    position: absolute;
+    width: 15.67em;
+    height: 7.78em;
+    left: calc(50% + 2em);
+    top: 10%;
+    background: url("../images/bg2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.checkPerBox{
+    position: absolute;
+    width: 13em;
+    height: 7em;
+    right: calc(50% + 1.5em);
+    top: calc(50% - 12.8em);
+    background: url("../images/bg3.png") no-repeat;
+    background-size: 100% 100%;
+}
+.dataBox{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.timePerBox .dataBox{
+    right: 0;
+    width: 32.5%;
+}
+.checkPerBox .dataBox{
+    left: 0;
+    width: 41%;
+}
+.dataNameBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+}
+.point{
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+.timePerBox .point{
+    background: rgb(6,249,255);
+}
+.checkPerBox .point{
+    background: rgb(255,155,37);
+}
+.dataNum{
+    position: relative;
+    font-size: 1.11em;
+    font-weight: bold;
+}

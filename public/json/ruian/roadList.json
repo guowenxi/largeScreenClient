@@ -1,0 +1,19 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[
+    {
+      "name":"xx街道",
+      "id":"1"
+    },
+    {
+      "name":"xx街道",
+      "id":"2"
+    },
+    {
+      "name":"xx街道",
+      "id":"3"
+    }
+  ]
+}

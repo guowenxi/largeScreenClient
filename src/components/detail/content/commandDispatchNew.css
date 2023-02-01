@@ -1,0 +1,26 @@
+.commandDispatchNewBox .ant-select-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 2em;
+    border-radius: 4px;
+    border: solid 1px #1f84cc;
+    margin-right: 1em;
+    outline: 0;
+    color: #fff;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.commandDispatchNewBox .ant-select-selection__rendered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.commandDispatchNewBox .ant-select-selection__placeholder {
+    width: 100%;
+    text-align: center !important;
+}

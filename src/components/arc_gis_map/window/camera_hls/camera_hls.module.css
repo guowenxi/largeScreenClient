@@ -1,0 +1,36 @@
+.box{
+    position: relative;
+    width: 26em;
+    padding: 1em;
+}
+.head{
+    font-size: 1.25em;
+}
+.row{
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.5em;
+    line-height: 1.25em;
+}
+.row:nth-last-child(1){
+    margin-bottom: 0;
+}
+.line{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(64,230,245);
+    margin-bottom: 0.5em;
+}
+.contentBox{
+    position: relative;
+    width: 100%;
+    height: 13.5em;
+}
+.videoBox,.videoBox video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

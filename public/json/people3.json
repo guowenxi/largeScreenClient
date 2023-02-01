@@ -1,0 +1,10 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "id":"1","x":120.16949,"y":30.23742,"name": "张三","address": "xx路xx幢2号楼301-01","addressCode": "3301125697","electric": 128
+  },{
+    "id":"2","x":120.17549,"y":30.24242,"name": "李四","address": "xx路xx幢3号楼301-01","addressCode": "3301125698","electric": 122
+  }]
+}

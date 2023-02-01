@@ -1,0 +1,10 @@
+{
+    "success":1,
+    "errorCode":null,
+    "message":"",
+    "data":[{
+        "id":"1","x":120.6337137,"y":27.78562,"type":1,"peopleType": 0
+    },{
+        "id":"2","x":120.6304307,"y":27.783476,"type":2,"peopleType": 0
+    }]
+  }

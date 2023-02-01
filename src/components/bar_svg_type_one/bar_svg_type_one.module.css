@@ -1,0 +1,58 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.itemBox{
+    position: relative;
+    width: 100%;
+    height: 3.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    position: relative;
+    width: 1.2em;
+    height: 1.2em;
+}
+.name{
+    position: relative;
+    width: 5em;
+    height: 100%;
+    color: #09F9F8;
+    line-height: 1.4em;
+    display: flex;
+    align-items: center;
+}
+.barBox{
+    position: relative;
+    width: calc(100% - 7em);
+    height: 1em;
+    margin-right: 9px;
+}
+.bar{
+    position: relative;
+    height: 100%;
+}
+.num{
+    position: absolute;
+    padding: 0 0.25em;
+    height: 1.2em;
+    line-height: 1.2em;
+    color: white;
+    top: -1.2em;
+}
+.numLeft{
+    border-right: 1px solid #09F9F8;
+}
+.numRight{
+    border-left: 1px solid #09F9F8;
+}
+.divBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

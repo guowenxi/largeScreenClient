@@ -1,0 +1,21 @@
+{
+  "success":1,
+  "errorCode":null,
+  "message":"",
+  "data":[{
+    "id":"1","x":120.16949,"y":30.23742,"address": "xx路xx幢2号楼301-01","type":1,"people":[{
+      "name": "张三","address": "xx路xx幢2号楼301-01","cardId": "3325264689223654316","addressCode": "3301125697",
+      "electric": 128,"peopleId":1
+    },{
+      "name": "李四","address": "xx路xx幢2号楼301-02","cardId": "3325264689223654316","peopleId":2
+    },{
+      "name": "王五","address": "xx路xx幢2号楼301-03","cardId": "3325264689223654316","peopleId":3
+    }]
+  },{
+    "id":"2","x":120.17249,"y":30.23742,"address": "xx路xx幢2号楼301-01","type":2,"people":[{
+      "name": "张三","address": "xx路xx幢3号楼301-01","cardId": "3325264689223654316","peopleId":1
+    },{
+      "name": "李四","address": "xx路xx幢3号楼301-02","cardId": "3325264689223654316","peopleId":2
+    }]
+  }]
+}

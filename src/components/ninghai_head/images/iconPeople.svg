@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="52 0 80 80">
+	<defs>
+		<style>
+			.cls-4{
+			stroke: #21aaec;
+			fill: #1c99d9;
+			fill-rule: evenodd;
+			stroke-width: 1px;
+			fill-opacity: 0.7;
+			}
+			.cls-5{
+			stroke: none;
+			fill: #c3eafc;
+			fill-rule: evenodd;
+			}
+			.rect1{
+			opacity: 0;
+			animation:rectMove 1.6s linear infinite;
+			stroke: none
+			}
+			.rect2{
+			opacity: 0;
+			animation:rectMove 1.6s linear infinite;
+			animation-delay: 0.4s;
+			stroke: none
+			}
+			.rect3{
+			opacity: 0;
+			animation:rectMove 1.6s linear infinite;
+			animation-delay: 0.8s;
+			stroke: none
+			}
+			.rect4{
+			opacity: 0;
+			animation:rectMove 1.6s linear infinite;
+			animation-delay: 1.2s;
+			stroke: none
+			}
+			@keyframes rectMove{
+			0%{
+			opacity: 0.6;
+			transform: translate(0px, 0px);
+			}
+			100%{
+			opacity: 0;
+			transform: translate(0px, 30px);
+			}
+			}
+		</style>
+	</defs>
+
+	<g transform="translate(-1007 -151)">
+		<path class="cls-4 rect1" d="M1064.28,167.158l33.24-15.594h0l34.91,16.371h0l-33.25,15.6h0l-34.9-16.372h0Z"/>
+		<path class="cls-4 rect2" d="M1064.28,167.158l33.24-15.594h0l34.91,16.371h0l-33.25,15.6h0l-34.9-16.372h0Z"/>
+		<path class="cls-4 rect3" d="M1064.28,167.158l33.24-15.594h0l34.91,16.371h0l-33.25,15.6h0l-34.9-16.372h0Z"/>
+		<path class="cls-4 rect4" d="M1064.28,167.158l33.24-15.594h0l34.91,16.371h0l-33.25,15.6h0l-34.9-16.372h0Z"/>
+		<path class="cls-4" d="M1064.28,167.158l33.24-15.594h0l34.91,16.371h0l-33.25,15.6h0l-34.9-16.372h0Z"/>
+		<path class="cls-5" d="M1099.45,166.439l-0.28-.169c-0.03-.865-0.79-1.847-2.14-2.62-2.16-1.233-4.96-1.439-6.31-.537-1.31.874-.84,2.527,1.08,3.762a8.481,8.481,0,0,0,4.1,1.279l0.23,0.145c-0.74,1.557.5,3.829,3.5,5.826a2.471,2.471,0,0,0,2.16.279l8.72-4.17c0.67-.321.59-0.935-0.19-1.363a19,19,0,0,0-10.87-2.432h0Z"/>
+	</g>
+
+</svg>

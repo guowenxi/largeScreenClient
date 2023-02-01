@@ -1,0 +1,6 @@
+{
+    "success": 1,
+    "errorCode": null,
+    "message": "",
+    "data": [{"name":"正常","num":"1248"},{"name":"预警","num":"598"}]
+}

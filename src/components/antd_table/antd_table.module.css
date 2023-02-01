@@ -1,0 +1,115 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+.keyNameBox{
+    position: relative;
+    width: 100%;
+    left: 0;
+    margin-bottom: 6px;
+}
+.keyNameBox input{
+    margin-right: 20px;
+}
+.keyNameBox img{
+    float: right;
+    cursor: pointer;
+    height: 1.5em;
+    margin-left: 0.5em;
+}
+.searchBox{
+    position: absolute;
+    top: 0;
+}
+.operationButton{
+    transform: skew(-30deg);
+    background: linear-gradient(60deg, rgb(3, 182, 243) 0%, rgb(4, 255, 241) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    float: left;
+    padding: 2px 10px;
+    margin-right: 0.5em;
+}
+.operationName{
+    transform: skew(30deg);
+}
+.operationName a{
+    color: black;
+}
+.operationButton:last-child{
+    margin-right: 0;
+}
+.contentOneHeadBox{
+    /*background: url("./image/headBgOne.png") no-repeat;*/
+    /*background-size: 100% 100%;*/
+    background: rgb(6,48,83);
+    position: absolute;
+    width: 45%;
+    min-height: 2em;
+    line-height: 2em;
+    top: 0;
+    left: 0;
+    color: white;
+}
+.filterTextBox{
+    position: relative;
+    max-width: 80%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1em;
+    flex-wrap: wrap;
+    float: left;
+}
+.filterItem{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.filterTextName{
+    margin-right: 0.5em;
+}
+.redColor{
+    color: rgb(255,72,73);
+}
+.clearFilter{
+    position: relative;
+    color: rgb(255,72,73);
+    cursor: pointer;
+}
+.totalBox{
+    position: relative;
+    margin-right: 2em;
+}
+.headRight{
+    position: relative;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    padding-right: 1em;
+}
+.totalNum{
+    margin: 0 0.2em;
+    color: rgb(255,72,73);
+}
+.img{
+    max-height: 100%;
+    max-width: 100%;
+    margin-right: 0.5em;
+}
+.searchInput{
+    position: absolute;
+    width: 20%;
+    top: 0;
+    left: 48%;
+    height: 2em;
+}

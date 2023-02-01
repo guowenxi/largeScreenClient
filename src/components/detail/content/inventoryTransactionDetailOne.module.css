@@ -1,0 +1,187 @@
+.container {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 6em;
+}
+
+.statusBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 4.5em;
+    height: 100%;
+    margin-right: 0.8em;
+}
+
+.statusImg {
+    width: 4.5em;
+    height: 4.5em;
+}
+
+.statusText {
+    color: #e6f6fd;
+}
+
+.enterpriseInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 0.8em;
+}
+
+.quantityBox {
+    position: absolute;
+    right: 0;
+    font-size: 0.8em;
+}
+
+.quantity {
+    font-size: 2em;
+    color: #3cfffd;
+    font-family: TRENDS;
+}
+
+.centerButton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.5em 0 0 0;
+}
+
+.commonButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.8em;
+    height: 1.7em;
+    padding: 0;
+    border: 0;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.adoptButton {
+    background-color: #00a8e7;
+}
+
+.backButton {
+    margin-left: 0.5em;
+    background-color: #fac126;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    height: 16.5em;
+    padding-top: 0.8em;
+    border-top: 1px solid #00a8e7;
+    margin-top: 0.8em;
+}
+
+.bottomLeft {
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: 100%;
+    padding-left: 0.2em;
+    border-right: 1px solid #00a8e7;
+    font-size: 0.9em;
+}
+
+.bottomLeftItem {
+    display: flex;
+    line-height: 1.1;
+}
+
+.itemName {
+    flex-shrink: 0;
+    width: 6em;
+    color: rgba(186, 192, 194, 0.9);
+}
+
+.itemContent {
+    width: 11em;
+}
+
+.bottomRight {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    height: 100%;
+    padding: 1em 0;
+}
+
+.processTop {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 1.7em;
+}
+
+.processButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5em;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0 1em 0 2.5em;
+    font-size: 0.8em;
+    background-color: #00a8e7;
+}
+
+.processInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 0.8em;
+}
+
+.infoTime {
+    font-size: 0.8em;
+    color: #00a8e7;
+}
+
+.processImg {
+    position: absolute;
+    right: 0;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.processBottom {
+    width: 0;
+    height: 5.5em;
+    border-left: 1px dashed #00a8e7;
+    margin-left: calc(4.75em - 1px);
+    font-size: 0.8em;
+}
+
+.onlyLine {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.processLine{
+    position: absolute;
+    width: 0;
+    height: calc(100% - 3em);
+    border-left: 1px dashed #00a8e7;
+    left: calc(4.75em - 1px);
+    font-size: 0.8em;
+    top: 1.5em;
+}

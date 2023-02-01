@@ -1,0 +1,85 @@
+.container {
+    height: 100%;
+    font-size: 1.5vh;
+    color: rgba(255, 255, 255, 0.86);
+    line-height: 1;
+}
+
+.levelBody {
+    margin-top: 1.5em;
+}
+
+.scoreBox {
+    width: 4em;
+}
+.score {
+    padding: 0.2em 0;
+    border: 1px solid #0b6b87;
+    text-align: center;
+}
+
+.icon1 {
+    width: 1em;
+    height: 1.7em;
+    margin-left: calc(50% - 0.5em);
+}
+
+.levelBox {
+    display: flex;
+    width: calc(40% - 4em);
+    margin-left: 2em;
+}
+
+.levelBlue, .levelOrange, .levelRed {
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+    line-height: 2.5vh;
+}
+
+.levelBlue {
+    background: #159ce4;
+}
+
+.levelOrange {
+    background: #ffb62e;
+}
+
+.levelRed {
+    background: #ff3f41;
+}
+
+.icon2 {
+    width: 1em;
+    height: 0.7em;
+    margin-left: 1.5em;
+}
+
+.scoreList {
+    display: flex;
+    justify-content: space-between;
+    width: calc(40% - 2em);
+    margin-left: 1em;
+}
+
+.scoreItem {
+    display: flex;
+    justify-content: center;
+    width: 2em;
+
+}
+
+.listBody {
+    height: calc(100% - 1.5vh);
+    margin-top: 1.5em;
+    line-height: 3vh;
+}
+
+.listBox {
+    display: flex;
+}
+
+.listItem {
+    width: 33.33%;
+    text-align: center;
+}

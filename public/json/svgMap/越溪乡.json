@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "越溪乡": {
+      "越溪乡": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "越溪乡": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "越溪乡": ""
+  },
+  "mapRoadImg": {
+    "越溪乡": "./images/svgMap/越溪乡.png"
+  },
+  "mapBgSize": {
+    "越溪乡": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "越溪乡": {
+      "越溪乡": {
+        "left": "62%",
+        "top": "51%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

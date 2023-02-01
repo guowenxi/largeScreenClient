@@ -1,0 +1,33 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+}
+.editRow{
+    margin: 1em 0;
+}
+.editFootBox{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+.editFootBox button{
+    margin: 1em;
+}
+.select{
+    position: relative;
+    width: 100%;
+    margin: 1em 0;
+}
+.textArea{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 5em) !important;
+    resize: none;
+}

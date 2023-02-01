@@ -1,0 +1,72 @@
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.bodyBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.videoBox{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.oneBox .videoBox{
+    width: 100%;
+    height: 100%;
+}
+.twoBox .videoBox{
+    width: calc(50% - 1em);
+    height: calc(50% - 1em);
+}
+.threeBox .videoBox{
+    width: calc(33.33% - 1em);
+    height: calc(33.33% - 1em);
+}
+.fourBox .videoBox{
+    width: 100%;
+    height: calc(33.33% - 1em);
+}
+.fiveBox .videoBox{
+    width: calc(33.33% - 0.7em);
+    height: calc(50% - 0.5em);
+}
+.videoBox video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+}
+.border{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+.selected .border{
+    border: 1px solid #0D83D1;
+}
+.hide{
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+.show{
+    opacity: 1;
+    z-index: 999;
+}

@@ -1,0 +1,50 @@
+.stateBox {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.stateBox .stateItem {
+    position: absolute;
+    background-color: #666666;
+}
+
+.iframeBox {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+}
+
+.iframeBox iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.iframeBox .iframeBtn {
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    padding: 0.5vh;
+    width: 4vw;
+    line-height: 3vh;
+    font-size: 2.2vh;
+    color: #fff;
+    border: 0.2vh solid #fff;
+    border-radius: 0.3vh;
+    text-align: center;
+    background-color: rgb(6, 36, 53);
+}
+
+.iframeBox .logout {
+    position: absolute;
+    right: 2.7vh;
+    top: 3.6vh;
+    z-index: 1;
+    width: 2.2vh;
+    height: 3vh;
+    cursor: pointer;
+    background-color: #062333;
+}

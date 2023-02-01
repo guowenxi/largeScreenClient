@@ -1,0 +1,9 @@
+.componentBox,.componentContentBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.componentBox3D{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}

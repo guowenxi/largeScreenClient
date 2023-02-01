@@ -1,0 +1,13 @@
+.box{
+    position: relative;
+    width: 29em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1em;
+}
+.head{
+    position: relative;
+    width: 6em;
+    height: 8em;
+}

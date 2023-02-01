@@ -1,0 +1,39 @@
+{
+  "success": 1,
+  "errorCode": null,
+  "message": "",
+  "data": [
+    {
+      "departmentName": "政务钉默认部门",
+      "departmentId": "6db6b0e293824ad4b875f7cfc5180d40",
+      "userName": "侯占源",
+      "userId": "13",
+      "phone":"11111",
+      "empAccountId":"38754"
+    },
+    {
+      "departmentName": "政务钉默认部门",
+      "departmentId": "6db6b0e293824ad4b875f7cfc5180d40",
+      "userName": "车子昂",
+      "userId": "9fba9b26db904fe1a19f57365e3d66d1",
+      "phone":"11111",
+      "empAccountId":"38754"
+    },
+    {
+      "departmentName": "政务钉默认部门",
+      "departmentId": "6db6b0e293824ad4b875f7cfc5180d40",
+      "userName": "付猛",
+      "userId": "4f6881dad4d24c0cbaad2ea647514e26",
+      "phone":"11111",
+      "empAccountId":"38754"
+    },
+    {
+      "departmentName": "政务钉默认部门",
+      "departmentId": "6db6b0e293824ad4b875f7cfc5180d40",
+      "userName": "周鑫伟",
+      "userId": "53bc5c6fd27a4cbb8c458e42560a73a0",
+      "phone":"11111",
+      "empAccountId":"38754"
+    }
+  ]
+}

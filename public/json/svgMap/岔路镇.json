@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "岔路镇": {
+      "岔路镇": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "岔路镇": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "岔路镇": ""
+  },
+  "mapRoadImg": {
+    "岔路镇": "./images/svgMap/岔路镇.png"
+  },
+  "mapBgSize": {
+    "岔路镇": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "岔路镇": {
+      "岔路镇": {
+        "right": "47.5%",
+        "top": "51%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}

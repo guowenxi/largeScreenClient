@@ -1,0 +1,38 @@
+{
+  "roadPosition": {
+  },
+  "areaPath": {
+    "跃龙街道": {
+      "跃龙街道": {
+        "path": "M0,0 L1000,0 L1000,680 L0,680 L0,0"
+      }
+    }
+  },
+  "areaBoxSize": {
+    "跃龙街道": "0 0 1000 680"
+  },
+  "mapBgImg": {
+    "跃龙街道": ""
+  },
+  "mapRoadImg": {
+    "跃龙街道": "./images/svgMap/跃龙街道.png"
+  },
+  "mapBgSize": {
+    "跃龙街道": {
+      "width": 1000,
+      "height": 680
+    }
+  },
+  "circlePointPosition": {
+  },
+  "detailPosition": {
+    "跃龙街道": {
+      "跃龙街道": {
+        "left": "65%",
+        "top": "55%"
+      }
+    }
+  },
+  "areaCode": {
+  }
+}
